@@ -9,6 +9,11 @@
     "title": "Getting Started | LeBit App Dokumentationen Test",
     "keywords": "Getting Started"
   },
+  "docs/hello-world.html": {
+    "href": "docs/hello-world.html",
+    "title": "Hello World | LeBit App Dokumentationen Test",
+    "keywords": "Hello World"
+  },
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction | LeBit App Dokumentationen Test",
