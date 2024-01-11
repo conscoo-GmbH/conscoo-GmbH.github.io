@@ -12,10 +12,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/LeBit ausgehende Transportbedarfe.md",
+      "source_relative_path": "docs/LeBit-ausgehende-Transportbedarfe.md",
       "output": {
         ".html": {
-          "relative_path": "docs/LeBit ausgehende Transportbedarfe.html"
+          "relative_path": "docs/LeBit-ausgehende-Transportbedarfe.html"
         }
       },
       "version": ""
