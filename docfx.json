@@ -16,7 +16,8 @@
     "content": [
       {
         "files": [
-          "**/*.{md,yml}"
+          "**/*.{md,yml}",
+          "customstyles/**/*.css"
         ],
         "exclude": [
           "_site/**"
