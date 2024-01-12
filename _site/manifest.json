@@ -22,6 +22,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/LeBit-parameter-qualitätssicherung.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/LeBit-parameter-qualitätssicherung.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {

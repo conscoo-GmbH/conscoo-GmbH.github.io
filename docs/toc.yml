@@ -9,3 +9,5 @@ items:
   href: hello-world.md
 - name: Test File
   href: new-test-file.md
+- name: LeBit Parameter und Qualitätssicherung
+  href: LeBit-parameter-qualitätssicherung.md
