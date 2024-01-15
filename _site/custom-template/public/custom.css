@@ -14,3 +14,6 @@ img {
   figcaption::before {
     content: "Abbildung " counter(figure) ": ";
   }
+  article h1 {
+    color: blue;
+  }
