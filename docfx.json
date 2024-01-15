@@ -6,7 +6,7 @@
           "src": "../src",
           "files": [
             "**/*.csproj",
-            "images/**"
+            "**/*.jpg"
           ]
         }
       ],
@@ -17,7 +17,8 @@
     "content": [
       {
         "files": [
-          "**/*.{md,yml}"
+          "**/*.{md,yml}",
+          "**/*.jpg"
         ],
         "exclude": [
           "_site/**"
