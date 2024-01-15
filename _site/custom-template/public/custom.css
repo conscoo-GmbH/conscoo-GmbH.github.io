@@ -15,5 +15,6 @@ img {
     content: "Abbildung " counter(figure) ": ";
   } */
 article h1 {
-    color: blue;
+    font-size: 40px;
+    font-family: "Comic Sans", "Verdana";
 }
