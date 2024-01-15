@@ -1,4 +1,4 @@
-body {
+/* body {
     counter-reset: figure;
   }
 img {
@@ -13,7 +13,7 @@ img {
   }
   figcaption::before {
     content: "Abbildung " counter(figure) ": ";
-  }
-  article h1 {
+  } */
+article h1 {
     color: blue;
-  }
+}
