@@ -1,5 +1,3 @@
----
-
 body {
     counter-reset: figure;
   }
@@ -20,7 +18,6 @@ img {
     color: blue;
   }
 
----
 
 # LeBit Parameter und Qualitätssicherung
 
