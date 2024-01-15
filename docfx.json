@@ -2,13 +2,13 @@
   "metadata": [
     {
       "src": [
-        
-          "../src",
-          "../images"
-        ],
+        {
+          "src": "../src",
           "files": [
-            "**/*.csproj"
-          
+            "**/*.csproj",
+            "images/**"
+          ]
+        }
       ],
       "dest": "api"
     }
@@ -17,8 +17,7 @@
     "content": [
       {
         "files": [
-          "**/*.{md,yml}",
-          "public/main.css"
+          "**/*.{md,yml}"
         ],
         "exclude": [
           "_site/**"
