@@ -1,3 +1,27 @@
+---
+
+body {
+    counter-reset: figure;
+  }
+img {
+    margin: 0 auto;
+    display: block; 
+  }
+  figcaption {
+      font-style: italic;
+      text-align: center;
+      font-size: smaller;
+      counter-increment: figure;
+  }
+  figcaption::before {
+    content: "Abbildung " counter(figure) ": ";
+  }
+  article h1 {
+    color: blue;
+  }
+
+---
+
 # LeBit Parameter und Qualitätssicherung
 
 ## Einrichtung
