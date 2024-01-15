@@ -35,7 +35,7 @@
     "template": [
       "default",
       "modern",
-      "custom-template/public/custom.css"
+      "custom-template"
     ],
     "globalMetadata": {
       "_appName": "LeBit App Dokumentationen Test",
