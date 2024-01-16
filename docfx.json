@@ -17,7 +17,7 @@
       {
         "files": [
           "**/*.{md,yml}",
-          "**/*.{jpg,jpeg,png}"
+          "*.{jpg,jpeg,png}"
         ],
         "exclude": [
           "_site/**"
