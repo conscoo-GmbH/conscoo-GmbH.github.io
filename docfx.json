@@ -18,7 +18,7 @@
         "files": [
           "**/*.{md,yml}",
           "**/*.{jpg,jpeg,png}",
-          "**/*.css"
+          "**/**/*.css"
         ],
         "exclude": [
           "_site/**"
@@ -35,7 +35,7 @@
     "template": [
       "default",
       "modern",
-      "custom-template/styles"
+      "custom-template"
     ],
     "globalMetadata": {
       "_appName": "LeBit App Dokumentationen Test",
