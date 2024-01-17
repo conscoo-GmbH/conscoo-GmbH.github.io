@@ -1,7 +1,7 @@
 body {
     counter-reset: figure;
   }
-.article img {
+article img {
     margin: 0 auto;
     display: block; 
   }
@@ -14,7 +14,8 @@ body {
   figcaption::before {
     content: "Abbildung " counter(figure) ": ";
   }
-.article h1 {
+article h1 {
     font-size: 40px;
     font-family: "Comic Sans", "Verdana";
+    color: blue;
 }
