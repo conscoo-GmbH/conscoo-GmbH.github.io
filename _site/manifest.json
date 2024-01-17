@@ -12,6 +12,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/How-to-md.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/How-to-md.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/LeBit-ausgehende-Transportbedarfe.md",
       "output": {
         ".html": {
