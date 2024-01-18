@@ -39,8 +39,11 @@
     "globalMetadata": {
       "_appName": "LeBit App Dokumentationen Test",
       "_appTitle": "LeBit App Dokumentationen Test",
+      "_disableContribution": true,
       "_enableSearch": true,
-      "pdf": true
+      "pdf": true,
+      "_appLogoPath": "../images/LeBit_Logo_2022.png",
+      "_appFaviconPath": "../images/LeBit_Logo_2022.png"
     }
   }
 }
