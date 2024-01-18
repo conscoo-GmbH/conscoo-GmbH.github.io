@@ -11,6 +11,36 @@
       }
     },
     {
+      "type": "Resource",
+      "source_relative_path": "_site/custom-template/styles/custom.css",
+      "output": {
+        "resource": {
+          "relative_path": "_site/custom-template/styles/custom.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/public/docfx.min.css",
+      "output": {
+        "resource": {
+          "relative_path": "_site/public/docfx.min.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/public/main.css",
+      "output": {
+        "resource": {
+          "relative_path": "_site/public/main.css"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/How-to-md.md",
       "output": {
