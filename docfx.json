@@ -28,6 +28,7 @@
     "resource": [
       {
         "files": [ 
+          "styles/*.css"
         ]
       }
     ],
