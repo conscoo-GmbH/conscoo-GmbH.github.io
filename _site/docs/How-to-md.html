@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>How to use Docfx and GitHub Pages | LeBit App Dokumentationen Test </title>
+      <title>Nutzung von Docfx und GitHub Pages | LeBit App Dokumentationen Test </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="How to use Docfx and GitHub Pages | LeBit App Dokumentationen Test ">
+      <meta name="title" content="Nutzung von Docfx und GitHub Pages | LeBit App Dokumentationen Test ">
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -84,7 +84,7 @@
         </div>
 
         <article data-uid="">
-<h1 id="how-to-use-docfx-and-github-pages">How to use Docfx and GitHub Pages</h1>
+<h1 id="nutzung-von-docfx-und-github-pages">Nutzung von Docfx und GitHub Pages</h1>
 
 <h2 id="prerequisites">Prerequisites</h2>
 <p>Das Repository besitzt zwei branches.
@@ -92,6 +92,7 @@ Der <em>main</em>-branch dient zu Änderungen von Inhalten.
 Der <em>gh-pages</em>-branch deployed die Webseite.</p>
 <p>Möglicherweise muss nach <a href="#1-github-repo-lokal-in-visual-studio-code-%C3%B6ffnen"><em>Schritt 1</em></a> ein lokaler <em>build</em> durchgeführt werden.</p>
 <h2 id="1-github-repo-lokal-in-visual-studio-code-öffnen">1. GitHub Repo lokal in Visual Studio Code öffnen</h2>
+<br>
 <ul>
 <li>Repository per Standardweg in VSC öffnen und lokal speichern</li>
 </ul>
@@ -101,17 +102,16 @@ Als Benennung für Datei zur App-Dokumentation bietet sich <em>LeBit-App-Name.md
 Die erstellte Datei kann mit der Dokumentation gefüllt werden.<br>
 Informationen zur Syntax und Einfügen von Bildern sind <a href="#markdown-syntax"><em>hier</em></a>  zu finden.</p>
 <h2 id="3-aufnahme-in-das-inhaltsverzeichnis">3. Aufnahme in das Inhaltsverzeichnis</h2>
-<p>Damit die Page in das Inhaltsverzeichnis aufgenommen wird muss die Datei in der Table of Contents Datei aufgenommen werden. <br>
-<em>/_site/docs/toc.yml</em></p>
+<p>Damit die Page in das Inhaltsverzeichnis aufgenommen wird, muss die Datei in der Table of Contents Datei <em>/_site/docs/toc.yml</em> hnzugefügt werden. <br></p>
 <p>Bsp.:</p>
 <pre><code class="lang-yaml">
-- name: How to Markdown
-  href: How-to-md.md 
+- name: How to Markdown (Anzeige im ToC)
+  href: How-to-md.md (Dateiname, Case Sensitive)
 
 </code></pre>
-<h2 id="4-lokalen-build-durchführen">4. Lokalen Build durchführen</h2>
+<h2 id="4-lokalen-build-durchführen">4. Lokalen <em>Build</em> durchführen</h2>
 <p>Durch den lokalen <em>build</em> werden das Inhaltsverzeichnis und die Markdown Dateien in <em>html</em>-Pages umgewandelt, die vom Browser angezeigt werden können. <br><br></p>
-<p>In Powershell muss zuerst zum Ordner verwiesen werden und daraufhin kann folgende Syntax zum Build ausgeführt werden.</p>
+<p>In Powershell muss zuerst zum Ordner verwiesen werden und daraufhin kann folgende Syntax zum <em>Build</em> ausgeführt werden.</p>
 <pre><code class="lang-shell">
 docfx.exe
 
@@ -124,23 +124,27 @@ docfx docfx.json --serve
 </code></pre>
 <p>die Webseite im Localhost geöffnet werden. <br>
 <a href="Localhost:8080"><em>Localhost:8080</em></a></p>
-<h2 id="5-github-build">5. GitHub build</h2>
+<h2 id="5-github-build">5. GitHub <em>build</em></h2>
 <p>Der <em>build</em>  der GitHub Pages Seite wird beim pushen von Changes automatisch durch die GitHub Action in <em>main.yml</em> durchgeführt.</p>
 <h3 id="markdown-syntax">Markdown Syntax</h3>
 <p>Im Internet gibt es einige Syntax Cheatsheets, die bei der Erfassung helfen können. Beispielsweise <a href="https://www.markdownguide.org/basic-syntax/"><em>hier</em></a>.</p>
 <h4 id="bilder-einbeziehen">Bilder einbeziehen</h4>
 <p>Zum Nutzen von Bildern in der Dokumentation müssen diese im Ordner <br></p>
-<p><em>/_site/images</em> <br></p>
+<pre><code>
+*/_site/images/*
+
+</code></pre>
 <p>gespeichert werden.</p>
-<p>Als Dateiformate werden <em>.jpg</em>,<em>.jpeg</em> und <em>.png</em> verarbeitet. Dateiformate können in der <em>docfx.json</em>-Datei hinzugefügt werden.</p>
+<p>Als Dateiformate werden <em>.jpg</em>, <em>.jpeg</em> und <em>.png</em> verarbeitet. Dateiformate können in der <em>docfx.json</em>-Datei hinzugefügt werden.</p>
 <p>Damit die Bilder richtig auf der Webseite angezeigt werden ist folgende Syntax notwendig.</p>
-<pre><code class="lang-html">
+<pre><code class="lang-markdown">
 	![Alternativtext](../images/&quot;Name des Bildes&quot;)
     &lt;figcaption&gt;Bildunterschrift&lt;/figcaption&gt;   
 
 </code></pre>
 <p>Beispiel</p>
-<pre><code class="lang-html">
+<pre><code class="lang-markdown">
+
 	![Bild von Hund](../images/Hund.jpg)
     &lt;figcaption&gt;Hund&lt;/figcaption&gt;  
 
