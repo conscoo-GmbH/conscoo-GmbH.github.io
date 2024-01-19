@@ -28,7 +28,7 @@
     "resource": [
       {
         "files": [ 
-          "**/**/*.css"
+          
         ]
       }
     ],
@@ -36,7 +36,7 @@
     "template": [
       "default",
       "modern",
-      "./custom-template"
+      "custom-template"
     ],
     "globalMetadata": {
       "_appName": "LeBit App Dokumentationen Test",
