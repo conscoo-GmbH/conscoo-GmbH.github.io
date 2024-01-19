@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Nutzung von Docfx und GitHub Pages | LeBit App Dokumentationen Test </title>
+      <title>Nutzung von Docfx und GitHub Pages | LeBit App Dokumentationen </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Nutzung von Docfx und GitHub Pages | LeBit App Dokumentationen Test ">
+      <meta name="title" content="Nutzung von Docfx und GitHub Pages | LeBit App Dokumentationen ">
       
       <link rel="icon" href="../../images/LeBit_Logo_2022.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -43,8 +43,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="LeBit App Dokumentationen Test">
-            LeBit App Dokumentationen Test
+            <img id="logo" class="svg" src="../logo.svg" alt="LeBit App Dokumentationen">
+            LeBit App Dokumentationen
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -91,17 +91,25 @@
 Der <em>main</em>-branch dient zu Änderungen von Inhalten.
 Der <em>gh-pages</em>-branch deployed die Webseite.</p>
 <p>Möglicherweise muss nach <a href="#1-github-repo-lokal-in-visual-studio-code-%C3%B6ffnen"><em>Schritt 1</em></a> ein lokaler <em>build</em> durchgeführt werden.</p>
-<h2 id="1-github-repo-lokal-in-visual-studio-code-öffnen">1. GitHub Repo lokal in Visual Studio Code öffnen</h2>
-<br>
-<ul>
-<li>Repository per Standardweg in VSC öffnen und lokal speichern</li>
-</ul>
-<h2 id="2-erstellen-einer-neuen-markdown-seite">2. Erstellen einer neuen Markdown Seite</h2>
+<h2 id="standard-updateprozess">Standard Updateprozess</h2>
+<ol>
+<li>Änderungen über VSC vornehmen und speichern</li>
+<li>lokalen <em>build</em> mithilfe der <em>docfx.json</em>-Datei ausführen
+<ol>
+<li>docfx docfx.json</li>
+</ol>
+</li>
+<li>Änderungen über VSC in den <em>Main-branch</em> committen.</li>
+</ol>
+<h2 id="erstellung-einer-neuen-page-mit-docfx">Erstellung einer neuen Page mit docfx</h2>
+<h3 id="1-github-repo-lokal-in-visual-studio-code-öffnen">1. GitHub Repo lokal in Visual Studio Code öffnen</h3>
+<p>Das Repository mit der Dokumentation auf gewohntem Wege in VSC klonen und abspeichern.</p>
+<h3 id="2-erstellen-einer-neuen-markdown-seite">2. Erstellen einer neuen Markdown Seite</h3>
 <p>Zuerst muss eine Markdown-Datei im Ordner <em>/_site/docs</em> erstellt werden.
 Als Benennung für Datei zur App-Dokumentation bietet sich <em>LeBit-App-Name.md</em> an.
 Die erstellte Datei kann mit der Dokumentation gefüllt werden.<br>
 Informationen zur Syntax und Einfügen von Bildern sind <a href="#markdown-syntax"><em>hier</em></a>  zu finden.</p>
-<h2 id="3-aufnahme-in-das-inhaltsverzeichnis">3. Aufnahme in das Inhaltsverzeichnis</h2>
+<h3 id="3-aufnahme-in-das-inhaltsverzeichnis">3. Aufnahme in das Inhaltsverzeichnis</h3>
 <p>Damit die Page in das Inhaltsverzeichnis aufgenommen wird, muss die Datei in der Table of Contents Datei <em>/_site/docs/toc.yml</em> hnzugefügt werden. <br></p>
 <p>Bsp.:</p>
 <pre><code class="lang-yaml">
@@ -109,7 +117,7 @@ Informationen zur Syntax und Einfügen von Bildern sind <a href="#markdown-synta
   href: How-to-md.md (Dateiname, Case Sensitive)
 
 </code></pre>
-<h2 id="4-lokalen-build-durchführen">4. Lokalen <em>Build</em> durchführen</h2>
+<h3 id="4-lokalen-build-durchführen">4. Lokalen <em>Build</em> durchführen</h3>
 <p>Durch den lokalen <em>build</em> werden das Inhaltsverzeichnis und die Markdown Dateien in <em>html</em>-Pages umgewandelt, die vom Browser angezeigt werden können. <br><br></p>
 <p>In Powershell muss zuerst zum Ordner verwiesen werden und daraufhin kann folgende Syntax zum <em>Build</em> ausgeführt werden.</p>
 <pre><code class="lang-shell">
@@ -124,17 +132,12 @@ docfx docfx.json --serve
 </code></pre>
 <p>die Webseite im Localhost geöffnet werden. <br>
 <a href="Localhost:8080"><em>Localhost:8080</em></a></p>
-<h2 id="5-github-build">5. GitHub <em>build</em></h2>
+<h3 id="5-github-build">5. GitHub <em>build</em></h3>
 <p>Der <em>build</em>  der GitHub Pages Seite wird beim pushen von Changes automatisch durch die GitHub Action in <em>main.yml</em> durchgeführt.</p>
 <h3 id="markdown-syntax">Markdown Syntax</h3>
 <p>Im Internet gibt es einige Syntax Cheatsheets, die bei der Erfassung helfen können. Beispielsweise <a href="https://www.markdownguide.org/basic-syntax/"><em>hier</em></a>.</p>
 <h4 id="bilder-einbeziehen">Bilder einbeziehen</h4>
-<p>Zum Nutzen von Bildern in der Dokumentation müssen diese im Ordner <br></p>
-<pre><code>
-/_site/images/
-
-</code></pre>
-<p>gespeichert werden.</p>
+<p>Zum Nutzen von Bildern in der Dokumentation müssen diese im Ordner <em>/_site/images/</em> gespeichert werden.</p>
 <p>Als Dateiformate werden <em>.jpg</em>, <em>.jpeg</em> und <em>.png</em> verarbeitet. Dateiformate können in der <em>docfx.json</em>-Datei hinzugefügt werden.</p>
 <p>Damit die Bilder richtig auf der Webseite angezeigt werden ist folgende Syntax notwendig.</p>
 <pre><code class="lang-markdown">
@@ -162,7 +165,7 @@ docfx docfx.json --serve
 <p>Dies ist ein Tipp.</p>
 </div>
 <pre><code>&gt;[!TIP]
-&gt; Dies ist ein Tipp
+&gt; Dies ist ein Tipp.
 </code></pre>
 <div class="IMPORTANT">
 <h5>Important</h5>
@@ -173,10 +176,10 @@ docfx docfx.json --serve
 </code></pre>
 <div class="CAUTION">
 <h5>Caution</h5>
-<p>Achtung dies ist kein Test!</p>
+<p>Achtung das ist ein Test!</p>
 </div>
 <pre><code>&gt;[!CAUTION]
-&gt; Achtung dies ist kein Test!
+&gt; Achtung das ist ein Test!
 </code></pre>
 <div class="WARNING">
 <h5>Warning</h5>
