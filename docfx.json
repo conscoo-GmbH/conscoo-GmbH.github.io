@@ -27,16 +27,14 @@
     ],
     "resource": [
       {
-        "files": [ 
-          
+        "files": [  
         ]
       }
     ],
     "output": "_site",
     "template": [
       "default",
-      "modern",
-      "custom-template"
+      "modern"
     ],
     "globalMetadata": {
       "_appName": "LeBit App Dokumentationen Test",
