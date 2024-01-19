@@ -73,7 +73,7 @@ Zum Nutzen von Bildern in der Dokumentation müssen diese im Ordner <br>
 
 ```
 
-*/_site/images/*
+/_site/images/
 
 ```
 
