@@ -99,3 +99,45 @@ Beispiel
     <figcaption>Hund</figcaption>  
 
 ```
+
+#### Alerts
+
+> [!NOTE]
+> Dies sollte als Notiz angezeigt werden.
+
+```
+> [!NOTE]
+> Dies sollte als Notiz angezeigt werden.
+```
+
+>[!TIP]
+> Dies ist ein Tipp.
+
+```
+>[!TIP]
+> Dies ist ein Tipp
+```
+
+>[!IMPORTANT]
+>Sehr wichtige Informationen befinden sich hier.
+
+```
+>[!IMPORTANT]
+> Sehr wichtige Informationen befinden sich hier.
+```
+
+>[!CAUTION]
+> Achtung dies ist kein Test!
+
+```
+>[!CAUTION]
+> Achtung dies ist kein Test!
+```
+
+>[!WARNING]
+> Letzte Warnung!
+
+```
+>[!WARNING]
+> Letzte Warnung!
+```
