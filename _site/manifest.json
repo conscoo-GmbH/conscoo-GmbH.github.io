@@ -4,11 +4,53 @@
   "files": [
     {
       "type": "Resource",
+      "source_relative_path": "_exported_templates/modern/public/docfx.min.css",
       "output": {
         "resource": {
-          "relative_path": "index.json"
+          "relative_path": "_exported_templates/modern/public/docfx.min.css"
         }
-      }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_exported_templates/modern/public/main.css",
+      "output": {
+        "resource": {
+          "relative_path": "_exported_templates/modern/public/main.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/custom-template/styles/custom.css",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/custom-template/styles/custom.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/public/docfx.min.css",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/public/docfx.min.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/public/main.css",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/public/main.css"
+        }
+      },
+      "version": ""
     },
     {
       "type": "Resource",
@@ -66,112 +108,6 @@
       "output": {
         "resource": {
           "relative_path": "_site/public/main.css"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/How-to-md.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/How-to-md.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/LeBit-ausgehende-Transportbedarfe.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/LeBit-ausgehende-Transportbedarfe.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/LeBit-parameter-qualitätssicherung.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/LeBit-parameter-qualitätssicherung.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/hello-world.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/hello-world.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/new-test-file.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/new-test-file.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
-        ".json": {
-          "relative_path": "toc.json"
         }
       },
       "version": ""
