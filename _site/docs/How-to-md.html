@@ -43,7 +43,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="LeBit App Dokumentationen">
+            <img id="logo" class="svg" src="../../images/favicon-32x32.png" alt="LeBit App Dokumentationen">
             LeBit App Dokumentationen
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,16 +99,19 @@ Der <em>gh-pages</em>-branch deployed die Webseite.</p>
 <li>docfx docfx.json</li>
 </ol>
 </li>
-<li>Änderungen über VSC in den <em>Main-branch</em> committen.</li>
+<li>Änderungen über VSC in den <em>Main-branch</em> committen.
+<br></li>
 </ol>
 <h2 id="erstellung-einer-neuen-page-mit-docfx">Erstellung einer neuen Page mit docfx</h2>
+<br>
 <h3 id="1-github-repo-lokal-in-visual-studio-code-öffnen">1. GitHub Repo lokal in Visual Studio Code öffnen</h3>
-<p>Das Repository mit der Dokumentation auf gewohntem Wege in VSC klonen und abspeichern.</p>
+<p>Das Repository mit der Dokumentation auf gewohntem Wege in VSC klonen und abspeichern.
+<br></p>
 <h3 id="2-erstellen-einer-neuen-markdown-seite">2. Erstellen einer neuen Markdown Seite</h3>
 <p>Zuerst muss eine Markdown-Datei im Ordner <em>/_site/docs</em> erstellt werden.
 Als Benennung für Datei zur App-Dokumentation bietet sich <em>LeBit-App-Name.md</em> an.
 Die erstellte Datei kann mit der Dokumentation gefüllt werden.<br>
-Informationen zur Syntax und Einfügen von Bildern sind <a href="#markdown-syntax"><em>hier</em></a>  zu finden.</p>
+Informationen zur Syntax und Einfügen von Bildern sind <a href="#markdown-syntax"><em>hier</em></a>  zu finden. <br></p>
 <h3 id="3-aufnahme-in-das-inhaltsverzeichnis">3. Aufnahme in das Inhaltsverzeichnis</h3>
 <p>Damit die Page in das Inhaltsverzeichnis aufgenommen wird, muss die Datei in der Table of Contents Datei <em>/_site/docs/toc.yml</em> hnzugefügt werden. <br></p>
 <p>Bsp.:</p>
@@ -131,11 +134,14 @@ docfx docfx.json --serve
 
 </code></pre>
 <p>die Webseite im Localhost geöffnet werden. <br>
-<a href="Localhost:8080"><em>Localhost:8080</em></a></p>
+<a href="Localhost:8080"><em>Localhost:8080</em></a>
+<br></p>
 <h3 id="5-github-build">5. GitHub <em>build</em></h3>
-<p>Der <em>build</em>  der GitHub Pages Seite wird beim pushen von Changes automatisch durch die GitHub Action in <em>main.yml</em> durchgeführt.</p>
+<p>Der <em>build</em>  der GitHub Pages Seite wird beim pushen von Changes automatisch durch die GitHub Action in <em>main.yml</em> durchgeführt.
+<br></p>
 <h3 id="markdown-syntax">Markdown Syntax</h3>
-<p>Im Internet gibt es einige Syntax Cheatsheets, die bei der Erfassung helfen können. Beispielsweise <a href="https://www.markdownguide.org/basic-syntax/"><em>hier</em></a>.</p>
+<p>Im Internet gibt es einige Syntax Cheatsheets, die bei der Erfassung helfen können. Beispielsweise <a href="https://www.markdownguide.org/basic-syntax/"><em>hier</em></a>.
+<br></p>
 <h4 id="bilder-einbeziehen">Bilder einbeziehen</h4>
 <p>Zum Nutzen von Bildern in der Dokumentation müssen diese im Ordner <em>/_site/images/</em> gespeichert werden.</p>
 <p>Als Dateiformate werden <em>.jpg</em>, <em>.jpeg</em> und <em>.png</em> verarbeitet. Dateiformate können in der <em>docfx.json</em>-Datei hinzugefügt werden.</p>
