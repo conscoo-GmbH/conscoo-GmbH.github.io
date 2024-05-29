@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/users/fgoldbecker/docfx",
+  "source_base_path": "C:/Users/fgoldbecker/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -16,6 +16,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/How-to-md.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/LeBit Contingent Hauptdoku.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/LeBit Contingent Hauptdoku.html"
         }
       },
       "version": ""
