@@ -5,10 +5,10 @@
 #### App-Version:
  
 ## 1. Zweck
-Der Grundgedanke der Kontingente ist, der Maschinenplanung gewisse Konstanten zu geben, da in der Prozessfertigung bestimmte Eigenschaftswechsel sehr zeit- und kostenaufwändig sind. Um den Bedarf zu planen, sollen Artikel aus dem Verkauf Kontingenten zugeordnet werden. Die Zuordnung an Kontingente hat keine Auswirkung auf die Fertigungsplanung, sondern nur auf die Bedarfstermine.
+Der Grundgedanke der Kontingente ist, der Maschinenplanung gewisse Konstanten zu geben, da in der Prozessfertigung bestimmte Eigenschaftswechsel sehr zeit- und kostenaufwändig sind. Um den Bedarf zu planen, sollen Artikel aus dem Verkauf Kontingenten zugeordnet werden. Die Zuordnung an Kontingente hat keine Auswirkung auf die Fertigungsplanung, sondern nur auf die Bedarfstermine. <br>
  
 ## 2. Notwendige Einrichtungen
- 
+
 ### 2.1 Aufruf
  
 Die Stammdaten "Sorte" und "Kontingente" werden unter dem Reiter "LeBit" auf dem Rollencenter Verkaufsauftragsverarbeitung, Lagermitarbeiter - Lagerortverwaltungssystem und Vertriebsmanager angezeigt. Sie können aber auch aus jedem anderen Rollencenter über die Suche gefunden werden.
@@ -22,7 +22,7 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
 
 ![Abbildung 2: Rollencenter Produktionsleiter](../images/Contingents_2.png)
 <figcaption>Abbildung 2: Rollencenter Produktionsleiter </figcaption> <br>
- 
+
 ### 2.2 LeBit Kontingent Einrichtung
 
 
@@ -34,6 +34,7 @@ Die Nummernserie für die Kontingente und die Einstellung zur Kontingentsüberla
 Die "Kontingentsüberlastung %" gibt an, wie viel Prozent der eigentlichen Kapazität des Kontingents überschritten werden darf.
  
 "Freigabestatus verwenden" gibt an, ob bei den Kontingenten der Freigabestatus beachtet werden soll. Wenn es angeschaltet ist, dann können nur freigegebene Kontingente in Verkaufsaufträgen ausgewählt werden und nur offene Kontingente bearbeitet werden.
+<br>
 
 ### 2.3 Sorten
 Auf der Seite "Sorten" werden Sorten definiert, die eine Maschine produziert, sodass diese später den Kontingenten und bestimmten Zeiten zugeordnet werden. Die Artikel, die an einer Maschine produziert werden, erhalten eine Sorte zugewiesen.
@@ -42,7 +43,7 @@ Auf der Seite "Sorten" werden Sorten definiert, die eine Maschine produziert, so
 ![Abbildung 4: Übersicht Sorten](../images/Contingents_4.png)
 <figcaption>Abbildung 4: Übersicht Sorten </figcaption> <br>
  
-Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden frei gewählt.
+Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden frei gewählt. <br>
 
 
 #### 2.3.1 Artikel
@@ -86,7 +87,7 @@ Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von "
 <figcaption>Abbildung 10: Verschiebung der Menge in Freigegebene Menge </figcaption> <br>
  
 Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents übersteigt, aber nicht die erlaubte Überlastung, dann erscheint eine Warnmeldung. Der Verkaufsauftrag, der das Kontingent überlastet, kann nicht freigegeben werden. Andere Verkaufsaufträge können allerdings freigegeben werden, solange das Kontingent nicht überlastet wird.
-
+<br>
 ### 3.2 Workflow
 Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage.
 

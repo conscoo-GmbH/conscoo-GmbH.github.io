@@ -89,7 +89,7 @@
 <h4 id="erstellt-am-15-februar-2024">Erstellt am: 15. Februar 2024</h4>
 <h4 id="app-version">App-Version:</h4>
 <h2 id="1-zweck">1. Zweck</h2>
-<p>Der Grundgedanke der Kontingente ist, der Maschinenplanung gewisse Konstanten zu geben, da in der Prozessfertigung bestimmte Eigenschaftswechsel sehr zeit- und kostenaufwändig sind. Um den Bedarf zu planen, sollen Artikel aus dem Verkauf Kontingenten zugeordnet werden. Die Zuordnung an Kontingente hat keine Auswirkung auf die Fertigungsplanung, sondern nur auf die Bedarfstermine.</p>
+<p>Der Grundgedanke der Kontingente ist, der Maschinenplanung gewisse Konstanten zu geben, da in der Prozessfertigung bestimmte Eigenschaftswechsel sehr zeit- und kostenaufwändig sind. Um den Bedarf zu planen, sollen Artikel aus dem Verkauf Kontingenten zugeordnet werden. Die Zuordnung an Kontingente hat keine Auswirkung auf die Fertigungsplanung, sondern nur auf die Bedarfstermine. <br></p>
 <h2 id="2-notwendige-einrichtungen">2. Notwendige Einrichtungen</h2>
 <h3 id="21-aufruf">2.1 Aufruf</h3>
 <p>Die Stammdaten &quot;Sorte&quot; und &quot;Kontingente&quot; werden unter dem Reiter &quot;LeBit&quot; auf dem Rollencenter Verkaufsauftragsverarbeitung, Lagermitarbeiter - Lagerortverwaltungssystem und Vertriebsmanager angezeigt. Sie können aber auch aus jedem anderen Rollencenter über die Suche gefunden werden.</p>
@@ -99,8 +99,7 @@
 Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungsstammdaten zu finden.
 <p><img src="../images/Contingents_2.png" alt="Abbildung 2: Rollencenter Produktionsleiter"></p>
 <figcaption>Abbildung 2: Rollencenter Produktionsleiter </figcaption> <br>
- 
-### 2.2 LeBit Kontingent Einrichtung
+<h3 id="22-lebit-kontingent-einrichtung">2.2 LeBit Kontingent Einrichtung</h3>
 <p><img src="../images/Contingents_3.png" alt="Abbildung 3: LeBit Kontingent Einrichtung"></p>
 <figcaption>Abbildung 3: LeBit Kontingent Einrichtung </figcaption> <br>
  
@@ -109,12 +108,13 @@ Die Nummernserie für die Kontingente und die Einstellung zur Kontingentsüberla
 Die "Kontingentsüberlastung %" gibt an, wie viel Prozent der eigentlichen Kapazität des Kontingents überschritten werden darf.
  
 "Freigabestatus verwenden" gibt an, ob bei den Kontingenten der Freigabestatus beachtet werden soll. Wenn es angeschaltet ist, dann können nur freigegebene Kontingente in Verkaufsaufträgen ausgewählt werden und nur offene Kontingente bearbeitet werden.
+<br>
 <h3 id="23-sorten">2.3 Sorten</h3>
 <p>Auf der Seite &quot;Sorten&quot; werden Sorten definiert, die eine Maschine produziert, sodass diese später den Kontingenten und bestimmten Zeiten zugeordnet werden. Die Artikel, die an einer Maschine produziert werden, erhalten eine Sorte zugewiesen.</p>
 <p><img src="../images/Contingents_4.png" alt="Abbildung 4: Übersicht Sorten"></p>
 <figcaption>Abbildung 4: Übersicht Sorten </figcaption> <br>
  
-Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden frei gewählt.
+Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden frei gewählt. <br>
 <h4 id="231-artikel">2.3.1 Artikel</h4>
 <p>In der Artikelkarte wird dem Artikel über das Register &quot;Allgemein&quot; eine Sorte zugeordnet. Jedem Artikel kann nur eine Sorte zugeordnet werden, aber einer Sorte können mehrere Artikel angehören.</p>
 <p><img src="../images/Contingents_5.png" alt="Abbildung 5: Zuordnung Sorte am Artikel"></p>
@@ -140,8 +140,9 @@ Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden 
 <figcaption>Abbildung 10: Verschiebung der Menge in Freigegebene Menge </figcaption> <br>
  
 Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents übersteigt, aber nicht die erlaubte Überlastung, dann erscheint eine Warnmeldung. Der Verkaufsauftrag, der das Kontingent überlastet, kann nicht freigegeben werden. Andere Verkaufsaufträge können allerdings freigegeben werden, solange das Kontingent nicht überlastet wird.
-<h3 id="32-workflow">3.2 Workflow</h3>
-<p>Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage.</p>
+<br>
+### 3.2 Workflow
+Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage.
 <p><img src="../images/Contingents_11.png" alt="Abbildung 11: Workflowvorlage Kontingente"></p>
 <figcaption>Abbildung 11: Workflowvorlage Kontingente </figcaption> <br>
 <p><img src="../images/Contingents_12.png" alt="Abbildung 12: Kontingent Genehmigungsworkflow"></p>
