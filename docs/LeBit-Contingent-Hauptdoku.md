@@ -25,7 +25,7 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
  
 ### 2.2 LeBit Kontingent Einrichtung
 
- 
+
 ![Abbildung 3: LeBit Kontingent Einrichtung](../images/Contingents_3.png)
 <figcaption>Abbildung 3: LeBit Kontingent Einrichtung </figcaption> <br>
  
@@ -34,7 +34,7 @@ Die Nummernserie für die Kontingente und die Einstellung zur Kontingentsüberla
 Die "Kontingentsüberlastung %" gibt an, wie viel Prozent der eigentlichen Kapazität des Kontingents überschritten werden darf.
  
 "Freigabestatus verwenden" gibt an, ob bei den Kontingenten der Freigabestatus beachtet werden soll. Wenn es angeschaltet ist, dann können nur freigegebene Kontingente in Verkaufsaufträgen ausgewählt werden und nur offene Kontingente bearbeitet werden.
- 
+
 ### 2.3 Sorten
 Auf der Seite "Sorten" werden Sorten definiert, die eine Maschine produziert, sodass diese später den Kontingenten und bestimmten Zeiten zugeordnet werden. Die Artikel, die an einer Maschine produziert werden, erhalten eine Sorte zugewiesen.
 
@@ -86,7 +86,7 @@ Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von "
 <figcaption>Abbildung 10: Verschiebung der Menge in Freigegebene Menge </figcaption> <br>
  
 Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents übersteigt, aber nicht die erlaubte Überlastung, dann erscheint eine Warnmeldung. Der Verkaufsauftrag, der das Kontingent überlastet, kann nicht freigegeben werden. Andere Verkaufsaufträge können allerdings freigegeben werden, solange das Kontingent nicht überlastet wird.
- 
+
 ### 3.2 Workflow
 Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage.
 
@@ -105,7 +105,7 @@ Bevor der Workflow aktiviert wird (1), müssen Einstellungen in der Datensatzein
 <figcaption>Abbildung 13: Workflowreaktion, Genehmigungseinstellungen </figcaption> <br>
  
 Es öffnet sich die Maske:
- 
+
 1. Nun klickt man auf die zweite Antwort, damit sich die unteren Optionen öffnen.
 2. Der Genehmigertyp wird auf Genehmiger gestellt.
 3. Die Einschränkungsart Genehmiger wird auf Direkter Genehmiger gestellt.
@@ -116,13 +116,13 @@ Es öffnet sich die Maske:
 <figcaption>Abbildung 14: Genehmigungsbenutzereinrichtungen </figcaption> <br>
  
 Die Maske "Genehmigungsbenutzereinrichtung" öffnet sich.
- 
+
 1. Die Benutzer-ID gibt den Benutzer an, der das Kontingent zurücksetzen will.
 2. Die Genehmiger-ID gibt den Benutzer an, der die Genehmigung für das Zurücksetzen der Kontingente erteilt.
 3. Es kann ein Genehmigungsadministrator gewählt werden, der als einziger keinen Genehmiger braucht.
  
 Nachdem die Einrichtungen vorgenommen worden sind, kann die Maske geschlossen werden und die Workflowreaktion mit dem Button OK abgeschlossen werden.
- 
+
 Der Workflow kann nun aktiviert werden.
 
 
