@@ -86,8 +86,7 @@ Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von "
 ![Abbildung 10: Verschiebung der Menge in Freigegebene Menge](../images/Contingents_10.png)
 <figcaption>Abbildung 10: Verschiebung der Menge in Freigegebene Menge </figcaption> <br>
  
-Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents übersteigt, aber nicht die erlaubte Überlastung, dann erscheint eine Warnmeldung. Der Verkaufsauftrag, der das Kontingent überlastet, kann nicht freigegeben werden. Andere Verkaufsaufträge können allerdings freigegeben werden, solange das Kontingent nicht überlastet wird.
-<br>
+Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents übersteigt, aber nicht die erlaubte Überlastung, dann erscheint eine Warnmeldung. Der Verkaufsauftrag, der das Kontingent überlastet, kann nicht freigegeben werden. Andere Verkaufsaufträge können allerdings freigegeben werden, solange das Kontingent nicht überlastet wird. <br>
 
 ### 3.2 Workflow
 Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage.
