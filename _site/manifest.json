@@ -21,6 +21,19 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "docs/Contingents/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Contingents/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Contingents/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/How-to-md.md",
       "output": {
