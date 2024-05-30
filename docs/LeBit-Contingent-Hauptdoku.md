@@ -81,7 +81,8 @@ Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents über
 Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage.
  
 ![Abbildung 11: Workflowvorlage Kontingente](../images/Contingents_11.png)
- 
+<figcaption>Abbildung 11: Workflowvorlage Kontingente</figcaption> 
+
 ![Abbildung 12: Kontingent Genehmigungsworkflow](../images/Contingents_12.png)
 <figcaption>Abbildung 12: Kontingent Genehmigungsworkflow</figcaption>
  
