@@ -54,16 +54,16 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 <figcaption>Abbildung 5: Zuordnung Sorte am Artikel </figcaption> <br>
 
 ### 2.4 Kontingente
-<div style="text-align: center;">
-This text will be centered.
+
 
 
 Über die Seite "Kontingente" wird den Kontingenten eine bestimmte Sorte zugeordnet. Eine Sorte kann mehreren Kontingenten zugeordnet werden, aber einem Kontingent kann nur eine Sorte zugeordnet werden.
 
-</div>
+<div style="text-align: center;">
 
-![Abbildung 6: Übersicht Kontingente](../images/Contingents_6.png)
+![Abbildung 6: Übersicht Kontingente](../../images/Contingents_6.png)
 <figcaption>Abbildung 6: Übersicht Kontingente </figcaption> <br>
+</div>
 
 ### 2.5 Abteilungen, Arbeitsplatzgruppen und Arbeitsplätze
 Wenn ein Kontingent erstellt wird, wird dieses auch einer Abteilung, einer Arbeitsplatzgruppe und einem Arbeitsplatz zugeordnet.
