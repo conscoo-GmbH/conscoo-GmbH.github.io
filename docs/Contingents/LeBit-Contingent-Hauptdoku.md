@@ -170,11 +170,11 @@ Nachdem die Einrichtungen vorgenommen worden sind, kann die Maske geschlossen we
 Der Workflow kann nun aktiviert werden.
 
 <div style="text-align: center;">
-
-![Abbildung 15: Kontingent Genehmigungsworkflow aktiviert](../../images/Contingents_15.png)
-<figcaption>Abbildung 15: Kontingent Genehmigungsworkflow aktiviert </figcaption> <br>
-
+    <img src="../../images/Contingents_15.png" alt="Abbildung 15: Kontingent Genehmigungsworkflow aktiviert" style="width: 75%; height: auto;">
+    <figcaption>Abbildung 15: Kontingent Genehmigungsworkflow aktiviert</figcaption>
+    <br>
 </div>
+
 
 Wenn der Workflow aktiviert ist, lässt sich ein Kontingent freigeben, aber um den Status zurückzusetzen, um Veränderungen vorzunehmen, braucht man die Genehmigung des Genehmigers.
 
