@@ -15,7 +15,7 @@ Die Stammdaten "Sorte" und "Kontingente" werden unter dem Reiter "LeBit" auf dem
 
 <div style="text-align: center;">
 
-![Abbildung 1: Rollencenter Verkaufsauftragsverarbeitung](../../images/Contingents_1.png)
+<img src="../../images/Contingents/Contingents_1.png" alt="Rollencenter Verkaufsauftragsverarbeitung" style="width: 100%; height: auto;">
 <figcaption>Abbildung 1: Rollencenter Verkaufsauftragsverarbeitung </figcaption> <br>
 
 </div>
@@ -24,7 +24,7 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
 
 <div style="text-align: center;">
 
-![Abbildung 2: Rollencenter Produktionsleiter](../../images/Contingents_2.png)
+<img src="../../images/Contingents/Contingents_2.png" alt="Rollencenter Produktionsleiter" style="width: 100%; height: auto;">
 <figcaption>Abbildung 2: Rollencenter Produktionsleiter </figcaption> <br>
 
 </div>
@@ -33,7 +33,7 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
 
 <div style="text-align: center;">
 
-![Abbildung 3: LeBit Kontingent Einrichtung](../../images/Contingents_3.png)
+<img src="../../images/Contingents/Contingents_3.png" alt="LeBit Kontingent Einrichtung" style="width: 100%; height: auto;">
 <figcaption>Abbildung 3: LeBit Kontingent Einrichtung </figcaption> <br>
 
 </div>
@@ -50,7 +50,7 @@ Auf der Seite "Sorten" werden Sorten definiert, die eine Maschine produziert, so
 
 <div style="text-align: center;">
 
-![Abbildung 4: Übersicht Sorten](../../images/Contingents_4.png)
+<img src="../../images/Contingents/Contingents_4.png" alt="Übersicht Sorten" style="width: 100%; height: auto;">
 <figcaption>Abbildung 4: Übersicht Sorten </figcaption> <br>
 
 </div>
@@ -62,7 +62,7 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 
 <div style="text-align: center;">
 
-![Abbildung 5: Zuordnung Sorte am Artikel](../../images/Contingents_5.png)
+<img src="../../images/Contingents/Contingents_5.png" alt="Zuordnung Sorte am Artikel" style="width: 100%; height: auto;">
 <figcaption>Abbildung 5: Zuordnung Sorte am Artikel </figcaption> <br>
 
 </div>
@@ -73,7 +73,7 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 
 <div style="text-align: center;">
 
-![Abbildung 6: Übersicht Kontingente](../../images/Contingents_6.png)
+<img src="../../images/Contingents/Contingents_6.png" alt="Übersicht Kontingente" style="width: 100%; height: auto;">
 <figcaption>Abbildung 6: Übersicht Kontingente </figcaption> <br>
 
 </div>
@@ -83,7 +83,7 @@ Wenn ein Kontingent erstellt wird, wird dieses auch einer Abteilung, einer Arbei
 
 <div style="text-align: center;">
 
-![Abbildung 7: Abteilung, Arbeitsplatzgruppe und Arbeitsplatz beim Kontingent auswählen](../../images/Contingents_7.png)
+<img src="../../images/Contingents/Contingents_7.png" alt="Abteilung, Arbeitsplatzgruppe und Arbeitsplatz beim Kontingent auswählen" style="width: 100%; height: auto;">
 <figcaption>Abbildung 7: Abteilung, Arbeitsplatzgruppe und Arbeitsplatz beim Kontingent auswählen </figcaption> <br>
 
 </div>
@@ -94,7 +94,7 @@ In der Verkaufszeile kann ein Kontingent ausgewählt werden. Es werden die Konti
 
 <div style="text-align: center;">
 
-![Abbildung 8: Kontingentzuordnung in der VK-Zeile](../../images/Contingents_8.png)
+<img src="../../images/Contingents/Contingents_8.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 100%; height: auto;">
 <figcaption>Abbildung 8: Kontingentzuordnung in der VK-Zeile </figcaption> <br>
 
 </div>
@@ -103,7 +103,7 @@ Sobald ein Kontingent in der Verkaufszeile ausgewählt und der Verkaufsauftrag g
 
 <div style="text-align: center;">
 
-![Abbildung 9: Veränderung der Menge durch offene Verkaufsaufträge](../../images/Contingents_9.png)
+<img src="../../images/Contingents/Contingents_9.png" alt="Veränderung der Menge durch offene Verkaufsaufträge" style="width: 100%; height: auto;">
 <figcaption>Abbildung 9: Veränderung der Menge durch offene Verkaufsaufträge </figcaption> <br>
 
 </div>
@@ -112,7 +112,7 @@ Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von "
 
 <div style="text-align: center;">
 
-![Abbildung 10: Verschiebung der Menge in Freigegebene Menge](../../images/Contingents_10.png)
+<img src="../../images/Contingents/Contingents_10.png" alt="EVerschiebung der Menge in Freigegebene Menge" style="width: 100%; height: auto;">
 <figcaption>Abbildung 10: Verschiebung der Menge in Freigegebene Menge </figcaption> <br>
 
 </div>
@@ -124,14 +124,14 @@ Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivi
 
 <div style="text-align: center;">
 
-![Abbildung 11: Workflowvorlage Kontingente](../../images/Contingents_11.png)
+<img src="../../images/Contingents/Contingents_11.png" alt="Workflowvorlage Kontingente" style="width: 100%; height: auto;">
 <figcaption>Abbildung 11: Workflowvorlage Kontingente </figcaption> <br>
 
 </div>
 
 <div style="text-align: center;">
 
-![Abbildung 12: Kontingent Genehmigungsworkflow](../../images/Contingents_12.png)
+<img src="../../images/Contingents/Contingents_12.png" alt="Kontingent Genehmigungsworkflow" style="width: 100%; height: auto;">
 <figcaption>Abbildung 12: Kontingent Genehmigungsworkflow </figcaption> <br>
 
 </div>
@@ -140,7 +140,7 @@ Bevor der Workflow aktiviert wird (1), müssen Einstellungen in der Datensatzein
 
 <div style="text-align: center;">
 
-![Abbildung 13: Workflowreaktion, Genehmigungseinstellungen](../../images/Contingents_13.png)
+<img src="../../images/Contingents/Contingents_13.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 100%; height: auto;">
 <figcaption>Abbildung 13: Workflowreaktion, Genehmigungseinstellungen </figcaption> <br>
 
 </div>
@@ -154,7 +154,7 @@ Es öffnet sich die Maske:
 
 <div style="text-align: center;">
 
-![Abbildung 14: Genehmigungsbenutzereinrichtungen](../../images/Contingents_14.png)
+<img src="../../images/Contingents/Contingents_14.png" alt="Genehmigungsbenutzereinrichtungen" style="width: 100%; height: auto;">
 <figcaption>Abbildung 14: Genehmigungsbenutzereinrichtungen </figcaption> <br>
 
 </div>
@@ -170,7 +170,7 @@ Nachdem die Einrichtungen vorgenommen worden sind, kann die Maske geschlossen we
 Der Workflow kann nun aktiviert werden.
 
 <div style="text-align: center;">
-    <img src="../../images/Contingents_15.png" alt="Abbildung 15: Kontingent Genehmigungsworkflow aktiviert" style="width: 75%; height: auto;">
+    <img src="../../images/Contingents/Contingents_15.png" alt="Abbildung 15: Kontingent Genehmigungsworkflow aktiviert" style="width: 75%; height: auto;">
     <figcaption>Abbildung 15: Kontingent Genehmigungsworkflow aktiviert</figcaption>
     <br>
 </div>
@@ -180,7 +180,7 @@ Wenn der Workflow aktiviert ist, lässt sich ein Kontingent freigeben, aber um d
 
 <div style="text-align: center;">
 
-![Abbildung 16: Kontingent Status zurücksetzen anfordern](../../images/Contingents_16.png)
+<img src="../../images/Contingents/Contingents_2.png" alt="Kontingent Status zurücksetzen anfordern" style="width: 100%; height: auto;">
 <figcaption>Abbildung 16: Kontingent Status zurücksetzen anfordern </figcaption> <br>
 
 </div>

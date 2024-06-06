@@ -1,15 +1,12 @@
 items:
-- name: Introduction
+- name: Übersicht
   href: introduction.md
-- name: Getting Started
-  href: getting-started.md
-- name: LeBit Ausgehende Transportbedarfe
-  href: LeBit-ausgehende-Transportbedarfe.md
-- name: Hello World
-  href: hello-world.md
-- name: Test File
-  href: new-test-file.md
-- name: LeBit Parameter und Qualitätssicherung
-  href: LeBit-parameter-qualitätssicherung.md
-- name: How to Markdown
-  href: How-to-md.md
+- name: LeBit Kontingente
+  href: ../../docs/Contingents/LeBit-Contingent-Hauptdoku.html
+- name: LeBit Labels
+  href: ../../docs//Labels/Labels.html
+- name: LeBit Reposting
+  href: ../../docs//Reposting/Reposting.html
+- name: LeBit Over-Shipment
+  href: ../../docs/Over-Shipment/Over-Shipment.html
+  
