@@ -1,8 +1,8 @@
 items:
 - name: LeBit Contingents
-  href: LeBit-Contingent-Hauptdoku.md
+  href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
 - name: How to Markdown
   href: /../docs/How-to-md.html
 - name: LeBit Labels
-  href: /../docs/Labels/Labels.html
+  href: Labels.md
 
