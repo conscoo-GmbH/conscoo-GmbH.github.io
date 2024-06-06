@@ -1,7 +1,7 @@
 items:
 - name: Übersicht
-  href: Introduction.html
-  name: LeBit Contingents
+  href: /../docs/introduction.html
+- name: LeBit Contingents
   href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
 - name: LeBit Labels
   href: Labels.md

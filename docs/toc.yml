@@ -2,11 +2,11 @@ items:
 - name: Übersicht
   href: introduction.md
 - name: LeBit Kontingente
-  href: ../../docs/Contingents/LeBit-Contingent-Hauptdoku.html
+  href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
 - name: LeBit Labels
-  href: ../../docs//Labels/Labels.html
+  href: /../docs/Labels/Labels.html
 - name: LeBit Reposting
-  href: ../../docs//Reposting/Reposting.html
+  href: /../docs/Reposting/Reposting.html
 - name: LeBit Over-Shipment
-  href: ../../docs/Over-Shipment/Over-Shipment.html
+  href: /../docs/Over-Shipment/Over-Shipment.html
   

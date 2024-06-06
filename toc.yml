@@ -1,10 +1,10 @@
 - name: Dokumentationen
-  href: docs/
+  href: /../docs/Introduction.html
 - name: Kontingente
-  href: docs/Contingents/
+  href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
 - name: Labels
-  href: docs/Labels/
+  href: /../docs/Labels/Labels.html
 - name: Reposting
-  href: docs/Reposting/
+  href: /../docs/Reposting/Reposting.html
 - name: Over-Shipment
-  href: docs/Over-Shipment/
+  href: /../docs/Over-Shipment/Over-Shipment.html
