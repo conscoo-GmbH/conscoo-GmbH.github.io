@@ -1,6 +1,6 @@
 items:
-- name: Übersicht
-  href: /../docs/introduction.html
+# - name: Übersicht
+#   href: /../docs/introduction.html
 - name: LeBit Contingents
   href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
 - name: LeBit Labels

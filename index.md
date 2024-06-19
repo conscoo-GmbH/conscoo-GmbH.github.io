@@ -2,12 +2,72 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE**.
+# LeBit Apps Dokumentationen
+ 
+<!DOCTYPE html>
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
+<html lang="en">
 
-## Quick Start Notes:
+<head>
 
-1. Add images to the *images* folder if the file is referencing an image.
-2. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-3. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Documentation Links</title>
+
+<style>
+
+        .link-box {
+            border: .5px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            width: calc(33% - 40px); /* Adjust this value to fit your layout */
+            box-sizing: border-box;
+
+        }
+
+        .link-box a {
+            text-decoration: none;
+            color: #398BFE; /* Blue color */
+            font-size: 18px;
+        }
+
+        .link-box a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+</style>
+
+</head>
+
+<body>
+    <div class="link-box">
+        <h3>LeBit Kontigente</h3>
+        <a href="/../docs/Contingents/LeBit-Contingent-Hauptdoku.html">Dokumentation</a>
+    </div>
+    <div class="link-box">
+    <h3>LeBit Labels</h3>
+        <a href="/../docs/Labels/Labels.html">Dokumentation</a>
+    </div>
+    <div class="link-box">
+    <h3>LeBit Reposting</h3>
+        <a href="/../docs/Reposting/Reposting.html">Dokumentation</a>
+    </div>
+    <div class="link-box">
+    <h3>LeBit Over-Shipment</h3>
+        <a href="/../docs/Over-Shipment/Over-Shipment.html">Dokumentation</a>
+    </div>
+</body>
+</html>

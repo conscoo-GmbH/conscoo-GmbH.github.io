@@ -4,7 +4,7 @@
 
 ##### App-Version: 22.0.19985.0
 
-## Zweck
+## 1. Zweck
 
 Die Umbuchung kann für Chargen, Pakete und Serien verwendet werden.
 Dabei kann einer Charge, einem Paket oder einer Serie ein anderer
@@ -12,7 +12,7 @@ Artikel zugeteilt werden oder der gleiche Artikel kann einer anderen
 Charge oder Paket zugeteilt werden. Zusätzlich ist es möglich
 Umlagerungen zu vollziehen.
 
-## Notwendige Einrichtungen
+## 2. Notwendige Einrichtungen
 
 Auf der Seite \"Artikel Umbuch.-Blätter\" muss man im Feld
 \"Buch.-Blattname\" eine Vorlage für das Artikel Umbuchung Buchblatt
@@ -42,9 +42,9 @@ bearbeiten und neue hinzufügen.
 | Montagenummernserie     | Wahl einer speziellen Nummernserie für die Montageaufträge, die durch die Artikel Umbuch.-Buchblatt entstehen. Falls keine Nummernserie hinterlegt ist, dann wird die Standardnummernserie der Montageaufträge genutzt. |                                                                                        |
 | Artikel Buch.-Blattvorlage | Wahl der Buchblatt Vorlage von der Art "Umlagerung".                                           |                                                                                        |
 | Artikel Buch.-Blatt     | Wahl einer Nummernserie, falls ein Artikel umgelagert werden soll. Falls keine Nummernserie angegeben ist, kann eine Umlagerung nicht genutzt werden. |                                                                                        |
-## Funktionsbeschreibung
+## 3. Funktionsbeschreibung
 
-### Umbuchen und Umlagern
+### 3.1 Umbuchen und Umlagern
 
 Über die Suchfunktion gelangt man zur Seite \"Artikel Umbuch.-Blätter\".
 
@@ -122,7 +122,7 @@ erhalten, werden umgelagert. Die Zeilen sind dann unter den \"Gebuchten
 Umlagerungs-Ausgängen\", den \"Gebuchten Umlagerungs-Eingängen\" und den
 \"Artikelposten\" zu finden.
 
-### Dimensionen
+### 3.2 Dimensionen
 
 Es ist möglich Dimensionen an ein \"Artikel Umbuch.-Blatt\" zu setzen.
 Die Dimensionen werden in den \"Umbuchung Buchblatt-Vorlagen\"
