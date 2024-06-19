@@ -49,7 +49,7 @@ bearbeiten und neue hinzufügen.
 Über die Suchfunktion gelangt man zur Seite \"Artikel Umbuch.-Blätter\".
 
 <div style="text-align: center;">
-    <img src="../../images/Reposting/Reposting3" alt="Umbuchung Buchblatt-Vorlagen Übersicht" style="width: 100%; height: auto;">
+    <img src="../../images/Reposting/Reposting3.png" alt="Umbuchung Buchblatt-Vorlagen Übersicht" style="width: 100%; height: auto;">
     <figcaption>Abbildung 3: Artikel Umbuch.-Blätter Übersicht</figcaption>
     <br>
 </div>
@@ -90,8 +90,8 @@ bearbeiten und neue hinzufügen.
 | Buchungsdatum          | Buchungsdatum wird hier eingesetzt.                    |                                                                        |
 
 <div style="text-align: center;">
-    <img src="../../images/Reposting/Reposting4.png" alt="Funktion \"Buchen\" und \"Buchen markierte\" " style="width: 100%; height: auto;">
-    <figcaption>Abbildung 4: Funktion \"Buchen\" und \"Buchen markierte\"</figcaption>
+    <img src="../../images/Reposting/Reposting4.png" alt="Funktion "Buchen" und "Buchen markierte"  style="width: 100%; height: auto;">
+    <figcaption>Abbildung 4: Funktion "Buchen" und "Buchen markierte"</figcaption>
     <br>
 </div>
 
@@ -106,7 +106,7 @@ Buchblatts gebucht. Nachdem eine Buch-Funktion verwendet wird, dann
 werden die gebuchten Zeilen des Buchblatts geleert.
 
 <div style="text-align: center;">
-    <img src="../../images/Reposting/Reposting5" alt="Chargenumbuchung Buchblatt geleert" style="width: 100%; height: auto;">
+    <img src="../../images/Reposting/Reposting5.png" alt="Chargenumbuchung Buchblatt geleert" style="width: 100%; height: auto;">
     <figcaption>Abbildung 5: Chargenumbuchung Buchblatt geleert</figcaption>
     <br>
 </div>
@@ -129,7 +129,7 @@ Die Dimensionen werden in den \"Umbuchung Buchblatt-Vorlagen\"
 hinterlegt und bei der Buchung des Buchblatts übernommen.
 
 <div style="text-align: center;">
-    <img src="../../images/Reposting/Reposting6" alt="Dimensionen im Menüband der Buchblatt-Vorlagen" style="width: 100%; height: auto;">
+    <img src="../../images/Reposting/Reposting6.png" alt="Dimensionen im Menüband der Buchblatt-Vorlagen" style="width: 100%; height: auto;">
     <figcaption>Abbildung 6: Dimensionen im Menüband der Buchblatt-Vorlagen</figcaption>
     <br>
 </div>
