@@ -12,6 +12,29 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/Complaints/Complaints.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Complaints/Complaints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/Complaints/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Complaints/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Complaints/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/Contingents/LeBit-Contingent-Hauptdoku.md",
       "output": {
         ".html": {
