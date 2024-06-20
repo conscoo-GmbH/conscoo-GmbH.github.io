@@ -8,6 +8,4 @@ items:
 - name: LeBit Reposting
   href: /../docs/Reposting/Reposting.html
 - name: LeBit Over-Shipment
-  href: Over-Shipment.md
-- name: LeBit Complaints
-  href: /../docs/Complaints.html
+  href: /../docs/Over-Shipment/Over-Shipment.html
