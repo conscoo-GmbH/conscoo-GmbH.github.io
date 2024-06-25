@@ -1,7 +1,7 @@
 # - name: Dokumentationen
 #   href: /../docs/introduction.html
 - name: Kontingente
-  href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
+  href: /../docs/Contingents/Contingents.html
 - name: Labels
   href: /../docs/Labels/Labels.html
 - name: Reposting

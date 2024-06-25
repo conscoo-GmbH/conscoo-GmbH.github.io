@@ -2,7 +2,7 @@ items:
 # - name: Übersicht
 #   href: /../docs/introduction.html
 - name: LeBit Contingents
-  href: /../docs/Contingents/LeBit-Contingent-Hauptdoku.html
+  href: /../docs/Contingents/Contingents.html
 - name: LeBit Labels
   href: Labels.md
 - name: LeBit Reposting

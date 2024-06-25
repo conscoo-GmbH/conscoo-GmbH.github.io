@@ -35,10 +35,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Contingents/LeBit-Contingent-Hauptdoku.md",
+      "source_relative_path": "docs/Contingents/Contingents.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Contingents/LeBit-Contingent-Hauptdoku.html"
+          "relative_path": "docs/Contingents/Contingents.html"
         }
       },
       "version": ""
