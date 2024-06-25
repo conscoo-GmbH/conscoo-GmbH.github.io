@@ -2,7 +2,7 @@ items:
 # - name: Übersicht
 #   href: /../docs/introduction.html
 - name: LeBit Contingents
-  href: 
+  href: Contingents.md
 - name: LeBit Labels
   href: /../docs/Labels/Labels.html
 - name: LeBit Reposting
@@ -10,4 +10,4 @@ items:
 - name: LeBit Over-Shipment
   href: /../docs/Over-Shipment/Over-Shipment.html
 - name: LeBit Complaints
-  href: /../docs/Complaints.html
+  href: /../docs/Complaints/Complaints.html

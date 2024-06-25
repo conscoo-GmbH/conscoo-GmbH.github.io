@@ -95,8 +95,6 @@ Hier kann eingerichtet werden, wer für den Schaden verantwortlich ist, zum Beis
 ### 2.3 Reklamationsgründe
 
 
-
-
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints3.png" alt="Abbildung : Reklamationsgründe Übersicht" style="width: 100%; height: auto;">
     <figcaption>Abbildung : Reklamationsgründe Übersicht</figcaption>
@@ -106,8 +104,6 @@ Hier kann eingerichtet werden, wer für den Schaden verantwortlich ist, zum Beis
 Über die Suche zu finden sind die "Reklamationsgründe". Auf der Seite sind die Reklamationsgründe zu benennen, die bei der Reklamation verwendbar sind.
 
 #### 2.3.1 Reklamationsgründe - Felder
-
-
 
 
 ### 3. Funktionsbeschreibung:
@@ -139,11 +135,6 @@ Auf der sich dahinter befindenden Reklamationskarte können dann alle wichtigen 
 </div>
 
 #### 3.1.1 Reklamationskarte - Felder
-
-
-
-
-
 
 
 Zusätzlich befindet sich auf der Seite ein großes Textfeld für die Reklamationsbeschreibung, in welcher weitere Informationen über den Hergang der Beschädigung o.ä., im Freitext, hinterlegt werden können.

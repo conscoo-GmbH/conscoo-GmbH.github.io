@@ -69,5 +69,9 @@ _layout: landing
     <h3>LeBit Over-Shipment</h3>
         <a href="/../docs/Over-Shipment/Over-Shipment.html">Dokumentation</a>
     </div>
+        <div class="link-box">
+    <h3>LeBit Complaints</h3>
+        <a href="/../docs/Complaints/Complaints.html">Dokumentation</a>
+    </div>
 </body>
 </html>
