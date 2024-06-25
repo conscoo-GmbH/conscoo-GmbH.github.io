@@ -25,7 +25,7 @@ In der Einrichtung wird eingestellt, welche Nummernserie benutzt wird.
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints1.png" alt="Abbildung : LeBit Reklamation Einrichtung -> Nummerierung" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : LeBit Reklamation Einrichtung -> Nummerierung</figcaption>
+    <figcaption>Abbildung 1: LeBit Reklamation Einrichtung -> Nummerierung</figcaption>
     <br>
 </div>
 
@@ -43,7 +43,7 @@ Um Stammdaten für die Bewertung zu pflegen, befinden sich im Menüband der "LeB
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints2.png" alt="Abbildung : Bewertungs-Stammdaten" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Bewertungs-Stammdaten</figcaption>
+    <figcaption>Abbildung 2: Bewertungs-Stammdaten</figcaption>
     <br>
 </div>
 
@@ -97,13 +97,21 @@ Hier kann eingerichtet werden, wer für den Schaden verantwortlich ist, zum Beis
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints3.png" alt="Abbildung : Reklamationsgründe Übersicht" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationsgründe Übersicht</figcaption>
+    <figcaption>Abbildung 3: Reklamationsgründe Übersicht</figcaption>
     <br>
 </div>
 
 Über die Suche zu finden sind die "Reklamationsgründe". Auf der Seite sind die Reklamationsgründe zu benennen, die bei der Reklamation verwendbar sind.
 
 #### 2.3.1 Reklamationsgründe - Felder
+
+| Feldname                | Funktion                                                                                                       | Bemerkung                                                |
+|-------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Code                    | Hier wird der Code eingefügt, unter dem der Reklamationsgrund in der Reklamation angezeigt wird.               |                                                          |
+| Beschreibung            | Bei der Beschreibung kann der Reklamationsgrund näher beschrieben werden.                                      |                                                          |
+| Standardlagerortcode    | Bestimmung eines Lagers, der als Standardlager für diesen Reklamationsgrund gilt. Ein Lager kann für mehrere Gründe das Standardlager sein. | Wird in den Reklamationsvorgängen automatisch ausgefüllt. |
+| Ohne Lagerbewertung     | Bestimmt, ob die reklamierten Artikel den Lagerwert erhöhen.                                                   |                                                          |
+| Verantwortlicher Benutzer | Wahl eines Benutzers, der für den Reklamationsgrund als Standardverantwortlicher bestimmt wird. Ein Benutzer kann für viele Gründe der Verantwortliche sein. | Wird in den Reklamationsvorgängen automatisch ausgefüllt. |
 
 
 ### 3. Funktionsbeschreibung:
@@ -117,7 +125,7 @@ Die über die Suche zu findenden "Reklamationsvorgänge" bilden die Hauptfunktio
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints4.png" alt="Abbildung : Reklamationsvorgänge" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationsvorgänge</figcaption>
+    <figcaption>Abbildung 4: Reklamationsvorgänge</figcaption>
     <br>
 </div>
 
@@ -130,7 +138,7 @@ Auf der sich dahinter befindenden Reklamationskarte können dann alle wichtigen 
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints5.png" alt="Abbildung : Reklamationskarte" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationskarte</figcaption>
+    <figcaption>Abbildung 5: Reklamationskarte</figcaption>
     <br>
 </div>
 
@@ -144,7 +152,7 @@ Zusätzlich befindet sich auf der Seite ein großes Textfeld für die Reklamatio
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints6.png" alt="Abbildung : Reklamationsbeschreibung Textfeld" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationsbeschreibung Textfeld</figcaption>
+    <figcaption>Abbildung 6: Reklamationsbeschreibung Textfeld</figcaption>
     <br>
 </div>
 
@@ -160,7 +168,7 @@ In den Reklamationszeilen werden je nach Reklamationsart die zu reklamierenden A
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints7.png" alt="Abbildung : Reklamationszeilen" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationszeilen</figcaption>
+    <figcaption>Abbildung 7: Reklamationszeilen</figcaption>
     <br>
 </div>
 
@@ -178,7 +186,7 @@ Verwalten
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints8.png" alt="Abbildung : Reklamationszeilen  Verwalten" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationszeilen  Verwalten</figcaption>
+    <figcaption>Abbildung 8: Reklamationszeilen  Verwalten</figcaption>
     <br>
 </div>
 
@@ -194,7 +202,7 @@ Funktionen
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints9.png" alt="Abbildung : Reklamationszeilen  Funktionen" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationszeilen  Funktionen</figcaption>
+    <figcaption>Abbildung 9: Reklamationszeilen  Funktionen</figcaption>
     <br>
 </div>
 
@@ -213,7 +221,7 @@ Sind der Lieferzeile Artikel mit Artikelverfolgung angehangen, kann an dieser St
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints10.png" alt="Abbildung : Chargenauswahl" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Chargenauswahl</figcaption>
+    <figcaption>Abbildung 10: Chargenauswahl</figcaption>
     <br>
 </div>
 
@@ -228,7 +236,7 @@ Diese Funktion öffnet eine Ansicht aller zugeordneten Artikelverfolgungszeilen 
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints11.png" alt="Abbildung : Reklamation Chargen" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamation Chargen</figcaption>
+    <figcaption>Abbildung 11: Reklamation Chargen</figcaption>
     <br>
 </div>
 
@@ -248,7 +256,7 @@ In den Zeilen der Reklamationskosten, können zusätzlich entstandene Kosten gef
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints12.png" alt="Abbildung : Reklamationskosten" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationskosten</figcaption>
+    <figcaption>Abbildung 12: Reklamationskosten</figcaption>
     <br>
 </div>
 
@@ -256,9 +264,6 @@ In den Zeilen der Reklamationskosten, können zusätzlich entstandene Kosten gef
 
 
 Zeilenfelder
-
-
-
 
 Zeilenfunktionen
 
@@ -269,7 +274,7 @@ Funktionen
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints13.png" alt="Abbildung : Reklamationskosten --> Funktionen" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamationskosten --> Funktionen</figcaption>
+    <figcaption>Abbildung 13: Reklamationskosten --> Funktionen</figcaption>
     <br>
 </div>
 
@@ -290,7 +295,7 @@ In den Reklamationszeilen und -kosten kann man die Reklamation oder Gutschrift e
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints14.png" alt="Abbildung : Erstelle Gutschrift/Reklamation" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Erstelle Gutschrift/Reklamation</figcaption>
+    <figcaption>Abbildung 14: Erstelle Gutschrift/Reklamation</figcaption>
     <br>
 </div>
 
@@ -306,7 +311,7 @@ An Beleg anfügen - Beispiel
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints15.png" alt="Abbildung : Zeile, die einem Beleg angefügt werden soll" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Zeile, die einem Beleg angefügt werden soll</figcaption>
+    <figcaption>Abbildung 15: Zeile, die einem Beleg angefügt werden soll</figcaption>
     <br>
 </div>
 
@@ -315,7 +320,7 @@ An Beleg anfügen - Beispiel
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints16.png" alt="Abbildung : Vor der Wahl des Beleges, die Wahl geht über die drei Punkte" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Vor der Wahl des Beleges, die Wahl geht über die drei Punkte</figcaption>
+    <figcaption>Abbildung 16: Vor der Wahl des Beleges, die Wahl geht über die drei Punkte</figcaption>
     <br>
 </div>
 
@@ -324,7 +329,7 @@ An Beleg anfügen - Beispiel
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints17.png" alt="Abbildung : Auswahl der Reklamationsbelege" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Auswahl der Reklamationsbelege</figcaption>
+    <figcaption>Abbildung 17: Auswahl der Reklamationsbelege</figcaption>
     <br>
 </div>
 
@@ -335,7 +340,7 @@ In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, di
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints18.png" alt="Abbildung : Ausgewählter Beleg Nr gelangt ins Feld" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Ausgewählter Beleg Nr gelangt ins Feld</figcaption>
+    <figcaption>Abbildung 18: Ausgewählter Beleg Nr gelangt ins Feld</figcaption>
     <br>
 </div>
 
@@ -344,7 +349,7 @@ In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, di
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints19.png" alt="Abbildung : Reklamierte Zeile in ausgewählten Beleg hinzugefügt#" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Reklamierte Zeile in ausgewählten Beleg hinzugefügt#</figcaption>
+    <figcaption>Abbildung 19: Reklamierte Zeile in ausgewählten Beleg hinzugefügt#</figcaption>
     <br>
 </div>
 
@@ -353,7 +358,7 @@ In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, di
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints20.png" alt="Abbildung : Belegart und Belegnr. verändern sich" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Belegart und Belegnr. verändern sich</figcaption>
+    <figcaption>Abbildung 20: Belegart und Belegnr. verändern sich</figcaption>
     <br>
 </div>
 
@@ -367,7 +372,7 @@ Neuer Beleg - Beispiel
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints21.png" alt="Abbildung : Zeile für die eine Gutschrift erstellt wird" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Zeile für die eine Gutschrift erstellt wird</figcaption>
+    <figcaption>Abbildung 21: Zeile für die eine Gutschrift erstellt wird</figcaption>
     <br>
 </div>
 
@@ -376,7 +381,7 @@ Neuer Beleg - Beispiel
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints22.png" alt="Abbildung : Datum des neuen Beleges" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Datum des neuen Beleges</figcaption>
+    <figcaption>Abbildung 22: Datum des neuen Beleges</figcaption>
     <br>
 </div>
 
@@ -385,7 +390,7 @@ Neuer Beleg - Beispiel
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints23.png" alt="Abbildung : Neuer Beleg" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Neuer Beleg</figcaption>
+    <figcaption>Abbildung 23: Neuer Beleg</figcaption>
     <br>
 </div>
 
@@ -396,18 +401,18 @@ Der neu erstellte Beleg trägt im Kopf den gleichen Debitoren und Kontakt, der i
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints24.png" alt="Abbildung : Veränderung der Belegart und Belegnr." style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Veränderung der Belegart und Belegnr.</figcaption>
+    <figcaption>Abbildung 24: Veränderung der Belegart und Belegnr.</figcaption>
     <br>
 </div>
 
-Reklamation Info
+##### Reklamation Info
 
 
 
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints25.png" alt="Abbildung : Infoboxen Reklamation" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Infoboxen Reklamation</figcaption>
+    <figcaption>Abbildung 25: Infoboxen Reklamation</figcaption>
     <br>
 </div>
 
@@ -421,7 +426,7 @@ Die Infoboxen der Reklamationen findet man ebenfalls auf der Reklamationskarte. 
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints26.png" alt="Abbildung : Übersicht Gutschriftszeilen-Kachel" style="width: 100%; height: auto;">
-    <figcaption>Abbildung : Übersicht Gutschriftszeilen-Kachel</figcaption>
+    <figcaption>Abbildung 26: Übersicht Gutschriftszeilen-Kachel</figcaption>
     <br>
 </div>
 
