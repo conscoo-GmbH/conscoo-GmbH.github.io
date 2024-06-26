@@ -55,7 +55,7 @@ _layout: landing
 <body>
     <div class="link-box">
         <h3>LeBit Kontingente</h3>
-        <a href="/../docs/Contingents/LeBit-Contingent-Hauptdoku.html">Dokumentation</a>
+        <a href="/../docs/Contingents/Contingents.html">Dokumentation</a>
     </div>
     <div class="link-box">
     <h3>LeBit Labels</h3>
