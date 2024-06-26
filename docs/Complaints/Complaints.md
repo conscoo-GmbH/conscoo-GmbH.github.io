@@ -3,7 +3,7 @@
 
 #### Erstellt am: 30. November 2023
 
-#### App-Version: 19.10.17530.0
+##### App-Version: 19.10.17530.0
 
 
 
@@ -50,18 +50,12 @@ Um Stammdaten für die Bewertung zu pflegen, befinden sich im Menüband der "LeB
 Die hier eingetragenen Daten können dann auf dem Reklamationsvorgang genutzt werden, um im Register "Bewertung" mehr Aussage über die Reklamation bringen zu können.
 
 
-
-
 Dabei empfehlen wir folgende Nutzung der Parameter:
-
-
 
 
 Bewertung:
 
 Hierbei handelt es sich um die Bewertung des entstandenen Schadens, beispielsweise durch Beschreibung der Höhe des Schadens. Die Höhe des Schadens kann beispielsweise in leicht, mittel oder schwer unterteilt werden.
-
-
 
 
 Ort:

@@ -62,6 +62,6 @@
   "index.html": {
     "href": "index.html",
     "title": "LeBit Apps Dokumentationen | LeBit Apps",
-    "keywords": "LeBit Apps Dokumentationen Documentation Links .link-box { border: .5px solid #ccc; border-radius: 10px; padding: 20px; margin: 10px; text-align: center; display: inline-block; vertical-align: top; width: calc(33% - 40px); /* Adjust this value to fit your layout */ box-sizing: border-box; } .link-box a { text-decoration: none; color: #398BFE; /* Blue color */ font-size: 18px; } .link-box a:hover { text-decoration: underline; } body { display: flex; flex-wrap: wrap; justify-content: space-around; } LeBit Kontigente Dokumentation LeBit Labels Dokumentation LeBit Reposting Dokumentation LeBit Over-Shipment Dokumentation LeBit Complaints Dokumentation"
+    "keywords": "LeBit Apps Dokumentationen Documentation Links .link-box { border: .5px solid #ccc; border-radius: 10px; padding: 20px; margin: 10px; text-align: center; display: inline-block; vertical-align: top; width: calc(33% - 40px); /* Adjust this value to fit your layout */ box-sizing: border-box; } .link-box a { text-decoration: none; color: #398BFE; /* Blue color */ font-size: 18px; } .link-box a:hover { text-decoration: underline; } body { display: flex; flex-wrap: wrap; justify-content: space-around; } LeBit Kontingente Dokumentation LeBit Labels Dokumentation LeBit Reposting Dokumentation LeBit Over-Shipment Dokumentation LeBit Complaints Dokumentation"
   }
 }

@@ -2,7 +2,7 @@
 
 #### Erstellt am: 23. Mai 2024
 
-#### App-Version: 19.1.20142.0
+##### App-Version: 19.1.20142.0
 
 ## 1. Notwendige Einrichtung
 
