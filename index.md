@@ -77,5 +77,5 @@ _layout: landing
     <h3>LeBit Transportplanung</h3>
         <a href="/../docs/TP/TP.html">Dokumentation</a>
     </div>
-</body>S
+</body>
 </html>
