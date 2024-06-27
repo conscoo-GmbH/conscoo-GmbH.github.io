@@ -1,6 +1,6 @@
 # LeBit Reposting
 
-#### Erstellt am: 15. Februar 2024
+##### Erstellt am: 15. Februar 2024
 
 ##### App-Version: 22.0.19985.0
 

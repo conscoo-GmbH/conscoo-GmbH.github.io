@@ -1,7 +1,7 @@
 # LeBit Reklamationsmanagement
 
 
-#### Erstellt am: 30. November 2023
+##### Erstellt am: 30. November 2023
 
 ##### App-Version: 19.10.17530.0
 

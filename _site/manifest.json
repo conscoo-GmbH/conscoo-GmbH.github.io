@@ -157,6 +157,29 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/TP/TP.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TP/TP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/TP/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TP/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/TP/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {

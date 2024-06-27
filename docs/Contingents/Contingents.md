@@ -1,6 +1,6 @@
 ﻿# LeBit Contingent
 
-#### Erstellt am: 15. Februar 2024
+##### Erstellt am: 15. Februar 2024
 
 ##### App-Version:
 
@@ -14,7 +14,7 @@ Der Grundgedanke der Kontingente ist, der Maschinenplanung gewisse Konstanten zu
 Die Stammdaten "Sorte" und "Kontingente" werden unter dem Reiter "LeBit" auf dem Rollencenter Verkaufsauftragsverarbeitung, Lagermitarbeiter - Lagerortverwaltungssystem und Vertriebsmanager angezeigt. Sie können aber auch aus jedem anderen Rollencenter über die Suche gefunden werden.
 
 <div style="text-align: center;">
-<img src="../../images/Contingents/Contingents1.png" alt="Rollencenter Verkaufsauftragsverarbeitung" style="width: 100%; height: auto;">
+<img src="../../images/Contingents/Contingents1.png" alt="Rollencenter Verkaufsauftragsverarbeitung" style="width: 80%; height: auto;">
 <figcaption>Abbildung 1: Rollencenter Verkaufsauftragsverarbeitung </figcaption> <br>
 </div>
 
@@ -28,7 +28,7 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
 ### 2.2 LeBit Kontingent Einrichtung
 
 <div style="text-align: center;">
-<img src="../../images/Contingents/Contingents3.png" alt="LeBit Kontingent Einrichtung" style="width: 100%; height: auto;">
+<img src="../../images/Contingents/Contingents3.png" alt="LeBit Kontingent Einrichtung" style="width: 80%; height: auto;">
 <figcaption>Abbildung 3: LeBit Kontingent Einrichtung </figcaption> <br>
 </div>
 
@@ -53,7 +53,7 @@ Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden 
 In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte zugeordnet. Jedem Artikel kann nur eine Sorte zugeordnet werden, aber einer Sorte können mehrere Artikel angehören.
 
 <div style="text-align: center;">
-<img src="../../images/Contingents/Contingents5.png" alt="Zuordnung Sorte am Artikel" style="width: 100%; height: auto;">
+<img src="../../images/Contingents/Contingents5.png" alt="Zuordnung Sorte am Artikel" style="width: 85%; height: auto;">
 <figcaption>Abbildung 5: Zuordnung Sorte am Artikel </figcaption> <br>
 </div>
 
@@ -62,7 +62,7 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 Über die Seite "Kontingente" wird den Kontingenten eine bestimmte Sorte zugeordnet. Eine Sorte kann mehreren Kontingenten zugeordnet werden, aber einem Kontingent kann nur eine Sorte zugeordnet werden.
 
 <div style="text-align: center;">
-<img src="../../images/Contingents/Contingents6.png" alt="Übersicht Kontingente" style="width: 100%; height: auto;">
+<img src="../../images/Contingents/Contingents6.png" alt="Übersicht Kontingente" style="width: 90%; height: auto;">
 <figcaption>Abbildung 6: Übersicht Kontingente </figcaption> <br>
 </div>
 

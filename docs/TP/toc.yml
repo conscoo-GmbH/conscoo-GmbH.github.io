@@ -2,7 +2,7 @@ items:
 # - name: Übersicht
 #   href: /../docs/introduction.html
 - name: LeBit Contingents
-  href: Contingents.md
+  href: /../docs/Contingents/Contingents.html
 - name: LeBit Labels
   href: /../docs/Labels/Labels.html
 - name: LeBit Reposting
@@ -12,4 +12,4 @@ items:
 - name: LeBit Complaints
   href: /../docs/Complaints/Complaints.html
 - name: LeBit Transportplanung
-  href: /../docs/TP/TP.html
+  href: TP.md
