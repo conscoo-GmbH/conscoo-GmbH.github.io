@@ -24,7 +24,7 @@ In der Einrichtung wird eingestellt, welche Nummernserie benutzt wird.
 
 
 <div style="text-align: center;">
-    <img src="../../images/Complaints/Complaints1.png" alt="Abbildung : LeBit Reklamation Einrichtung -> Nummerierung" style="width: 100%; height: auto;">
+    <img src="../../images/Complaints/Complaints1.png" alt="Abbildung : LeBit Reklamation Einrichtung -> Nummerierung" style="width: 85%; height: auto; max-height:400px">
     <figcaption>Abbildung 1: LeBit Reklamation Einrichtung -> Nummerierung</figcaption>
     <br>
 </div>

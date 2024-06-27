@@ -116,7 +116,7 @@ Bevor der Workflow aktiviert wird (1), müssen Einstellungen in der Datensatzein
 
 <div style="text-align: center;">
 
-<img src="../../images/Contingents/Contingents13.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 100%; height: auto;">
+<img src="../../images/Contingents/Contingents13.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto; max-height: 400pt">
 <figcaption>Abbildung 13: Workflowreaktion, Genehmigungseinstellungen </figcaption> <br>
 
 </div>

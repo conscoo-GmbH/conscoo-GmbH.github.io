@@ -42,9 +42,19 @@
       "_appTitle": "LeBit Apps",
       "_disableContribution": true,
       "_enableSearch": true,
-      "pdf": true,
+      "pdf": false,
       "_appFaviconPath": "../images/LeBit_Logo_2022.png",
       "_appLogoPath": "../images/favicon-32x32.png"
+    },
+    "fileMetadata": {
+      "pdf": {
+        "docs/Complaints/toc.yml": true,
+        "docs/Contingents/toc.yml": true,
+        "docs/Labels/toc.yml": true,
+        "docs/Over-Shipment/toc.yml": true,
+        "docs/Reposting/toc.yml": true,
+        "docs/TP/toc.yml": true
+      }
     }
   }
 }
