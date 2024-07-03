@@ -21,6 +21,36 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Complaints/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Complaints/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Complaints/Preisliste.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Complaints/Preisliste.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Complaints/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Complaints/Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/Complaints/toc.yml",
       "output": {
@@ -39,6 +69,36 @@
       "output": {
         ".html": {
           "relative_path": "docs/Contingents/Contingents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Contingents/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Contingents/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Contingents/Preisliste.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Contingents/Preisliste.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Contingents/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Contingents/Setup.html"
         }
       },
       "version": ""
