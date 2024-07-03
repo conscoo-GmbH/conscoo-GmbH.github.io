@@ -9,7 +9,7 @@ items:
 #   href: /../docs/Reposting/Reposting.html
 # - name: LeBit Over-Shipment
 #   href: /../docs/Over-Shipment/Over-Shipment.html
-- name: Factsheet
+- name: Übersicht LeBit Complaints
   href: Complaints.md
 - name: Notwendige Einrichtung
   href: Setup.md

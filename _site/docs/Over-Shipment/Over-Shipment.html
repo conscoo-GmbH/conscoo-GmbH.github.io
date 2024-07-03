@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="LeBit Over-Shipment ">
       
+      
       <link rel="icon" href="../../../images/LeBit_Logo_2022.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/docfx/blob/main/docs/Over-Shipment/Over-Shipment.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/Over-Shipment/Over-Shipment.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -86,133 +87,8 @@
         <article data-uid="">
 <h1 id="lebit-over-shipment">LeBit Over-Shipment</h1>
 
-<h5 id="erstellt-am-30-november-2023">Erstellt am: 30. November 2023</h5>
-<h5 id="app-version">App-Version:</h5>
-<h2 id="1-zweck">1. Zweck</h2>
+<h2 id="zweck">Zweck</h2>
 <p>Durch einen Ausgangsüberschuss kann die Liefermenge eines Artikels nach der Freigabe des Verkaufsbeleges geändert werden. Zuvor muss ein Ausgangsüberschusscode eingerichtet und in der betroffenen Artikelkarte oder der Karte des betroffenen Debitors angewählt sein.</p>
-<h2 id="2-notwendige-einrichtung">2. Notwendige Einrichtung</h2>
-<h3 id="21-anzeige-bestehender-codes">2.1 Anzeige bestehender Codes</h3>
-<p>Eine Liste aller Codes findet man über die Suche (Alt+Q) mit der Eingabe &quot;Ausgangsüberschuss Codes&quot;.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment1.png" alt="OverShipment1" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 1: Übersicht Ausgangsüberschuss Codes</figcaption>
-    <br>
-</div>
-<h3 id="22-neuer-code">2.2 Neuer Code</h3>
-<p>Um eine neue Ausgangsüberschussbeschränkung zu erstellen, muss der Button &quot;[+]Neu&quot; geklickt werden.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment2.png" alt="OverShipment2" style="width: 100%; height: auto;">
-    <figcaption> Abbildung 2: Feld "[+]Neu"</figcaption>
-</div>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment3.png" alt="OverShipment3" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 3: Erstellen neuer Ausgangüberschusscode</figcaption>
-</div>
-<p>Um einen neuen Ausgangsüberschuss zu erstellen, müssen folgende Schritte erledigt werden:</p>
-<ol>
-<li>In der Spalte &quot;Code&quot; erfolgt die Benennung des Überschusses (1).</li>
-<li>Die Spalte &quot;Beschreibung&quot; dient zur Aufnahme zusätzlicher Informationen (2).</li>
-<li>Wird die Box in der Spalte &quot;Standard&quot; markiert, wird dieser Code standardmäßig ausgewählt (3).</li>
-<li>Die Einschränkung der Überschussmenge in Prozent wird in der Spalte &quot;Ausgangsüberschuss Toleranz in %&quot; (4) festgelegt. Die maximale Überschussmenge ist auf 100% beschränkt. Damit ist gemeint, dass das System es nur erlaubt, bis maximal 100% mehr zu liefern.</li>
-<li>In der letzten Spalte &quot;Genehmigung erforderlich&quot; kann eine Box angewählt werden, um für diesen Überschusscode eine Genehmigung des Vorgesetzten festzulegen (5).</li>
-</ol>
-<h3 id="23-voraussetzung">2.3 Voraussetzung</h3>
-<p>Um vom Ausgangsüberschuss Gebrauch machen zu können, muss im Debitorenkonto oder in der Artikelkarte ein Ausgangsüberschusscode ausgewählt sein.</p>
-<h4 id="231-debitorenkonto">2.3.1 Debitorenkonto</h4>
-<p>Im Reiter &quot;Lieferung&quot; befindet sich die Zeile &quot;Ausgangsüberschusscode&quot;.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment4.png" alt="OverShipment4" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 4: Feld Ausgangsüberschuss (Debitorenkonto)</figcaption>
-</div>
-<h4 id="232-artikelkarte">2.3.2 Artikelkarte</h4>
-<p>Um einen Verkaufsüberschuss auf einem Artikel anzusehen, wird die Artikelkarte benötigt. Das Auswahlfeld ist im Reiter &quot;Lagerbestand&quot; zu finden.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment5.png" alt="OverShipment5" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 5: Feld Ausgangsüberschuss (Artikelkarte)</figcaption>
-</div>
-<h3 id="24-überbuchung-mit-chargen">2.4 Überbuchung mit Chargen</h3>
-<p>Damit eine Überbuchung von verfolgungspflichtigen Artikeln mit Chargen funktioniert, muss in der &quot;LeBit Transportplanung Einrichtung&quot; das Feld &quot;WA- zu liefern an Artikelverfolgungszeile anpassen&quot; aktiviert werden.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment6.png" alt="OverShipment6" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 6: WA- zu liefern an Artikelverfolgungszeile anpassen aktiviert</figcaption>
-</div>
-<h2 id="3-funktionsbeschreibung">3. Funktionsbeschreibung</h2>
-<h3 id="31-mengenänderung-im-verkaufsauftrag-ohne-genehmigung">3.1 Mengenänderung im Verkaufsauftrag ohne Genehmigung</h3>
-<p>Es wird ein Auftrag mit einer Menge angelegt und freigegeben.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment7.png" alt="OverShipment7" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 7: Menge Verkaufsauftrag (vorher)</figcaption>
-</div>
-<p>Nach der Freigabe wird die neue Menge bei &quot;Zu liefern&quot; eingetragen. Nachdem das Feld verlassen wird, aktualisiert sich die &quot;Menge&quot; automatisch auf den neuen Wert.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment8.png" alt="OverShipment8" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 8: Menge Verkaufsauftrag (nachher)</figcaption>
-</div>
-<p>Es wird nun automatisch der festgelegte &quot;Ausgangsüberschusscode&quot; gewählt und die überschüssige Menge berechnet.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment9.png" alt="OverShipment9" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 9: Automatisches Ausfüllen des Überschusses</figcaption>
-</div>
-<h3 id="32-mengenänderung-im-verkaufsauftrag-mit-genehmigung">3.2 Mengenänderung im Verkaufsauftrag mit Genehmigung</h3>
-<p>Wird die Box &quot;Genehmigung&quot; in einem Ausgangsüberschuss Code angewählt, muss beim Anfallen eines Überschusses die Genehmigung eines Befugten eingeholt werden.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment10.png" alt="OverShipment10" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 10: Menge Verkaufsauftrag mit Genehmigung (vorher)</figcaption>
-</div>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment11.png" alt="OverShipment11" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 11: Menge Verkaufsauftrag mit Genehmigung (nachher)</figcaption>
-</div>
-<p>In diesem Fall ist beim Debitor ein Ausgangsüberschuss von max. 100% mit Genehmigung angewählt. Die Menge passt sich ebenfalls automatisch an und die Benachrichtigung erscheint, dass eine Ausgangsüberschuss-Menge für diesen Auftrag erfasst wurde.
-Der Warenausgang ist buchbar, jedoch ist der Verkaufsauftrag nicht buchbar, bis eine Genehmigung ausgestellt wurde. Eine Genehmigung wird angefragt durch die Funktion &quot;Genehmigungsanforderung senden&quot;, diese findet man unter &quot;Genehmigung anfordern&quot;, welche sich in &quot;Aktionen&quot; befinden.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment12.png" alt="OverShipment12" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 12: Aktionen --> Genehmigung anfordern --> Genehmigungsanforderung senden</figcaption>
-</div>
-<p>Nachdem die Genehmigung erteilt wurde, kann der Auftrag gebucht werden.</p>
-<h3 id="33-mengenänderung-im-warenausgang">3.3 Mengenänderung im Warenausgang</h3>
-<p>Die Überlieferung kann auch im Warenausgang erfasst werden. Die Erfassung des Überschusses im Warenausgang funktioniert ähnlich wie der Überschuss im Verkaufsauftrag selbst.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment13.png" alt="OverShipment13" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 13: Ursprünglicher Verkaufsbeleg</figcaption>
-</div>
-<p>Dabei wird die Menge in &quot;Zu liefern&quot; erhöht, verlässt man danach das Feld, aktualisiert sich der Wert in &quot;Menge&quot; automatisch.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment14.png" alt="OverShipment14" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 14: Menge im Warenausgang erhöht</figcaption>
-</div>
-<p>Die Felder &quot;Ausgangsüberschusscode&quot; und &quot;Ausgangsüberschuss-Menge&quot; sind ebenfalls im Warenausgang zu finden und füllen sich aus, nachdem ein Überschuss erfasst wurde.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment15.png" alt="OverShipment15" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 15: Ausgangsüberschusscode und Ausgangsüberschuss-Menge im Warenausgang</figcaption>
-</div>
-<p>Die Menge im Verkaufsauftrag bleibt unverändert, bis der Warenausgang freigegeben wird. Die Felder &quot;Ausgangsüberschusscode&quot; und &quot;Ausgangsüberschuss-Menge&quot; werden gefüllt.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment16.png" alt="OverShipment16" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 16: Veränderte Menge im Verkaufsauftrag</figcaption>
-</div>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment17.png" alt="OverShipment17" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 17: Aufgefüllte Ausgangsüberschuss Spalten</figcaption>
-</div>
-<h3 id="34-überbuchung-mit-chargennummern">3.4 Überbuchung mit Chargennummern</h3>
-<p>Ein Verkaufsauftrag, in dem chargenpflichtige Artikel verwendet werden, kann mit der &quot;LeBit Überlieferung App&quot; ebenfalls einen Überschuss erhalten. Dafür erstellt man für diese Verkaufsaufträge einen Warenausgang. Über die &quot;Artikelverfolgungszeilen&quot; kann man dann eine oder mehrere Chargen auswählen, die man bei diesem Verkaufsauftrag verwenden will.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment18.png" alt="OverShipment18" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 18: Artikelverfolgungszeilen im Warenausgang</figcaption>
-</div>
-<p>Mit der Funktion &quot;Einträge auswählen&quot; kann man die Chargen auswählen, die zum Artikel und Lagerort passen.
-Die Chargen können ausgewählt werden und mit &quot;OK&quot; wird die Auswahl gespeichert.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment19.png" alt="OverShipment19" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 19: Auswahl der Chargen </figcaption>
-</div>
-<p>Nachdem die Artikelverfolgungszeilen geschlossen werden, wird der Ausgangsüberschuss übernommen und die Menge im Warenausgang wird verändert.</p>
-<div style="text-align: center;">
-    <img src="../../images/Over-Shipment/OverShipment20.png" alt="OverShipment20" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 20: Menge aus der Chargenauswahl übernommen</figcaption>
-</div>
-<p>Der Warenausgang kann freigegeben und gebucht werden.</p>
 
 </article>
 

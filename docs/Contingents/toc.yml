@@ -1,6 +1,6 @@
 items:
 
-- name: Factsheet
+- name: Übersicht LeBit Contingents
   href: Contingents.md
 - name: Notwendige Einrichtung
   href: Setup.md
