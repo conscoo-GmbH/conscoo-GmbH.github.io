@@ -11,8 +11,6 @@ items:
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
-- name: Preisliste
-  href: Preisliste.md
 # - name: LeBit Over-Shipment
 #   href: /../docs/Over-Shipment/Over-Shipment.html
 # - name: LeBit Complaints

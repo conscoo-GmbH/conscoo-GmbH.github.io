@@ -3,14 +3,16 @@ items:
 #   href: introduction.md
 - name: LeBit Kontingente
   href: /../docs/Contingents/Contingents.html
-- name: LeBit Labels
+- name: LeBit Etiketten und Begleitdaten
   href: /../docs/Labels/Labels.html
-- name: LeBit Reposting
+- name: LeBit Umbuchung
   href: /../docs/Reposting/Reposting.html
-- name: LeBit Over-Shipment
+- name: LeBit Überlieferung
   href: /../docs/Over-Shipment/Over-Shipment.html
-- name: LeBit Complaints
+- name: LeBit Reklamationsmanagement
   href: /../docs/Complaints/Complaints.html
 - name: LeBit Transportplanung
   href: /../docs/TP/TP.html
+- name: LeBit Parameter & Qualitätssicherung
+  href: /../docs/Para&QS/Para&QS.html
   

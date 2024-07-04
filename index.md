@@ -77,5 +77,9 @@ _layout: landing
     <h3>LeBit Transportplanung</h3>
         <a href="/../docs/TP/TP.html">Dokumentation</a>
     </div>
+        <div class="link-box">
+    <h3>LeBit Parameter & Qualitätssicherung</h3>
+        <a href="/../docs/Para&QS/Para&QS.html">Dokumentation</a>
+    </div>
 </body>
 </html>

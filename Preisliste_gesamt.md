@@ -2,7 +2,7 @@
 _layout: landing
 --- -->
 
-# Preise
+## Preise
 
 Im folgenden werden die Preise der LeBit Apps aufgelistet.
 
@@ -20,7 +20,6 @@ Im folgenden werden die Preise der LeBit Apps aufgelistet.
 | LeBit Erweiterte Layout Optionen        | LeBit Extended Layout Options     | 30    | 40     | 60     | 70     | 80      | 100      |
 | LeBit Reklamationsmanagement            | LeBit Complaints                  | 60    | 80     | 120    | 140    | 160     | 200      |
 | LeBit Kontingente                       | LeBit Contingents                 | 60    | 80     | 120    | 140    | 160     | 200      |
-| LeBit Kombination                       | LeBit Manufacturing               | 60    | 80     | 120    | 140    | 160     | 200      |
 | LeBit PeronalMaximal                    | LeBit PeronalMaximal              | 60    | 80     | 120    | 140    | 160     | 200      |
 | LeBit Bonus                             | LeBit Bonus                       | 120   | 160    | 240    | 280    | 320     | 400      |
 | LeBit Provision                         | LeBit Commission                  | 120   | 160    | 240    | 280    | 320     | 400      |

@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/users/fgoldbecker/docfx",
+  "source_base_path": "C:/Users/iloubany/LBTFGO.github.io",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -36,16 +36,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/Complaints/Function.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Complaints/Preisliste.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Complaints/Preisliste.html"
         }
       },
       "version": ""
@@ -89,16 +79,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/Contingents/Function.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Contingents/Preisliste.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Contingents/Preisliste.html"
         }
       },
       "version": ""
@@ -158,16 +138,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Labels/Preisliste.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Labels/Preisliste.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/Labels/Setup.md",
       "output": {
         ".html": {
@@ -211,16 +181,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Over-Shipment/Preisliste.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Over-Shipment/Preisliste.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/Over-Shipment/Setup.md",
       "output": {
         ".html": {
@@ -244,20 +204,73 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Reposting/Function.md",
+      "source_relative_path": "docs/Para&QS/Para&QS.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Reposting/Function.html"
+          "relative_path": "docs/Para&QS/Para&QS.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Reposting/Preisliste.md",
+      "source_relative_path": "docs/Para&QS/Para_Function.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Reposting/Preisliste.html"
+          "relative_path": "docs/Para&QS/Para_Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Para&QS/Para_Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Para&QS/Para_Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Para&QS/QS_Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Para&QS/QS_Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Para&QS/QS_Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Para&QS/QS_Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/Para&QS/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Para&QS/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Para&QS/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Reposting/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Reposting/Function.html"
         }
       },
       "version": ""
@@ -297,6 +310,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/TP/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TP/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TP/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TP/Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/TP/TP.md",
       "output": {
         ".html": {
@@ -314,16 +347,6 @@
         },
         ".json": {
           "relative_path": "docs/TP/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""

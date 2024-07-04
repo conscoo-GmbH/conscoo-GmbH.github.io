@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="LeBit Transportplanung ">
       
+      
       <link rel="icon" href="../../../images/LeBit_Logo_2022.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/docfx/blob/main/docs/TP/TP.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/TP/TP.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -86,9 +87,56 @@
         <article data-uid="">
 <h1 id="lebit-transportplanung">LeBit Transportplanung</h1>
 
-<h5 id="erstellt-am-25-märz-2024">Erstellt am: 25. März 2024</h5>
-<h5 id="app-version">App-Version:</h5>
-<h2 id="1-zweck">1. Zweck</h2>
+<h2 id="preise">Preise</h2>
+<br>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Name ENG -AppSource</th>
+<th>bis 5</th>
+<th>bis 10</th>
+<th>bis 20</th>
+<th>bis 50</th>
+<th>bis 100</th>
+<th>Über 100</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LeBit Transportplanung</td>
+<td>LeBit Transport Planning</td>
+<td>120</td>
+<td>160</td>
+<td>240</td>
+<td>280</td>
+<td>320</td>
+<td>400</td>
+</tr>
+<tr>
+<td>LeBit Ausgehende Transportplanung</td>
+<td>LeBit Transport Planning</td>
+<td>60</td>
+<td>80</td>
+<td>120</td>
+<td>140</td>
+<td>160</td>
+<td>200</td>
+</tr>
+<tr>
+<td>LeBit Einghende Transportplanung</td>
+<td>LeBit Transport Planning</td>
+<td>60</td>
+<td>80</td>
+<td>120</td>
+<td>140</td>
+<td>160</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h2 id="zweck">Zweck</h2>
 <p>Mit Hilfe der Transportplanung lassen sich Versendungen von ausgehenden
 und eingehenden Herkunftsbelegzeilen leichter organisieren und planen.
 Die ausgehende Transportplanung unterstützt dabei die Herkunftsbelege
@@ -103,528 +151,6 @@ unterstützt.</p>
 geschaffen. Dieser bildet die Grundlage für eine vollständige
 Integration mit Versandpartnern über eine nachrüstbare Schnittstelle
 zwischen Business Central und einem Drittsystem.</p>
-<h2 id="2-notwendige-einrichtung">2. Notwendige Einrichtung:</h2>
-<h3 id="21-transportplanung-einrichtung">2.1 Transportplanung Einrichtung</h3>
-<p>Für diese LeBit Transportplanung existiert eine zentrale Einrichtung,
-welche vor der ersten Nutzung zwingend eingerichtet werden muss.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning1.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 1: Transportplanung Einrichtung</figcaption>
-    <br>
-</div>
-<h4 id="211-register-allgemein-ausgehende-transportplanung">2.1.1 Register Allgemein ausgehende Transportplanung</h4>
-<table>
-<thead>
-<tr>
-<th>Feldname</th>
-<th>Funktion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Automatische Chargenauswahl überspringen</td>
-<td>Einrichtungsmöglichkeit, ob innerhalb der Standardfunktion „Einträge auswählen“ in den „Artikelverfolgungszeilen“ die Standardchargenvorauswahl deaktiviert werden soll. <br> Wert = True: Standardchargenvorauswahl deaktiviert <br> Wert = False: Standardchargenvorauswahl aktiviert (Standardsystemverhalten)</td>
-</tr>
-<tr>
-<td>Abweichende Warenausgangsmengen erlauben</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, die Warenausgangsmenge zu beeinflussen. Mit dieser Einrichtung sind abweichende Warenausgangsmenge möglich. Achtung: Gilt nur für den Beleg „Warenausgang“. <br> Wert = True: abweichende Warenausgangsmenge erlaubt <br> Wert = False: abweichende Warenausgangsmenge nicht erlaubt (Standardsystemverhalten)</td>
-</tr>
-<tr>
-<td>Mehrere Warenausgänge erlauben</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, mehrere ungebuchte Warenausgänge anzulegen. Mit dieser Einrichtung ist es möglich mehrere ungebuchte Warenausgänge anlegen. Achtung: Gilt nur für den Beleg „Warenausgang“ <br> Wert = True: mehrere ungebuchte Warenausgänge erlaubt <br> Wert = False: mehrere ungebuchte Warenausgänge nicht erlaubt (Standardsystemverhalten)</td>
-</tr>
-<tr>
-<td>Lösche teilgelieferten Warenausgang</td>
-<td>Im Standardsystemverhalten werden ungebuchte Warenausgänge erst dann gelöscht, wenn die geplante Menge aller Warenausgangszeilen komplett geliefert wurde. Mit Hilfe dieser Einstellung, werden Warenausgänge nach der ersten Buchung gelöscht. Losgelöst, ob der Warenausgang noch Restmengen hat oder nicht. <br> Wert = True: Warenausgang wird nach der ersten Buchung gelöscht <br> Wert = False: Warenausgang wird erst bei vollständiger Lieferung gelöscht (Standardsystemverhalten)</td>
-</tr>
-<tr>
-<td>Buchungsdatum Warenausgang</td>
-<td>Bei Anlage des Warenausgangs wird das Belegdatum sowie das Buchungsdatum des Belegs auf das Erstelldatum gesetzt. Wird nun das Buchungsdatum manuell nicht verändert, ist das Buchungsdatum gleich dem Erstelldatum. Da in gewissen Prozessen ein Vorbereiten von Warenausgängen notwendig ist, ist das Buchungsdatum in der Praxis nicht gleich dem Erstelldatum des Warenausgangs. Mit Hilfe dieser Einrichtung lässt sich die wie folgt einrichten <br> Wert = Standard: Buchungsdatum = Erstelldatum, außer wenn manuell verändert. <br> Wert = Arbeitsdatum: Buchungsdatum ist immer das Arbeitsdatum der tatsächlichen Buchung. Wert im Feld „Buchungsdatum“ ist hierbei irrelevant.</td>
-</tr>
-<tr>
-<td>WA- zu liefern an Artikelverfolgungszeile anpassen</td>
-<td>Ist diese Option aktiviert, so wird aus den in der Artikelverfolgung eingetragenen Zeilen (Chargen/Seriennummern) die Menge errechnet und automatisch in den Warenausgang geschrieben.</td>
-</tr>
-<tr>
-<td>Zu liefernde WA- Standardmenge</td>
-<td>Wert = Leer: Ein neuen Warenausgang wird mit leerer Menge „Zu liefern“ erstellt <br> Wert = Rest: Ein neuer Warenausgang wird mit voller bzw. Restmenge in „Zu liefern“ erstellt</td>
-</tr>
-<tr>
-<td>Warenausgang und Detailzeile automatisch erstellen</td>
-<td>Das Feld bestimmt, ob beim Freigeben eines Auftrags, der Warenausgang und die Detailzeile automatisch erstellt wird. <br> Wert = True: beim Freigeben wird der Warenausgang und eine Detailzeile erstellt <br> Wert = False: beim Freigeben wird kein Warenausgang und keine Detailzeile erstellt</td>
-</tr>
-</tbody>
-</table>
-<h4 id="212-register-allgemein-eingehende-transportplanung">2.1.2 Register Allgemein eingehende Transportplanung</h4>
-<table>
-<thead>
-<tr>
-<th>Feldname</th>
-<th>Funktion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mehrere Wareneingänge zulassen</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, mehrere ungebuchte Warenausgänge anzulegen. Mit dieser Einrichtung ist es möglich mehrere ungebuchte Warenausgänge anlegen. Achtung: Gilt nur für den Beleg „Warenausgang“ <br> Wert = True: mehrere ungebuchte Warenausgänge erlaubt <br> Wert = False: mehrere ungebuchte Warenausgänge nicht erlaubt (Standardsystemverhalten)</td>
-</tr>
-<tr>
-<td>Abweichende Wareneingangsmenge zulassen</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, die Warenausgangsmenge zu beeinflussen. Mit dieser Einrichtung sind abweichende Warenausgangsmenge möglich. Achtung: Gilt nur für den Beleg „Warenausgang“. <br> Wert = True: abweichende Warenausgangsmenge erlaubt <br> Wert = False: abweichende Warenausgangsmenge nicht erlaubt (Standardsystemverhalten)</td>
-</tr>
-<tr>
-<td>Wareneingang und Detailzeile automatisch erstellen</td>
-<td>Das Feld bestimmt, ob beim Freigeben eines Auftrags, der Warenausgang und die Detailzeile automatisch erstellt wird. <br> Wert = True: beim Freigeben wird der Warenausgang und eine Detailzeile erstellt <br> Wert = False: beim Freigeben wird kein Warenausgang und keine Detailzeile erstellt</td>
-</tr>
-</tbody>
-</table>
-<h4 id="213-register-transportbestellung">2.1.3 Register Transportbestellung</h4>
-<table>
-<thead>
-<tr>
-<th>Feldname</th>
-<th>Funktion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Standard Transportbestellung Zu-/Abschlag</td>
-<td>Hier wird die Standard Transportbestellungsart eingefügt, die für Zu- und Abschläge genutzt wird.</td>
-</tr>
-<tr>
-<td>Transportbestellung Menge</td>
-<td>Gibt an, wie oft die Transportbestellung geschehen soll. <br> Wert = 1: die Menge der Transportbestellung, die erstellt wird, beträgt immer eins <br> Wert = WA-Menge: die Menge der Transportbestellung, die erstellt werden, ist flexibel und richtet sich nach der Warenausgangsmenge</td>
-</tr>
-</tbody>
-</table>
-<h4 id="214-register-ausgehende-transportbedarfe-aktivieren">2.1.4 Register Ausgehende Transportbedarfe aktivieren</h4>
-<p>In diesem Register ist es möglich, einzurichten für welche
-Herkunftsbelegarten die ausgehenden Transportbedarfe verwendet werden
-sollen. Wenn für eine Belegart das Feld auf den Wert „true&quot; gesetzt,
-werden für die jeweilige Belegart ab diesem Zeitpunkt beim Freigeben des
-Herkunftsbeleges die Transportbedarfe angelegt.</p>
-<h4 id="215-register-eingehende-transportbedarfe-aktivieren">2.1.5 Register Eingehende Transportbedarfe aktivieren</h4>
-<p>Hier ist es möglich, einzurichten für welche Herkunftsbelegarten die
-eingehenden Transportbedarfe verwendet werden sollen. Wenn für eine
-Belegart das Feld auf den Wert „true&quot; gesetzt, werden für die jeweilige
-Belegart ab diesem Zeitpunkt beim Freigeben des Herkunftsbeleges die
-Transportbedarfe angelegt.</p>
-<h4 id="216-register-styles">2.1.6 Register Styles</h4>
-<p>In diesem Register wird der Stil festgelegt, für die offenen sowie den
-gebuchten Zeilen. Dadurch lassen sich die Transportbedarfe optisch
-besser unterscheiden. Bei Auswahl des Stils, wird dieser innerhalb des
-Feldes angezeigt, so dass der Nutzer eine Vorschau des Stiles bekommt.</p>
-<h4 id="217-register-nummernserie">2.1.7 Register Nummernserie</h4>
-<p>Hinterlegung der Nummernserie für den neuen Beleg Transportauftrag. Die
-Nummernserie muss vorher innerhalb des Systems eingerichtet werden.</p>
-<h3 id="22-nachtragereport-erstelle-transportbedarfe">2.2 Nachtragereport &quot;Erstelle Transportbedarfe&quot;</h3>
-<p>In den LeBit Transportplanung Einrichtung ist es möglich rückwirkend
-Transportbedarfe, für bereits freigegebene Dokumente, zu erstellen. Das
-Dokument muss freigegeben sein und die Kategorie muss in der LeBit
-Transportplanung Einrichtung aktiviert sein.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning2.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 2: Aktionen -> Erstelle Ausgehende Transportbedarfe</figcaption>
-    <br>
-</div>
-<p>Innerhalb des Reports ist es möglich noch weitere Filterungen
-hinzufügen, um den Nachtragereport weiter einzuschränken.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning3.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 3: Funktion "Erstelle Ausgehende Transportbedarfe"</figcaption>
-    <br>
-</div>
-<h3 id="23-berichtsauswahl---transportplanung">2.3 Berichtsauswahl - Transportplanung</h3>
-<p>Das Produkt bringt ein Einrichtungsmöglichkeit für die folgenden Reports
-mit:</p>
-<p>Transportauftrag</p>
-<p>Übernahmebescheinigung</p>
-<p>Frachtbrief</p>
-<p>Diese Berichtsauswahl kann über die Suche innerhalb des Systems
-aufgerufen werden.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning4.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 4: Berichtsauswahl - Transportplanung</figcaption>
-    <br>
-</div>
-<h3 id="24-lagermitarbeiter">2.4 Lagermitarbeiter</h3>
-<p>Im Standard ist es über die Lagermitarbeiter gesteuert, welche Lagerorte
-und deren Logistikbelege durch welche Nutzer genutzt bzw. bedienen
-werden dürfen. Um dem Standard hier zu folgen, müssen die Benutzer,
-welche die Transportplanung nutzen sollen, für die entsprechenden
-Lagerorte als Lagermitarbeiter eingerichtet sein.</p>
-<h3 id="25-zuordnung-zusteller-und-kontakt----kreditor">2.5 Zuordnung Zusteller und Kontakt -- Kreditor</h3>
-<p>In der Tabelle der Zusteller wurde ein neues Feld geschaffen, in welchem
-zu einem Zusteller ein Unternehmenskontakt zugewiesen werden kann.</p>
-<p>Wenn dieser Unternehmenskontakt einem Kreditor zugewiesen wird, wird
-dieser im Transportauftrag aus dem Zustellercode gefüllt.</p>
-<h2 id="3-funktionsbeschreibung">3. Funktionsbeschreibung</h2>
-<h3 id="31-transportbedarfe">3.1 Transportbedarfe</h3>
-<p>Die ausgehenden und eingehenden Transportbedarfe sammeln die
-verschiedenen Herkunftsbelege und deren Logistikbelege. Die
-Transportbedarfe sind in Master- und Detailzeile unterteilt. Die
-Masterzeilen sind ein Abbild der Herkunftsbelegzeilen, so hat jede
-Herkunftsbelegzeile genau eine Masterzeile.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning5.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 5: Ausgehende Transportbedarfe</figcaption>
-    <br>
-</div>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning6.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 6: Eingehende Transportbedarfe</figcaption>
-    <br>
-</div>
-<p>Es werden nur die Herkunftsbelegzeilen beachtet, zu denen in der
-Einrichtung die Option bei „Transportbedarfe aktivieren&quot; gleich „True&quot;
-ist.</p>
-<p>Diese Transportbedarfszeilen werden beim Freigeben des Herkunftsbeleges
-angelegt. Wird ein Herkunftsbeleg, mit bestehenden Transportbedarfen,
-aus dem Status „Freigegeben&quot; wieder zurückgesetzt, bleibt die
-Transportbedarfszeile innerhalb der Transportbedarf stehen. Es erfolgt
-eine Hervorhebung. Die Art der Hervorhebung wird in der
-„Transportplanung Einrichtung&quot; unter dem Punkt „Stil offene Zeilen&quot;
-festgelegt.</p>
-<p>Innerhalb der Masterzeilen werden verschiedene Informationen aus den
-Herkunftsbelegzeilen angezeigt. Eine tatsächliche Änderung der
-Herkunftsinformationen ist bis auf wenige Ausnahmen nicht gestattet.</p>
-<p>Die Detailzeilen entstehen unterhalb der Masterzeilen und sind immer mit
-der Masterzeile verbunden. Die Detailzeilen bilden entsprechende
-Lagerbelege ab. Je nach Einrichtung der Lagerorte, welche innerhalb der
-Transportplanung geplant werden, sind dies Warenausgänge oder
-Lagerkommissionierungen. In der Detailzeile ist der Zusteller und die
-Zustellertransportart änderbar.</p>
-<h4 id="311-transportbedarfe-ungruppiert">3.1.1 Transportbedarfe Ungruppiert</h4>
-<p>Für die Transportbedarfe gibt es zusätzlich die Seiten &quot;Ausgehende
-Transportbedarfe Ungruppiert&quot; und &quot;Eingehende Transportbedarfe
-Ungruppiert&quot;. Auf der Seite sind die Detailzeilen in der Struktur nicht
-unter den Masterzeilen. Auf der Seite sind alle Funktionen der normalen
-ausgehenden Transportbedarfe vorhanden, zusätzlich ist es möglich die
-Seite zu Filtern und zu sortieren.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning7.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 7: Ausgehende Transportbedarfe Ungruppiert</figcaption>
-    <br>
-</div>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning8.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 8: Eingehende Transportbedarfe Ungruppiert</figcaption>
-    <br>
-</div>
-<h3 id="32-funktionen-in-den-transportbedarfen">3.2 Funktionen in den Transportbedarfen</h3>
-<p>Auf den Seiten &quot;Ausgehende Transportbedarfe&quot;, &quot;Ausgehende
-Transportbedarfe Ungruppiert&quot;, &quot;Eingehende Transportbedarfe&quot; und
-&quot;Eingehende Transportbedarfe Ungruppiert&quot; gibt es verschiedene
-Funktionen im Menüband.</p>
-<table>
-<thead>
-<tr>
-<th>Feldname</th>
-<th>Funktion</th>
-<th>Zutreffend für</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Lagerbelege erstellen</td>
-<td>Die Funktion „Lagerbelege erstellen“ kann genutzt werden, um für einen kommissionierungspflichtigen Lagerort die dazugehörigen „Lagerkommissionierungen“ direkt zu erstellen.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td><strong>Buchen</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Warenausgang buchen</td>
-<td>Mit der Funktion kann man den Warenausgang liefern und fakturieren.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Wareneingang buchen</td>
-<td>Mit der Funktion kann man den Wareneingang liefern und fakturieren.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Buchen und drucken</td>
-<td>Der Herkunftsbeleg kann dadurch gebucht werden.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td><strong>Aktionen</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Transportauftrag erstellen</td>
-<td>Für die Detailzeile wird ein neuer Transportauftrag sein.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Transportauftrag zuweisen</td>
-<td>Die Detailzeile kann mit der Funktion einem Transportauftrag zugewiesen werden.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Transportauftragszeile löschen</td>
-<td>Wenn eine Detailzeile in einem Transportauftrag vorhanden ist, kann sie mit der Funktion aus dem Transportauftrag wieder gelöscht werden.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Kommissionierung erstellen</td>
-<td>Für eine Masterzeile kann eine Kommissionierung erstellt werden.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Warenausgang erstellen</td>
-<td>Für eine Masterzeile kann ein Warenausgang erstellt werden. Sofern in der &quot;LeBit Transportplanung Einrichtung&quot; eingerichtet ist, dass die Warenausgänge abweichende Mengen haben dürfen, kann vor der Erstellung des Warenausgangs innerhalb der Spalte „Menge zu liefern“ die Warenausgangsmenge angepasst werden. Wenn die Option nicht gesetzt ist, ist die Spalte ausgeblendet.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Warenausgang zuweisen</td>
-<td>Einer Masterzeile kann ein schon bestehender Warenausgang zugewiesen werden. Die Funktion berechnet die „Menge zu liefern“ neu.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Warenausgangzeile löschen</td>
-<td>Ein Warenausgang wird gelöscht, damit wird ebenfalls die Detailzeile gelöscht. Die Funktion berechnet die „Menge zu liefern“ neu.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Wareneingang erstellen</td>
-<td>Erstellt einen Wareneingang für eine Masterzeile. Wenn in der &quot;LeBit Transportplanung Einrichtung&quot; eingerichtet ist, dass die Wareneingänge eine abweichende Menge haben dürfen, kann vor der Erstellung des Wareneingangs in der Spalte &quot;Menge zu liefern&quot; eine Wareneingangsmenge angepasst werden. Wenn die Option nicht gesetzt ist, ist die Spalte ausgeblendet.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Wareneingang zuweisen</td>
-<td>Die Masterzeile kann einen schon bestehenden Wareneingang zugewiesen werden. Die Funktion berechnet &quot;Menge zu liefern&quot; neu.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Wareneingangszeile löschen</td>
-<td>Der Wareneingang und die Detailzeile werden durch diese Funktion gelöscht. Die &quot;Menge zu liefern&quot; wird neu berechnet.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Lieferschein drucken</td>
-<td>Mit der Funktion kann der Lieferschein gedruckt werden.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td><strong>Zugehörig</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Herkunftsbeleg</td>
-<td>Öffnet den Herkunftsbeleg, der Master-/ Detailzeile.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Geb. Herkunftsbeleg</td>
-<td>Öffnet den gebuchten Herkunftsbeleg, der Master-/Detailzeile.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Artikelverfolgungszeilen</td>
-<td>Zeigt die Artikelverfolgungszeilen der Detailzeile an.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Lagerbelegzeilen</td>
-<td>Zeigt die zugehörigen Lagerbelegzeilen an.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Warenausgangszeilen</td>
-<td>Zeigt die zugehörigen Warenausgangszeilen.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Kommissionierungszeilen</td>
-<td>Zeigt die Kommissionierungszeilen an, die zur Masterzeile gehören. Erstellte Kommissionierungen können auch in der Tabellenspalte &quot;Kommissionierung&quot; gesehen werden.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Registrierte Kommissionierungszeilen</td>
-<td>Zeigt die registrierten Kommissionierungszeilen an. Registrierte Kommissionierungen können auch in der Tabellenspalte &quot;Registrierte Kommissionierung&quot; gesehen werden.</td>
-<td>Ausgehend</td>
-</tr>
-<tr>
-<td>Wareneingangszeilen</td>
-<td>Zeigt die zugehörigen Wareneingangszeilen.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Einlagerungszeilen</td>
-<td>Zeigt die Einlagerungszeilen an, die zur Masterzeile gehören. Erstellte Einlagerungen können auch in der Tabellenspalte &quot;Einlagerung&quot; angezeigt werden.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Registrierte Einlagerungszeilen</td>
-<td>Zeigt die registrierten Einlagerungszeilen an, diese können auch in der Tabellenspalte &quot;Registrierte Einlagerung&quot; angezeigt werden.</td>
-<td>Eingehend</td>
-</tr>
-<tr>
-<td>Transportauftrag</td>
-<td>Öffnet den zugehörigen Transportauftrag.</td>
-<td>Beides</td>
-</tr>
-<tr>
-<td>Transportbestellung</td>
-<td>Öffnet die zugehörige Transportbestellung.</td>
-<td>Beides</td>
-</tr>
-</tbody>
-</table>
-<h3 id="33-transportauftrag">3.3 Transportauftrag</h3>
-<p>Der Transportauftrag bildet die oberste Ebene der LeBit Transportplanung
-und ermöglicht es, verschiedene Herkunftsbelege und deren Lagerbeleg in
-einem Beleg zusammen zu fassen.</p>
-<p>Der Transportauftrag kann dann entweder an ein weiterführendes
-Logistiksystem übergeben werden oder dient als Beleg für die eigene
-Versendung.</p>
-<p>Der Transportauftrag ist in einen Kopf- und Zeilenbereich unterteilt.</p>
-<h4 id="331-transportauftragskopf">3.3.1 Transportauftragskopf</h4>
-<p>Der Transportauftragskopf beinhaltet alle relevanten Informationen,
-welche für den gesamten Beleg von Bedeutung sind.</p>
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning9.png" alt="" style="width: 90%; height: auto;">
-    <figcaption>Abbildung 9: Transportauftragskopf</figcaption>
-    <br>
-</div>
-<table>
-<thead>
-<tr>
-<th>Feldname</th>
-<th>Funktion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Erstellungsdatum</td>
-<td>Wird bei der Erstellung aus den Transportbedarfen automatisiert mit dem Tag der Erstellung gefüllt.</td>
-</tr>
-<tr>
-<td>Zeit</td>
-<td>Wird beim Erstellen aus den Transportbedarfen automatisiert mit der Zeit der Erstellung gefüllt.</td>
-</tr>
-<tr>
-<td>LKW Kennzeichen</td>
-<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
-</tr>
-<tr>
-<td>LKW Anhänger Kennzeichen</td>
-<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
-</tr>
-<tr>
-<td>Containernr.</td>
-<td></td>
-</tr>
-<tr>
-<td>Kreditorennr.</td>
-<td>Wird automatisiert aus dem Zusteller gefüllt, sofern dieser eine Zuordnung zu einem Unternehmenskontakt hat, welcher wiederrum eine Zuordnung zu einem Kreditor haben muss.</td>
-</tr>
-<tr>
-<td>Kreditorenname</td>
-<td>Wird automatisiert aus der Kreditorennr. gefüllt.</td>
-</tr>
-<tr>
-<td>Abholddatum von</td>
-<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
-</tr>
-<tr>
-<td>Abholdatum bis</td>
-<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
-</tr>
-<tr>
-<td>Abholzeit vor</td>
-<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
-</tr>
-<tr>
-<td>Abholzeit bis</td>
-<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
-</tr>
-<tr>
-<td>Zustellercode</td>
-<td>Wird, sofern vorhanden, bei Erstellung der Transportauftrages, aus der entsprechenden Detailzeile der Transportbedarfe übergeben.</td>
-</tr>
-<tr>
-<td>Zustellertransportcode</td>
-<td>Wird, sofern vorhanden, bei Erstellung der Transportauftrages, aus der entsprechenden Detailzeile der Transportbedarfe übergeben.</td>
-</tr>
-<tr>
-<td>Transportbestellung erstellt</td>
-<td>Wenn eine Transportbestellung vorhanden ist, ist das Feld mit &quot;Ja&quot; gefüllt und darüber kann man direkt zur Transportbestellung springen.</td>
-</tr>
-</tbody>
-</table>
-<h4 id="332-transportauftragszeile">3.3.2 Transportauftragszeile</h4>
-<p>Die Transportauftragszeile bildet die einzelnen Zeilen ab, welche
-innerhalb dieses Transportauftrags gemeinsam versendet werden sollen.
-Eine Zeile steht dabei für die Kombination eines Herkunftsbelegs zu
-einem Logistikbeleg, somit kann pro Kombination eine
-Transportauftragszeile entstehen.</p>
-<p>Die Zeilen werden hauptsächlich über die Transportbedarfe gesteuert, sie
-können darüber hinzugefügt und gelöscht werden.</p>
-<h3 id="34-funktionen-im-transportauftrag">3.4 Funktionen im Transportauftrag</h3>
-<table>
-<thead>
-<tr>
-<th>Feldname</th>
-<th>Funktion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Beenden</strong></td>
-<td>Mit dieser Funktion wird der aktuell Transportauftrag beendet. Das Beenden sorgt dafür, dass der Transportauftrag mit all seinen Informationen in die Tabelle der „beendeten Transportaufträge&quot; übergeben wird. <br> Diese Funktion sorgt dafür, dass die Übersicht der Transportaufträge übersichtlich bleibt, aber die abgeschlossenen Transportaufträge für Nachforschungen verfügbar bleiben.</td>
-</tr>
-<tr>
-<td><strong>Aktionen</strong></td>
-<td></td>
-</tr>
-<tr>
-<td>Transportbestellung erstellen</td>
-<td>Eine Transportbestellung kann für den Transportauftrag erstellt werden.</td>
-</tr>
-<tr>
-<td><strong>Zugehörig</strong></td>
-<td></td>
-</tr>
-<tr>
-<td>Ausgehende Transportbedarfe</td>
-<td>Öffnet die zugehörigen ausgehenden Transportbedarfe.</td>
-</tr>
-<tr>
-<td>Eingehende Transportbedarfe</td>
-<td>Öffnet die zugehörigen eingehenden Transportbedarfe.</td>
-</tr>
-<tr>
-<td>Transportbestellung</td>
-<td>Öffnet die zugehörige Transportbestellung.</td>
-</tr>
-<tr>
-<td><strong>Berichte</strong></td>
-<td></td>
-</tr>
-<tr>
-<td>Transportauftrag</td>
-<td>Mit dieser Funktion ist es möglich, die in der „Berichtsauswahl – Transportplanung“ unter der Verwendung „Transportauftrag“ hinterlegen Reports auszudrucken.</td>
-</tr>
-<tr>
-<td>Übernahmebescheinigung</td>
-<td>Mit dieser Funktion ist es möglich, die in der „Berichtsauswahl – Transportplanung“ unter der Verwendung „Übernahmebescheinigung“ hinterlegen Reports auszudrucken.</td>
-</tr>
-<tr>
-<td>Frachtbrief</td>
-<td>Mit dieser Funktion ist es möglich, die in der „Berichtsauswahl – Transportplanung“ unter der Verwendung „Frachtbrief“ hinterlegen Reports auszudrucken.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="35-beendeter-transportauftrag">3.5 Beendeter Transportauftrag</h3>
-<p>Der Beendetes Transportauftrag ist eine 1:1 Kopie des Transportauftrages
-und bildet eine Kopie der Inhalte der Felder zum Zeitpunkt des Beendens.</p>
 
 </article>
 
