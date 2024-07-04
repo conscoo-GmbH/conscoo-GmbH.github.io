@@ -1,5 +1,21 @@
 # LeBit Reposting
-# 1. Zweck
+
+<br>
+
+## Preise
+
+<br>
+
+| Name                                    | Name ENG -AppSource               | bis 5 | bis 10 | bis 20 | bis 50 | bis 100 | Über 100 |
+|-----------------------------------------|-----------------------------------|-------|--------|--------|--------|---------|----------|
+| LeBit Umbuchung                         | LeBit Reposting                   | 30    | 40     | 60     | 70     | 80      | 100      |
+
+<br>
+
+## Übersicht
+
+
+## Zweck
 
 Die Umbuchung kann für Chargen, Pakete und Serien verwendet werden.
 Dabei kann einer Charge, einem Paket oder einer Serie ein anderer
