@@ -10,47 +10,38 @@ Einkauf, Verkauf, Umlagerung, Artikel und Produktion hinterlegt werden.
 Mithilfe dieser Einrichtung werden die entsprechenden Werte in den
 einzelnen Bereichen für die Shortcutparamter definiert.
 
-![Ein Bild, das Text, Reihe, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image1.png){width="6.3in"
-height="1.5756944444444445in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter1.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 1: Parameter Setup</figcaption> <br>
+</div>
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter2.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 2: Beispiel Einrichtung Parameteransicht Bereich "Verkauf"</figcaption> <br>
+</div>
 
-Abbildung 1: Parameter Setup
-
-![Ein Bild, das Text, Reihe, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image2.png){width="6.3in"
-height="2.19375in"}
-
-Abbildung 2: Beispiel Einrichtung Parameteransicht Bereich \"Verkauf\"
 
 Im Setup hinterlegte Parameteransichten beeinflussen die Anzeige der
 entsprechenden Listen. Auf der Parameteransicht „Artikel
 Parameteransicht" wird die erstellte Ansicht „Artikel" hinterlegt.
 
-![Ein Bild, das Text, Reihe, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image3.png){width="6.3in"
-height="1.7375in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter3.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 3:Einrichtung Parameteransicht Artikel"</figcaption> <br>
+</div>
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter4.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 4: Parameteransicht "Artikel"</figcaption> <br>
+</div>
 
-Abbildung 3:Einrichtung Parameteransicht Artikel
 
-![Ein Bild, das Text, Reihe, Screenshot, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image4.png){width="6.3in"
-height="1.7854166666666667in"}
-
-Abbildung 4: Parameteransicht \"Artikel\"
 
 In der hinterlegten Ansicht zugeordnete Artikel werden nun auf der Seite
 Artikelübersicht in Spaltenform aufgelistet.
 
-![Ein Bild, das Text, Screenshot, Zahl, Software enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image5.png){width="6.3in"
-height="3.00625in"}
-
-Abbildung 5: Parameterspalten am Beispiel Artikelübersicht
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter5.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 5: Parameterspalten am Beispiel Artikelübersicht</figcaption> <br>
+</div>
 
 Am jeweiligen Artikel hinterlegte Parameter werden nun in der
 entsprechenden Zeile angezeigt.
@@ -71,40 +62,38 @@ kann ein eindeutiger Code sowie eine Beschreibung zugewiesen werden.
 Die Parameteransichten können über die Suche, aber auch direkt aus der
 Einrichtung geöffnet werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image6.png){width="6.0093033683289585in"
-height="2.2568000874890637in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter6.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 6: Einrichtung -> Parameteransichten</figcaption> <br>
+</div>
 
-Abbildung 6: Einrichtung -\> Parameteransichten
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image7.png){width="6.3in"
-height="2.3291666666666666in"}
 
-Abbildung 7: Übersicht u. Einrichtung Parameteransichten
+
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter7.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 7: Übersicht u. Einrichtung Parameteransichten</figcaption> <br>
+</div>
 
 Über die Option „Bearbeiten" können für die Parameteransicht zu
 berücksichtigende Parameter definiert werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image8.png){width="6.3in"
-height="2.3118055555555554in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter8.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 8: Parameteransicht bearbeiten</figcaption> <br>
+</div>
 
-Abbildung 8: Parameteransicht bearbeiten
 
 In der sich öffnenden Seite „Parameteransichtskarte" können die
 anzuzeigenden Parameter ausgewählt werden. Es kann außerdem über den
 Punkt „Sortierung" definiert werden, in welcher Reihenfolge die
 Parameter angezeigt werden sollen.
 
-![Ein Bild, das Text, Reihe, Zahl, Diagramm enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image9.png){width="6.3in"
-height="1.9069444444444446in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter9.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 9: Parameteransichtskarte mit Sortierung</figcaption> <br>
+</div>
 
-Abbildung : Parameteransichtskarte mit Sortierung
 
 Das Feld \"ParameterartFilter\" gibt die Optionen \"Keine\". Parameter\"
 und \"Prüfung\". Die ausgewählte Einschränkung wirkt sich auf die
@@ -112,30 +101,23 @@ auswählbaren Parameter je nach Parameterart aus. Wird beispielsweise die
 Option \"Prüfung\" ausgewählt, werden nur Parameter mit der Parameterart
 \"Prüfung\" im Feld \"Parameter Code\" gelistet.
 
-![Ein Bild, das Text, Software, Computersymbol, Zahl enthält.
-Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image10.png){width="6.3in"
-height="2.5631944444444446in"}
-
-Abbildung :Feld ParameterartFilter
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter10.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 10: Feld ParameterartFilter</figcaption> <br>
+</div>
 
 Innerhalb der Parameteraufrufe bspw. auf der
 Chargennr.-Informationskarte kann die Parameteransicht ausgewählt
 werden.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image11.png){width="6.3in"
-height="2.435416666666667in"}
-
-Abbildung 11: Chargennr.-Informationskarte ohne Parameteransicht
-
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image12.png){width="6.3in"
-height="2.15625in"}
-
-Abbildung 12: Chargennr.-Informationskarte mit Parameteransicht
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter11.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 11: Chargennr.-Informationskarte ohne Parameteransicht</figcaption> <br>
+</div>
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter12.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 12: Chargennr.-Informationskarte mit Parameteransicht</figcaption> <br>
+</div>
 
 #### Parameteransicht auf Belegen
 
@@ -144,93 +126,87 @@ von Shortcutparametern versehen werden.
 
 Auf folgenden Belegen stehen diese „Parameter Views" zur Verfügung:
 
-Einkauf
-
-Einkaufsanfrage
-
-Einkaufsbestellung
-
-Rahmenbestellung
-
-Einkaufsrechnung
-
-Einkaufsgutschrift
-
-Verkauf
-
-Verkaufsangebot
-
-Verkaufsauftrag
-
-Rahmenaufträge
-
-Verkaufsrechnung
-
-Logistik
-
-Umlagerungsauftrag
-
-Warenausgang
-
-Wareneingang
-
-Produktion
-
-Freigegebener Fertigungsauftrag
-
-Geplanter Fertigungsauftrag
-
-Fest geplanter Fertigungsauftrag
-
-Beendeter Fertigungsauftrag
+<ol>
+    <li>Einkauf
+        <ul>
+            <li>Einkaufsanfrage</li>
+            <li>Einkaufsbestellung</li>
+            <li>Rahmenbestellung</li>
+            <li>Einkaufsrechnung</li>
+            <li>Einkaufsgutschrift</li>
+        </ul>
+    </li>
+    <li>Verkauf
+        <ul>
+            <li>Verkaufsangebot</li>
+            <li>Verkaufsauftrag</li>
+            <li>Rahmenaufträge</li>
+            <li>Verkaufsrechnung</li>
+        </ul>
+    </li>
+    <li>Logistik
+        <ul>
+            <li>Umlagerungsauftrag</li>
+            <li>Warenausgang</li>
+            <li>Wareneingang</li>
+        </ul>
+    </li>
+    <li>Produktion
+        <ul>
+            <li>Freigegebener Fertigungsauftrag</li>
+            <li>Geplanter Fertigungsauftrag</li>
+            <li>Fest geplanter Fertigungsauftrag</li>
+            <li>Beendeter Fertigungsauftrag</li>
+        </ul>
+    </li>
+</ol>
 
 ## Parameter Übersicht
 
 Eine Übersicht aller Parameter kann auf der Seite \"Parameter\"
 eingesehen und bearbeitet werden. Es können sowohl die Parametercodes
-als auch Beschreibungen hinterlegt werden.
+als auch Beschreibungen hinterlegt werden. 
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image13.png){width="6.3in"
-height="1.9805555555555556in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter13.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 13: Einrichtung u. Übersicht Parameter</figcaption>
+</div>
 
-Abbildung 13: Einrichtung u. Übersicht Parameter
+<br>
 
 ### Parameterwertarten
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image14.png){width="6.136272965879265in"
-height="2.864983595800525in"}
-
-Abbildung 14: Parameterwertart
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter14.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 14: Parameterwertart</figcaption> <br>
+</div>
 
 Auf dieser Übersicht können außerdem Parameter einer Parameterwertart
 zugewiesen werden.
 
 Folgende Parameterwertarten stehen zur Verfügung
 
-Dezimal:
+**Dezimal:**
 
 Parameter vom Typ \"Dezimal\" können Wertebereiche (\"Von - Bis\")
 besitzen.
 
-Text:
+**Text:**
 
 Für Parameter vom Typ \"Text\" können wählbare Textwerte in einer
 Tabelle erfasst werden.
 
-Boolean:
+**Boolean:**
 
 Auswahl zwischen true/false
 
-Datum:
+**Datum:**
 
 Mit Hilfe von Parametern vom Typ \"Datum\" können zusätzliche
 Informationen, wie bspw. das Erstellungsdatum eines Artikels oder das
 Fertigungsdatum einer Charge spezifiziert werden.
 
-Referenz:
+**Referenz:**
 
 Mit Parametern des Typs \"Referenz\" kann eine Verbindung zu anderen
 Tabellen innerhalb Microsoft Dynamics Business Central hinterlegt
@@ -244,26 +220,29 @@ geändert werden. Variable Parameter können in der Parameteransicht
 farblich grün unterschieden. Nicht Variable Parameter erhalten behalten
 die Farbe Schwarz.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image15.png){width="6.3in"
-height="4.979861111111111in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter15.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 15: Farbliche Unterscheidung Variable/Nicht variable Parameter</figcaption>
+</div>
 
-Abbildung 15: Farbliche Unterscheidung Variable/Nicht variable Parameter
+<br>
+
 
 ### Parameter Formeln
 
 Parameter, welche eine Parameterformel hinterlegt bekommen, erhalten
 ihre Werte basierend auf Berechnung durch andere Parameter.
 
-Hinweis: Parameterformeln stehen nur für Parameter der Art „dezimal" zur
-Verfügung.
+>[!NOTE]
+>Parameterformeln stehen nur für Parameter der Art „Dezimal" zur Verfügung.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image16.png){width="6.3in"
-height="2.3in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter16.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 16: Parameter mit hinterlegter Parameterformel</figcaption>
+</div>
 
-Abbildung 16: Parameter mit hinterlegter Parameterformel
+<br>
+
 
 ### Kennzeichen „Datenhaltung"
 
@@ -281,33 +260,34 @@ Ohne das Kennzeichen steht nur der letzte erfasste Wert zur Verfügung.
 Achtung: Die Verwendung des Kennzeichens „Datenhaltung" kann zu erhöhtem
 Datenaufkommen innerhalb der Datenbank führen.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image17.png){width="6.3in"
-height="1.5729166666666667in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter17.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 17: Parameter mit bzw. ohne Kennzeichen "Datenhaltung"</figcaption>
+</div>
 
-Abbildung 17: Parameter mit bzw. ohne Kennzeichen \"Datenhaltung\"
+<br>
 
 ### Parametergruppen
 
 Parameter können auch zu Gruppen hinzugefügt werden. Damit wird die
 Zuweisung mehrerer Parameter zu einem Artikel vereinfacht.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image18.png){width="6.3in"
-height="2.484027777777778in"}
-
-Abbildung 18: Parameter mit bzw. ohne Parametergruppe
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter18.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 18: Parameter mit bzw. ohne Parametergruppe</figcaption> <br>
+</div>
 
 Parametergruppen werden auf der Seite \"Parametergruppen\" erstellt.
 Durch die Eingabe eines Codes wird die Gruppe erstellt und es kann eine
 Beschreibung hinzugefügt werden.
 
-![Ein Bild, das Text, Screenshot, Reihe, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image19.png){width="6.3in"
-height="0.9972222222222222in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter19.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 19:Übersicht u. Einrichtung Parametergruppen"</figcaption>
+</div>
 
-Abbildung :Übersicht u. Einrichtung Parametergruppen
+<br>
+
 
 ## Parameterformeln
 
@@ -318,15 +298,18 @@ Der Parameterformel wird ein eindeutiger Code zugewiesen. Dieser Code
 kann dann auf der Seite „Parameter" den zu errechnenden Parametern
 zugewiesen werden.
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image20.png){width="6.3in"
-height="0.6548611111111111in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter20.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 20: Parameterformeln</figcaption>
+</div>
 
-Abbildung 20: Parameterformeln
+<br>
+
 
 ### Aufbau Parameterformel
 
 Innerhalb der Zeilen kann im Feld „Formel" die Formel zur Berechnung
-hinterlegt werden. Mit Hilfe der Wildcards %1 - %10 (Parameter Code 1 --
+hinterlegt werden. Mit Hilfe der Wildcards %1 - %10 (Parameter Code 1 -
 10) können die zu verwendenden Parameter zur Berechnung angegeben
 werden. Im Feld „Formel" kann dann über diese Wildcards die aufzubauende
 Parameterformel definiert werden.
@@ -343,38 +326,43 @@ Die Formel kann folgende Grundrechenarten beinhalten
 
 Die Verwendung von Klammern ist innerhalb der Formel möglich.
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image21.png){width="6.3in"
-height="0.6868055555555556in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter21.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 21: Aufbau Parameterformel</figcaption> <br>
+</div>
 
-Abbildung 21: Aufbau Parameterformel
 
 Über das Feld „Rundungspräzision" kann definiert werden, wie
 Dezimalwerte gerundet werden sollen.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image22.png){width="6.3in"
-height="1.7756944444444445in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter22.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 22: Parameterformeln - Rundungspräzision</figcaption> <br>
+</div>
 
-Abbildung 22: Parameterformeln -- Rundungspräzision
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image23.png){width="6.3in"
-height="0.18680555555555556in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter23.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 23: Beispiel - errechneter Wert OHNE Rundungspräzision</figcaption> <br>
+</div>
 
-Abbildung 23: Beispiel - errechneter Wert OHNE Rundungspräzision
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image24.png){width="6.3in"
-height="0.13333333333333333in"}
-
-Abbildung 24: Beispiel - errechneter Wert MIT Rundungspräzision
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter24.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 24: Beispiel - errechneter Wert MIT Rundungspräzision</figcaption> <br>
+</div>
 
 Im Feld „Formeltext" werden anstelle der Wildcardbezeichnungen (%x)
 automatisch die entsprechenden Parametercodes gesetzt und die Formel
 aufgebaut.
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image25.png){width="6.3in"
-height="0.6868055555555556in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter25.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 25: Aufbau Formeltext</figcaption> 
+</div>
 
-Abbildung 25: Aufbau Formeltext
+<br>
+
 
 #### Funktion „Test"
 
@@ -387,18 +375,18 @@ Aktionsmenü über „Aktionen \> ShowTest" die Funktion ausgeführt werden.
 Danach werden in der Parameterformelübersicht auch Testparameter
 angezeigt.
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image26.png){width="6.3in"
-height="1.8034722222222221in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter26.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 26: Funktion "ShowTest"</figcaption> <br>
+</div>
 
-Abbildung 26: Funktion \"ShowTest\"
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image27.png){width="6.3in"
-height="0.8381944444444445in"}
 
-Abbildung 27: Parameter Testwertfelder
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter27.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 27: Parameter Testwertfelder</figcaption> <br>
+</div>
+
 
 Um nun eine Formel testen zu können, können in den Feldern „Parameter 1
 Testwert" bis „Parameter 10 Testwert" Werte eingetragen werden.
@@ -406,21 +394,21 @@ Testwert" bis „Parameter 10 Testwert" Werte eingetragen werden.
 Im Aktionsmenü kann nun unter „Aktionen \> Test" die Formel getestet
 werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Diagramm enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image28.png){width="6.3in"
-height="1.5569444444444445in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter28.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 28: Test Parameterformel</figcaption> <br>
+</div>
 
-Abbildung 28: Test Parameterformel
 
 Nach Ausführung der Funktion werden in einem kleinen Fenster sowohl die
 Formel mit den Testwerten als auch das errechnete Ergebnis angezeigt.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image29.png){width="5.532022090988627in"
-height="2.0523698600174978in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter29.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 29: Ergebnis des Formeltests</figcaption>
+</div>
 
-Abbildung 29: Ergebnis des Formeltests
+<br>
 
 ## Parametervorlagen
 
@@ -435,12 +423,11 @@ Entwicklungen vorgesehen.
 Ob einer Vorlage bereits Parameter zugewiesen sind, ist im Feld „Anzahl
 Parameter" ersichtlich.
 
-![Ein Bild, das Text, Screenshot, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image30.png){width="6.3in"
-height="1.0027777777777778in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter30.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 30: Übersicht u. Einrichtung Parametervorlagen</figcaption> <br>
+</div>
 
-Abbildung 30: Übersicht u. Einrichtung Parametervorlagen
 
 Im Aktionsmenü können dieser Parametervorlage über die Option
 „Parameter" entsprechende Parameter zugewiesen werden.
@@ -450,11 +437,12 @@ Feld „Parameter Code" entsprechende Parameter ausgewählt oder im
 Aktionsmenü über die Funktion „Aus Vorlage kopieren" Parameter aus
 bereits vorhandenen Vorlagen hinzugefügt und editiert werden.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image31.png){width="6.3in"
-height="1.75in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter31.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 31: Parameterzuordnung zu Parametervorlage</figcaption> 
+</div>
 
-Abbildung 31: Parameterzuordnung zu Parametervorlage
+<br>
 
 ## Parameter Suchübersicht
 
@@ -463,20 +451,20 @@ Parametersuchen verwendet werden. Auf der Seite „Parameter
 Suchübersicht" können Parametersuchen editiert bzw. im Aktionsmenü über
 „Neu" hinzugefügt werden.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image32.png){width="6.3in"
-height="1.4645833333333333in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter32.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 32: Parameter Suchübersicht</figcaption> <br>
+</div>
 
-Abbildung 32: Parameter Suchübersicht
 
 Über die Auswahl vom Feld „Code" kann die „Parameter Suchkarte" geöffnet
 werden.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image33.png){width="6.3in"
-height="1.1020833333333333in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter33.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 33: Parameter Suchkarte</figcaption> <br>
+</div>
 
-Abbildung 33: Parameter Suchkarte
 
 Ob bereits Parameter zu dieser Suche zugewiesen wurden, ist über das
 Feld „Anzahl der Suchparameter" ersichtlich.
@@ -487,34 +475,32 @@ eindeutige Code als auch die Beschreibung editiert werden.
 Im Aktionsmenü können über den Aufruf „Parameter" die zu suchenden
 Parameter hinterlegt werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Reihe enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image34.png){width="5.146551837270342in"
-height="1.458536745406824in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter34.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 34: Funktion "Parameter" zur Parameterzuordnung</figcaption> <br>
+</div>
 
-Abbildung 34: Funktion \"Parameter\" zur Parameterzuordnung
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image35.png){width="6.3in"
-height="3.0305555555555554in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter35.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 35: Übersicht "Parameterzuordnung"</figcaption> <br>
+</div>
 
-Abbildung 35: Übersicht \"Parameterzuordnung\"
 
 Über den Aufruf „Tabellen suchen" können die Tabellen hinterlegt werden,
 in denen nach diesen Parametern gesucht werden soll.
 
-![Ein Bild, das Text, Screenshot, Schrift, Reihe enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image36.png){width="5.636202974628172in"
-height="1.698153980752406in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter36.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 36: Funktion "Tabellen suchen"</figcaption> <br>
+</div>
 
-Abbildung 36: Funktion \"Tabellen suchen\"
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image37.png){width="6.3in"
-height="1.9159722222222222in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter37.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 37: Übersicht "Parametersuchtabellen"</figcaption> <br>
+</div>
 
-Abbildung 37: Übersicht \"Parametersuchtabellen\"
 
 Wird auf der „Parameter Suchkarte" im Aktionsmenü die Funktion „Suchen"
 aufgerufen, öffnen sich in einem neuen Fenster „Parametersuchergebnis"

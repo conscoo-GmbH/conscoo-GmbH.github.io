@@ -12,22 +12,18 @@ werden. Aus diesen Werten kann dann am Element gewählt werden. Werden
 keine Wertebereiche am Parameter definiert, können Parameterwerte
 unabhängig erfasst werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Reihe enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image38.png){width="6.24045384951881in"
-height="1.0105577427821522in"}
-
-Abbildung 38: Funktion \"Bereich\"
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter38.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 38: Funktion "Bereich"</figcaption> <br>
+</div>
 
 Für Parameter mit der Parameterwertart „Text" definiert jede Zeile einen
 auswählbaren Textwert.
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image39.png){width="6.3in"
-height="2.7194444444444446in"}
-
-Abbildung 39: Beispieltexte Parameterwertart = Text
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter39.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 39: Beispieltexte Parameterwertart = Text</figcaption> <br>
+</div>
 
 Für Parameter mit der Parameterwertart „Dezimal" definiert jede Zeile
 eine Art Filter. Innerhalb dieses Bereichs muss sich der Parameterwert
@@ -37,12 +33,12 @@ Außerdem können Von -- Bis Wertebereiche (x .. y) definiert werden.
 Innerhalb dieses Bereiches kann der Parameter an einem Element erfasst
 werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image40.png){width="6.3in"
-height="2.745138888888889in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter40.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 40: Wertebereiche Parameterwertart = Dezimal</figcaption> 
+</div>
 
-Abbildung 40: Wertebereiche Parameterwertart = Dezimal
+<br>
 
 ### Option \"Wertebereichskopie zulassen\"
 
@@ -52,11 +48,12 @@ Parameters in die Zuordnung am Artikel übernommen und nachträglich
 modifiziert werden. Ist diese Option nicht aktiviert kann in der
 Zuordnung der Wertebereich nichts angepasst werden.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image41.png){width="6.3in"
-height="1.104861111111111in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter41.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 41: Option "Wertebereichskopie zulassen"</figcaption> 
+</div>
 
-Abbildung 41: Option \"Wertebereichskopie zulassen\"
+<br>
 
 ## Funktion \"Parameter\"
 
@@ -70,34 +67,29 @@ System zwischen Belegen weitergegeben.
 Auf der Artikelkarte lassen sich die Parameter unter dem Aufruf
 „Zugehörig \> Artikel \> Sonstiges \> Parameter" zuordnen.
 
-![Ein Bild, das Text, Screenshot, Zahl, parallel enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image42.png){width="6.3in"
-height="4.540277777777778in"}
-
-Abbildung 42: Artikelkarte - Aufruf \"Parameter\"
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter42.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 42: Artikelkarte - Aufruf "Parameter"</figcaption> <br>
+</div>
 
 Auf der sich öffnenden Seite („Parameterzuordnung") können entsprechende
 Parameter hinterlegt und Parameterwerte erfasst werden. Dazu können die
 Parametercodes entweder manuell ausgewählt oder die Funktion „Aus
 Vorlage kopieren" verwendet werden.
 
-![Ein Bild, das Text, Screenshot, Zahl, Software enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image43.png){width="6.3in"
-height="3.0506944444444444in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter43.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 43: Parameterzuordnung am Artikel</figcaption> <br>
+</div>
 
-Abbildung 43: Parameterzuordnung am Artikel
 
 Wurde für einen Parameter ein Wertebereich hinterlegt und ein Parameter
 außerhalb dieses Bereichs wird erfasst, erfolgt eine Fehlermeldung.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image44.png){width="6.3in"
-height="1.6458333333333333in"}
-
-Abbildung 44: Fehlermeldung - erfasster Wert befindet sich außerhalb des
-Wertebereiches
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter44.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 44: Fehlermeldung - erfasster Wert befindet sich außerhalb des Wertebereiches</figcaption> <br>
+</div>
 
 Wurde in der Parametereinrichtung zuvor die Option „Wertebereichskopie
 zulassen" für einen Parameter aktiviert, können innerhalb der
@@ -109,12 +101,13 @@ Wurde die Option nicht innerhalb der Parameter Einrichtung aktiviert,
 kann keine Wertebereichskopie innerhalb der Parameterzuordnung erstellt
 und diese auch nicht bearbeitet werden.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image45.png){width="5.250732720909887in"
-height="2.4795122484689416in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter45.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 45: Fehler - Option "Wertebereichskopie zulassen" nicht
+aktivs</figcaption> 
+</div>
 
-Abbildung 45: Fehler - Option \"Wertebereichskopie zulassen\" nicht
-aktiv
+<br>
 
 #### Funktion \"Filtern nach Parametern\"
 
@@ -123,39 +116,38 @@ Informationliste. wurde eine Funktion „Filtern nach Parametern"
 eingebaut, die es ermöglicht nach Parametern und dazu erfassten Werten
 zu filtern.
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image46.png){width="6.3in"
-height="0.6833333333333333in"}
-
-Abbildung 46: Artikelübersicht - Option \"Filtern nach Parametern\"
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter46.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 46: Artikelübersicht - Option "Filtern nach Parametern"</figcaption> <br>
+</div>
 
 Bei Aufruf der Option öffnet sich eine neue Seite
 „Parameterartikelfilter". Hier können die Parameter mit ihren Werten,
 nach denen gefiltert werden soll, hinterlegt werden.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image47.png){width="6.3in"
-height="2.2895833333333333in"}
-
-Abbildung 47: Parameterartikelfilter
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter47.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 47: Parameterartikelfilter</figcaption> <br>
+</div>
 
 Artikel, die den Filterkriterien entsprechen werden nun angezeigt.
 
-![Ein Bild, das Text, Screenshot, Bildschirm enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image48.png){width="6.3in"
-height="0.99375in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter48.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 48: gefundenes Element</figcaption> <br>
+</div>
 
-Abbildung 48: gefundenes Element
+
 
 Wird die Funktion erneut aufgerufen, werden die dem Eintrag zugewiesenen
 Parameter geöffnet.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image49.png){width="6.3in"
-height="1.9909722222222221in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter49.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 49: Parameterartikelfilter</figcaption> 
+</div>
 
-Abbildung 49: Parameterartikelfilter
+<br>
 
 ### Parameterzuweisung an einer Charge
 
@@ -169,11 +161,10 @@ Chargenerfassung nicht geändert werden.
 Variable Parameter hingegen können innerhalb der Chargenerfassung
 geändert werden.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image50.png){width="6.3in"
-height="2.0236111111111112in"}
-
-Abbildung 50: Parameterzuordnung am Artikel
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter50.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 50: Parameterzuordnung am Artikel</figcaption> <br>
+</div>
 
 Hinweis: In der Parameterzuordnung am Artikel kann nachträglich das
 Kennzeichen „Variabler Parameter" geändert werden.
@@ -198,12 +189,10 @@ Funktion „Buchen" abgeschlossen, werden die chargenspezifischen
 Parameter der Artikelverfolgungszeile in die Parameterinformationen der
 Charge übernommen.
 
-![Ein Bild, das Text, Zahl, Schrift, Screenshot enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image51.png){width="6.3in"
-height="2.4166666666666665in"}
-
-Abbildung 51: unveränderte Parameterzuordnung an der Charge
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter51.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 51: unveränderte Parameterzuordnung an der Charge</figcaption> <br>
+</div>
 
 Innerhalb dieser Zuordnung werden Parameter, die nicht das Kennzeichen
 „Variabler Parameter" besitzen farblich rot dargestellt. Hier lässt sich
@@ -212,22 +201,20 @@ welcher nicht. Für nicht variable Parameter lassen sich die
 Parameterwerte nicht ändern, bis das Kennzeichen „Variabler Parameter"
 gesetzt wurde.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image52.png){width="6.3in"
-height="3.182638888888889in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter52.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 52: Charge - geänderte Parameterinformationen</figcaption> <br>
+</div>
 
-Abbildung 52: Charge - geänderte Parameterinformationen
 
 Über die Seite „Chargennr.-Informationskarte" lassen sich über die
 Funktion „Parameter", die der Chargennummer zugewiesenen Parameter
 nachträglich einsehen. Sie sind an dieser Stelle nicht mehr editierbar.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image53.png){width="6.3in"
-height="3.7395833333333335in"}
-
-Abbildung 53: Chargennr.-Informationskarte -- Parameterübersicht
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter53.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 53: Chargennr.-Informationskarte -- Parameterübersicht</figcaption> <br>
+</div>
 
 ### Parameterzuweisung auf Belegen
 
@@ -238,116 +225,96 @@ Chargeninformationen geändert werden.
 Der Aufruf der Belegzeilenparameter erfolgt auf Zeilenebene über „Zeile
 \> Parameter".
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image54.png){width="6.3in"
-height="1.2625in"}
-
-Abbildung 54: Aufruf Belegzeilenparameter
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter54.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 54: Aufruf Belegzeilenparameter</figcaption> <br>
+</div>
 
 Handelt es sich bei dem Artikel um einen verfolgungspflichtigen Artikel,
 kann über die Artikelverfolgungszeilen bei Auswahl der entsprechenden
 Informationen auf die dazugehörigen Parameter über den Aufruf „Zeile \>
 Parameter Chargennr." Bzw. „Parameter Seriennr." Zugegriffen werden.
 
-![Ein Bild, das Text, Screenshot, Reihe enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image55.png){width="6.3in"
-height="1.9076388888888889in"}
-
-Abbildung 55: Aufruf \"Parameter Chargennr.\" Bzw. „Parameter Seriennr."
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter55.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 55: Aufruf "Parameter Chargennr." Bzw. „Parameter Seriennr."</figcaption> <br>
+</div>
 
 Innerhalb des Parameteraufrufs lassen sich die Parameter
 weiterbearbeiten und werden dann an Folgebelege weitergegeben.
 
 #### Verfügbare Belege
 
-Belegzeilenparameter können an folgenden Belegen hinterlegt werden:
-
-Verkauf:
-
-Verkaufsangebot
-
-Verkaufsauftrag
-
-Rahmenauftrag
-
-Verkaufsrechnung
-
-Verkaufsgutschrift
-
-Geb. Verkaufsrechnung
-
-Geb. Verkaufsgutschrift
-
-Geb. Verkaufslieferung
-
-Logistik
-
-Umlagerungsauftrag
-
-Wareneingang
-
-Warenausgang
-
-Einkauf
-
-Einkaufsanfrage
-
-Einkaufsbestellung
-
-Rahmenbestellung
-
-Einkaufsrechnung
-
-Einkaufsgutschrift
-
-Geb. Einkaufsrechnung
-
-Geb. Einkaufsgutschrift
-
-Geb. Einkaufslieferung
+<ol>
+    <li>Verkauf
+        <ul>
+            <li>Verkaufsangebot</li>
+            <li>Verkaufsauftrag</li>
+            <li>Rahmenauftrag</li>
+            <li>Verkaufsrechnung</li>
+            <li>Verkaufsgutschrift</li>
+            <li>Geb. Verkaufsrechnung</li>
+            <li>Geb. Verkaufsgutschrift</li>
+            <li>Geb. Verkaufslieferung</li>
+        </ul>
+    </li>
+    <li>Logistik
+        <ul>
+            <li>Umlagerungsauftrag</li>
+            <li>Wareneingang</li>
+            <li>Warenausgang</li>
+        </ul>
+    </li>
+    <li>Einkauf
+        <ul>
+            <li>Einkaufsanfrage</li>
+            <li>Einkaufsbestellung</li>
+            <li>Rahmenbestellung</li>
+            <li>Einkaufsrechnung</li>
+            <li>Einkaufsgutschrift</li>
+            <li>Geb. Einkaufsrechnung</li>
+            <li>Geb. Einkaufsgutschrift</li>
+            <li>Geb. Einkaufslieferung</li>
+        </ul>
+    </li>
+</ol>
 
 ### Parameterzuweisung am Debitor
 
 Auf der Debitorenkarte können über den Aufruf „Zugehörig \> Sonstiges \>
 Parameter" Parameter zum Debitor zugeordnet werden.
 
-![Ein Bild, das Text, Screenshot, Zahl, Reihe enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image56.png){width="6.3in"
-height="2.692361111111111in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter56.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 56: Debitorenkarte -- Parameterzuweisung</figcaption> <br>
+</div>
 
-Abbildung 56: Debitorenkarte -- Parameterzuweisung
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter57.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 57: Parameterzuordnung</figcaption> <br>
+</div>
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image57.png){width="6.3in"
-height="1.448611111111111in"}
-
-Abbildung 57: Parameterzuordnung
 
 Wurden auf der Debitorenkarte Parameter hinterlegt und der Debitor wird
 einem Verkaufsbeleg zugewiesen und es wird eine Verkaufsbelegzeile
 erstellt, werden die Parameterinformationen des Debitors in die
 Belegzeilenparameter eingetragen.
 
-![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image58.png){width="6.3in"
-height="1.26875in"}
-
-Abbildung 58: Verkaufsbeleg - Belegzeilenparameter Übernahme von
-Debitorenkarte
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter58.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 58: Verkaufsbeleg - Belegzeilenparameter Übernahme von Debitorenkarte</figcaption> <br>
+</div>
 
 Sofern ein Artikel mit Parametern innerhalb des Verkaufsbeleges
 eingetragen wird, werden die Belegzeilenparameter um diese Informationen
 ergänzt.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image59.png){width="6.3in"
-height="2.529861111111111in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter59.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 59:Ergänzte Parameterinformationen</figcaption>
+</div>
 
-Abbildung 59:Ergänzte Parameterinformationen
+<br>
 
 #### Verknüpfte Parameter (Debitor)
 
@@ -355,11 +322,10 @@ Auf der Debitorenkarte können über den Aufruf „Zugehörig \> Sonstiges \>
 Verknüpfte Parameter" Verknüpfte Parameter zwischen Debitor und Artikel
 hinterlegt werden.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image60.png){width="6.3in"
-height="2.421527777777778in"}
-
-Abbildung 60: Debitorenkarte - Aufruf \"Verknüpfte Parameter\"
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter60.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 60: Debitorenkarte - Aufruf "Verknüpfte Parameter"</figcaption> <br>
+</div>
 
 Auf der sich öffnenden Seite „Verknüpfte Parameter" wird die Ansicht
 beim Aufruf über die Debitorenkarte bereits vorgefiltert auf
@@ -371,39 +337,35 @@ zu erzeugen.
 Im Feld „Anzahl Parameter" wird angezeigt, wie viele Parameter zu dieser
 Verknüpfung gehören.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image61.png){width="6.3in"
-height="1.0319444444444446in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter61.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 61: Verknüpfte Parameter - Übersicht</figcaption> <br>
+</div>
 
-Abbildung 61: Verknüpfte Parameter - Übersicht
 
 Über den Aufruf „Parameter" im Menüband können der Verknüpfung Parameter
 zugewiesen werden.
 
-![Ein Bild, das Text, Screenshot, Schrift, Reihe enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image62.png){width="5.948746719160105in"
-height="1.2085017497812773in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter62.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 62: Verknüpfte Parameter - Aufruf Parameterzuweisung</figcaption> <br>
+</div>
 
-Abbildung 62: Verknüpfte Parameter - Aufruf Parameterzuweisung
-
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image63.png){width="6.3in"
-height="1.4756944444444444in"}
-
-Abbildung 63: Verknüpfte Parameter - Zugeordnete Parameter
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter63.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 63: Verknüpfte Parameter - Zugeordnete Parameter</figcaption> <br>
+</div>
 
 Wird diese Kombination nun in einem Verkaufsbeleg angegeben, werden die
 Parameterinformationen der Belegzeile um die Informationen der
 Verknüpfung ergänzt.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image64.png){width="6.3in"
-height="2.8180555555555555in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter64.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 64: Belegzeilenparameter - Ergänzung um Verknüpfte Parameter Debitor</figcaption> 
+</div>
 
-Abbildung 64: Belegzeilenparameter - Ergänzung um Verknüpfte Parameter
-Debitor
+<br>
 
 #### Verknüpfte Parameter an der \"Lief. An\" Adresse
 
@@ -414,12 +376,10 @@ Dazu kann in der „Lief. An Adressen Übersicht" im Menüband über den
 Aufruf „Zugehörig \> Sonstiges" die Einrichtung „Verknüpfte Parameter"
 eingesehen und bearbeitet werden.
 
-![Ein Bild, das Text, Screenshot, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image65.png){width="6.3in"
-height="1.6861111111111111in"}
-
-Abbildung 65: Lief. An Adressen Übersicht - Aufruf Verknüpfte Parameter
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter63.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 65: Lief. An Adressen Übersicht - Aufruf Verknüpfte Parameter</figcaption> <br>
+</div>
 
 Auf der sich öffnenden Seite „Verknüpfte Parameter" wird die Ansicht
 beim Aufruf über die „Lief. An Adressen Übersicht" bereits vorgefiltert
@@ -429,23 +389,22 @@ kann nun eine Artikelnummer ausgewählt werden, um eine
 Parameterverknüpfung zwischen der ausgewählten Lieferadresse und dem
 Artikel zu erzeugen.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image66.png){width="6.3in"
-height="1.4145833333333333in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter66.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 66: Lieferadresse - Verknüpfte Parameter Parameterzuordnung</figcaption> <br>
+</div>
 
-Abbildung 66: Lieferadresse - Verknüpfte Parameter Parameterzuordnung
 
 Wird diese Kombination nun in einem Verkaufsbeleg angegeben, werden die
 Parameterinformationen der Belegzeile um die Informationen der
 Verknüpfung ergänzt.
 
-![Ein Bild, das Text, Screenshot, Zahl, Software enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image67.png){width="6.3in"
-height="3.1770833333333335in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter67.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 67:Belegzeilenparameter - Ergänzung um Verknüpfte Parameter Lieferadresse</figcaption> 
+</div>
 
-Abbildung 67:Belegzeilenparameter - Ergänzung um Verknüpfte Parameter
-Lieferadresse
+<br>
 
 ##### Einsteuerungslogik in Belege
 
@@ -453,25 +412,20 @@ Werden sowohl am Debitor als auch an der Lieferadresse die gleichen
 Parameter erfasst, werden in den Belegzeilenparametern im ersten Schritt
 die hinterlegten Parameterinformationen des Debitors berücksichtigt.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image68.png){width="6.3in"
-height="1.38125in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter68.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 68: Lief. an Adresse -- Parameterzuordnung</figcaption> <br>
+</div>
 
-Abbildung 68: Lief. an Adresse -- Parameterzuordnung
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter69.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 69: Debitorenkarte -- Parameterzuordnung</figcaption> <br>
+</div>
 
-![Ein Bild, das Text, Screenshot, Reihe, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image69.png){width="6.3in"
-height="1.0361111111111112in"}
-
-Abbildung 69: Debitorenkarte -- Parameterzuordnung
-
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image70.png){width="6.3in"
-height="3.407638888888889in"}
-
-Abbildung 70: Belegzeilenparameter - Übernahme von Debitor
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter70.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 70: Belegzeilenparameter - Übernahme von Debitor</figcaption> <br>
+</div>
 
 Wird nun nachträglich die Lieferadresse im Belegkopf geändert erfolgt
 eine Hinweismeldung.
@@ -480,13 +434,12 @@ Die Belegzeilenparameter werden nicht automatisch aktualisiert und
 müssen nachträglich bearbeitet bzw. an die Parameterinformationen der
 Lieferadresse angepasst werden.
 
-![Ein Bild, das Text, Screenshot, Software enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image71.png){width="5.765919728783902in"
-height="1.7618088363954505in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter71.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 71: Hinweismeldung zur Prüfung der Belegzeilenparameterinformationen</figcaption>
+</div>
 
-Abbildung 71: Hinweismeldung zur Prüfung der
-Belegzeilenparameterinformationen
+<br>
 
 ### Parameterzuweisung am Kreditor
 
@@ -494,17 +447,17 @@ Analog zur Parameterzuweisung am Debitor können auch für einen
 Kreditoren Parameterinformationen im Menüband über den Aufruf „Zugehörig
 \> Sonstiges \> Parameter" hinterlegt werden.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image72.png){width="6.3in"
-height="2.283333333333333in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter72.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 72: Kreditorenkarte - Aufruf Parameter</figcaption> <br>
+</div>
 
-Abbildung 72: Kreditorenkarte - Aufruf Parameter
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter73.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 73: Kreditorenkarte -- Parameterzuordnung</figcaption> 
+</div>
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image73.png){width="6.3in"
-height="1.4083333333333334in"}
-
-Abbildung 73: Kreditorenkarte -- Parameterzuordnung
+<br>
 
 #### Verknüpfte Parameter (Kreditor)
 
@@ -512,11 +465,10 @@ Auf der Kreditorenkarte können über den Aufruf „Zugehörig \> Sonstiges
 \> Verknüpfte Parameter" Verknüpfte Parameter zwischen Kreditor und
 Artikel hinterlegt werden.
 
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image74.png){width="6.3in"
-height="2.03125in"}
-
-Abbildung 74: Kreditorenkarte - Aufruf \"Verknüpfte Parameter\"
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter74.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 74: Kreditorenkarte - Aufruf "Verknüpfte Parameter"</figcaption> <br>
+</div>
 
 Auf der sich öffnenden Seite „Verknüpfte Parameter" wird die Ansicht
 beim Aufruf über die Kreditorenkarte bereits vorgefiltert auf
@@ -531,57 +483,49 @@ Verknüpfung gehören.
 Über den Aufruf „Parameter" im Menüband können der Verknüpfung Parameter
 zugewiesen werden.
 
-![Ein Bild, das Text, Screenshot, Reihe, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image75.png){width="6.3in"
-height="1.1923611111111112in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter75.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 75: Verknüpfte Parameter - Aufruf Parameterzuordnung</figcaption> <br>
+</div>
 
-Abbildung 75: Verknüpfte Parameter - Aufruf Parameterzuordnung
-
-![Ein Bild, das Text, Screenshot, Reihe, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image76.png){width="6.3in"
-height="1.1229166666666666in"}
-
-Abbildung 76: Parameterzuordnung Verknüpfte Parameter Kreditor-Artikel
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter76.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 76: Parameterzuordnung Verknüpfte Parameter Kreditor-Artikel</figcaption> <br>
+</div>
 
 Wird diese Kombination nun in einem Einkaufsbeleg angegeben, werden die
 Parameterinformationen der Belegzeile um die Informationen der
 Verknüpfung ergänzt.
 
-![Ein Bild, das Tisch enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image77.png){width="6.3in"
-height="2.6958333333333333in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter77.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 77: Einkaufsbeleg - Belegzeilenparameter Ergänzung Verknüpfte Parameter</figcaption> 
+</div>
 
-Abbildung 77: Einkaufsbeleg - Belegzeilenparameter Ergänzung Verknüpfte
-Parameter
+<br>
 
 ### Parameterzuweisung am Lagerort
 
 Auf der Lagerortkarte können im Menüband über den Aufruf „Parameter"
 Parameter hinterlegt werden.
 
-![](vertopal_2821de53d4144ecb9383d02a096bae73/media/image78.png){width="6.3in"
-height="0.6493055555555556in"}
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter78.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 78: Lagerortkarte - Aufruf Parameter</figcaption> <br>
+</div>
 
-Abbildung 78: Lagerortkarte - Aufruf Parameter
-
-![Ein Bild, das Text enthält. Automatisch generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image79.png){width="6.3in"
-height="1.511111111111111in"}
-
-Abbildung 79: Lagerortkarte -- Parameterzuordnung
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter79.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 79: Lagerortkarte - Parameterzuordnung</figcaption> <br>
+</div>
 
 Wird dieser Lagerort nun innerhalb eines Beleges angegeben, werden die
 Belegzeilenparameter um diese Parameterinformationen ergänzt.
 
-![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte
-Beschreibung](vertopal_2821de53d4144ecb9383d02a096bae73/media/image80.png){width="6.3in"
-height="2.6708333333333334in"}
-
-Abbildung 80: Belegzeilenparameter - Ergänzung um Parameterinformationen
-Lagerort
+<div style="text-align: center;">
+    <img src="../../images/Para&QS/Parameter80.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 80: Belegzeilenparameter - Ergänzung um Parameterinformationen Lagerort</figcaption> <br>
+</div>
 
 Die Parameterinformationen des Lagerortes werden außerdem an die
 Logistikbelege (Wareneingang, Warenausgang) weitergegeben.
