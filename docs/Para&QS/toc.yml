@@ -9,3 +9,5 @@ items:
   href: QS_Setup.md
 - name: Funktionsbeschreibung Qualitätssicherung
   href: QS_Function.md
+- name: Datenmodell Qualitätssicherung
+  href: QS_Datamodel.md
