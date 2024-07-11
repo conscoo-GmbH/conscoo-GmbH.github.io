@@ -234,6 +234,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/Para&QS/QS_Datamodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Para&QS/QS_Datamodel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/Para&QS/QS_Function.md",
       "output": {
         ".html": {
