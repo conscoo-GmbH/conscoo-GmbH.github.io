@@ -7,7 +7,7 @@ wichtigsten Funktionen und Seiten auf der Startseite gefunden werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS1.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 1: Übersicht \"Parameter Profil\"</figcaption>
+    <figcaption>Abbildung 1: Übersicht "Parameter Profil"</figcaption>
 </div>
 
 <br>
@@ -62,20 +62,16 @@ Zurücksetzen der Prüfentscheidung auf \"Leer\".
 
 Es gibt vier Auswahlmöglichkeiten:
 
-\- Beide
-
+**Beide:**
 Die Funktion wird auf dem Prüfauftrag und der Probe angezeigt.
 
-\- Auftrag
-
+**Auftrag:**
 Die Funktion wird nur auf dem Prüfauftrag angezeigt.
 
-\- Probe
-
+**Probe:**
 Die Funktion wird nur auf der Probe angezeigt.
 
-\- Keine
-
+**Keine:**
 Die Funktion wird auf keiner der beiden Seiten angezeigt und ein
 Zurücksetzen der Prüfentscheidung ist nicht möglich.
 
@@ -89,12 +85,12 @@ also festgelegt werden, wie das Prüfobjekt final bewertet wird.
 
 Dazu stehen in der Einrichtung zwei Optionen zur Auswahl.
 
-Option 1: letzte
+**Option 1: letzte**
 
 Das Prüfobjekt bekommt die Qualität der letzten gebuchten Probe, der es
 zugeordnet ist.
 
-Option 2: schlechteste
+**Option 2: schlechteste**
 
 Das Prüfobjekt erhält die schlechteste Qualität aller gebuchten Proben,
 denen es zugeordnet ist. Somit ist die Prüfobjektqualität \"schlecht\",
@@ -131,29 +127,29 @@ Art \"Prüfung\" zugewiesen haben.
 
 #### Wertart
 
-Folgende Parameterwertarten stehen zur Verfügung
+Folgende Parameterwertarten stehen zur Verfügung:
 
-1.  Dezimal:
+**Dezimal:**
 
 Parameter vom Typ \"Dezimal\" können Wertebereiche (\"Von - Bis\")
 besitzen.
 
-2.  Text:
+**Text:**
 
 Für Parameter vom Typ \"Text\" können wählbare Textwerte in einer
 Tabelle erfasst werden.
 
-3.  Boolean:
+**Boolean:**
 
-> Auswahl zwischen true/false
+Auswahl zwischen true/false
 
-4.  Datum:
+**Datum:**
 
 Mit Hilfe von Parametern vom Typ \"Datum\" können zusätzliche
 Informationen, wie bspw. das Erstellungsdatum eines Artikels oder das
 Fertigungsdatum einer Charge spezifiziert werden.
 
-5.  Referenz:
+**Referenz:**
 
 Mit Parametern des Typs \"Referenz\" kann eine Verbindung zu anderen
 Tabellen innerhalb Microsoft Dynamics Business Central hinterlegt
@@ -208,7 +204,7 @@ Wertebereich\" im Menüband.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS4.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 4: Funktion \"Spezifischer Wertebereich\"</figcaption> <br>
+    <figcaption>Abbildung 4: Funktion "Spezifischer Wertebereich"</figcaption> <br>
 </div>
 
 
@@ -268,16 +264,10 @@ Prüfplanzeilen übertragen.
     <figcaption>Abbildung 9: Normwert, Einheit, Prüfgrenzen auf Prüfplan</figcaption> <br>
 </div>
 
-
 Zudem werden die hinterlegten Wertebereiche in der Infobox je Parameter
 angezeigt. Dabei ist die jeweilige Entscheidung farblich markiert, wobei
 rote Schriftfarbe \"Fehler\", gelbe Schriftfarbe \"Warnung\" und grüne
 Schriftfarbe \"OK\" bedeutet.
-
-<div style="text-align: center;">
-    <img src="../../images/Para&QS/QS10.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 10: Übersicht Parameterwerte</figcaption> 
-</div>
 
 <br>
 
@@ -291,7 +281,7 @@ Prüfplan eingegeben sein muss.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS11.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 11: Funktion \"Kopiere vom Prüfplan\"</figcaption> <br>
+    <figcaption>Abbildung 10: Funktion "Kopiere vom Prüfplan"</figcaption> <br>
 </div>
 
 Das Klicken der Funktion öffnet die Prüfplanübersicht und ein
@@ -299,7 +289,7 @@ bestehender Prüfplan kann zum Kopieren ausgewählt werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS12.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 12: Übersicht Prüfpläne</figcaption> <br>
+    <figcaption>Abbildung 11: Übersicht Prüfpläne</figcaption> <br>
 </div>
 
 Hier wird der Prüfplan \"ABMESSUNG\" gewählt.
@@ -309,14 +299,14 @@ bestehenden Prüfplaninhaltes in den neu erstellten Prüfplan.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS13.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 13: Abfrage Prüfplankopie</figcaption> <br>
+    <figcaption>Abbildung 12: Abfrage Prüfplankopie</figcaption> <br>
 </div>
 
 Bei \"Ja\" wird der neue Prüfplan gefüllt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS14.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 14: Prüfplan mit kopiertem Inhalt</figcaption> <br>
+    <figcaption>Abbildung 13: Prüfplan mit kopiertem Inhalt</figcaption> <br>
 </div>
 
 Auf den Parametern erfasste Wertebereich im ursprünglichen Prüfplan
@@ -332,13 +322,13 @@ bestimmt die Anzahl der generierten Proben aus einem Beleg. Je nach Art
 wird das Intervall auf unterschiedliche Bestandteile des Beleges
 aufgeteilt. Unterschieden wird in die vier Arten:
 
-\- Nach Posten
+**Nach Posten**
 
-\- Nach Menge
+**Nach Menge**
 
-\- Mischprobe
+**Mischprobe**
 
-\- Je Menge
+**Je Menge**
 
 <br>
 
@@ -346,7 +336,7 @@ aufgeteilt. Unterschieden wird in die vier Arten:
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS15.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 15: Prüfintervall \"nach Posten\"</figcaption> <br>
+    <figcaption>Abbildung 14: Prüfintervall "nach Posten"</figcaption> <br>
 </div>
 
 Die Intervalleinstellung \"nach Posten\" prüft die
@@ -370,7 +360,7 @@ bestimmten zu prüfenden Menge (Basis).
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS16.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 16: Prüfintervall \"nach Menge\"</figcaption> <br>
+    <figcaption>Abbildung 15: Prüfintervall "nach Menge"</figcaption> <br>
 </div>
 
 Die Eskalationsstufen werden über das Referenzergebnis und die Menge
@@ -388,7 +378,7 @@ sollen. Jedes Prüfobjekt wird einer Probe zugeordnet.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS17.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 17: Prüfintervall \"Mischproben\"</figcaption> <br>
+    <figcaption>Abbildung 16: Prüfintervall "Mischproben"</figcaption> <br>
 </div>
 
 Je Prüfplan wird eine Probe erstellt und die im Intervall hinterlegten
@@ -409,7 +399,7 @@ vorherigen Zeile einen Fehler aufweist.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS18.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 18: Prüfintervall \"Je Menge\"</figcaption>
+    <figcaption>Abbildung 17: Prüfintervall "Je Menge"</figcaption>
 </div>
 
 <br>
@@ -429,7 +419,7 @@ erstellt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS19.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 19: Prüfauslöser auf Prüfvorlage</figcaption>
+    <figcaption>Abbildung 18: Prüfauslöser auf Prüfvorlage</figcaption>
 </div>
 
 <br>
@@ -442,7 +432,7 @@ werden, die den aktuellen Datensatz ersetzen soll.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS20.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 20: Funktion \"Kopiere Prüfvorlage\"</figcaption>
+    <figcaption>Abbildung 19: Funktion "Kopiere Prüfvorlage"</figcaption>
 </div>
 
 <br>
@@ -458,7 +448,7 @@ Platzhalter für mögliche Kundenindividuelle Prüfauslöser.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS21.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 21: Prüfauslöser</figcaption> <br>
+    <figcaption>Abbildung 20: Prüfauslöser</figcaption> <br>
 </div>
 
 In der Spalte \"Zugeordneter Prüfplan\" wird der Prüfplan mit den
@@ -466,7 +456,7 @@ entsprechenden Prüfparametern hinterlegt sowie das Prüfintervall.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS22.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 22: Prüfvorschlagszeilenpläne</figcaption>
+    <figcaption>Abbildung 21: Prüfvorschlagszeilenpläne</figcaption>
 </div>
 
 <br>
@@ -481,7 +471,7 @@ somit nicht mehr in dem entsprechenden Prozess genutzt werden kann.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS23.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 23: Prüfevents mit Prüfereignis</figcaption>
+    <figcaption>Abbildung 22: Prüfevents mit Prüfereignis</figcaption>
 </div>
 
 <br>
@@ -494,7 +484,7 @@ Zuordnung geschieht über das Feld \"Prüfvorlage\" auf der Artikelkarte.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS24.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 24: Prüfvorlage auf Artikelkarte</figcaption> <br>
+    <figcaption>Abbildung 23: Prüfvorlage auf Artikelkarte</figcaption> <br>
 </div>
 
 Außerdem kann optional eine Artikelverfolgung angelegt werden. Wird

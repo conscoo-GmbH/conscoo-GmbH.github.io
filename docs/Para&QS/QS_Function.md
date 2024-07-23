@@ -9,7 +9,7 @@ ist.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS25.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 25: Prüfauftragskopf</figcaption> <br>
+    <figcaption>Abbildung 24: Prüfauftragskopf</figcaption> <br>
 </div>
 
 Die Zeilenansicht darunter wird mit den Prüfparametern des zugehörigen
@@ -17,7 +17,7 @@ Prüfplanes gefüllt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS26.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 26: Prüfauftrag Zeilenansicht</figcaption> <br>
+    <figcaption>Abbildung 25: Prüfauftrag Zeilenansicht</figcaption> <br>
 </div>
 
 
@@ -48,7 +48,7 @@ der zugehörigen Proben aufrufen.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS27.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 27: Proben auf Prüfauftrag</figcaption>
+    <figcaption>Abbildung 26: Proben auf Prüfauftrag</figcaption>
 </div>
 
 <br>
@@ -72,7 +72,7 @@ der jeweiligen Zeile generiert.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS28.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 28: Gefüllte Parameterwerte Prüfauftragkarte</figcaption> <br>
+    <figcaption>Abbildung 27: Gefüllte Parameterwerte Prüfauftragkarte</figcaption> <br>
 </div>
 
 Durch die Funktion \"Entscheidung holen\" erhält die Probe eine
@@ -80,7 +80,7 @@ Prüfentscheidung und eine Prüfobjektqualität.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS29.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 29: Probe mit Entscheidung</figcaption> <br>
+    <figcaption>Abbildung 28: Probe mit Entscheidung</figcaption> <br>
 </div>
 
 Nun kann die Probe gebucht werden und das zugeordnete Prüfobjekt erhält
@@ -101,7 +101,7 @@ Qualität\" hinterlegt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS30.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 30: Paketnr. Informationskarte</figcaption> <br>
+    <figcaption>Abbildung 29: Paketnr. Informationskarte</figcaption> <br>
 </div>
 
 In der Infobox werden die Prüfparameter sowie die geprüften Werte des
@@ -111,7 +111,7 @@ Prüfparameterzusammenfassung öffnet.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS31.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 31: Prüfparameterzusammenfassung</figcaption> <br>
+    <figcaption>Abbildung 30: Prüfparameterzusammenfassung</figcaption> <br>
 </div>
 
 Es werden alle geprüften Parameter des Prüfobjektes aufgelistet.
@@ -122,5 +122,5 @@ sich der Durchschnittswert errechnet.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS32.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 32: Zusammenfassung Prüfposten</figcaption>
+    <figcaption>Abbildung 31: Zusammenfassung Prüfposten</figcaption>
 </div>

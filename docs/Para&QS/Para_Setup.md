@@ -19,7 +19,6 @@ einzelnen Bereichen für die Shortcutparamter definiert.
     <figcaption>Abbildung 2: Beispiel Einrichtung Parameteransicht Bereich "Verkauf"</figcaption> <br>
 </div>
 
-
 Im Setup hinterlegte Parameteransichten beeinflussen die Anzeige der
 entsprechenden Listen. Auf der Parameteransicht „Artikel
 Parameteransicht" wird die erstellte Ansicht „Artikel" hinterlegt.
@@ -32,8 +31,6 @@ Parameteransicht" wird die erstellte Ansicht „Artikel" hinterlegt.
     <img src="../../images/Para&QS/Parameter4.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 4: Parameteransicht "Artikel"</figcaption> <br>
 </div>
-
-
 
 In der hinterlegten Ansicht zugeordnete Artikel werden nun auf der Seite
 Artikelübersicht in Spaltenform aufgelistet.
@@ -67,9 +64,6 @@ Einrichtung geöffnet werden.
     <figcaption>Abbildung 6: Einrichtung -> Parameteransichten</figcaption> <br>
 </div>
 
-
-
-
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter7.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 7: Übersicht u. Einrichtung Parameteransichten</figcaption> <br>
@@ -83,7 +77,6 @@ berücksichtigende Parameter definiert werden.
     <figcaption>Abbildung 8: Parameteransicht bearbeiten</figcaption> <br>
 </div>
 
-
 In der sich öffnenden Seite „Parameteransichtskarte" können die
 anzuzeigenden Parameter ausgewählt werden. Es kann außerdem über den
 Punkt „Sortierung" definiert werden, in welcher Reihenfolge die
@@ -93,7 +86,6 @@ Parameter angezeigt werden sollen.
     <img src="../../images/Para&QS/Parameter9.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 9: Parameteransichtskarte mit Sortierung</figcaption> <br>
 </div>
-
 
 Das Feld \"ParameterartFilter\" gibt die Optionen \"Keine\". Parameter\"
 und \"Prüfung\". Die ausgewählte Einschränkung wirkt sich auf die
@@ -227,7 +219,6 @@ die Farbe Schwarz.
 
 <br>
 
-
 ### Parameter Formeln
 
 Parameter, welche eine Parameterformel hinterlegt bekommen, erhalten
@@ -242,7 +233,6 @@ ihre Werte basierend auf Berechnung durch andere Parameter.
 </div>
 
 <br>
-
 
 ### Kennzeichen „Datenhaltung"
 
@@ -288,7 +278,6 @@ Beschreibung hinzugefügt werden.
 
 <br>
 
-
 ## Parameterformeln
 
 Auf der Seite „Parameterformeln" können Formeln zur Berechnung eines
@@ -304,7 +293,6 @@ zugewiesen werden.
 </div>
 
 <br>
-
 
 ### Aufbau Parameterformel
 
@@ -363,7 +351,6 @@ aufgebaut.
 
 <br>
 
-
 #### Funktion „Test"
 
 Um den Aufbau fehlerfreier Formeln sicherstellen zu können, kann über
@@ -380,13 +367,10 @@ angezeigt.
     <figcaption>Abbildung 26: Funktion "ShowTest"</figcaption> <br>
 </div>
 
-
-
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter27.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 27: Parameter Testwertfelder</figcaption> <br>
 </div>
-
 
 Um nun eine Formel testen zu können, können in den Feldern „Parameter 1
 Testwert" bis „Parameter 10 Testwert" Werte eingetragen werden.
@@ -398,7 +382,6 @@ werden.
     <img src="../../images/Para&QS/Parameter28.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 28: Test Parameterformel</figcaption> <br>
 </div>
-
 
 Nach Ausführung der Funktion werden in einem kleinen Fenster sowohl die
 Formel mit den Testwerten als auch das errechnete Ergebnis angezeigt.
@@ -428,7 +411,6 @@ Parameter" ersichtlich.
     <figcaption>Abbildung 30: Übersicht u. Einrichtung Parametervorlagen</figcaption> <br>
 </div>
 
-
 Im Aktionsmenü können dieser Parametervorlage über die Option
 „Parameter" entsprechende Parameter zugewiesen werden.
 
@@ -456,7 +438,6 @@ Suchübersicht" können Parametersuchen editiert bzw. im Aktionsmenü über
     <figcaption>Abbildung 32: Parameter Suchübersicht</figcaption> <br>
 </div>
 
-
 Über die Auswahl vom Feld „Code" kann die „Parameter Suchkarte" geöffnet
 werden.
 
@@ -464,7 +445,6 @@ werden.
     <img src="../../images/Para&QS/Parameter33.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 33: Parameter Suchkarte</figcaption> <br>
 </div>
-
 
 Ob bereits Parameter zu dieser Suche zugewiesen wurden, ist über das
 Feld „Anzahl der Suchparameter" ersichtlich.
@@ -480,12 +460,10 @@ Parameter hinterlegt werden.
     <figcaption>Abbildung 34: Funktion "Parameter" zur Parameterzuordnung</figcaption> <br>
 </div>
 
-
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter35.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 35: Übersicht "Parameterzuordnung"</figcaption> <br>
 </div>
-
 
 Über den Aufruf „Tabellen suchen" können die Tabellen hinterlegt werden,
 in denen nach diesen Parametern gesucht werden soll.
@@ -495,12 +473,10 @@ in denen nach diesen Parametern gesucht werden soll.
     <figcaption>Abbildung 36: Funktion "Tabellen suchen"</figcaption> <br>
 </div>
 
-
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter37.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 37: Übersicht "Parametersuchtabellen"</figcaption> <br>
 </div>
-
 
 Wird auf der „Parameter Suchkarte" im Aktionsmenü die Funktion „Suchen"
 aufgerufen, öffnen sich in einem neuen Fenster „Parametersuchergebnis"
