@@ -1,0 +1,11 @@
+items:
+- name: Übersicht LeBit Produktion
+  href: Manufacturing.md
+- name: Feinplanung Notwendige Einrichtungen
+  href: Feinplanung_Setup.md
+- name: Feinplanung Funktionsbeschreibung
+  href: Feinplanung_Function.md
+- name: Kombination Notwendige Einrichtungen
+  href: Kombination_Setup.md
+- name: Kombination Funktionsbeschreibung
+  href: Kombination_Function.md

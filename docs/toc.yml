@@ -1,6 +1,4 @@
 items:
-# - name: Übersicht
-#   href: introduction.md
 - name: LeBit Kontingente
   href: /../docs/Contingents/Contingents.html
 - name: LeBit Etiketten und Begleitdaten
@@ -15,4 +13,5 @@ items:
   href: /../docs/TP/TP.html
 - name: LeBit Parameter & Qualitätssicherung
   href: /../docs/Para&QS/Para&QS.html
-  
+- name: LeBit Produktion
+  href: /../docs/Manufacturing/Manufacturing.html

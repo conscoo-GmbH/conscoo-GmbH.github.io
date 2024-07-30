@@ -1,19 +1,7 @@
 items:
-# - name: Übersicht
-#   href: /../docs/introduction.html
-# - name: LeBit Contingents
-#   href: /../docs/Contingents/Contingents.html
-# - name: LeBit Labels
-#   href: /../docs/Labels/Labels.html
-# - name: LeBit Reposting
-#   href: /../docs/Reposting/Reposting.html
-- name: Übersicht LeBit Over-Shipment
+- name: Übersicht LeBit Überlieferung
   href: Over-Shipment.md
 - name: Notwendige Einrichtungen
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
-# - name: LeBit Complaints
-#   href: /../docs/Complaints/Complaints.html
-# - name: LeBit Transportplanung
-#   href: /../docs/TP/TP.html

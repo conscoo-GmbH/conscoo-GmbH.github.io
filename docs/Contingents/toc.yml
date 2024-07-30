@@ -1,10 +1,7 @@
 items:
-
-- name: Übersicht LeBit Contingents
+- name: Übersicht LeBit Kontingente
   href: Contingents.md
 - name: Notwendige Einrichtung
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
-
-

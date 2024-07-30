@@ -161,6 +161,69 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/Manufacturing/Feinplanung_Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/Feinplanung_Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Manufacturing/Feinplanung_Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/Feinplanung_Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Manufacturing/Kombination_Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/Kombination_Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Manufacturing/Kombination_Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/Kombination_Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Manufacturing/Manufacturing.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/Manufacturing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/Manufacturing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Manufacturing/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/Over-Shipment/Function.md",
       "output": {
         ".html": {

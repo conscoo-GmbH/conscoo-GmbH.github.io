@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      
+      <link rel="icon" href="../../../images/LeBit_Logo_2022.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/Manufacturing/Kombination_Function.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../../images/favicon-32x32.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="funktionsbeschreibung">Funktionsbeschreibung</h2>
+<h3 id="kombinationskarte">Kombinationskarte</h3>
+<p>Auf der Seite &quot;Kombination&quot; werden die Kombination erstellt und
+bearbeitet.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu20.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 19: Kombination Übersicht </figcaption>
+</div>
+<br>
+<h4 id="menüband">Menüband</h4>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zeichne Kombination</td>
+<td>Mit der Funktion &quot;Zeichne Kombination&quot; wird die Kombination aufgebaut. Die verschiedenen FAs werden ausgesucht und in eine Reihenfolge gebracht.</td>
+</tr>
+<tr>
+<td>Freigeben</td>
+<td>Die Kombination wird freigegeben.</td>
+</tr>
+<tr>
+<td>Status zurücksetzen</td>
+<td>Die Kombination kann wieder geöffnet und so überarbeitet werden.</td>
+</tr>
+<tr>
+<td>FA Anpassen</td>
+<td>Damit können die Mengen der Fertigungsaufträge angepasst werden.</td>
+</tr>
+<tr>
+<td>Kombinationsgrafik</td>
+<td>Zeigt eine Grafik an, wie die Kombination hintereinander aufgebaut ist.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 id="register-allgemein">Register &quot;Allgemein&quot;</h4>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+<th>Bemerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nr.</td>
+<td>Die Nr. wird automatisch aus der Nummernserie eingefügt</td>
+<td></td>
+</tr>
+<tr>
+<td>Beschreibung</td>
+<td>Kann frei gewählt werden</td>
+<td></td>
+</tr>
+<tr>
+<td>Start</td>
+<td>Bestimmt das Datum und die Uhrzeit, ab der diese Kombination laufen soll.</td>
+<td></td>
+</tr>
+<tr>
+<td>Ende</td>
+<td>Bestimmt das Datum und die Uhrzeit, an dem die Kombination beendet werden soll.</td>
+<td></td>
+</tr>
+<tr>
+<td>Dauer</td>
+<td>Zeigt die Dauer an, wie lange die Kombination läuft.</td>
+<td></td>
+</tr>
+<tr>
+<td>Kombinationsplan</td>
+<td>Wahl zwischen Bahn und Format. Wird automatisch bei der Wahl der AP(G) gefüllt.</td>
+<td></td>
+</tr>
+<tr>
+<td>Berechnungsmethode</td>
+<td>Wahl zwischen Zähler und Gewicht, wird automatisch aus bei der Wahl der AP(G) gefüllt.</td>
+<td></td>
+</tr>
+<tr>
+<td>Kapazitätsart</td>
+<td>Wahl zwischen Arbeitsplatzgruppe und Arbeitsplatz</td>
+<td></td>
+</tr>
+<tr>
+<td>Kapazitätsnr.</td>
+<td>Bestimmung, welche Arbeitsplatzgruppe oder welcher Arbeitsplatz genau für die Kombination zuständig ist.</td>
+<td></td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Der Status der Kombination &quot;Offen&quot; oder &quot;Freigegeben&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>Anfertigung</td>
+<td>Kann einer Anfertigung hinzugefügt werden.</td>
+<td>Die Kombination kann auch nach dem Freigeben einer Anfertigung hinzugefügt werden, aber dann über die Anfertigung und nicht über der Kombinationskarte.</td>
+</tr>
+<tr>
+<td>Arbeitsbreite</td>
+<td>Gibt die Arbeitsbreite an, die die Arbeitsplatzgruppe bzw. der Arbeitsplatz zur Verfügung hat, an.</td>
+<td>Arbeitsbreite für jede Kombination notwendig.</td>
+</tr>
+<tr>
+<td>Genutzte Breite</td>
+<td>Summe der Breite der Bahnen.</td>
+<td></td>
+</tr>
+<tr>
+<td>Arbeitslänge</td>
+<td>Gibt die Arbeitslänge an, die die Arbeitsplatzgruppe bzw. der Arbeitsplatz zur Verfügung hat, an.</td>
+<td>Arbeitslänge notwendig, wenn der Kombinationsplan auf &quot;Format&quot; geschaltet ist.</td>
+</tr>
+<tr>
+<td>Genutzte Länge</td>
+<td>Summe der Länge der genutzten Fertigungsanträge.</td>
+<td></td>
+</tr>
+<tr>
+<td>Arbeitsmenge</td>
+<td>Zeigt die Menge einer Bahn in der Kombination an.</td>
+<td></td>
+</tr>
+<tr>
+<td>Arbeitsmengeneinheit</td>
+<td>Gibt die Einheit an, die bei der Kombination genutzt wird (LFM, BG)</td>
+<td></td>
+</tr>
+<tr>
+<td>Menge</td>
+<td>Gibt die Gesamtmenge der FAs in der Kombination an.</td>
+<td></td>
+</tr>
+<tr>
+<td>Menge (Basis)</td>
+<td>Gibt die Gesamtmenge der FAs in der Basiseinheit der Artikel an, die sich in der Kombination befinden.</td>
+<td></td>
+</tr>
+<tr>
+<td>Parameteransicht</td>
+<td>Wird automatisch ausgefüllt, mit der Parameteransicht aus der AP(G) bzw. der Vorgabe Parameteransicht aus der LeBit Produktion. Kann in der Kombination selbst verändert werden.</td>
+<td></td>
+</tr>
+<tr>
+<td>Anzahl Messer längs</td>
+<td>Gibt an, wie viele Messer die AP(G) besitzt und dadurch wie viele Bahnen nebeneinander liegen können.</td>
+<td></td>
+</tr>
+<tr>
+<td>Anzahl Messer quer</td>
+<td>Gibt an, wie viele Messer die AP(G) besitzt und dadurch wie viele Bahnen hintereinander liegen können.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 id="register-kombinationszeilen">Register &quot;Kombinationszeilen&quot;</h4>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menüband</td>
+<td></td>
+</tr>
+<tr>
+<td>Fertigungsauftrag öffnen</td>
+<td>Öffnet den markierten Fertigungsauftrag.</td>
+</tr>
+<tr>
+<td>Neu</td>
+<td>Über &quot;Neu&quot; können neue, passende Fertigungsaufträge hinzugefügt werden.</td>
+</tr>
+<tr>
+<td>Löschen</td>
+<td>Löscht die markierte Kombinationszeile.</td>
+</tr>
+<tr>
+<td>Kombinationszeilen</td>
+<td></td>
+</tr>
+<tr>
+<td>Typ</td>
+<td>Fertigungsauftrag</td>
+</tr>
+<tr>
+<td>Planbestimmend</td>
+<td>Wird automatisch gesetzt, wenn der erste Fertigungsauftrag hinzugefügt wird.</td>
+</tr>
+<tr>
+<td>FA-Nr.</td>
+<td>Trägt die Nummer des Fertigungsauftrags ein, der in der Zeile angesprochen wird.</td>
+</tr>
+<tr>
+<td>FA-Zeilennr.</td>
+<td>Gibt die Zeilennummer des Fertigungsauftrags an, welche in dieser Zeile genutzt wird.</td>
+</tr>
+<tr>
+<td>Artikelnr.</td>
+<td>Gibt den Artikel der ausgewählten Zeile an.</td>
+</tr>
+<tr>
+<td>Beschreibung</td>
+<td>Beschreibung des Artikels</td>
+</tr>
+<tr>
+<td>Menge</td>
+<td>Fügt die Menge des Artikels im Fertigungsauftrag an.</td>
+</tr>
+<tr>
+<td>Einheitencode</td>
+<td>Basiseinheit des Artikels.</td>
+</tr>
+<tr>
+<td>Menge (Basis)</td>
+<td>Menge des Artikels in der Basiseinheit des Artikels.</td>
+</tr>
+<tr>
+<td>X Position</td>
+<td>Gibt die X Position des FAs in der Kombination an.</td>
+</tr>
+<tr>
+<td>Y Position</td>
+<td>Gibt die X Position des FAs in der Kombination an.</td>
+</tr>
+<tr>
+<td>Breite</td>
+<td>Gibt die Breite des Artikels im FA an.</td>
+</tr>
+<tr>
+<td>Länge</td>
+<td>Gibt die Länge des Artikels im FA an.</td>
+</tr>
+<tr>
+<td>Gewicht pro Bogen</td>
+<td>Gibt das Gewicht je Bogen an, der in der Kombinationszeile erstellt wird.</td>
+</tr>
+<tr>
+<td>Anzahl Würfe</td>
+<td>Gibt die Anzahl der erstellten Bögen an.</td>
+</tr>
+<tr>
+<td>Parameter</td>
+<td>Bis zu zehn Parameter des Artikels können angezeigt werden, die in der Parameteransicht als &quot;Sichtbar&quot; gekennzeichnet worden sind.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="kombination-erstellen">Kombination erstellen</h3>
+<p>In der LeBit Produktion App ist es möglich vier verschiedene
+Kombinationsarten zu erstellen.</p>
+<p>Welche der vier Kombinationsarten genutzt wird, hängt von den Feldern
+&quot;Kombinationsplan&quot; und &quot;Berechnungsmethode&quot; ab, die sich im
+Kombinationskopf befinden. Die Felder werden aus der Arbeitsplatzgruppe
+gefüllt.</p>
+<table>
+<thead>
+<tr>
+<th>Kombinationsplan</th>
+<th>Berechnungsmethode</th>
+<th>Einheit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bahn</td>
+<td>Zähler</td>
+<td>Einheit für Rolle</td>
+</tr>
+<tr>
+<td>Bahn</td>
+<td>Gewicht</td>
+<td>Mengeneinheit für Gewicht</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>Zähler</td>
+<td>Einheit für Bogen</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>Gewicht</td>
+<td>Mengeneinheit für Gewicht</td>
+</tr>
+</tbody>
+</table>
+<p>Um die Fertigungsaufträge hinzuzufügen, gibt es zwei Möglichkeiten. Zum
+einen kann man über die &quot;Zeichne Kombination&quot; im Menüband des
+Kombinationskopfes oder über &quot;Neu&quot; im Menüband der Kombinationszeilen
+die Fertigungsaufträge hinzufügen.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu21.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 20: Zeichne Kombination und Neu </figcaption> <br>
+</div>
+<p>Wird die Funktion &quot;Zeichne Kombination&quot; genutzt, öffnet sich eine
+Maske und über &quot;Aktionen&quot; und &quot;Neu&quot; werden die verschiedenen
+Fertigungsaufträge eingefügt.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu22.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 21: "Zeichne Kombination" Übersicht bei Bahnen </figcaption> <br>
+</div>
+<p>Wird ein Fertigungsauftrag ausgewählt, öffnet sich die Maske &quot;Bahnen
+hinzufügen&quot;. In dieser Maske sieht man, wie viele Bahnen von diesem
+Fertigungsauftrag hinzugefügt werden können. Die maximale Anzahl der
+Bahnen richtet sich nach der Länge und Breite der AP(G) und an der
+Anzahl Messer längs und quer.</p>
+<p>Außerdem kann entschieden werden, wie viel Menge man von dem
+Fertigungsauftrag nutzt. Bei Kombinationen, die als Kombinationsplan
+&quot;Format&quot; und als &quot;Gewicht&quot;, wird außerdem das Feld &quot;Anzahl Würfe&quot;
+in der Maske angezeigt.</p>
+<p>Das Feld &quot;Menge&quot; zeigt die Gesamtmenge an, die von dem
+Fertigungsauftrag genutzt werden soll, diese wird dann auf die
+erstellten Bahnen aufgeteilt.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu23.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 22: Bahnen hinzufügen Maske </figcaption> <br>
+</div>
+<p>Der 1. Fertigungsauftrag, der hinzugefügt wird, erhält das Zeichen
+&quot;Planbestimmend&quot;. Durch das Zeichen kann die Menge und die Anzahl
+Würfe der weiteren Fertigungsaufträge nicht frei gewählt werden. Es ist
+nur möglich zu bestimmen, wie viele Bahnen von dem Fertigungsauftrag
+hinzugefügt werden.</p>
+<p>Wenn die Fertigungsaufträge hinzugefügt worden sind, ist es ebenfalls
+nur möglich die &quot;Menge&quot; und &quot;Anzahl Würfe&quot; bei den planbestimmenden
+Kombinationszeilen zu bearbeiten, die Menge und Anzahl Würfe aller
+anderen Kombinationszeilen passen sich an die veränderte Zeile an.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu24.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 23: Zeichen Planbestimmend </figcaption> <br>
+</div>
+<p>Wenn ein Fertigungsauftrag mehr Menge in der Kombination geplant hat,
+als er ursprünglich hatte, wird dies beim Freigeben abgefragt. In der
+Abfrage gibt es die Möglichkeit die Menge der Fertigungsaufträge zu
+erhöhen und die neu zu berechnen. Wird die Abfrage mit &quot;Nein&quot;
+beantwortet, wird der Freigabeprozess abgebrochen.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu25.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 24: Abfrage zum Erhöhen der Menge des Fertigungsauftrages </figcaption> <br>
+</div>
+<p>Wird von einem Fertigungsauftrag nicht die volle Menge genutzt, kann die
+Restmenge des Fertigungsauftrages in einer weiteren Kombination
+ausgewählt werden.</p>
+<p>Über die &quot;Aktionen&quot; kann man auch die Funktion &quot;Kombinationsgrafik&quot;
+verwenden, um sich so die Kombination bildlich darstellen zu lassen.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu26.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 25: Kombinationsgrafik bei Bahnen </figcaption>
+</div>
+<br>
+<h4 id="funktion-format-drehen">Funktion Format drehen</h4>
+<p>Wenn man eine Kombination hat mit dem Kombinationsplan &quot;Format&quot; ist es
+möglich, die Formate in der &quot;Zeichne Kombination&quot; Maske zu drehen.
+Dafür muss man auf die gewünschte Bahn mit der rechten Maustaste klicken
+und die Auswahl &quot;Drehen&quot; nutzen.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu27.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 26: Funktion Drehen </figcaption> <br>
+</div>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
