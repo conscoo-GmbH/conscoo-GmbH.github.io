@@ -1,0 +1,7 @@
+items:
+- name: Übersicht LeBit Erweiterte Inventur
+  href: Extended_Inventory.md
+- name: Notwendige Einrichtung
+  href: Setup.md
+- name: Funktionsbeschreibung
+  href: Function.md

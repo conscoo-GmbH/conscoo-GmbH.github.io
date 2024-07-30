@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/iloubany/LBTFGO.github.io",
+  "source_base_path": "C:/users/fgoldbecker/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -102,6 +102,49 @@
         },
         ".json": {
           "relative_path": "docs/Contingents/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Extended_Inventory/Extended_Inventory.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Extended_Inventory/Extended_Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Extended_Inventory/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Extended_Inventory/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Extended_Inventory/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Extended_Inventory/Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/Extended_Inventory/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Extended_Inventory/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Extended_Inventory/toc.json"
         }
       },
       "version": ""

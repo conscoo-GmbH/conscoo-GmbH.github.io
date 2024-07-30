@@ -1,10 +1,3 @@
-# Zweck
-
-Um die kaufmännischen Funktionen von Business Central um eine bessere interne Verwaltung zu erweitern, wurden die Reklamationsvorgänge erschaffen. Diese bilden eine Grundlage aus Mehrinformationen, welche dann für innerbetriebliche Workflows genutzt werden können. Außerdem wurden erste Schritte getätigt, um 8D Reporting abzubilden.
-
-
-
-
 # Notwendige Einrichtung:
 
 ## LeBit Reklamation Einrichtung
