@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/users/fgoldbecker/docfx",
+  "source_base_path": "C:/Users/iloubany/LBTFGO.github.io",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -16,6 +16,49 @@
       "output": {
         ".html": {
           "relative_path": "Preisliste_gesamt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Bonus/Bonus.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bonus/Bonus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Bonus/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bonus/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Bonus/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bonus/Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/Bonus/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bonus/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Bonus/toc.json"
         }
       },
       "version": ""

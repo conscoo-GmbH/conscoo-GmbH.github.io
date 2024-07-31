@@ -5,3 +5,5 @@ items:
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
+- name: App Source
+  href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_complaints|PAPPID.85648b42-7766-4f81-80e3-e34c7c23773e?tab=Overview
