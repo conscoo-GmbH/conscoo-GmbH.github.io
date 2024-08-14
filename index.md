@@ -95,7 +95,5 @@ _layout: landing
     </div>
 </body>
 
-<footer>
-    <a href= "/../../Impressum.html">Impressum</a>
-</footer>
+
 </html>
