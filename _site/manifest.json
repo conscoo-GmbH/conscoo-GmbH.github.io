@@ -12,6 +12,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Impressum.md",
+      "output": {
+        ".html": {
+          "relative_path": "Impressum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Preisliste_gesamt.md",
       "output": {
         ".html": {

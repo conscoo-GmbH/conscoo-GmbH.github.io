@@ -94,4 +94,8 @@ _layout: landing
         <a href="/../docs/Bonus/Bonus.html">Dokumentation</a>
     </div>
 </body>
+
+<footer>
+    <a href= "/../../Impressum.html">Impressum</a>
+</footer>
 </html>
