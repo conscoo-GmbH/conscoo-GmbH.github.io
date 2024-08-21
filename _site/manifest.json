@@ -12,6 +12,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Dokumentationen.md",
+      "output": {
+        ".html": {
+          "relative_path": "Dokumentationen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FAQ.md",
+      "output": {
+        ".html": {
+          "relative_path": "FAQ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Impressum.md",
       "output": {
         ".html": {

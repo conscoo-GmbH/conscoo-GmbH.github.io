@@ -34,7 +34,7 @@ _layout: landing
         .link-box a {
             text-decoration: none;
             color: #398BFE; /* Blue color */
-            font-size: 18px;
+            font-size: h3;
         }
 
         .link-box a:hover {
@@ -48,52 +48,21 @@ _layout: landing
             justify-content: space-around;
 
         }
+
 </style>
 
 </head>
 
 <body>
         <div class="link-box">
-    <h3>LeBit Transportplanung</h3>
-        <a href="/../docs/TP/TP.html">Dokumentation</a>
+    <h3>Dokumentationen</h3>
+        <a href="/../Dokumentationen.html">Dokumentationen</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Parameter & Qualitätssicherung</h3>
-        <a href="/../docs/Para&QS/Para&QS.html">Dokumentation</a>
+    <h3> FAQ</h3>
+        <a href="/../FAQ.html">FAQ</a>
     </div>
-        <div class="link-box">
-    <h3>LeBit Produktion</h3>
-        <a href="/../docs/Manufacturing/Manufacturing.html">Dokumentation</a>
-    </div>
-        <div class="link-box">
-    <h3>LeBit Kontingente</h3>
-        <a href="/../docs/Contingents/Contingents.html">Dokumentation</a>
-    </div>
-    <div class="link-box">
-    <h3>LeBit Etiketten</h3>
-        <a href="/../docs/Labels/Labels.html">Dokumentation</a>
-    </div>
-    <div class="link-box">
-    <h3>LeBit Umbuchung</h3>
-        <a href="/../docs/Reposting/Reposting.html">Dokumentation</a>
-    </div>
-    <div class="link-box">
-    <h3>LeBit Überlieferung</h3>
-        <a href="/../docs/Over-Shipment/Over-Shipment.html">Dokumentation</a>
-    </div>
-        <div class="link-box">
-    <h3>LeBit Reklamationsmanagement</h3>
-        <a href="/../docs/Complaints/Complaints.html">Dokumentation</a>
-    </div>
-        <div class="link-box">
-    <h3>LeBit Erweiterte Inventur</h3>
-        <a href="/../docs/Extended_Inventory/Extended_Inventory.html">Dokumentation</a>
-    </div>
-        <div class="link-box">
-    <h3>LeBit Bonus</h3>
-        <a href="/../docs/Bonus/Bonus.html">Dokumentation</a>
-    </div>
+       
 </body>
-
 
 </html>
