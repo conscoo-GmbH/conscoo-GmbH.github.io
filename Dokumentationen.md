@@ -1,6 +1,6 @@
-<!-- ---
+---
 _layout: landing
---- -->
+---
 
 # LeBit Apps Dokumentationen
  
