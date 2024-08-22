@@ -202,6 +202,6 @@
   "index.html": {
     "href": "index.html",
     "title": "LeBit Apps Dokumentationen",
-    "keywords": "LeBit Apps Dokumentationen Documentation Links .link-box { border: .5px solid #ccc; border-radius: 10px; padding: 20px; margin: 10px; text-align: center; display: inline-block; vertical-align: top; width: calc(33% - 40px); /* Adjust this value to fit your layout */ box-sizing: border-box; } .link-box a { text-decoration: none; color: #398BFE; /* Blue color */ font-size: h3; } .link-box a:hover { text-decoration: underline; } body { display: flex; flex-wrap: wrap; justify-content: space-around; } Dokumentationen Dokumentationen FAQ FAQ"
+    "keywords": "LeBit Apps Dokumentationen Documentation Links .link-box { border: .5px solid #ccc; border-radius: 10px; padding: 20px; margin: 10px; text-align: center; display: inline-block; vertical-align: top; width: calc(33% - 40px); /* Adjust this value to fit your layout */ box-sizing: border-box; } .link-box a { text-decoration: none; color: #398BFE; /* Blue color */ font-size: h3; } .link-box a:hover { text-decoration: underline; } body { display: flex; flex-wrap: wrap; justify-content: space-around; } Herzlich Willkommen auf der App Dokumentationsseite von Conscoo. Hier finden Sie aktuelle Produktdokumentationen zu unseren Business Central Apps sowie weitere relevante Informationen um unser App-Angebot. Dokumentationen Dokumentationen FAQ FAQ"
   }
 }

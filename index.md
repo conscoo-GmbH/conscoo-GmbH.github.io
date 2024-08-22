@@ -54,6 +54,8 @@ _layout: landing
 </head>
 
 <body>
+    <p> Herzlich Willkommen auf der App Dokumentationsseite von Conscoo. Hier finden Sie aktuelle Produktdokumentationen zu unseren Business Central Apps sowie weitere relevante Informationen um unser App-Angebot. <br>
+    </p>
         <div class="link-box">
     <h3>Dokumentationen</h3>
         <a href="/../Dokumentationen.html">Dokumentationen</a>
