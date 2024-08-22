@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="LeBit Apps Dokumentationen ">
       
+      
       <link rel="icon" href="../images/LeBit_Logo_32.png">
       <link rel="stylesheet" href="public/docfx.min.css">
       <link rel="stylesheet" href="public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/docfx/blob/main/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -62,23 +63,9 @@
     </header>
 
     <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
 
           <nav id="breadcrumb"></nav>
         </div>
@@ -86,6 +73,8 @@
         <article data-uid="">
 <h1 id="lebit-apps-dokumentationen">LeBit Apps Dokumentationen</h1>
 
+<br>
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -122,13 +111,19 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-
+        }
+        .body-container {
+            padding-right: 40px;
+            padding-left: 20px;
         }
 
 </style>
 </head>
 <body>
-    <p> Herzlich Willkommen auf der App Dokumentationsseite von Conscoo. Hier finden Sie aktuelle Produktdokumentationen zu unseren Business Central Apps sowie weitere relevante Informationen um unser App-Angebot. <br>
+    <div class="body-container">
+    <p>
+    Herzlich Willkommen auf der Conscoo App-Dokumentationsseite! Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. 
+    Wir möchten Ihnen die Arbeit erleichtern und Sie dabei unterstützen, unsere Lösungen optimal in Ihren Geschäftsalltag zu integrieren./Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br>
     </p>
         <div class="link-box">
     <h3>Dokumentationen</h3>
@@ -137,6 +132,7 @@
         <div class="link-box">
     <h3> FAQ</h3>
         <a href="/../FAQ.html">FAQ</a>
+    </div>
     </div>
        
 </body>
@@ -159,7 +155,7 @@
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          <span><a href="/../../Impressum.html"> Impressum </a> <br><a href="">Kontakt</a></span>
+          <span><a href="/../../Impressum.html"> Impressum </a> <br><a href="/../../Kontakt.html"> Kontakt</a></span>
         </div>
       </div>
     </footer>

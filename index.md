@@ -3,6 +3,7 @@ _layout: landing
 ---
 
 # LeBit Apps Dokumentationen
+<br>
  
 <!DOCTYPE html>
 
@@ -46,7 +47,10 @@ _layout: landing
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-
+        }
+        .body-container {
+            padding-right: 40px;
+            padding-left: 20px;
         }
 
 </style>
@@ -54,7 +58,10 @@ _layout: landing
 </head>
 
 <body>
-    <p> Herzlich Willkommen auf der App Dokumentationsseite von Conscoo. Hier finden Sie aktuelle Produktdokumentationen zu unseren Business Central Apps sowie weitere relevante Informationen um unser App-Angebot. <br>
+    <div class="body-container">
+    <p>
+    Herzlich Willkommen auf der Conscoo App-Dokumentationsseite! Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. 
+    Wir möchten Ihnen die Arbeit erleichtern und Sie dabei unterstützen, unsere Lösungen optimal in Ihren Geschäftsalltag zu integrieren./Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br>
     </p>
         <div class="link-box">
     <h3>Dokumentationen</h3>
@@ -63,6 +70,7 @@ _layout: landing
         <div class="link-box">
     <h3> FAQ</h3>
         <a href="/../FAQ.html">FAQ</a>
+    </div>
     </div>
        
 </body>

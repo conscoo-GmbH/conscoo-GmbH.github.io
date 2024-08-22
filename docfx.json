@@ -40,7 +40,7 @@
     "globalMetadata": {
       "_appName": "",
       "_appTitle": "",
-      "_appFooter": "<span><a href=\"/../../Impressum.html\"> Impressum </a> <br <a href=>Kontakt</a></span>",
+      "_appFooter": "<span><a href=\"/../../Impressum.html\"> Impressum </a> <br <a href=\"/../../Kontakt.html\"> Kontakt</a></span>",
       "_disableContribution": true,
       "_enableSearch": true,
       "pdf": false,
