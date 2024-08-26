@@ -27,7 +27,7 @@
   "docs/Bonus/Bonus.html": {
     "href": "docs/Bonus/Bonus.html",
     "title": "LeBit Bonus",
-    "keywords": "LeBit Bonus Zweck Diese Funktionsbeschreibung soll die Einrichtung und Handhabung der App \"LeBit Bonus\" erklären und ihre Funktionen verständlicher machen. Die dabei verwendeten Screenshots stammen aus Microsoft Dynamics 365 Business Central. Die Daten stammen aus einem Standard CRONUS DE Mandanten. Hinweis Alle verwendeten Daten, Sachkonten, Artikel, Artikelbezeichnungen, Zu-/Abschläge, Buchblätter und sonstige Beschreibungen sind Beispiele. Im Livesystem können die Vorschläge übernommen werden, sollten jedoch immer an die vorhandenen Umstände angepasst werden."
+    "keywords": "LeBit Bonus Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Bonus LeBit Bonus 120 160 240 280 320 400 Zweck Diese Funktionsbeschreibung soll die Einrichtung und Handhabung der App \"LeBit Bonus\" erklären und ihre Funktionen verständlicher machen. Die dabei verwendeten Screenshots stammen aus Microsoft Dynamics 365 Business Central. Die Daten stammen aus einem Standard CRONUS DE Mandanten. Hinweis Alle verwendeten Daten, Sachkonten, Artikel, Artikelbezeichnungen, Zu-/Abschläge, Buchblätter und sonstige Beschreibungen sind Beispiele. Im Livesystem können die Vorschläge übernommen werden, sollten jedoch immer an die vorhandenen Umstände angepasst werden."
   },
   "docs/Bonus/Function.html": {
     "href": "docs/Bonus/Function.html",
@@ -42,7 +42,7 @@
   "docs/Complaints/Complaints.html": {
     "href": "docs/Complaints/Complaints.html",
     "title": "LeBit Reklamationsmanagement",
-    "keywords": "LeBit Reklamationsmanagement Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Reklamationsmanagement LeBit Complaints 60 80 120 140 160 200 Übersicht Zweck Um die kaufmännischen Funktionen von Business Central um eine bessere interne Verwaltung zu erweitern, wurden die Reklamationsvorgänge erschaffen. Diese bilden eine Grundlage aus Mehrinformationen, welche dann für innerbetriebliche Workflows genutzt werden können. Außerdem wurden erste Schritte getätigt, um 8D Reporting abzubilden."
+    "keywords": "LeBit Reklamationsmanagement Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Reklamationsmanagement LeBit Complaints 60 80 120 140 160 200 Zweck Um die kaufmännischen Funktionen von Business Central um eine bessere interne Verwaltung zu erweitern, wurden die Reklamationsvorgänge erschaffen. Diese bilden eine Grundlage aus Mehrinformationen, welche dann für innerbetriebliche Workflows genutzt werden können. Außerdem wurden erste Schritte getätigt, um 8D Reporting abzubilden."
   },
   "docs/Complaints/Function.html": {
     "href": "docs/Complaints/Function.html",
@@ -97,7 +97,7 @@
   "docs/Labels/Labels.html": {
     "href": "docs/Labels/Labels.html",
     "title": "LeBit Etiketten",
-    "keywords": "LeBit Etiketten Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Etiketten und Begleitdaten LeBit Labels 30 40 60 70 80 100 Übersicht"
+    "keywords": "LeBit Etiketten Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Etiketten und Begleitdaten LeBit Labels 30 40 60 70 80 100 Zweck"
   },
   "docs/Labels/Setup.html": {
     "href": "docs/Labels/Setup.html",
@@ -137,7 +137,7 @@
   "docs/Over-Shipment/Over-Shipment.html": {
     "href": "docs/Over-Shipment/Over-Shipment.html",
     "title": "LeBit Überlieferung",
-    "keywords": "LeBit Überlieferung Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Überlieferung LeBit Over-Shipment 30 40 60 70 80 100 Übersicht Zweck Durch einen Ausgangsüberschuss kann die Liefermenge eines Artikels nach der Freigabe des Verkaufsbeleges geändert werden. Zuvor muss ein Ausgangsüberschusscode eingerichtet und in der betroffenen Artikelkarte oder der Karte des betroffenen Debitors angewählt sein."
+    "keywords": "LeBit Überlieferung Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Überlieferung LeBit Over-Shipment 30 40 60 70 80 100 Zweck Durch einen Ausgangsüberschuss kann die Liefermenge eines Artikels nach der Freigabe des Verkaufsbeleges geändert werden. Zuvor muss ein Ausgangsüberschusscode eingerichtet und in der betroffenen Artikelkarte oder der Karte des betroffenen Debitors angewählt sein."
   },
   "docs/Over-Shipment/Setup.html": {
     "href": "docs/Over-Shipment/Setup.html",
@@ -147,7 +147,7 @@
   "docs/Para&QS/Para&QS.html": {
     "href": "docs/Para&QS/Para&QS.html",
     "title": "LeBit Parameter & Qualitätssicherung",
-    "keywords": "LeBit Parameter & Qualitätssicherung Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Parameter und Qualitätssicherung LeBit Parameter and Quality Assurance 120 160 240 280 320 400 Übersicht"
+    "keywords": "LeBit Parameter & Qualitätssicherung Preise Name Name ENG -AppSource bis 5 bis 10 bis 20 bis 50 bis 100 Über 100 LeBit Parameter und Qualitätssicherung LeBit Parameter and Quality Assurance 120 160 240 280 320 400 Parameter Zweck Qualitätssicherung Zweck"
   },
   "docs/Para&QS/Para_Function.html": {
     "href": "docs/Para&QS/Para_Function.html",

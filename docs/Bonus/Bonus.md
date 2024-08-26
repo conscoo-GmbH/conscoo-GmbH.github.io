@@ -1,5 +1,17 @@
 # LeBit Bonus
 
+<br>
+
+## Preise
+
+<br>
+
+| Name                                    | Name ENG -AppSource               | bis 5 | bis 10 | bis 20 | bis 50 | bis 100 | Über 100 |
+|-----------------------------------------|-----------------------------------|-------|--------|--------|--------|---------|----------|
+| LeBit Bonus                             | LeBit Bonus                       | 120   | 160    | 240    | 280    | 320     | 400      |
+
+<br>
+
 ## Zweck
 
 Diese Funktionsbeschreibung soll die Einrichtung und Handhabung der App
