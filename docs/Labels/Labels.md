@@ -14,7 +14,6 @@
 
 ## Zweck
 
-Mit der LeBit Etiketten App lassen sich individuelle Belege für Artikelverfolgungen und Kunden erstellen. 
-Außerdem ist es möglich Lageretiketten für einzelne Artikel zu generieren.
+Mit der LeBit Etiketten App lassen sich individuelle Belege für Artikelverfolgungen und Kun-den erstellen, was eine präzise Nachverfolgung von Warenströmen ermöglicht. Zusätzlich können Lageretiketten für einzelne Artikel generiert werden, was eine strukturierte und geordnete Lagerhaltung unterstützt. Die Etiketten lassen sich flexibel anpassen, sodass Barcode, QR-Code, Artikelnummer oder andere relevante Informationen integriert wer-den können. So kann die Artikelverwaltung im Lager vollständig digitalisiert werden.
 
 <br>

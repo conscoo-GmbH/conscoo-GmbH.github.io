@@ -19,6 +19,13 @@ _layout: landing
 
 <style>
 
+        .linkbox-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 80px;
+            padding-left: 20px;
+        }
         .link-box {
             border: .5px solid #ccc;
             border-radius: 10px;
@@ -27,7 +34,7 @@ _layout: landing
             text-align: center;
             display: inline-block;
             vertical-align: top;
-            width: calc(33% - 40px); /* Adjust this value to fit your layout */
+            width: calc(33% - 20px); /* Adjust this value to fit your layout */
             box-sizing: border-box;
 
         }
@@ -49,8 +56,11 @@ _layout: landing
             justify-content: space-around;
         }
         .body-container {
-            padding-right: 40px;
+            padding-right: 80px;
             padding-left: 20px;
+        }
+        .body-container p {
+            font-size: 14pt;
         }
 
 </style>
@@ -60,9 +70,11 @@ _layout: landing
 <body>
     <div class="body-container">
     <p>
-    Herzlich Willkommen auf der Conscoo App-Dokumentationsseite! Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. 
-    Wir möchten Ihnen die Arbeit erleichtern und Sie dabei unterstützen, unsere Lösungen optimal in Ihren Geschäftsalltag zu integrieren./Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br>
+    Herzlich Willkommen auf der Conscoo App-Dokumentationsseite! <br> <br> Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. <br> 
+    Wir möchten Ihnen die Arbeit erleichtern und Sie dabei unterstützen, unsere Lösungen optimal in Ihren Geschäftsalltag zu integrieren./Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br> <br>
     </p>
+    </div>
+    <div class="linkbox-container">
         <div class="link-box">
     <h3>Dokumentationen</h3>
         <a href="/../Dokumentationen.html">Dokumentationen</a>
