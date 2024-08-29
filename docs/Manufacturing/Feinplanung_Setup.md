@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Notwendige Einrichtungen
 
 Für die Feinplanung müssen keine Einrichtungen vorgenommen werden. Für

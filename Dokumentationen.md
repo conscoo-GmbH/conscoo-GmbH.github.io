@@ -2,6 +2,12 @@
 _layout: landing
 ---
 
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # LeBit Apps Dokumentationen
  
 <!DOCTYPE html>
@@ -31,6 +37,11 @@ _layout: landing
 
         }
 
+        .link-box p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
         .link-box a {
             text-decoration: none;
             color: #398BFE; /* Blue color */
@@ -54,43 +65,43 @@ _layout: landing
 
 <body>
         <div class="link-box">
-    <h3>LeBit Transportplanung</h3>
+    <p>LeBit Transportplanung</p>
         <a href="/../docs/TP/TP.html">Dokumentation</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Parameter & Qualitätssicherung</h3>
+    <p>LeBit Parameter & Qualitätssicherung</p>
         <a href="/../docs/Para&QS/Para&QS.html">Dokumentation</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Produktion</h3>
+    <p>LeBit Produktion</p>
         <a href="/../docs/Manufacturing/Manufacturing.html">Dokumentation</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Kontingente</h3>
+    <p>LeBit Kontingente</p>
         <a href="/../docs/Contingents/Contingents.html">Dokumentation</a>
     </div>
     <div class="link-box">
-    <h3>LeBit Etiketten</h3>
+    <p>LeBit Etiketten</p>
         <a href="/../docs/Labels/Labels.html">Dokumentation</a>
     </div>
     <div class="link-box">
-    <h3>LeBit Umbuchung</h3>
+    <p>LeBit Umbuchung</p>
         <a href="/../docs/Reposting/Reposting.html">Dokumentation</a>
     </div>
     <div class="link-box">
-    <h3>LeBit Überlieferung</h3>
+    <p>LeBit Überlieferung</p>
         <a href="/../docs/Over-Shipment/Over-Shipment.html">Dokumentation</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Reklamationsmanagement</h3>
+    <p>LeBit Reklamationsmanagement</p>
         <a href="/../docs/Complaints/Complaints.html">Dokumentation</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Erweiterte Inventur</h3>
+    <p>LeBit Erweiterte Inventur</p>
         <a href="/../docs/Extended_Inventory/Extended_Inventory.html">Dokumentation</a>
     </div>
         <div class="link-box">
-    <h3>LeBit Bonus</h3>
+    <p>LeBit Bonus</p>
         <a href="/../docs/Bonus/Bonus.html">Dokumentation</a>
     </div>
 </body>

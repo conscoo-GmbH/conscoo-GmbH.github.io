@@ -5,5 +5,7 @@ items:
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
+- name: Release-Notes
+  href: Release-Notes.md
 - name: App Source
   href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_transport_planning|PAPPID.21afad8e-dd38-442c-a153-8c2a86ea598d?tab=Overview

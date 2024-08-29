@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Funktionsbeschreibung
 ## Mengenänderung im Verkaufsauftrag ohne Genehmigung
 Es wird ein Auftrag mit einer Menge angelegt und freigegeben.

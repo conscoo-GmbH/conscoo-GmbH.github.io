@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Datenmodell
 
 Als Grundlage der Qualitätssicherung lässt sich das folgende Datenmodell

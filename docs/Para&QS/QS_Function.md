@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Funktionsbeschreibung:
 
 Sobald ein Prüfauslöser greift, wird ein Prüfauftrag in der

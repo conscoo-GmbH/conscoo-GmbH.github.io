@@ -5,5 +5,7 @@ items:
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
+- name: Release-Notes
+  href: Release-Notes.md
 - name: App Source
   href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_extended_inventory_order|PAPPID.be7bae6d-c587-4fc4-838e-3dc96cb8e04c?tab=Overview

@@ -1,6 +1,12 @@
-## Notwendige Einrichtungen
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
 
-### LeBit Produktion Einrichtung
+# Notwendige Einrichtungen
+
+## LeBit Produktion Einrichtung
 
 In der LeBit Produktion Einrichtung im Register \"Kombination\" müssen
 verschiedene Dinge eingerichtet werden.
@@ -25,7 +31,7 @@ verschiedene Dinge eingerichtet werden.
 
 <br>
 
-### Arbeitsplatzgruppe (APG)/ Arbeitsplatz (AP)
+## Arbeitsplatzgruppe (APG)/ Arbeitsplatz (AP)
 
 Im Reiter LeBit Produktion, der AP(G), werden für die jeweilige AP(G)
 Einrichtungen für die Kombination getroffen.
@@ -50,7 +56,7 @@ Einrichtungen für die Kombination getroffen.
 
 <br>
 
-### Parameter in der Artikelkarte
+## Parameter in der Artikelkarte
 
 Damit Artikel in der Kombination verwendet werden können, müssen die für
 die Produktion benötigten Parameter ausgewählt und befüllt werden. Auf

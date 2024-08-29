@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Funktionsbeschreibung
  
 ## Zuordnung eines Kontingents in der Verkaufszeile

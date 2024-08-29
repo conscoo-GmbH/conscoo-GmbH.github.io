@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Notwendige Einrichtung
 
 Wenn ein Inventurauftrag erstellt wird, gibt es die Möglichkeit, dort

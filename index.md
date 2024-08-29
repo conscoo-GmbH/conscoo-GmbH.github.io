@@ -1,8 +1,14 @@
 ---
 _layout: landing
 ---
+<style>
 
-# LeBit Apps Dokumentationen
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
+# conscoo Apps Dokumentationen
 <br>
  
 <!DOCTYPE html>
@@ -25,6 +31,7 @@ _layout: landing
             align-items: center;
             padding-right: 80px;
             padding-left: 20px;
+            /* font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; */
         }
         .link-box {
             border: .5px solid #ccc;
@@ -42,8 +49,13 @@ _layout: landing
         .link-box a {
             text-decoration: none;
             color: #398BFE; /* Blue color */
-            font-size: h3;
+            font-size: 18px;
         }
+        .link-box p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
 
         .link-box a:hover {
             text-decoration: underline;
@@ -70,17 +82,17 @@ _layout: landing
 <body>
     <div class="body-container">
     <p>
-    Herzlich Willkommen auf der Conscoo App-Dokumentationsseite! <br> <br> Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. <br> 
-    Wir möchten Ihnen die Arbeit erleichtern und Sie dabei unterstützen, unsere Lösungen optimal in Ihren Geschäftsalltag zu integrieren./Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br> <br>
+    Herzlich Willkommen auf der conscoo App-Dokumentationsseite! <br> <br> Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. <br> 
+    Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br> <br>
     </p>
     </div>
     <div class="linkbox-container">
         <div class="link-box">
-    <h3>Dokumentationen</h3>
+    <p>Dokumentationen</p>
         <a href="/../Dokumentationen.html">Dokumentationen</a>
     </div>
         <div class="link-box">
-    <h3> FAQ</h3>
+    <p> FAQ</p>
         <a href="/../FAQ.html">FAQ</a>
     </div>
     </div>

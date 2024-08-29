@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Notwendige Einrichtungen
 
 Auf der Seite \"Artikel Umbuch.-Blätter\" muss man im Feld

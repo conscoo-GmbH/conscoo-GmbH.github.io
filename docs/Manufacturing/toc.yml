@@ -9,5 +9,7 @@ items:
   href: Kombination_Setup.md
 - name: Kombination Funktionsbeschreibung
   href: Kombination_Function.md
+- name: Release-Notes
+  href: Release-Notes.md
 - name: App Source 
   href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_manufacturing|PAPPID.458a1574-e872-4d3d-86b2-502e189af6a9?tab=Overview

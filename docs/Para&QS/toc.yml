@@ -11,5 +11,7 @@ items:
   href: QS_Function.md
 - name: Datenmodell Qualitätssicherung
   href: QS_Datamodel.md
+- name: Release-Notes
+  href: Release-Notes.md
 - name: App Source
   href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_parameters_and_quality_assurance|PAPPID.8a46a59e-ccf1-42bd-a654-aeba42f713ea?tab=Overview

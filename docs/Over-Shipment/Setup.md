@@ -1,3 +1,9 @@
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 # Notwendige Einrichtung
 ## Anzeige bestehender Codes
 Eine Liste aller Codes findet man über die Suche (Alt+Q) mit der Eingabe "Ausgangsüberschuss Codes".

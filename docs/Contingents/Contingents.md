@@ -1,4 +1,10 @@
-﻿# LeBit Kontingente
+﻿<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
+# LeBit Kontingente
 
 <br>
 

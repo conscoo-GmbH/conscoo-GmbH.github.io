@@ -2,6 +2,12 @@
 _layout: landing
 --- -->
 
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+
 ## Preise
 
 Im folgenden werden die Preise der LeBit Apps aufgelistet.

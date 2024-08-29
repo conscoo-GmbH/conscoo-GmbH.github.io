@@ -82,6 +82,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/Bonus/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bonus/Release-Notes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/Bonus/Setup.md",
       "output": {
         ".html": {
@@ -119,6 +129,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/Complaints/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Complaints/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Complaints/Release-Notes.html"
         }
       },
       "version": ""
@@ -168,6 +188,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/Contingents/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Contingents/Release-Notes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/Contingents/Setup.md",
       "output": {
         ".html": {
@@ -205,6 +235,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/Extended_Inventory/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Extended_Inventory/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Extended_Inventory/Release-Notes.html"
         }
       },
       "version": ""
@@ -258,6 +298,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/Labels/Labels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Labels/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Labels/Release-Notes.html"
         }
       },
       "version": ""
@@ -336,6 +386,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Manufacturing/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Manufacturing/Release-Notes.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/Manufacturing/toc.yml",
       "output": {
@@ -364,6 +424,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/Over-Shipment/Over-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Over-Shipment/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Over-Shipment/Release-Notes.html"
         }
       },
       "version": ""
@@ -452,6 +522,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Para&QS/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Para&QS/Release-Notes.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/Para&QS/toc.yml",
       "output": {
@@ -470,6 +550,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/Reposting/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Reposting/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Reposting/Release-Notes.html"
         }
       },
       "version": ""
@@ -513,6 +603,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/TP/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TP/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TP/Release-Notes.html"
         }
       },
       "version": ""

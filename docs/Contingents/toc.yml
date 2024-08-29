@@ -5,5 +5,7 @@ items:
   href: Setup.md
 - name: Funktionsbeschreibung
   href: Function.md
+- name: Release-Notes
+  href: Release-Notes.md
 - name: App Source
   href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_contingents|PAPPID.7a263071-0500-453c-981e-30431ef63170?tab=Overview

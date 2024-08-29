@@ -1,6 +1,12 @@
-## Funktionsbeschreibung
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
 
-### Kombinationskarte
+# Funktionsbeschreibung
+
+## Kombinationskarte
 
 Auf der Seite \"Kombination\" werden die Kombination erstellt und
 bearbeitet.
@@ -12,7 +18,7 @@ bearbeitet.
 
 <br>
 
-#### Menüband
+### Menüband
 
 | Feldname             | Funktion                                                                                              |
 |----------------------|-------------------------------------------------------------------------------------------------------|
@@ -24,7 +30,7 @@ bearbeitet.
 
 <br>
 
-#### Register "Allgemein"
+### Register "Allgemein"
 
 | Feldname               | Funktion                                                                                                                                             | Bemerkung                                                                                                           |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -53,7 +59,7 @@ bearbeitet.
 
 <br>
 
-#### Register "Kombinationszeilen"
+### Register "Kombinationszeilen"
 
 | Feldname            | Funktion                                                                                           |
 |---------------------|----------------------------------------------------------------------------------------------------|
@@ -81,7 +87,7 @@ bearbeitet.
 
 <br>
 
-### Kombination erstellen
+## Kombination erstellen
 
 In der LeBit Produktion App ist es möglich vier verschiedene
 Kombinationsarten zu erstellen.
@@ -178,7 +184,7 @@ verwenden, um sich so die Kombination bildlich darstellen zu lassen.
 
 <br>
 
-#### Funktion Format drehen
+### Funktion Format drehen
 
 Wenn man eine Kombination hat mit dem Kombinationsplan \"Format\" ist es
 möglich, die Formate in der \"Zeichne Kombination\" Maske zu drehen.
