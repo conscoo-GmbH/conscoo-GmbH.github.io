@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Notwendige Einrichtungen ">
       
+      
       <link rel="icon" href="../../../images/LeBit_Logo_32.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/docfx/blob/main/docs/Contingents/Setup.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/Contingents/Setup.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -86,7 +87,7 @@
         <article data-uid="">
 <h1 id="notwendige-einrichtungen">Notwendige Einrichtungen</h1>
 
-<h2 id="1-aufruf">1. Aufruf</h2>
+<h2 id="aufruf">Aufruf</h2>
 <p>Die Stammdaten &quot;Sorte&quot; und &quot;Kontingente&quot; werden unter dem Reiter &quot;LeBit&quot; auf dem Rollencenter Verkaufsauftragsverarbeitung, Lagermitarbeiter - Lagerortverwaltungssystem und Vertriebsmanager angezeigt. Sie können aber auch aus jedem anderen Rollencenter über die Suche gefunden werden. <br></p>
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents1.png" alt="Rollencenter Verkaufsauftragsverarbeitung" style="width: 85%; height: auto;">
@@ -98,7 +99,7 @@
 <figcaption>Abbildung 2: Rollencenter Produktionsleiter </figcaption>
 </div>
 <br>
-<h2 id="2-lebit-kontingent-einrichtung">2. LeBit Kontingent Einrichtung</h2>
+<h2 id="lebit-kontingent-einrichtung">LeBit Kontingent Einrichtung</h2>
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents3.png" alt="LeBit Kontingent Einrichtung" style="width: 85%; height: auto;">
 <figcaption>Abbildung 3: LeBit Kontingent Einrichtung </figcaption> <br>
@@ -107,7 +108,7 @@
 <p>Die &quot;Kontingentsüberlastung %&quot; gibt an, wie viel Prozent der eigentlichen Kapazität des Kontingents überschritten werden darf.</p>
 <p>&quot;Freigabestatus verwenden&quot; gibt an, ob bei den Kontingenten der Freigabestatus beachtet werden soll. Wenn es angeschaltet ist, dann können nur freigegebene Kontingente in Verkaufsaufträgen ausgewählt werden und nur offene Kontingente bearbeitet werden.</p>
 <br>
-<h2 id="3-sorten">3. Sorten</h2>
+<h2 id="sorten">Sorten</h2>
 <p>Auf der Seite &quot;Sorten&quot; werden Sorten definiert, die eine Maschine produziert, sodass diese später den Kontingenten und bestimmten Zeiten zugeordnet werden. Die Artikel, die an einer Maschine produziert werden, erhalten eine Sorte zugewiesen. <br></p>
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents4.png" alt="Übersicht Sorten" style="width: 85%; height: auto;">
@@ -115,21 +116,21 @@
 </div>
 <p>Die Felder &quot;Code&quot; und &quot;Beschreibung&quot; unterliegen keiner Nummernserie und werden frei gewählt.</p>
 <br>
-<h3 id="31-artikel">3.1 Artikel</h3>
+<h3 id="artikel">Artikel</h3>
 <p>In der Artikelkarte wird dem Artikel über das Register &quot;Allgemein&quot; eine Sorte zugeordnet. Jedem Artikel kann nur eine Sorte zugeordnet werden, aber einer Sorte können mehrere Artikel angehören. <br></p>
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents5.png" alt="Zuordnung Sorte am Artikel" style="width: 85%; height: auto;">
 <figcaption>Abbildung 5: Zuordnung Sorte am Artikel </figcaption> 
 </div>
 <br>
-<h2 id="4-kontingente">4. Kontingente</h2>
+<h2 id="kontingente">Kontingente</h2>
 <p>Über die Seite &quot;Kontingente&quot; wird den Kontingenten eine bestimmte Sorte zugeordnet. Eine Sorte kann mehreren Kontingenten zugeordnet werden, aber einem Kontingent kann nur eine Sorte zugeordnet werden. <br></p>
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents6.png" alt="Übersicht Kontingente" style="width: 85%; height: auto;">
 <figcaption>Abbildung 6: Übersicht Kontingente </figcaption>
 </div>
 <br>
-<h2 id="5-abteilungen-arbeitsplatzgruppen-und-arbeitsplätze">5. Abteilungen, Arbeitsplatzgruppen und Arbeitsplätze</h2>
+<h2 id="abteilungen-arbeitsplatzgruppen-und-arbeitsplätze">Abteilungen, Arbeitsplatzgruppen und Arbeitsplätze</h2>
 <p>Wenn ein Kontingent erstellt wird, wird dieses auch einer Abteilung, einer Arbeitsplatzgruppe und einem Arbeitsplatz zugeordnet. <br></p>
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents7.png" alt="Abteilung, Arbeitsplatzgruppe und Arbeitsplatz beim Kontingent auswählen" style="width: 85%; height: auto;">

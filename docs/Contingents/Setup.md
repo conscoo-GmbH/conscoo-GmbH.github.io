@@ -1,6 +1,6 @@
 # Notwendige Einrichtungen
  
-## 1. Aufruf
+## Aufruf
  
 Die Stammdaten "Sorte" und "Kontingente" werden unter dem Reiter "LeBit" auf dem Rollencenter Verkaufsauftragsverarbeitung, Lagermitarbeiter - Lagerortverwaltungssystem und Vertriebsmanager angezeigt. Sie können aber auch aus jedem anderen Rollencenter über die Suche gefunden werden. <br>
 
@@ -18,7 +18,7 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
 
 <br>
 
-## 2. LeBit Kontingent Einrichtung
+## LeBit Kontingent Einrichtung
  
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents3.png" alt="LeBit Kontingent Einrichtung" style="width: 85%; height: auto;">
@@ -33,7 +33,7 @@ Die "Kontingentsüberlastung %" gibt an, wie viel Prozent der eigentlichen Kapaz
 
 <br>
 
-## 3. Sorten
+## Sorten
 
 Auf der Seite "Sorten" werden Sorten definiert, die eine Maschine produziert, sodass diese später den Kontingenten und bestimmten Zeiten zugeordnet werden. Die Artikel, die an einer Maschine produziert werden, erhalten eine Sorte zugewiesen. <br>
 
@@ -46,7 +46,7 @@ Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden 
 
 <br>
 
-### 3.1 Artikel
+### Artikel
  
 In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte zugeordnet. Jedem Artikel kann nur eine Sorte zugeordnet werden, aber einer Sorte können mehrere Artikel angehören. <br>
 
@@ -57,7 +57,7 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 
 <br>
 
-## 4. Kontingente
+## Kontingente
 
 Über die Seite "Kontingente" wird den Kontingenten eine bestimmte Sorte zugeordnet. Eine Sorte kann mehreren Kontingenten zugeordnet werden, aber einem Kontingent kann nur eine Sorte zugeordnet werden. <br>
 
@@ -68,7 +68,7 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 
 <br>
 
-## 5. Abteilungen, Arbeitsplatzgruppen und Arbeitsplätze
+## Abteilungen, Arbeitsplatzgruppen und Arbeitsplätze
 
 Wenn ein Kontingent erstellt wird, wird dieses auch einer Abteilung, einer Arbeitsplatzgruppe und einem Arbeitsplatz zugeordnet. <br>
 

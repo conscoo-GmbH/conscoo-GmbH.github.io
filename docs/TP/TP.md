@@ -22,7 +22,7 @@ Einkaufsreklamation. Die eingehende Transportplanung unterstützt die
 Herkunftsbelege Einkaufsbestellung, Umlagerungsauftrag und
 Verkaufsreklamation.
 
-Es werden alle Logikbelege im ausgehenden und eingehenden Warenverkehr
+Es werden alle Logistikbelege im ausgehenden und eingehenden Warenverkehr
 unterstützt.
 
 Um mehrere Herkunftsbelegzeilen bzw. Lagerbelegzeilen in einen

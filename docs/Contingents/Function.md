@@ -1,6 +1,6 @@
 # Funktionsbeschreibung
  
-## 1. Zuordnung eines Kontingents in der Verkaufszeile
+## Zuordnung eines Kontingents in der Verkaufszeile
 
 In der Verkaufszeile kann ein Kontingent ausgewählt werden. Es werden die Kontingente angezeigt, die auch der Sorte am Artikel entsprechen. Das Warenausgangsdatum wird automatisch auf das Enddatum des Kontingents gesetzt. <br>
 
@@ -28,7 +28,7 @@ Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents über
 
 <br>
 
-## 2. Workflow
+## Workflow
 
 Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage. <br>
 
