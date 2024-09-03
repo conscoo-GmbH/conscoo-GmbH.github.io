@@ -12,11 +12,10 @@ body {
 
 <br>
 
-| Name                                    | Name ENG -AppSource               | bis 5 | bis 10 | bis 20 | bis 50 | bis 100 | Über 100 |
-|-----------------------------------------|-----------------------------------|-------|--------|--------|--------|---------|----------|
-| LeBit Produktion                        | LeBit Manufacturing               | 120   | 160    | 240    | 280    | 320     | 400      |
-| LeBit Feinplanung                       | LeBit Manufacturing               | 60    | 80     | 120    | 140    | 160     | 200      |
-| LeBit Kombination                       | LeBit Manufacturing               | 60    | 80     | 120    | 140    | 160     | 200      |
+| Name                                | Name ENG -AppSource                   | bis 5 | bis 10 | bis 20 | bis 50 | bis 100 | Über 100 |
+|-------------------------------------|---------------------------------------|-------|--------|--------|--------|---------|----------|
+| LeBit Feinplanung                    | LeBit Manufacturing                   | 60    | 80     | 120    | 140    | 160     | 200      |
+| LeBit Kombination                    | LeBit Manufacturing                   | 60    | 80     | 120    | 140    | 160     | 200      |
 
 <br>
 

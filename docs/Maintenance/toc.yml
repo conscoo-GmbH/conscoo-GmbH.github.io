@@ -1,0 +1,11 @@
+items:
+- name: Übersicht LeBit Instandhaltung
+  href: Maintenance.md
+- name: Notwendige Einrichtung
+  href: Setup.md
+- name: Funktionsbeschreibung
+  href: Function.md
+- name: Release-Notes
+  href: Release-Notes.md
+- name: App Source
+  href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_maintenance|PAPPID.e4b0e3d8-8d40-47df-acdb-48f3f17159cb?tab=Overview

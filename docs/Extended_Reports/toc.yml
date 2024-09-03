@@ -1,0 +1,11 @@
+items:
+- name: Übersicht LeBit Erweiterte Belege
+  href: Extended_Reports.md
+- name: Notwendige Einrichtung
+  href: Setup.md
+- name: Funktionsbeschreibung
+  href: Function.md
+- name: Release-Notes
+  href: Release-Notes.md
+- name: App Source
+  href: https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.lebit_software|AID.lebit_extended_reports|PAPPID.c54a1b00-7330-4d8f-911f-e921fcd95b53?tab=Overview

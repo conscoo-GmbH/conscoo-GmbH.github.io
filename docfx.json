@@ -47,19 +47,23 @@
       "_appFaviconPath": "../images/LeBit_Logo_32.png",
       "_appLogoPath": "../images/LeBit_Logo_32.png"
     },
-    "fileMetadata": {
+    "fileMetadata": { 
       "pdf": {
+        "docs/Bonus/toc.yml": true,
         "docs/Complaints/toc.yml": true,
         "docs/Contingents/toc.yml": true,
-        "docs/Labels/toc.yml": true,
-        "docs/Over-Shipment/toc.yml": true,
-        "docs/Reposting/toc.yml": true,
-        "docs/TP/toc.yml": true,
-        "docs/Bonus/toc.yml": true,
         "docs/Extended_Inventory/toc.yml": true,
+        "docs/Extended_Reports/toc.yml": true,
+        "docs/Labels/toc.yml": true,
+        "docs/Maintenance/toc.yml": true,
         "docs/Manufacturing/toc.yml": true,
-        "docs/Para&QS/toc.yml":true
+        "docs/Over-Shipment/toc.yml": true,
+        "docs/Para&QS/toc.yml":true,
+        "docs/Reposting/toc.yml": true,
+        "docs/TP/toc.yml": true, 
+        "docs/Variable_Item_Units/toc.yml": true,
+        "**/Release-Notes.md": false
       }
-    }
+  }
   }
 }

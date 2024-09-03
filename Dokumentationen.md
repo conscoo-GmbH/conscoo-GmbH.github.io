@@ -20,7 +20,7 @@ body {
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Documentation Links</title>
+<title>Documentation Links </title>
 
 <style>
 
@@ -64,6 +64,7 @@ body {
 </head>
 
 <body>
+<br>
         <div class="link-box">
     <p>LeBit Transportplanung</p>
         <a href="/../docs/TP/TP.html">Dokumentation</a>
@@ -72,6 +73,10 @@ body {
     <p>LeBit Parameter & Qualitätssicherung</p>
         <a href="/../docs/Para&QS/Para&QS.html">Dokumentation</a>
     </div>
+        <!-- <div class="link-box">
+    <p>LeBit Instandhaltung</p>
+        <a href="/../docs/Maintenance/Maintenance.html">Dokumentation</a>
+    </div> -->
         <div class="link-box">
     <p>LeBit Produktion</p>
         <a href="/../docs/Manufacturing/Manufacturing.html">Dokumentation</a>
@@ -100,6 +105,14 @@ body {
     <p>LeBit Erweiterte Inventur</p>
         <a href="/../docs/Extended_Inventory/Extended_Inventory.html">Dokumentation</a>
     </div>
+        <!-- <div class="link-box">
+    <p>LeBit Erweiterte Belege</p>
+        <a href="/../docs/Extended_Reports/Extended_Reports.html">Dokumentation</a>
+    </div> -->
+        <!-- <div class="link-box">
+    <p>LeBit Variable Artikeleinheiten</p>
+        <a href="/../docs/Variable_Item_Units/Variable_Item_Units.html">Dokumentation</a>
+    </div> -->
         <div class="link-box">
     <p>LeBit Bonus</p>
         <a href="/../docs/Bonus/Bonus.html">Dokumentation</a>
