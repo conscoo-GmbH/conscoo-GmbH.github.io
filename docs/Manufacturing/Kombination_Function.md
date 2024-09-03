@@ -152,23 +152,23 @@ hinzugefügt werden.
 Wenn die Fertigungsaufträge hinzugefügt worden sind, ist es ebenfalls
 nur möglich die \"Menge\" und \"Anzahl Würfe\" bei den planbestimmenden
 Kombinationszeilen zu bearbeiten, die Menge und Anzahl Würfe aller
-anderen Kombinationszeilen passen sich an die veränderte Zeile an.
+anderen Kombinationszeilen passen sich an die veränderte Zeile an. <br>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu24.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
 <figcaption>Abbildung 23: Zeichen Planbestimmend </figcaption> <br>
-</div>
+</div> -->
 
 Wenn ein Fertigungsauftrag mehr Menge in der Kombination geplant hat,
 als er ursprünglich hatte, wird dies beim Freigeben abgefragt. In der
 Abfrage gibt es die Möglichkeit die Menge der Fertigungsaufträge zu
 erhöhen und die neu zu berechnen. Wird die Abfrage mit \"Nein\"
-beantwortet, wird der Freigabeprozess abgebrochen.
+beantwortet, wird der Freigabeprozess abgebrochen. <br>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu25.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
 <figcaption>Abbildung 24: Abfrage zum Erhöhen der Menge des Fertigungsauftrages </figcaption> <br>
-</div>
+</div> -->
 
 Wird von einem Fertigungsauftrag nicht die volle Menge genutzt, kann die
 Restmenge des Fertigungsauftrages in einer weiteren Kombination
@@ -179,7 +179,7 @@ verwenden, um sich so die Kombination bildlich darstellen zu lassen.
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu26.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 25: Kombinationsgrafik bei Bahnen </figcaption>
+<figcaption>Abbildung 23: Kombinationsgrafik bei Bahnen </figcaption>
 </div>
 
 <br>
@@ -193,5 +193,5 @@ und die Auswahl \"Drehen\" nutzen.
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu27.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 26: Funktion Drehen </figcaption> <br>
+<figcaption>Abbildung 24: Funktion Drehen </figcaption> <br>
 </div>

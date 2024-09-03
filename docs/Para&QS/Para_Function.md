@@ -4,7 +4,7 @@ body {
 }
 </style>
 
-# Funktionsbeschreibung:
+# Funktionsbeschreibung
 
 ## Funktion \"Bereich\"
 
@@ -18,17 +18,17 @@ werden. Aus diesen Werten kann dann am Element gewählt werden. Werden
 keine Wertebereiche am Parameter definiert, können Parameterwerte
 unabhängig erfasst werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter38.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 38: Funktion "Bereich"</figcaption> <br>
-</div>
+</div> -->
 
 Für Parameter mit der Parameterwertart „Text" definiert jede Zeile einen
 auswählbaren Textwert.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter39.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 39: Beispieltexte Parameterwertart = Text</figcaption> <br>
+    <figcaption>Abbildung 32: Beispieltexte Parameterwertart = Text</figcaption> <br>
 </div>
 
 Für Parameter mit der Parameterwertart „Dezimal" definiert jede Zeile
@@ -41,7 +41,7 @@ werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter40.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 40: Wertebereiche Parameterwertart = Dezimal</figcaption> 
+    <figcaption>Abbildung 33: Wertebereiche Parameterwertart = Dezimal</figcaption> 
 </div>
 
 <br>
@@ -56,7 +56,7 @@ Zuordnung der Wertebereich nichts angepasst werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter41.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 41: Option "Wertebereichskopie zulassen"</figcaption> 
+    <figcaption>Abbildung 34: Option "Wertebereichskopie zulassen"</figcaption> 
 </div>
 
 <br>
@@ -68,6 +68,8 @@ diese an den entsprechenden Stellen zugewiesen werden. Die Zuweisung
 erfolgt über die Funktion \"Parameter\". Zugewiesene Parameter werden im
 System zwischen Belegen weitergegeben.
 
+<br>
+
 ### Parameterzuweisung am Artikel
 
 Auf der Artikelkarte lassen sich die Parameter unter dem Aufruf
@@ -75,7 +77,7 @@ Auf der Artikelkarte lassen sich die Parameter unter dem Aufruf
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter42.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 42: Artikelkarte - Aufruf "Parameter"</figcaption> <br>
+    <figcaption>Abbildung 35: Artikelkarte - Aufruf "Parameter"</figcaption> <br>
 </div>
 
 Auf der sich öffnenden Seite („Parameterzuordnung") können entsprechende
@@ -85,7 +87,7 @@ Vorlage kopieren" verwendet werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter43.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 43: Parameterzuordnung am Artikel</figcaption> <br>
+    <figcaption>Abbildung 36: Parameterzuordnung am Artikel</figcaption> <br>
 </div>
 
 
@@ -94,7 +96,7 @@ außerhalb dieses Bereichs wird erfasst, erfolgt eine Fehlermeldung.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter44.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 44: Fehlermeldung - erfasster Wert befindet sich außerhalb des Wertebereiches</figcaption> <br>
+    <figcaption>Abbildung 37: Fehlermeldung - erfasster Wert befindet sich außerhalb des Wertebereiches</figcaption> <br>
 </div>
 
 Wurde in der Parametereinrichtung zuvor die Option „Wertebereichskopie
@@ -107,11 +109,11 @@ Wurde die Option nicht innerhalb der Parameter Einrichtung aktiviert,
 kann keine Wertebereichskopie innerhalb der Parameterzuordnung erstellt
 und diese auch nicht bearbeitet werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter45.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 45: Fehler - Option "Wertebereichskopie zulassen" nicht
 aktivs</figcaption> 
-</div>
+</div> -->
 
 <br>
 
@@ -124,7 +126,7 @@ zu filtern.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter46.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 46: Artikelübersicht - Option "Filtern nach Parametern"</figcaption> <br>
+    <figcaption>Abbildung 38: Artikelübersicht - Option "Filtern nach Parametern"</figcaption> <br>
 </div>
 
 Bei Aufruf der Option öffnet sich eine neue Seite
@@ -133,14 +135,14 @@ nach denen gefiltert werden soll, hinterlegt werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter47.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 47: Parameterartikelfilter</figcaption> <br>
+    <figcaption>Abbildung 39: Parameterartikelfilter</figcaption> <br>
 </div>
 
 Artikel, die den Filterkriterien entsprechen werden nun angezeigt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter48.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 48: gefundenes Element</figcaption> <br>
+    <figcaption>Abbildung 40: gefundenes Element</figcaption> <br>
 </div>
 
 
@@ -150,7 +152,7 @@ Parameter geöffnet.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter49.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 49: Parameterartikelfilter</figcaption> 
+    <figcaption>Abbildung 41: Parameterartikelfilter</figcaption> 
 </div>
 
 <br>
@@ -169,7 +171,7 @@ geändert werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter50.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 50: Parameterzuordnung am Artikel</figcaption> <br>
+    <figcaption>Abbildung 42: Parameterzuordnung am Artikel</figcaption> <br>
 </div>
 
 Hinweis: In der Parameterzuordnung am Artikel kann nachträglich das
@@ -197,7 +199,7 @@ Charge übernommen.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter51.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 51: unveränderte Parameterzuordnung an der Charge</figcaption> <br>
+    <figcaption>Abbildung 43: unveränderte Parameterzuordnung an der Charge</figcaption> <br>
 </div>
 
 Innerhalb dieser Zuordnung werden Parameter, die nicht das Kennzeichen
@@ -209,7 +211,7 @@ gesetzt wurde.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter52.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 52: Charge - geänderte Parameterinformationen</figcaption> <br>
+    <figcaption>Abbildung 44: Charge - geänderte Parameterinformationen</figcaption> <br>
 </div>
 
 
@@ -219,8 +221,10 @@ nachträglich einsehen. Sie sind an dieser Stelle nicht mehr editierbar.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter53.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 53: Chargennr.-Informationskarte -- Parameterübersicht</figcaption> <br>
+    <figcaption>Abbildung 45: Chargennr.-Informationskarte -- Parameterübersicht</figcaption>
 </div>
+
+<br>
 
 ### Parameterzuweisung auf Belegen
 
@@ -231,10 +235,10 @@ Chargeninformationen geändert werden.
 Der Aufruf der Belegzeilenparameter erfolgt auf Zeilenebene über „Zeile
 \> Parameter".
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter54.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 54: Aufruf Belegzeilenparameter</figcaption> <br>
-</div>
+</div> -->
 
 Handelt es sich bei dem Artikel um einen verfolgungspflichtigen Artikel,
 kann über die Artikelverfolgungszeilen bei Auswahl der entsprechenden
@@ -243,11 +247,13 @@ Parameter Chargennr." Bzw. „Parameter Seriennr." Zugegriffen werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter55.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 55: Aufruf "Parameter Chargennr." Bzw. „Parameter Seriennr."</figcaption> <br>
+    <figcaption>Abbildung 46: Aufruf "Parameter Chargennr." Bzw. „Parameter Seriennr."</figcaption> <br>
 </div>
 
 Innerhalb des Parameteraufrufs lassen sich die Parameter
 weiterbearbeiten und werden dann an Folgebelege weitergegeben.
+
+<br>
 
 #### Verfügbare Belege
 
@@ -292,12 +298,12 @@ Parameter" Parameter zum Debitor zugeordnet werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter56.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 56: Debitorenkarte -- Parameterzuweisung</figcaption> <br>
+    <figcaption>Abbildung 47: Debitorenkarte -- Parameterzuweisung</figcaption> <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter57.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 57: Parameterzuordnung</figcaption> <br>
+    <figcaption>Abbildung 48: Parameterzuordnung</figcaption> <br>
 </div>
 
 
@@ -308,7 +314,7 @@ Belegzeilenparameter eingetragen.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter58.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 58: Verkaufsbeleg - Belegzeilenparameter Übernahme von Debitorenkarte</figcaption> <br>
+    <figcaption>Abbildung 49: Verkaufsbeleg - Belegzeilenparameter Übernahme von Debitorenkarte</figcaption> <br>
 </div>
 
 Sofern ein Artikel mit Parametern innerhalb des Verkaufsbeleges
@@ -317,7 +323,7 @@ ergänzt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter59.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 59:Ergänzte Parameterinformationen</figcaption>
+    <figcaption>Abbildung 50:Ergänzte Parameterinformationen</figcaption>
 </div>
 
 <br>
@@ -330,7 +336,7 @@ hinterlegt werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter60.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 60: Debitorenkarte - Aufruf "Verknüpfte Parameter"</figcaption> <br>
+    <figcaption>Abbildung 51: Debitorenkarte - Aufruf "Verknüpfte Parameter"</figcaption> <br>
 </div>
 
 Auf der sich öffnenden Seite „Verknüpfte Parameter" wird die Ansicht
@@ -345,21 +351,21 @@ Verknüpfung gehören.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter61.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 61: Verknüpfte Parameter - Übersicht</figcaption> <br>
+    <figcaption>Abbildung 52: Verknüpfte Parameter - Übersicht</figcaption> <br>
 </div>
 
 
 Über den Aufruf „Parameter" im Menüband können der Verknüpfung Parameter
 zugewiesen werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter62.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 62: Verknüpfte Parameter - Aufruf Parameterzuweisung</figcaption> <br>
-</div>
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter63.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 63: Verknüpfte Parameter - Zugeordnete Parameter</figcaption> <br>
+    <figcaption>Abbildung 53: Verknüpfte Parameter - Zugeordnete Parameter</figcaption> <br>
 </div>
 
 Wird diese Kombination nun in einem Verkaufsbeleg angegeben, werden die
@@ -368,7 +374,7 @@ Verknüpfung ergänzt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter64.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 64: Belegzeilenparameter - Ergänzung um Verknüpfte Parameter Debitor</figcaption> 
+    <figcaption>Abbildung 54: Belegzeilenparameter - Ergänzung um Verknüpfte Parameter Debitor</figcaption> 
 </div>
 
 <br>
@@ -384,7 +390,7 @@ eingesehen und bearbeitet werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter63.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 65: Lief. An Adressen Übersicht - Aufruf Verknüpfte Parameter</figcaption> <br>
+    <figcaption>Abbildung 55: Lief. An Adressen Übersicht - Aufruf Verknüpfte Parameter</figcaption> <br>
 </div>
 
 Auf der sich öffnenden Seite „Verknüpfte Parameter" wird die Ansicht
@@ -397,7 +403,7 @@ Artikel zu erzeugen.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter66.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 66: Lieferadresse - Verknüpfte Parameter Parameterzuordnung</figcaption> <br>
+    <figcaption>Abbildung 56: Lieferadresse - Verknüpfte Parameter Parameterzuordnung</figcaption> <br>
 </div>
 
 
@@ -407,7 +413,7 @@ Verknüpfung ergänzt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter67.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 67:Belegzeilenparameter - Ergänzung um Verknüpfte Parameter Lieferadresse</figcaption> 
+    <figcaption>Abbildung 57:Belegzeilenparameter - Ergänzung um Verknüpfte Parameter Lieferadresse</figcaption> 
 </div>
 
 <br>
@@ -420,17 +426,17 @@ die hinterlegten Parameterinformationen des Debitors berücksichtigt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter68.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 68: Lief. an Adresse -- Parameterzuordnung</figcaption> <br>
+    <figcaption>Abbildung 58: Lief. an Adresse -- Parameterzuordnung</figcaption> <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter69.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 69: Debitorenkarte -- Parameterzuordnung</figcaption> <br>
+    <figcaption>Abbildung 59: Debitorenkarte -- Parameterzuordnung</figcaption> <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter70.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 70: Belegzeilenparameter - Übernahme von Debitor</figcaption> <br>
+    <figcaption>Abbildung 60: Belegzeilenparameter - Übernahme von Debitor</figcaption> <br>
 </div>
 
 Wird nun nachträglich die Lieferadresse im Belegkopf geändert erfolgt
@@ -442,7 +448,7 @@ Lieferadresse angepasst werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter71.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 71: Hinweismeldung zur Prüfung der Belegzeilenparameterinformationen</figcaption>
+    <figcaption>Abbildung 61: Hinweismeldung zur Prüfung der Belegzeilenparameterinformationen</figcaption>
 </div>
 
 <br>
@@ -455,12 +461,12 @@ Kreditoren Parameterinformationen im Menüband über den Aufruf „Zugehörig
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter72.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 72: Kreditorenkarte - Aufruf Parameter</figcaption> <br>
+    <figcaption>Abbildung 62: Kreditorenkarte - Aufruf Parameter</figcaption> <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter73.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 73: Kreditorenkarte -- Parameterzuordnung</figcaption> 
+    <figcaption>Abbildung 63: Kreditorenkarte -- Parameterzuordnung</figcaption> 
 </div>
 
 <br>
@@ -473,7 +479,7 @@ Artikel hinterlegt werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter74.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 74: Kreditorenkarte - Aufruf "Verknüpfte Parameter"</figcaption> <br>
+    <figcaption>Abbildung 64: Kreditorenkarte - Aufruf "Verknüpfte Parameter"</figcaption> <br>
 </div>
 
 Auf der sich öffnenden Seite „Verknüpfte Parameter" wird die Ansicht
@@ -491,12 +497,12 @@ zugewiesen werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter75.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 75: Verknüpfte Parameter - Aufruf Parameterzuordnung</figcaption> <br>
+    <figcaption>Abbildung 65: Verknüpfte Parameter - Aufruf Parameterzuordnung</figcaption> <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter76.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 76: Parameterzuordnung Verknüpfte Parameter Kreditor-Artikel</figcaption> <br>
+    <figcaption>Abbildung 66: Parameterzuordnung Verknüpfte Parameter Kreditor-Artikel</figcaption> <br>
 </div>
 
 Wird diese Kombination nun in einem Einkaufsbeleg angegeben, werden die
@@ -505,7 +511,7 @@ Verknüpfung ergänzt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter77.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 77: Einkaufsbeleg - Belegzeilenparameter Ergänzung Verknüpfte Parameter</figcaption> 
+    <figcaption>Abbildung 67: Einkaufsbeleg - Belegzeilenparameter Ergänzung Verknüpfte Parameter</figcaption> 
 </div>
 
 <br>
@@ -515,14 +521,14 @@ Verknüpfung ergänzt.
 Auf der Lagerortkarte können im Menüband über den Aufruf „Parameter"
 Parameter hinterlegt werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter78.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 78: Lagerortkarte - Aufruf Parameter</figcaption> <br>
-</div>
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter79.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 79: Lagerortkarte - Parameterzuordnung</figcaption> <br>
+    <figcaption>Abbildung 68: Lagerortkarte - Parameterzuordnung</figcaption> <br>
 </div>
 
 Wird dieser Lagerort nun innerhalb eines Beleges angegeben, werden die
@@ -530,7 +536,7 @@ Belegzeilenparameter um diese Parameterinformationen ergänzt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter80.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 80: Belegzeilenparameter - Ergänzung um Parameterinformationen Lagerort</figcaption> <br>
+    <figcaption>Abbildung 69: Belegzeilenparameter - Ergänzung um Parameterinformationen Lagerort</figcaption> <br>
 </div>
 
 Die Parameterinformationen des Lagerortes werden außerdem an die

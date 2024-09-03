@@ -12,11 +12,11 @@ Es wird ein neuer Inventurauftrag erstellt. Über die
 Standardfunktionalität unter \"Vorbereiten -> Berechnen -> Zeilen
 berechnen...\" werden die Inventurauftragszeilen aufgebaut.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory2.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
 <figcaption>Abbildung 2: Standardfunktion "Zeilen berechnen..." </figcaption>
-</div>
+</div> -->
 
 <br>
 
@@ -31,7 +31,7 @@ Inventurverfolgung\" aktiviert sein.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory3.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 3: Option "Neue Zeile für jede erwartete Inventurverfolgung" </figcaption> <br>
+<figcaption>Abbildung 2: Option "Neue Zeile für jede erwartete Inventurverfolgung" </figcaption> <br>
 </div>
 
 
@@ -43,11 +43,13 @@ Chargennr./Seriennr. erstellt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory4.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 4: Inventurerfassungszeilen </figcaption> <br>
+<figcaption>Abbildung 3: Inventurerfassungszeilen </figcaption> <br>
 </div>
 
 Innerhalb der Inventurerfassung ist es nicht möglich auf ggfs.
 hinterlegte Dimensionen zuzugreifen.
+
+<br>
 
 ### Beenden einer Inventurerfassung
 
@@ -65,14 +67,14 @@ Verfolgungszeilen des Inventurauftrags geschrieben.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory5.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 5: Inventurauftrag - Aufruf "Alle abweichenden Verfolgungszeilen" aus dem Kopf </figcaption> <br>
+<figcaption>Abbildung 4: Inventurauftrag - Aufruf "Alle abweichenden Verfolgungszeilen" aus dem Kopf </figcaption> <br>
 </div>
 
 
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory6.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 6: Inventurauftrag - Aufruf "Alle abweichenden Verfolgungszeilen" aus den Zeilen</figcaption> <br>
+<figcaption>Abbildung 5: Inventurauftrag - Aufruf "Alle abweichenden Verfolgungszeilen" aus den Zeilen</figcaption> <br>
 </div>
 
 
@@ -82,7 +84,7 @@ inklusive ihrer Dimensionen angezeigt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory7.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 7: Abweichende Inventurverfolgungszeile gefiltert auf Inventurauftragszeile </figcaption> 
+<figcaption>Abbildung 6: Abweichende Inventurverfolgungszeile gefiltert auf Inventurauftragszeile </figcaption> 
 </div>
 
 <br>
@@ -101,14 +103,14 @@ Inventurauftragszeile geschrieben.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory8.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 8: Erzeugung von Artikelposten </figcaption> <br>
+<figcaption>Abbildung 7: Erzeugung von Artikelposten </figcaption> <br>
 </div>
 
 
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory9.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption> Abbildung 9: Berechnete Inventurauftragszeilen</figcaption> <br>
+<figcaption> Abbildung 8: Berechnete Inventurauftragszeilen</figcaption> <br>
 </div>
 
 
@@ -133,7 +135,7 @@ Artikelposten, sortiert nach \"Lfd. Nr.\", verwendet.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory10.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption> Abbildung 10: Inventurverfolgungsübersicht - Artikelposten</figcaption> 
+<figcaption> Abbildung 9: Inventurverfolgungsübersicht - Artikelposten</figcaption> 
 </div>
 
 <br>
@@ -152,7 +154,7 @@ nachträglich gesetzt, wird der manuell erfasste Wert überschrieben.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory11.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption> Abbildung 11: "Menge" Inventurerfassungszeilen</figcaption> <br>
+<figcaption> Abbildung 10: "Menge" Inventurerfassungszeilen</figcaption> <br>
 </div>
 
 
@@ -163,7 +165,7 @@ der Wert im Feld \"Menge\" der Inventurerfassungszeile auf 0 gesetzt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory12.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 12: autom. Zurücksetzen der Menge</figcaption> 
+<figcaption>Abbildung 11: autom. Zurücksetzen der Menge</figcaption> 
 </div>
 
 <br>
@@ -173,11 +175,11 @@ der Wert im Feld \"Menge\" der Inventurerfassungszeile auf 0 gesetzt.
 Für das Fehlerhandling wurde eine neue Funktion \"Teste Dimensionen\" im
 Inventurauftrag unter \"Aktionen -> Buchen\" eingebaut.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory13.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
 <figcaption>Abbildung 13: Inventurauftrag - Neue Funktion \"Teste Dimensionen\" </figcaption> <br>
-</div>
+</div> -->
 
 Wird diese Funktion aufgerufen öffnet sich eine neue Seite
 \"Fehlermeldungen\". Sofern Fehlermeldungen vorhanden sind, werden diese
@@ -186,7 +188,7 @@ dort detailliert angezeigt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory14.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 14: Übersicht Fehlermeldungen</figcaption> <br>
+<figcaption>Abbildung 12: Übersicht Fehlermeldungen</figcaption> <br>
 </div>
 
 
@@ -196,7 +198,7 @@ Zusätzlich wurde in den Inventurauftragszeilen eine neue Spalte
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory15.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 15: Inventurauftragszeilen - neue Spalte "Zeilenfehlen"</figcaption> 
+<figcaption>Abbildung 13: Inventurauftragszeilen - neue Spalte "Zeilenfehlen"</figcaption> 
 </div>
 
 <br>
@@ -214,7 +216,7 @@ Kriterien und abweichenden Dimensionen erzeugt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory16.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 16: Artikelposten mit unterschiedlichen Kriterien und
+<figcaption>Abbildung 14: Artikelposten mit unterschiedlichen Kriterien und
 abweichenden Dimensionen</figcaption> 
 </div>
 
@@ -228,12 +230,14 @@ Dimensionswert gesperrt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory17.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 17: Dimensionswert für Dimension "Abteilung Code" Gesperrt </figcaption> <br>
+<figcaption>Abbildung 15: Dimensionswert für Dimension "Abteilung Code" Gesperrt </figcaption> <br>
 </div>
 
 Im Inventurauftrag werden nun die Zeilen berechnet und die
 Inventurerfassung erstellt. Wird der Inventurauftrag nun gebucht,
 erfolgt eine Fehlermeldung zum gesperrten Dimensionswert.
+
+<br>
 
 #### Dimension gesperrt
 
@@ -243,12 +247,14 @@ gesperrt.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory18.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 18: Dimension "Abteilung" gesperrt</figcaption> <br>
+<figcaption>Abbildung 16: Dimension "Abteilung" gesperrt</figcaption> <br>
 </div>
 
 Im Inventurauftrag werden nun die Zeilen berechnet und die
 Inventurerfassung erstellt. Wird der Inventurauftrag nun gebucht,
 erfolgt eine Fehlermeldung zur gesperrten Dimension.
+
+<br>
 
 ### Fehlerhandling in den Abweichenden Inventurverfolgungszeilen
 
@@ -259,7 +265,5 @@ Inventurverfolgungszeilen angepasst werden.
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory19.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 19: Dimensionen in der erw. Inventurverfolgung bearbeitbar</figcaption> <br>
+<figcaption>Abbildung 17: Dimensionen in der erw. Inventurverfolgung bearbeitbar</figcaption> <br>
 </div>
-
-

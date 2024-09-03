@@ -1,4 +1,4 @@
----
+<!-- ---
 _layout: landing
 ---
 
@@ -8,7 +8,9 @@ body {
 }
 </style>
 
-# LeBit Apps Dokumentationen
+# conscoo Apps Dokumentationen
+
+<br>
  
 <!DOCTYPE html>
 
@@ -59,12 +61,26 @@ body {
             justify-content: space-around;
 
         }
+
+        .body-container {
+            padding-right: 80px;
+            padding-left: 20px;
+        }
+        .body-container p {
+            font-size: 14pt;
+        }
 </style>
 
 </head>
 
 <body>
-<br>
+
+<div class="body-container">
+    <p>
+    Herzlich Willkommen auf der conscoo App-Dokumentationsseite! <br> <br> Hier bieten wir Ihnen umfassende und aktuelle Produktdokumentationen zu unseren Business Central Apps. Unsere Dokumentationen sind darauf ausgelegt, Ihnen schnell und verständlich weiterzuhelfen, egal ob Sie neu bei uns sind oder bereits Erfahrung mit unseren Produkten haben. <br> 
+    Unser Ziel ist es, Sie bei der optimalen Nutzung unserer Lösungen zu unterstützen und Ihnen zu zeigen, wie Conscoo Ihnen helfen kann, Ihre Geschäftsprozesse effizienter zu gestalten.  <br> <br>
+    </p>
+    </div>
         <div class="link-box">
     <p>LeBit Transportplanung</p>
         <a href="/../docs/TP/TP.html">Dokumentation</a>
@@ -73,10 +89,10 @@ body {
     <p>LeBit Parameter & Qualitätssicherung</p>
         <a href="/../docs/Para&QS/Para&QS.html">Dokumentation</a>
     </div>
-        <!-- <div class="link-box">
+        <div class="link-box">
     <p>LeBit Instandhaltung</p>
         <a href="/../docs/Maintenance/Maintenance.html">Dokumentation</a>
-    </div> -->
+    </div>
         <div class="link-box">
     <p>LeBit Produktion</p>
         <a href="/../docs/Manufacturing/Manufacturing.html">Dokumentation</a>
@@ -105,14 +121,14 @@ body {
     <p>LeBit Erweiterte Inventur</p>
         <a href="/../docs/Extended_Inventory/Extended_Inventory.html">Dokumentation</a>
     </div>
-        <!-- <div class="link-box">
+        <div class="link-box">
     <p>LeBit Erweiterte Belege</p>
         <a href="/../docs/Extended_Reports/Extended_Reports.html">Dokumentation</a>
-    </div> -->
-        <!-- <div class="link-box">
+    </div>
+        <div class="link-box">
     <p>LeBit Variable Artikeleinheiten</p>
         <a href="/../docs/Variable_Item_Units/Variable_Item_Units.html">Dokumentation</a>
-    </div> -->
+    </div>
         <div class="link-box">
     <p>LeBit Bonus</p>
         <a href="/../docs/Bonus/Bonus.html">Dokumentation</a>
@@ -120,4 +136,4 @@ body {
 </body>
 
 
-</html>
+</html> -->

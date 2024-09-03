@@ -53,6 +53,8 @@ Zusätzlich ist diese Funktion auf den Seiten
 „Seriennr.-Informationsliste" und „Chargennr.-Informationsliste" in der
 Artikelverfolgung möglich.
 
+<br>
+
 ### Parameteransicht („Parameter View")
 
 Werden mehrere Parameter für verschiedene Zwecke verwendet, kann die
@@ -114,8 +116,10 @@ werden.
 </div>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter12.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 12: Chargennr.-Informationskarte mit Parameteransicht</figcaption> <br>
+    <figcaption>Abbildung 12: Chargennr.-Informationskarte mit Parameteransicht</figcaption>
 </div>
+
+<br>
 
 #### Parameteransicht auf Belegen
 
@@ -158,6 +162,8 @@ Auf folgenden Belegen stehen diese „Parameter Views" zur Verfügung:
         </ul>
     </li>
 </ol>
+
+<br>
 
 ## Parameter Übersicht
 
@@ -210,6 +216,8 @@ Mit Parametern des Typs \"Referenz\" kann eine Verbindung zu anderen
 Tabellen innerhalb Microsoft Dynamics Business Central hinterlegt
 werden.
 
+<br>
+
 ### Variable Parameter
 
 Erhält ein Parameter das Kennzeichen „Variabel", so kann sich der Wert
@@ -218,10 +226,10 @@ geändert werden. Variable Parameter können in der Parameteransicht
 farblich grün unterschieden. Nicht Variable Parameter erhalten behalten
 die Farbe Schwarz.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter15.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 15: Farbliche Unterscheidung Variable/Nicht variable Parameter</figcaption>
-</div>
+</div> -->
 
 <br>
 
@@ -235,7 +243,7 @@ ihre Werte basierend auf Berechnung durch andere Parameter.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter16.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 16: Parameter mit hinterlegter Parameterformel</figcaption>
+    <figcaption>Abbildung 15: Parameter mit hinterlegter Parameterformel</figcaption>
 </div>
 
 <br>
@@ -258,7 +266,7 @@ Datenaufkommen innerhalb der Datenbank führen.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter17.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 17: Parameter mit bzw. ohne Kennzeichen "Datenhaltung"</figcaption>
+    <figcaption>Abbildung 16: Parameter mit bzw. ohne Kennzeichen "Datenhaltung"</figcaption>
 </div>
 
 <br>
@@ -270,7 +278,7 @@ Zuweisung mehrerer Parameter zu einem Artikel vereinfacht.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter18.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 18: Parameter mit bzw. ohne Parametergruppe</figcaption> <br>
+    <figcaption>Abbildung 17: Parameter mit bzw. ohne Parametergruppe</figcaption> <br>
 </div>
 
 Parametergruppen werden auf der Seite \"Parametergruppen\" erstellt.
@@ -279,7 +287,7 @@ Beschreibung hinzugefügt werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter19.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 19:Übersicht u. Einrichtung Parametergruppen"</figcaption>
+    <figcaption>Abbildung 18:Übersicht u. Einrichtung Parametergruppen"</figcaption>
 </div>
 
 <br>
@@ -295,7 +303,7 @@ zugewiesen werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter20.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 20: Parameterformeln</figcaption>
+    <figcaption>Abbildung 19: Parameterformeln</figcaption>
 </div>
 
 <br>
@@ -322,7 +330,7 @@ Die Verwendung von Klammern ist innerhalb der Formel möglich.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter21.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 21: Aufbau Parameterformel</figcaption> <br>
+    <figcaption>Abbildung 20: Aufbau Parameterformel</figcaption> <br>
 </div>
 
 
@@ -331,11 +339,11 @@ Dezimalwerte gerundet werden sollen.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter22.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 22: Parameterformeln - Rundungspräzision</figcaption> <br>
+    <figcaption>Abbildung 21: Parameterformeln - Rundungspräzision</figcaption> <br>
 </div>
 
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter23.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 23: Beispiel - errechneter Wert OHNE Rundungspräzision</figcaption> <br>
 </div>
@@ -344,7 +352,7 @@ Dezimalwerte gerundet werden sollen.
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter24.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 24: Beispiel - errechneter Wert MIT Rundungspräzision</figcaption> <br>
-</div>
+</div> -->
 
 Im Feld „Formeltext" werden anstelle der Wildcardbezeichnungen (%x)
 automatisch die entsprechenden Parametercodes gesetzt und die Formel
@@ -352,7 +360,7 @@ aufgebaut.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter25.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 25: Aufbau Formeltext</figcaption> 
+    <figcaption>Abbildung 22: Aufbau Formeltext</figcaption> 
 </div>
 
 <br>
@@ -370,12 +378,12 @@ angezeigt.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter26.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 26: Funktion "ShowTest"</figcaption> <br>
+    <figcaption>Abbildung 23: Funktion "ShowTest"</figcaption> <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter27.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 27: Parameter Testwertfelder</figcaption> <br>
+    <figcaption>Abbildung 24: Parameter Testwertfelder</figcaption> <br>
 </div>
 
 Um nun eine Formel testen zu können, können in den Feldern „Parameter 1
@@ -386,16 +394,16 @@ werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter28.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 28: Test Parameterformel</figcaption> <br>
+    <figcaption>Abbildung 25: Test Parameterformel</figcaption> <br>
 </div>
 
 Nach Ausführung der Funktion werden in einem kleinen Fenster sowohl die
 Formel mit den Testwerten als auch das errechnete Ergebnis angezeigt.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter29.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 29: Ergebnis des Formeltests</figcaption>
-</div>
+</div> -->
 
 <br>
 
@@ -414,7 +422,7 @@ Parameter" ersichtlich.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter30.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 30: Übersicht u. Einrichtung Parametervorlagen</figcaption> <br>
+    <figcaption>Abbildung 26: Übersicht u. Einrichtung Parametervorlagen</figcaption> <br>
 </div>
 
 Im Aktionsmenü können dieser Parametervorlage über die Option
@@ -427,7 +435,7 @@ bereits vorhandenen Vorlagen hinzugefügt und editiert werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter31.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 31: Parameterzuordnung zu Parametervorlage</figcaption> 
+    <figcaption>Abbildung 27: Parameterzuordnung zu Parametervorlage</figcaption> 
 </div>
 
 <br>
@@ -441,7 +449,7 @@ Suchübersicht" können Parametersuchen editiert bzw. im Aktionsmenü über
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter32.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 32: Parameter Suchübersicht</figcaption> <br>
+    <figcaption>Abbildung 28: Parameter Suchübersicht</figcaption> <br>
 </div>
 
 Über die Auswahl vom Feld „Code" kann die „Parameter Suchkarte" geöffnet
@@ -449,7 +457,7 @@ werden.
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter33.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 33: Parameter Suchkarte</figcaption> <br>
+    <figcaption>Abbildung 29: Parameter Suchkarte</figcaption> <br>
 </div>
 
 Ob bereits Parameter zu dieser Suche zugewiesen wurden, ist über das
@@ -461,27 +469,27 @@ eindeutige Code als auch die Beschreibung editiert werden.
 Im Aktionsmenü können über den Aufruf „Parameter" die zu suchenden
 Parameter hinterlegt werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter34.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 34: Funktion "Parameter" zur Parameterzuordnung</figcaption> <br>
-</div>
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter35.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 35: Übersicht "Parameterzuordnung"</figcaption> <br>
+    <figcaption>Abbildung 30: Übersicht "Parameterzuordnung"</figcaption> <br>
 </div>
 
 Über den Aufruf „Tabellen suchen" können die Tabellen hinterlegt werden,
 in denen nach diesen Parametern gesucht werden soll.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter36.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 36: Funktion "Tabellen suchen"</figcaption> <br>
-</div>
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter37.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 37: Übersicht "Parametersuchtabellen"</figcaption> <br>
+    <figcaption>Abbildung 31: Übersicht "Parametersuchtabellen"</figcaption> <br>
 </div>
 
 Wird auf der „Parameter Suchkarte" im Aktionsmenü die Funktion „Suchen"

@@ -16,13 +16,13 @@ Herkunftsbelegzeile genau eine Masterzeile. <br>
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning5.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 5: Ausgehende Transportbedarfe</figcaption>
+    <figcaption>Abbildung 4: Ausgehende Transportbedarfe</figcaption>
     <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning6.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 6: Eingehende Transportbedarfe</figcaption>
+    <figcaption>Abbildung 5: Eingehende Transportbedarfe</figcaption>
     <br>
 </div>
 
@@ -62,13 +62,13 @@ Seite zu Filtern und zu sortieren. <br>
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning7.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 7: Ausgehende Transportbedarfe Ungruppiert</figcaption>
+    <figcaption>Abbildung 6: Ausgehende Transportbedarfe Ungruppiert</figcaption>
     <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning8.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 8: Eingehende Transportbedarfe Ungruppiert</figcaption>
+    <figcaption>Abbildung 7: Eingehende Transportbedarfe Ungruppiert</figcaption>
 </div>
 
 <br>
@@ -136,7 +136,7 @@ welche für den gesamten Beleg von Bedeutung sind. <br>
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning9.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 9: Transportauftragskopf</figcaption>
+    <figcaption>Abbildung 8: Transportauftragskopf</figcaption>
     <br>
 </div>
 

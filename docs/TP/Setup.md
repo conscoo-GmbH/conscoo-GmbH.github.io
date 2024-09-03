@@ -95,20 +95,12 @@ Transportbedarfe, für bereits freigegebene Dokumente, zu erstellen. Das
 Dokument muss freigegeben sein und die Kategorie muss in der LeBit
 Transportplanung Einrichtung aktiviert sein. <br>
 
-<div style="text-align: center;">
-    <img src="../../images/TP/Transport_Planning2.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 2: Aktionen -> Erstelle Ausgehende Transportbedarfe</figcaption>
-    <br>
-</div>
-
-
-
 Innerhalb des Reports ist es möglich noch weitere Filterungen
 hinzufügen, um den Nachtragereport weiter einzuschränken. <br>
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning3.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 3: Funktion "Erstelle Ausgehende Transportbedarfe"</figcaption>
+    <figcaption>Abbildung 2: Funktion "Erstelle Ausgehende Transportbedarfe"</figcaption>
 </div>
 
 <br>
@@ -129,7 +121,7 @@ aufgerufen werden.
 
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning4.png" alt="" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 4: Berichtsauswahl - Transportplanung</figcaption>
+    <figcaption>Abbildung 3: Berichtsauswahl - Transportplanung</figcaption>
 </div>
 
 <br>

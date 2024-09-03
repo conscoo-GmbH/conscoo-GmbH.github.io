@@ -4,14 +4,13 @@ body {
 }
 </style>
 
-# Notwendige Einrichtung:
+# Notwendige Einrichtung
+
+<br>
 
 ## LeBit Reklamation Einrichtung
 
-In der Einrichtung wird eingestellt, welche Nummernserie benutzt wird.
-
-
-
+In der Einrichtung wird eingestellt, welche Nummernserie benutzt wird. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints1.png" alt="Abbildung : LeBit Reklamation Einrichtung -> Nummerierung" style="width: 85%; height: auto; max-height:400px">
@@ -21,71 +20,58 @@ In der Einrichtung wird eingestellt, welche Nummernserie benutzt wird.
 
 Es wird empfohlen, eine neue Nummernserie für die Reklamations-App anzulegen, damit diese einen eigenen nachverfolgbaren Nummernkreis haben.
 
-
-
+<br>
 
 ## Stammdaten zur "Bewertung"
 
 Um Stammdaten für die Bewertung zu pflegen, befinden sich im Menüband der "LeBit Reklamation Einrichtung" unter "Zugehörig" fünf Buttons zum Verwalten der entsprechenden Daten.
 
-
-
-
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints2.png" alt="Abbildung : Bewertungs-Stammdaten" style="width: 100%; height: auto;">
     <figcaption>Abbildung 2: Bewertungs-Stammdaten</figcaption>
     <br>
-</div>
+</div> -->
 
 Die hier eingetragenen Daten können dann auf dem Reklamationsvorgang genutzt werden, um im Register "Bewertung" mehr Aussage über die Reklamation bringen zu können.
 
-
 Dabei empfehlen wir folgende Nutzung der Parameter:
 
-
-Bewertung:
+**Bewertung:**
 
 Hierbei handelt es sich um die Bewertung des entstandenen Schadens, beispielsweise durch Beschreibung der Höhe des Schadens. Die Höhe des Schadens kann beispielsweise in leicht, mittel oder schwer unterteilt werden.
 
-
-Ort:
+**Ort:**
 
 Hierbei handelt es sich um den Ort an welchem das Problem, die Beschädigung entstanden ist. Um nicht immer wieder neue Codes anlegen zu müssen sollten diese hier allgemein gehalten werden, Formulierungsmöglichkeiten sind beispielsweise Verladung, Transport, Abladen oder Im Lager.
 
-
-
-
-Vorbeugend:
+**Vorbeugend:**
 
 Hier können Maßnahmen genannt werden, welche vorbeugend getätigt wurden, um den Schaden zu verhindern, wie zum Beispiel LuPo, Fest verbaut oder Kantenschutz.
 
-
-
-
-Entscheidung:
+**Entscheidung:**
 
 Hier können Werte eingerichtet werden, welche eine Entscheidung beschreiben, um das Problem zukünftig vorzubeugen.
 
 
-
-
-Verursacher:
+**Verursacher:**
 
 Hier kann eingerichtet werden, wer für den Schaden verantwortlich ist, zum Beispiel der Versand, intern oder extern.
 
-
-
+<br>
 
 ## Reklamationsgründe
 
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints3.png" alt="Abbildung : Reklamationsgründe Übersicht" style="width: 100%; height: auto;">
-    <figcaption>Abbildung 3: Reklamationsgründe Übersicht</figcaption>
+    <figcaption>Abbildung 2: Reklamationsgründe Übersicht</figcaption>
     <br>
 </div>
 
 Über die Suche zu finden sind die "Reklamationsgründe". Auf der Seite sind die Reklamationsgründe zu benennen, die bei der Reklamation verwendbar sind.
+
+<br>
 
 ### Reklamationsgründe - Felder
 

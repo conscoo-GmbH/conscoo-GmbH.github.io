@@ -1,7 +1,7 @@
-- name: Startseite
-  href: /../index.html
 - name: Dokumentationen
-  href: /../Dokumentationen.html
+  href: /../index.html
+# - name: Dokumentationen
+#   href: /../Dokumentationen.html
 - name: Preise
   href: /../Preisliste_gesamt.html
 # - name: FAQ

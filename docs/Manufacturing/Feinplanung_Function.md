@@ -101,10 +101,10 @@ Zeitberechnung, wird der Arbeitsgang mitgeplant, auch wenn das Enddatum
 außerhalb liegt. Wird die Dauer festgelegt, füllt sich das Enddatum
 automatisch.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu11.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
 <figcaption>Abbildung 10: Planungsfilter beim Zeit berechnen </figcaption> <br>
-</div>
+</div> -->
 
 Die Arbeitsgänge, die nicht in der Zeitspanne angefangen werden, werden
 in das Potenzial zurück verschoben. Die Start- und Endzeiten der
@@ -114,7 +114,7 @@ Arbeitsgänge, die sich vor der Zeitberechnung im Potenzial befanden,
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu12.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 11: Veränderung der Zeiten, nachdem die Zeit berechnet wurde </figcaption>
+<figcaption>Abbildung 10: Veränderung der Zeiten, nachdem die Zeit berechnet wurde </figcaption>
 </div>
 
 <br>
@@ -127,17 +127,17 @@ zu finden.
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu13.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 12: Bedarfsverursacher über Auftragsvorräte der APG </figcaption> <br>
+<figcaption>Abbildung 11: Bedarfsverursacher über Auftragsvorräte der APG </figcaption> <br>
 </div>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu14.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 13: Bedarfsverursacher in Feinplanung </figcaption> <br>
+<figcaption>Abbildung 12: Bedarfsverursacher in Feinplanung </figcaption> <br>
 </div>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu15.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 14: Bedarfsverursacher Informationen </figcaption> <br>
+<figcaption>Abbildung 13: Bedarfsverursacher Informationen </figcaption> <br>
 </div>
 
 Auf der Request Page des Bedarfsverursachers ist beispielsweise der
