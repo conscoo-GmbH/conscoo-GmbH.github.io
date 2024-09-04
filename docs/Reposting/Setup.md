@@ -6,6 +6,8 @@ body {
 
 # Notwendige Einrichtungen
 
+<br>
+
 Auf der Seite \"Artikel Umbuch.-Blätter\" muss man im Feld
 \"Buch.-Blattname\" eine Vorlage für das Artikel Umbuchung Buchblatt
 auswählen. <br>
@@ -15,7 +17,6 @@ auswählen. <br>
     <figcaption>Abbildung 1: Buch.-Blattname</figcaption>
     <br>
 </div>
-
 
 Wenn das Feld ausgewählt wird, kann man die vorhandenen Vorlagen
 bearbeiten und neue hinzufügen. <br>

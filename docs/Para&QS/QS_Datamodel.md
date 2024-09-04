@@ -6,8 +6,10 @@ body {
 
 # Datenmodell
 
+<br>
+
 Als Grundlage der Qualitätssicherung lässt sich das folgende Datenmodell
-heranziehen.
+heranziehen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS33.png" alt="" style="width: 85%; height: auto;">

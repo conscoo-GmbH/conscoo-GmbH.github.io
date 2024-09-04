@@ -6,10 +6,14 @@ body {
 
 # Notwendige Einrichtungen
 
+<br>
+
 ## LeBit Produktion Einrichtung
 
+<br>
+
 In der LeBit Produktion Einrichtung im Register \"Kombination\" müssen
-verschiedene Dinge eingerichtet werden.
+verschiedene Dinge eingerichtet werden. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu16.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -33,8 +37,10 @@ verschiedene Dinge eingerichtet werden.
 
 ## Arbeitsplatzgruppe (APG)/ Arbeitsplatz (AP)
 
+<br>
+
 Im Reiter LeBit Produktion, der AP(G), werden für die jeweilige AP(G)
-Einrichtungen für die Kombination getroffen.
+Einrichtungen für die Kombination getroffen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu17.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -53,15 +59,16 @@ Einrichtungen für die Kombination getroffen.
 | Feinplanung Parameteransicht  | Wahl der Parameteransicht für die Feinplanung. Ist in der Kombination nicht relevant.                                                                      |
 | Kombination Parameteransicht  | Wahl der Parameteransicht für die Kombination.                                                                                                             |
 
-
 <br>
 
 ## Parameter in der Artikelkarte
 
+<br>
+
 Damit Artikel in der Kombination verwendet werden können, müssen die für
 die Produktion benötigten Parameter ausgewählt und befüllt werden. Auf
 der Artikelkarte gelangt man über Artikel auf die Parameter und kann sie
-dann für den Artikel spezifisch ausfüllen.
+dann für den Artikel spezifisch ausfüllen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu18.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">

@@ -5,8 +5,12 @@ body {
 </style>
 
 # Funktionsbeschreibung
- 
+
+<br>
+
 ## Zuordnung eines Kontingents in der Verkaufszeile
+
+<br>
 
 In der Verkaufszeile kann ein Kontingent ausgewählt werden. Es werden die Kontingente angezeigt, die auch der Sorte am Artikel entsprechen. Das Warenausgangsdatum wird automatisch auf das Enddatum des Kontingents gesetzt. <br>
 
@@ -22,8 +26,7 @@ Sobald ein Kontingent in der Verkaufszeile ausgewählt und der Verkaufsauftrag g
 <figcaption>Abbildung 9: Veränderung der Menge durch offene Verkaufsaufträge </figcaption> <br>
 </div>
 
-Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von "Menge in Auftrag" in "Freigegebene Menge" verschoben.
-<br>
+Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von "Menge in Auftrag" in "Freigegebene Menge" verschoben. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents10.png" alt="Verschiebung der Menge in Freigegebene Menge" style="width: 85%; height: auto;">
@@ -48,7 +51,7 @@ Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivi
 <figcaption>Abbildung 12: Kontingent Genehmigungsworkflow </figcaption> <br>
 </div>
  
-Bevor der Workflow aktiviert wird (1), müssen Einstellungen in der Datensatzeinschränkung vorgenommen werden. Diese werden vorgenommen, indem man auf die erste Antwort "(+) Fügt eine Datensatzeinschränkung hinzu." (2) klickt.
+Bevor der Workflow aktiviert wird (1), müssen Einstellungen in der Datensatzeinschränkung vorgenommen werden. Diese werden vorgenommen, indem man auf die erste Antwort "(+) Fügt eine Datensatzeinschränkung hinzu." (2) klickt. <br>
 
 <div style="text-align: center;">
 <br>

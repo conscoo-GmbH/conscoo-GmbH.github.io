@@ -4,12 +4,16 @@ body {
 }
 </style>
 
-# Notwendige Einrichtung:
+# Notwendige Einrichtung
+
+<br>
 
 ## Rolle "Parameter Profil"
 
+<br>
+
 Wird die Rolle \"Parameter Profil\" eingerichtet, können auf die
-wichtigsten Funktionen und Seiten auf der Startseite gefunden werden.
+wichtigsten Funktionen und Seiten auf der Startseite gefunden werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS1.png" alt="" style="width: 85%; height: auto;">
@@ -20,11 +24,13 @@ wichtigsten Funktionen und Seiten auf der Startseite gefunden werden.
 
 ## LeBit Parameter & Qualitätssicherung Einrichtung
 
+<br>
+
 Zum Einrichten der LeBit Qualitätssicherung wird die Seite \"LeBit
 Parameter & Qualitätssicherung Einrichtung\" genutzt.
 
 Im Abschnitt \"Allgemein\" lassen sich Voreinstellungen zur Nutzung der
-Qualitätssicherung vornehmen.
+Qualitätssicherung vornehmen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS2.png" alt="" style="width: 85%; height: auto;">
@@ -35,6 +41,8 @@ Qualitätssicherung vornehmen.
 
 ### Buchen zugelassen für Belegart
 
+<br>
+
 Die Zeile \"Buchen zugelassen für Belegart\" bestimmt, ob die
 \"Buchen\"-Funktion nur auf Prüfaufträgen, nur auf Proben oder beiden
 Belegen zur Verfügung steht.
@@ -42,6 +50,8 @@ Belegen zur Verfügung steht.
 <br>
 
 ### Hole Prüfentscheidung beim Buchen
+
+<br>
 
 Die Einrichtung \"Hole Prüfentscheidung beim Buchen\" legt fest, ob der
 Zwischenschritt \"Entscheidung holen\" automatisch in der
@@ -53,6 +63,8 @@ werden muss. Die Aktivierung bietet die Optionen \"Nein\", \"Beide\",
 
 ### Vorgabe Warn-/ Limitwert Prozent
 
+<br>
+
 Die Felder \"Vorgabe Prozent Warnwert\" und \"Vorgabe Prozent
 Limitwert\" legen Prozentsätze fest, die beim Erstellen der Warn- und
 Grenzwerte im Wertehelfer vorgeschlagen werden.
@@ -60,6 +72,8 @@ Grenzwerte im Wertehelfer vorgeschlagen werden.
 <br>
 
 ### Rücksetzen der Prüfentscheidung erlaubt
+
+<br>
 
 Über das Feld \"Rücksetzen der Prüfentscheidung erlaubt\" kann eine
 Anzeigebeschränkung der Funktion \"Rücksetzen Entscheidung\" auf der
@@ -85,6 +99,8 @@ Zurücksetzen der Prüfentscheidung ist nicht möglich.
 
 ### Prüfobjektqualität
 
+<br>
+
 Ein Prüfobjekt (Chargennr., Paketnr., Seriennr.) kann mehreren Proben
 zugeordnet sein und dementsprechend mehrere Qualitäten erhalten. Es muss
 also festgelegt werden, wie das Prüfobjekt final bewertet wird.
@@ -106,6 +122,8 @@ sobald eine Probe mit der Prüfentscheidung \"schlecht\" gebucht wird.
 
 ## Prüfparameter
 
+<br>
+
 Das Anlegen von Prüfparameter erfolgt auf der Seite Parameter. Diese ist
 über die Suche im Business Central über \"Prüfparameter\" und
 \"Parameter\" zu erreichen. Hier sind alle Parameter der LeBit Parameter
@@ -115,6 +133,8 @@ Das Anlegen von Prüfparameter erfolgt auf der Seite Parameter. Diese ist
 
 ### Prüfparameter anlegen
 
+<br>
+
 Über den \[+\]Neu-Button lässt sich ein neuer Parameter anlegen. Es kann
 ein manueller Code für den Parameter eingegeben werden oder dieser wird
 aus einer festgelegten Nummernserie generiert. Die Beschreibung ist
@@ -123,6 +143,8 @@ optional auszufüllen.
 <br>
 
 #### Parameterart
+
+<br>
 
 In der Spalte der Parameterart lässt sich zwischen den Optionen
 \"Prüfung \" und \"Parameter\" wählen. Um den Parameter in Prüfplänen
@@ -165,6 +187,8 @@ werden.
 
 #### Wertebereichskopie zulassen
 
+<br>
+
 Bei dem Feld \"Wertebereichskopie zulassen\" handelt es sich um ein
 Booleanfeld. Ist der Haken in diesem Feld angewählt, kann diesem
 Parameter im Prüfplan ein spezifischer Wertebereich zugeordnet werden.
@@ -173,6 +197,8 @@ Diese Einstellung lässt sich nur im Parameter direkt an- oder abwählen.
 <br>
 
 ## Prüfplan
+
+<br>
 
 Prüfpläne können über die Suche nach \"Prüfplanübersicht\" gefunden
 werden. In der Liste werden alle bestehenden Prüfpläne angezeigt. Über
@@ -184,6 +210,8 @@ Prüfvorlage zugeordnet.
 
 ### Prüfplan anlegen
 
+<br>
+
 Zur Erstellung des Prüfplanes ist die Eingabe eines Codes notwendig. Das
 Beschreibungsfeld kann optional gefüllt werden. In der Zeilenansicht des
 Prüfplans werden zu prüfende Parameter hinterlegt. Alternativ kann dazu
@@ -193,7 +221,7 @@ Per DropDown-Menü lassen sich Prüfparameter nach Codes auswählen. Die
 Felder \"Wertart\", \"Formel\" und \"Wertebereichskopie zulassen\"
 werden aus dem Parameter übernommen. Bei den restlichen Feldern handelt
 es sich um Prüfplanspezifische Felder, die nur für den bestimmten
-Prüfplan gelten.
+Prüfplan gelten. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS3.png" alt="" style="width: 85%; height: auto;">
@@ -204,22 +232,22 @@ Prüfplan gelten.
 
 #### Wertebereiche
 
+<br>
+
 Für die im Prüfplan festgelegten Parameter können spezifische
 Wertebereiche eingestellt werden. Dazu dient die Funktion \"Spez.
-Wertebereich\" im Menüband.
+Wertebereich\" im Menüband. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS4.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 4: Funktion "Spezifischer Wertebereich"</figcaption> <br>
 </div>
 
-
-
 Ist dem Parameter in der angewählten Zeile noch kein Wertebereich
 zugeordnet erscheint die Abfrage, ob eine Kopie des Wertebereiches
 erstellt werden soll. Voraussetzung dafür ist das aktivierte Feld
 \"Wertebereichskopie zulassen\" am Parameter. Wird die Abfrage mit
-\"Ja\" beantwortet öffnet sich die Wertebereiche Ansicht.
+\"Ja\" beantwortet öffnet sich die Wertebereiche Ansicht. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS5.png" alt="" style="width: 85%; height: auto;">
@@ -239,8 +267,10 @@ ein Fehler, eine Warnung oder OK ausgibt.
 
 ##### Werthelfer
 
+<br>
+
 Mithilfe des Werthelfers können die Wertebereiche festgelegt werden.
-Dieser kann über die drei Punkte im Menüband erreicht werden.
+Dieser kann über die drei Punkte im Menüband erreicht werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS6.png" alt="" style="width: 85%; height: auto;">
@@ -253,7 +283,7 @@ Dieser kann über die drei Punkte im Menüband erreicht werden.
 </div>
 
 Die Felder \"Grenzwert Prozent\" und \"Warnung Prozent\" berechnen
-basierend auf dem Normwert die Grenz- und Warnwerte.
+basierend auf dem Normwert die Grenz- und Warnwerte. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS8.png" alt="" style="width: 85%; height: auto;">
@@ -263,7 +293,7 @@ basierend auf dem Normwert die Grenz- und Warnwerte.
 Bei Bestätigung mit \"Ok\" werden die Wertebereiche in der Reihenfolge
 Unterer Grenzwert, Unterer Warnwert, OK, Oberer Warnwert, Oberer
 Grenzwert sortiert. Der Normwert und die Prüfgrenzen werden in die
-Prüfplanzeilen übertragen.
+Prüfplanzeilen übertragen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS9.png" alt="" style="width: 85%; height: auto;">
@@ -279,11 +309,13 @@ Schriftfarbe \"OK\" bedeutet.
 
 ### Kopiere vom Prüfplan
 
+<br>
+
 Mit der Funktion \"Kopiere vom Prüfplan\" lassen sich die Inhalte eines
 bestehenden Prüfplans in einen neuen oder anderen Prüfplan kopieren.
 
 Bei diesem Schritt ist zu beachten, dass bereits ein Code im neuen
-Prüfplan eingegeben sein muss.
+Prüfplan eingegeben sein muss. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS11.png" alt="" style="width: 85%; height: auto;">
@@ -291,7 +323,7 @@ Prüfplan eingegeben sein muss.
 </div>
 
 Das Klicken der Funktion öffnet die Prüfplanübersicht und ein
-bestehender Prüfplan kann zum Kopieren ausgewählt werden.
+bestehender Prüfplan kann zum Kopieren ausgewählt werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS12.png" alt="" style="width: 85%; height: auto;">
@@ -301,14 +333,14 @@ bestehender Prüfplan kann zum Kopieren ausgewählt werden.
 Hier wird der Prüfplan \"ABMESSUNG\" gewählt.
 
 Nach Auswahl des Prüfplans erscheint eine Überprüfung zur Kopie des
-bestehenden Prüfplaninhaltes in den neu erstellten Prüfplan.
+bestehenden Prüfplaninhaltes in den neu erstellten Prüfplan. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS13.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 12: Abfrage Prüfplankopie</figcaption> <br>
 </div>
 
-Bei \"Ja\" wird der neue Prüfplan gefüllt.
+Bei \"Ja\" wird der neue Prüfplan gefüllt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS14.png" alt="" style="width: 85%; height: auto;">
@@ -322,6 +354,8 @@ Prüfplan ersetzt.
 <br>
 
 ## Prüfintervall
+
+<br>
 
 Das Prüfintervall wird über die Prüfvorlage einem Artikel zugwiesen. Es
 bestimmt die Anzahl der generierten Proben aus einem Beleg. Je nach Art
@@ -339,6 +373,8 @@ aufgeteilt. Unterschieden wird in die vier Arten:
 <br>
 
 ### Nach Posten
+
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS15.png" alt="" style="width: 85%; height: auto;">
@@ -361,8 +397,10 @@ in der Eskalation zurück iteriert wird.
 
 ### Nach Menge
 
+<br>
+
 Die Intervallart \"Nach Menge\" bestimmt die Probenanzahl ab einer
-bestimmten zu prüfenden Menge (Basis).
+bestimmten zu prüfenden Menge (Basis). <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS16.png" alt="" style="width: 85%; height: auto;">
@@ -377,10 +415,12 @@ vorherigen Zeile einen Fehler aufweist.
 
 ### Mischproben
 
+<br>
+
 Die Intervallart \"Mischprobe\" basiert auf derselben Spaltenaufteilung
 wie \"Nach Posten\". Die Spalte Intervall bestimmt hierbei Posten bzw.
 aufeinanderfolgende Prüfobjekte, die einer Probe zugeordnet werden
-sollen. Jedes Prüfobjekt wird einer Probe zugeordnet.
+sollen. Jedes Prüfobjekt wird einer Probe zugeordnet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS17.png" alt="" style="width: 85%; height: auto;">
@@ -394,6 +434,8 @@ Anzahl an Prüfobjekten zugeordnet.
 
 ### Je Menge
 
+<br>
+
 Die Intervallart \"Je Menge\" legt fest wie viele Proben je Menge
 erstellt werden. Die Menge in der Spalte \"ab Menge\", legt fest für
 welche Basis Menge ein Prüfauftrag erstellt wird. Besteht eine Rest
@@ -401,7 +443,7 @@ Basis Menge wird ein weiterer Prüfauftrag angelegt.
 
 Die Eskalationsstufen werden über das Referenzergebnis und die Menge
 gesteuert. Die Auswahl \"Fail\" greift, wenn die letzte Probe der
-vorherigen Zeile einen Fehler aufweist.
+vorherigen Zeile einen Fehler aufweist. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS18.png" alt="" style="width: 85%; height: auto;">
@@ -412,6 +454,8 @@ vorherigen Zeile einen Fehler aufweist.
 
 ## Prüfvorlage
 
+<br>
+
 Die Prüfvorlage bestimmt, wann ein Prüfauftrag erstellt werden soll. Die
 Prüfvorlage wird einem oder mehreren Artikeln zugeordnet. Im Kopf der
 Prüfvorlage sind der zu prüfende Artikel und die Prüfobjektzuweisung zu
@@ -421,7 +465,7 @@ Chargen-, Paket- oder Seriennummer zugeordnet werden soll. Die
 Prüfvorlage ist über das Feld \"Prüfvorlage\" am Artikel oder separat
 Suchfunktion mit \"Prüfvorlageübersicht\" zu finden und einzurichten.
 Mit der \[+\]Neu-Funktion wird eine neue, leere Prüfvorlagekarte
-erstellt.
+erstellt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS19.png" alt="" style="width: 85%; height: auto;">
@@ -432,9 +476,11 @@ erstellt.
 
 ### Kopiere Prüfvorlage
 
+<br>
+
 Bereits bestehende Prüfvorlagen können kopiert werden. Über die Funktion
 \"Kopiere Prüfvorlage\" kann eine bestehende Prüfvorlage ausgewählt
-werden, die den aktuellen Datensatz ersetzen soll.
+werden, die den aktuellen Datensatz ersetzen soll. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS20.png" alt="" style="width: 85%; height: auto;">
@@ -445,12 +491,14 @@ werden, die den aktuellen Datensatz ersetzen soll.
 
 ### Prüfauslöser
 
+<br>
+
 Der Prüfauslöser bestimmt den Prozess, bei dem ein Prüfauftrag ausgelöst
 wird. Ist dem Prüfauslöser ein Prüfplan zugeordnet, wird dieser
 aktiviert. Über das Dropdown-Menü kann der Prüfauslöser geändert werden.
 Sollen mehrere Prüfauslöser greifen, müssen diese als weitere Zeilen
 hinzugefügt werden. Die aufgelisteten Prüfauslöser \"Manual\" dienen als
-Platzhalter für mögliche Kundenindividuelle Prüfauslöser.
+Platzhalter für mögliche Kundenindividuelle Prüfauslöser. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS21.png" alt="" style="width: 85%; height: auto;">
@@ -458,7 +506,7 @@ Platzhalter für mögliche Kundenindividuelle Prüfauslöser.
 </div>
 
 In der Spalte \"Zugeordneter Prüfplan\" wird der Prüfplan mit den
-entsprechenden Prüfparametern hinterlegt sowie das Prüfintervall.
+entsprechenden Prüfparametern hinterlegt sowie das Prüfintervall. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS22.png" alt="" style="width: 85%; height: auto;">
@@ -469,11 +517,13 @@ entsprechenden Prüfparametern hinterlegt sowie das Prüfintervall.
 
 ### Prüfevents
 
+<br>
+
 Im Menüband der Prüfvorlagekarte befinden sich die Prüfevents. Hier
 können die Prüfobjekte Chargen-, Paket- und Seriennummern für bestimmte
 Aktionen gesperrt werden. In den Booleanfeldern am Ende der Zeile wird
 festgelegt bei welcher Qualität das Prüfobjekt gesperrt werden soll und
-somit nicht mehr in dem entsprechenden Prozess genutzt werden kann.
+somit nicht mehr in dem entsprechenden Prozess genutzt werden kann. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS23.png" alt="" style="width: 85%; height: auto;">
@@ -484,9 +534,11 @@ somit nicht mehr in dem entsprechenden Prozess genutzt werden kann.
 
 ## Artikel einrichten
 
+<br>
+
 Wurde eine Prüfvorlage angelegt und ein Prüfauslöser mit einem Prüfplan
 aktiviert muss der Prüfplan einem Artikel zugewiesen werden. Die
-Zuordnung geschieht über das Feld \"Prüfvorlage\" auf der Artikelkarte.
+Zuordnung geschieht über das Feld \"Prüfvorlage\" auf der Artikelkarte. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS24.png" alt="" style="width: 85%; height: auto;">

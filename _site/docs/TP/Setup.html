@@ -6,7 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Notwendige Einrichtung ">
       
-      <link rel="icon" href="../../../images/Conscoo_sign_elephant_32x32.png">
+      
+      <link rel="icon" href="../../../images/Conscoo_sign_steel blue_32.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/docfx/blob/main/docs/TP/Setup.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/TP/Setup.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,22 +29,22 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../../images/Conscoo_logo_steel blue_24.png" alt="">
+            <img id="logo" class="svg" src="../../../images/Conscoo_sign_steel blue_32.png" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,7 +92,9 @@ body {
 }
 </style>
 <h1 id="notwendige-einrichtung">Notwendige Einrichtung</h1>
+<br>
 <h2 id="transportplanung-einrichtung">Transportplanung Einrichtung</h2>
+<br>
 <p>Für diese LeBit Transportplanung existiert eine zentrale Einrichtung,
 welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 <div style="text-align: center;">
@@ -100,6 +103,7 @@ welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 </div>
 <br>
 <h3 id="register-allgemein-ausgehende-transportplanung">Register Allgemein ausgehende Transportplanung</h3>
+<br>
 <table>
 <thead>
 <tr>
@@ -114,11 +118,11 @@ welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 </tr>
 <tr>
 <td>Abweichende Warenausgangsmengen erlauben</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, die Warenausgangsmenge zu beeinflussen. Mit dieser Einrichtung sind abweichende Warenausgangsmenge möglich. Achtung: Gilt nur für den Beleg „Warenausgang“. <br> Wert = True: abweichende Warenausgangsmenge erlaubt <br> Wert = False: abweichende Warenausgangsmenge nicht erlaubt (Standardsystemverhalten)</td>
+<td>Im Standardsystemverhalten ist es nicht möglich, die Warenausgangsmenge zu beeinflussen. Mit dieser Einrichtung sind abweichende Warenausgangsmenge möglich. <strong>Achtung:</strong> Gilt nur für den Beleg „Warenausgang“. <br> Wert = True: abweichende Warenausgangsmenge erlaubt <br> Wert = False: abweichende Warenausgangsmenge nicht erlaubt (Standardsystemverhalten)</td>
 </tr>
 <tr>
 <td>Mehrere Warenausgänge erlauben</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, mehrere ungebuchte Warenausgänge anzulegen. Mit dieser Einrichtung ist es möglich mehrere ungebuchte Warenausgänge anlegen. Achtung: Gilt nur für den Beleg „Warenausgang“ <br> Wert = True: mehrere ungebuchte Warenausgänge erlaubt <br> Wert = False: mehrere ungebuchte Warenausgänge nicht erlaubt (Standardsystemverhalten)</td>
+<td>Im Standardsystemverhalten ist es nicht möglich, mehrere ungebuchte Warenausgänge anzulegen. Mit dieser Einrichtung ist es möglich mehrere ungebuchte Warenausgänge anlegen. <strong>Achtung:</strong> Gilt nur für den Beleg „Warenausgang“ <br> Wert = True: mehrere ungebuchte Warenausgänge erlaubt <br> Wert = False: mehrere ungebuchte Warenausgänge nicht erlaubt (Standardsystemverhalten)</td>
 </tr>
 <tr>
 <td>Lösche teilgelieferten Warenausgang</td>
@@ -144,6 +148,7 @@ welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 </table>
 <br>
 <h3 id="register-allgemein-eingehende-transportplanung">Register Allgemein eingehende Transportplanung</h3>
+<br>
 <table>
 <thead>
 <tr>
@@ -154,11 +159,11 @@ welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 <tbody>
 <tr>
 <td>Mehrere Wareneingänge zulassen</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, mehrere ungebuchte Warenausgänge anzulegen. Mit dieser Einrichtung ist es möglich mehrere ungebuchte Warenausgänge anlegen. Achtung: Gilt nur für den Beleg „Warenausgang“ <br> Wert = True: mehrere ungebuchte Warenausgänge erlaubt <br> Wert = False: mehrere ungebuchte Warenausgänge nicht erlaubt (Standardsystemverhalten)</td>
+<td>Im Standardsystemverhalten ist es nicht möglich, mehrere ungebuchte Warenausgänge anzulegen. Mit dieser Einrichtung ist es möglich mehrere ungebuchte Warenausgänge anlegen. <strong>Achtung:</strong> Gilt nur für den Beleg „Warenausgang“ <br> Wert = True: mehrere ungebuchte Warenausgänge erlaubt <br> Wert = False: mehrere ungebuchte Warenausgänge nicht erlaubt (Standardsystemverhalten)</td>
 </tr>
 <tr>
 <td>Abweichende Wareneingangsmenge zulassen</td>
-<td>Im Standardsystemverhalten ist es nicht möglich, die Warenausgangsmenge zu beeinflussen. Mit dieser Einrichtung sind abweichende Warenausgangsmenge möglich. Achtung: Gilt nur für den Beleg „Warenausgang“. <br> Wert = True: abweichende Warenausgangsmenge erlaubt <br> Wert = False: abweichende Warenausgangsmenge nicht erlaubt (Standardsystemverhalten)</td>
+<td>Im Standardsystemverhalten ist es nicht möglich, die Warenausgangsmenge zu beeinflussen. Mit dieser Einrichtung sind abweichende Warenausgangsmenge möglich. <strong>Achtung:</strong> Gilt nur für den Beleg „Warenausgang“. <br> Wert = True: abweichende Warenausgangsmenge erlaubt <br> Wert = False: abweichende Warenausgangsmenge nicht erlaubt (Standardsystemverhalten)</td>
 </tr>
 <tr>
 <td>Wareneingang und Detailzeile automatisch erstellen</td>
@@ -168,6 +173,7 @@ welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 </table>
 <br>
 <h3 id="register-transportbestellung">Register Transportbestellung</h3>
+<br>
 <table>
 <thead>
 <tr>
@@ -188,6 +194,7 @@ welche vor der ersten Nutzung zwingend eingerichtet werden muss. <br></p>
 </table>
 <br>
 <h3 id="register-ausgehende-transportbedarfe-aktivieren">Register Ausgehende Transportbedarfe aktivieren</h3>
+<br>
 <p>In diesem Register ist es möglich, einzurichten für welche
 Herkunftsbelegarten die ausgehenden Transportbedarfe verwendet werden
 sollen. Wenn für eine Belegart das Feld auf den Wert „true&quot; gesetzt,
@@ -195,6 +202,7 @@ werden für die jeweilige Belegart ab diesem Zeitpunkt beim Freigeben des
 Herkunftsbeleges die Transportbedarfe angelegt.</p>
 <br>
 <h3 id="register-eingehende-transportbedarfe-aktivieren">Register Eingehende Transportbedarfe aktivieren</h3>
+<br>
 <p>Hier ist es möglich, einzurichten für welche Herkunftsbelegarten die
 eingehenden Transportbedarfe verwendet werden sollen. Wenn für eine
 Belegart das Feld auf den Wert „true&quot; gesetzt, werden für die jeweilige
@@ -202,20 +210,23 @@ Belegart ab diesem Zeitpunkt beim Freigeben des Herkunftsbeleges die
 Transportbedarfe angelegt.</p>
 <br>
 <h3 id="register-styles">Register Styles</h3>
+<br>
 <p>In diesem Register wird der Stil festgelegt, für die offenen sowie den
 gebuchten Zeilen. Dadurch lassen sich die Transportbedarfe optisch
 besser unterscheiden. Bei Auswahl des Stils, wird dieser innerhalb des
 Feldes angezeigt, so dass der Nutzer eine Vorschau des Stiles bekommt.</p>
 <br>
 <h3 id="register-nummernserie">Register Nummernserie</h3>
+<br>
 <p>Hinterlegung der Nummernserie für den neuen Beleg Transportauftrag. Die
 Nummernserie muss vorher innerhalb des Systems eingerichtet werden.</p>
 <br>
 <h2 id="nachtragereport-erstelle-transportbedarfe">Nachtragereport &quot;Erstelle Transportbedarfe&quot;</h2>
+<br>
 <p>In den LeBit Transportplanung Einrichtung ist es möglich rückwirkend
 Transportbedarfe, für bereits freigegebene Dokumente, zu erstellen. Das
 Dokument muss freigegeben sein und die Kategorie muss in der LeBit
-Transportplanung Einrichtung aktiviert sein. <br></p>
+Transportplanung Einrichtung aktiviert sein.</p>
 <p>Innerhalb des Reports ist es möglich noch weitere Filterungen
 hinzufügen, um den Nachtragereport weiter einzuschränken. <br></p>
 <div style="text-align: center;">
@@ -224,19 +235,21 @@ hinzufügen, um den Nachtragereport weiter einzuschränken. <br></p>
 </div>
 <br>
 <h2 id="berichtsauswahl---transportplanung">Berichtsauswahl - Transportplanung</h2>
+<br>
 <p>Das Produkt bringt ein Einrichtungsmöglichkeit für die folgenden Reports
 mit:</p>
 <p>Transportauftrag</p>
 <p>Übernahmebescheinigung</p>
 <p>Frachtbrief</p>
 <p>Diese Berichtsauswahl kann über die Suche innerhalb des Systems
-aufgerufen werden.</p>
+aufgerufen werden. <br></p>
 <div style="text-align: center;">
     <img src="../../images/TP/Transport_Planning4.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 3: Berichtsauswahl - Transportplanung</figcaption>
 </div>
 <br>
 <h2 id="lagermitarbeiter">Lagermitarbeiter</h2>
+<br>
 <p>Im Standard ist es über die Lagermitarbeiter gesteuert, welche Lagerorte
 und deren Logistikbelege durch welche Nutzer genutzt bzw. bedienen
 werden dürfen. Um dem Standard hier zu folgen, müssen die Benutzer,
@@ -244,6 +257,7 @@ welche die Transportplanung nutzen sollen, für die entsprechenden
 Lagerorte als Lagermitarbeiter eingerichtet sein.</p>
 <br>
 <h2 id="zuordnung-zusteller-und-kontakt----kreditor">Zuordnung Zusteller und Kontakt -- Kreditor</h2>
+<br>
 <p>In der Tabelle der Zusteller wurde ein neues Feld geschaffen, in welchem
 zu einem Zusteller ein Unternehmenskontakt zugewiesen werden kann.</p>
 <p>Wenn dieser Unternehmenskontakt einem Kreditor zugewiesen wird, wird

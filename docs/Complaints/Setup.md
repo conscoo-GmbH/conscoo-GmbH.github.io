@@ -10,6 +10,8 @@ body {
 
 ## LeBit Reklamation Einrichtung
 
+<br>
+
 In der Einrichtung wird eingestellt, welche Nummernserie benutzt wird. <br>
 
 <div style="text-align: center;">
@@ -23,6 +25,8 @@ Es wird empfohlen, eine neue Nummernserie für die Reklamations-App anzulegen, d
 <br>
 
 ## Stammdaten zur "Bewertung"
+
+<br>
 
 Um Stammdaten für die Bewertung zu pflegen, befinden sich im Menüband der "LeBit Reklamation Einrichtung" unter "Zugehörig" fünf Buttons zum Verwalten der entsprechenden Daten.
 
@@ -75,6 +79,8 @@ Hier kann eingerichtet werden, wer für den Schaden verantwortlich ist, zum Beis
 
 ### Reklamationsgründe - Felder
 
+<br>
+
 | Feldname                | Funktion                                                                                                       | Bemerkung                                                |
 |-------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | Code                    | Hier wird der Code eingefügt, unter dem der Reklamationsgrund in der Reklamation angezeigt wird.               |                                                          |
@@ -82,10 +88,3 @@ Hier kann eingerichtet werden, wer für den Schaden verantwortlich ist, zum Beis
 | Standardlagerortcode    | Bestimmung eines Lagers, der als Standardlager für diesen Reklamationsgrund gilt. Ein Lager kann für mehrere Gründe das Standardlager sein. | Wird in den Reklamationsvorgängen automatisch ausgefüllt. |
 | Ohne Lagerbewertung     | Bestimmt, ob die reklamierten Artikel den Lagerwert erhöhen.                                                   |                                                          |
 | Verantwortlicher Benutzer | Wahl eines Benutzers, der für den Reklamationsgrund als Standardverantwortlicher bestimmt wird. Ein Benutzer kann für viele Gründe der Verantwortliche sein. | Wird in den Reklamationsvorgängen automatisch ausgefüllt. |
-
-
-
-
-
-
-

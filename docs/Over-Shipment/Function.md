@@ -5,22 +5,28 @@ body {
 </style>
 
 # Funktionsbeschreibung
+
+<br>
+
 ## Mengenänderung im Verkaufsauftrag ohne Genehmigung
-Es wird ein Auftrag mit einer Menge angelegt und freigegeben.
+
+<br>
+
+Es wird ein Auftrag mit einer Menge angelegt und freigegeben. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Over-Shipment/OverShipment7.png" alt="OverShipment7" style="width: 85%; height: auto;">
     <figcaption>Abbildung 7: Menge Verkaufsauftrag (vorher)</figcaption> <br>
 </div>
 
-Nach der Freigabe wird die neue Menge bei "Zu liefern" eingetragen. Nachdem das Feld verlassen wird, aktualisiert sich die "Menge" automatisch auf den neuen Wert.
+Nach der Freigabe wird die neue Menge bei "Zu liefern" eingetragen. Nachdem das Feld verlassen wird, aktualisiert sich die "Menge" automatisch auf den neuen Wert. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Over-Shipment/OverShipment8.png" alt="OverShipment8" style="width: 85%; height: auto;">
     <figcaption>Abbildung 8: Menge Verkaufsauftrag (nachher)</figcaption> <br>
 </div>
 
-Es wird nun automatisch der festgelegte "Ausgangsüberschusscode" gewählt und die überschüssige Menge berechnet.
+Es wird nun automatisch der festgelegte "Ausgangsüberschusscode" gewählt und die überschüssige Menge berechnet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Over-Shipment/OverShipment9.png" alt="OverShipment9" style="width: 85%; height: auto;">
@@ -30,6 +36,9 @@ Es wird nun automatisch der festgelegte "Ausgangsüberschusscode" gewählt und d
 <br>
 
 ## Mengenänderung im Verkaufsauftrag mit Genehmigung
+
+<br>
+
 Wird die Box "Genehmigung" in einem Ausgangsüberschuss Code angewählt, muss beim Anfallen eines Überschusses die Genehmigung eines Befugten eingeholt werden. <br>
 
 <div style="text-align: center;">
@@ -54,6 +63,9 @@ Nachdem die Genehmigung erteilt wurde, kann der Auftrag gebucht werden.
 <br>
 
 ## Mengenänderung im Warenausgang
+
+<br>
+
 Die Überlieferung kann auch im Warenausgang erfasst werden. Die Erfassung des Überschusses im Warenausgang funktioniert ähnlich wie der Überschuss im Verkaufsauftrag selbst. <br>
 
 <div style="text-align: center;">
@@ -89,6 +101,9 @@ Die Menge im Verkaufsauftrag bleibt unverändert, bis der Warenausgang freigegeb
 <br>
 
 ## Überbuchung mit Chargennummern
+
+<br>
+
 Ein Verkaufsauftrag, in dem chargenpflichtige Artikel verwendet werden, kann mit der "LeBit Überlieferung App" ebenfalls einen Überschuss erhalten. Dafür erstellt man für diese Verkaufsaufträge einen Warenausgang. Über die "Artikelverfolgungszeilen" kann man dann eine oder mehrere Chargen auswählen, die man bei diesem Verkaufsauftrag verwenden will. <br>
 
 <div style="text-align: center;">

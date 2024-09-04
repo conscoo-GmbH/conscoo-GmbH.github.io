@@ -20,6 +20,8 @@ body {
 
 ## Zweck
 
+<br>
+
 Diese Funktionsbeschreibung soll die Einrichtung und Handhabung der App
 \"LeBit Bonus\" erklären und ihre Funktionen verständlicher machen. Die
 dabei verwendeten Screenshots stammen aus Microsoft Dynamics 365

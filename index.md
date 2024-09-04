@@ -221,10 +221,10 @@ body {
     <p>LeBit Erweiterte Inventur</p>
         <a href="/../docs/Extended_Inventory/Extended_Inventory.html">Dokumentation</a>
     </div>
-        <!-- <div class="link-box">
+        <div class="link-box">
     <p>LeBit Erweiterte Belege</p>
         <a href="/../docs/Extended_Reports/Extended_Reports.html">Dokumentation</a>
-    </div> -->
+    </div>
         <!-- <div class="link-box">
     <p>LeBit Variable Artikeleinheiten</p>
         <a href="/../docs/Variable_Item_Units/Variable_Item_Units.html">Dokumentation</a>

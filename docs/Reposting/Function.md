@@ -6,7 +6,11 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Umbuchen und Umlagern
+
+<br>
 
 Über die Suchfunktion gelangt man zur Seite \"Artikel Umbuch.-Blätter\". <br>
 
@@ -15,8 +19,6 @@ body {
     <figcaption>Abbildung 3: Artikel Umbuch.-Blätter Übersicht</figcaption>
     <br>
 </div>
-
-
 
   | Feldname               | Funktion                                               | Bemerkung                                                              |
 |------------------------|--------------------------------------------------------|------------------------------------------------------------------------|
@@ -51,13 +53,13 @@ body {
 | Menge (Basis)          | Hier wird die Menge in der Basiseinheit des Artikels angegeben. |                                                                        |
 | Buchungsdatum          | Buchungsdatum wird hier eingesetzt.                    |                                                                        |
 
+<br>
+
 <div style="text-align: center;">
     <img src="../../images/Reposting/Reposting4.png" alt="Funktion "Buchen" und "Buchen markierte"  style="width: 85%; height: auto;">
     <figcaption>Abbildung 4: Funktion "Buchen" und "Buchen markierte"</figcaption>
     <br>
 </div>
-
-
 
 Über die Funktion \"Verwalten\" kann man die ausgewählten
 Buchblattzeilen löschen. Die Buchung des Buchblatts kann über zwei
@@ -73,8 +75,6 @@ werden die gebuchten Zeilen des Buchblatts geleert. <br>
     <br>
 </div>
 
-
-
 Für die Zeilen, die einen neuen Artikel erhalten haben, werden
 Montageaufträge erstellt und gebucht. Zu finden sind sie unter den
 \"Gebuchten Montageaufträge\" und in den \"Artikelposten\".
@@ -88,6 +88,8 @@ Umlagerungs-Ausgängen\", den \"Gebuchten Umlagerungs-Eingängen\" und den
 
 ## Dimensionen
 
+<br>
+
 Es ist möglich Dimensionen an ein \"Artikel Umbuch.-Blatt\" zu setzen.
 Die Dimensionen werden in den \"Umbuchung Buchblatt-Vorlagen\"
 hinterlegt und bei der Buchung des Buchblatts übernommen. <br>
@@ -97,5 +99,3 @@ hinterlegt und bei der Buchung des Buchblatts übernommen. <br>
     <figcaption>Abbildung 6: Dimensionen im Menüband der Buchblatt-Vorlagen</figcaption>
     <br>
 </div>
-
-

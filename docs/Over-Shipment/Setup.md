@@ -5,8 +5,14 @@ body {
 </style>
 
 # Notwendige Einrichtung
+
+<br>
+
 ## Anzeige bestehender Codes
-Eine Liste aller Codes findet man über die Suche (Alt+Q) mit der Eingabe "Ausgangsüberschuss Codes".
+
+<br>
+
+Eine Liste aller Codes findet man über die Suche (Alt+Q) mit der Eingabe "Ausgangsüberschuss Codes". <br>
 
 <div style="text-align: center;">
     <img src="../../images/Over-Shipment/OverShipment1.png" alt="OverShipment1" style="width: 100%; height: auto;">
@@ -16,6 +22,9 @@ Eine Liste aller Codes findet man über die Suche (Alt+Q) mit der Eingabe "Ausga
 <br>
 
 ## Neuer Code
+
+<br>
+
 Um eine neue Ausgangsüberschussbeschränkung zu erstellen, muss der Button "[+]Neu" geklickt werden. <br>
 
 <div style="text-align: center;">
@@ -40,11 +49,17 @@ Um einen neuen Ausgangsüberschuss zu erstellen, müssen folgende Schritte erled
 <br>
 
 ## Voraussetzung
+
+<br>
+
 Um vom Ausgangsüberschuss Gebrauch machen zu können, muss im Debitorenkonto oder in der Artikelkarte ein Ausgangsüberschusscode ausgewählt sein. 
 
 <br>
 
 ### Debitorenkonto
+
+<br>
+
 Im Reiter "Lieferung" befindet sich die Zeile "Ausgangsüberschusscode". <br>
 
 <div style="text-align: center;">
@@ -55,6 +70,9 @@ Im Reiter "Lieferung" befindet sich die Zeile "Ausgangsüberschusscode". <br>
 <br>
 
 ### Artikelkarte
+
+<br>
+
 Um einen Verkaufsüberschuss auf einem Artikel anzusehen, wird die Artikelkarte benötigt. Das Auswahlfeld ist im Reiter "Lagerbestand" zu finden. <br>
 
 <div style="text-align: center;">
@@ -65,10 +83,12 @@ Um einen Verkaufsüberschuss auf einem Artikel anzusehen, wird die Artikelkarte 
 <br>
 
 ## Überbuchung mit Chargen
+
+<br>
+
 Damit eine Überbuchung von verfolgungspflichtigen Artikeln mit Chargen funktioniert, muss in der "LeBit Transportplanung Einrichtung" das Feld "WA- zu liefern an Artikelverfolgungszeile anpassen" aktiviert werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Over-Shipment/OverShipment6.png" alt="OverShipment6" style="width: 100%; height: auto;">
     <figcaption>Abbildung 6: WA- zu liefern an Artikelverfolgungszeile anpassen aktiviert</figcaption>
 </div>
-

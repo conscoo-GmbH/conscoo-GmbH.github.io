@@ -21,6 +21,8 @@ body {
 
 ## Feinplanung Zweck
 
+<br>
+
 Die Feinplanung dient dazu, eine Reihenfolge für den Ablauf der
 bestehenden Fertigungsaufträge festzulegen. Damit kann das Start- und
 Enddatum berechnet werden und so Arbeitsgänge unterschiedlicher
@@ -31,6 +33,8 @@ Auftragsvorräten der einzelnen Arbeitsplatzgruppen.
 <br>
 
 ## Kombination Zweck
+
+<br>
 
 Kombinationen werden für die bessere Planung von Fertigungsaufträgen
 einer Arbeitsplatzgruppe/ eines Arbeitsplatzes verwendet. Dabei können

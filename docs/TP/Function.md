@@ -6,7 +6,11 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Transportbedarfe
+
+<br>
 
 Die ausgehenden und eingehenden Transportbedarfe sammeln die
 verschiedenen Herkunftsbelege und deren Logistikbelege. Die
@@ -53,6 +57,8 @@ Zustellertransportart änderbar.
 
 ### Transportbedarfe Ungruppiert
 
+<br>
+
 Für die Transportbedarfe gibt es zusätzlich die Seiten \"Ausgehende
 Transportbedarfe Ungruppiert\" und \"Eingehende Transportbedarfe
 Ungruppiert\". Auf der Seite sind die Detailzeilen in der Struktur nicht
@@ -74,6 +80,8 @@ Seite zu Filtern und zu sortieren. <br>
 <br>
 
 ## Funktionen in den Transportbedarfen
+
+<br>
 
 Auf den Seiten \"Ausgehende Transportbedarfe\", \"Ausgehende
 Transportbedarfe Ungruppiert\", \"Eingehende Transportbedarfe\" und
@@ -117,6 +125,8 @@ Funktionen im Menüband. <br>
 
 ## Transportauftrag
 
+<br>
+
 Der Transportauftrag bildet die oberste Ebene der LeBit Transportplanung
 und ermöglicht es, verschiedene Herkunftsbelege und deren Lagerbeleg in
 einem Beleg zusammen zu fassen.
@@ -130,6 +140,8 @@ Der Transportauftrag ist in einen Kopf- und Zeilenbereich unterteilt.
 <br>
 
 ### Transportauftragskopf
+
+<br>
 
 Der Transportauftragskopf beinhaltet alle relevanten Informationen,
 welche für den gesamten Beleg von Bedeutung sind. <br>
@@ -161,6 +173,8 @@ welche für den gesamten Beleg von Bedeutung sind. <br>
 
 ### Transportauftragszeile
 
+<br>
+
 Die Transportauftragszeile bildet die einzelnen Zeilen ab, welche
 innerhalb dieses Transportauftrags gemeinsam versendet werden sollen.
 Eine Zeile steht dabei für die Kombination eines Herkunftsbelegs zu
@@ -173,6 +187,8 @@ können darüber hinzugefügt und gelöscht werden.
 <br>
 
 ## Funktionen im Transportauftrag
+
+<br>
 
 | Feldname                       | Funktion                                                                                                                                                                                                                                                                      |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -191,6 +207,8 @@ können darüber hinzugefügt und gelöscht werden.
 <br>
 
 ## Beendeter Transportauftrag
+
+<br>
 
 Der Beendetes Transportauftrag ist eine 1:1 Kopie des Transportauftrages
 und bildet eine Kopie der Inhalte der Felder zum Zeitpunkt des Beendens.

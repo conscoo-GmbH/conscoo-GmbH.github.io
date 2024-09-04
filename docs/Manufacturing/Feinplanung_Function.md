@@ -6,13 +6,17 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Feinplanung erstellen
+
+<br>
 
 Die Feinplanung wird pro Arbeitsgang durchgeführt und basiert auf den
 Auftragsvorräten einer Arbeitsplatzgruppe.
 
 Über die Seite der Arbeitsplatzgruppen gelangt man zu den
-Auftragsvorräten der einzelnen Arbeitsplatzgruppen.
+Auftragsvorräten der einzelnen Arbeitsplatzgruppen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu5.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -24,7 +28,7 @@ Arbeitsgänge, aus den Fertigungsaufträgen, aufgelistet, die zu der
 Arbeitsplatzgruppe gehören. In der Übersicht können die einzelnen
 Eigenschaften geprüft werden, so dass gleiche Arbeitsschritte in die
 Planung übernommen werden können. Ebenfalls ist der Menüaufruf
-\"Feinplanung\" zu finden, über den sich die dazugehörige Maske öffnet.
+\"Feinplanung\" zu finden, über den sich die dazugehörige Maske öffnet. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu6.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -35,8 +39,6 @@ Planung übernommen werden können. Ebenfalls ist der Menüaufruf
 <img src="../../images/Manufacturing/Manu7.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
 <figcaption>Abbildung 6: Feinplanung Übersicht</figcaption> <br>
 </div>
-
-
 
 1\. Solange keine Arbeitsgänge der Fertigungsaufträge feingeplant sind,
 befinden sie sich im Potenzial und haben den Planungstyp \"ungeplant\".
@@ -52,7 +54,7 @@ wenn sie verschoben werden.
 4\. Es ist möglich mehrere Arbeitsgänge parallel zu verschieben.
 
 5\. Über die Menüpunkte \"Hoch\" und \"Runter\" wird die Reihenfolge der
-Arbeitsgänge, die sich in der Planung befinden, bestimmt.
+Arbeitsgänge, die sich in der Planung befinden, bestimmt. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu8.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -67,7 +69,7 @@ diesem Arbeitsgang gehört. Darüber lässt sich der Fertigungsauftrag
 Die Feinplanung kann erst vorgenommen werden, wenn die Aktion \"Zeit
 berechnen\" durchgeführt wird. Bevor die Aktion durchgeführt wurde, sind
 die Start- und Endzeiten der Arbeitsgänge aus den dazugehörigen
-Fertigungsaufträgen übernommen.
+Fertigungsaufträgen übernommen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu9.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -76,7 +78,7 @@ Fertigungsaufträgen übernommen.
 
 Um die Feinplanung abzuschließen, muss die Aktion \"Feinplanung
 übernehmen\" genutzt werden, sodass alle hinterlegten Aktionen
-gespeichert werden.
+gespeichert werden. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu10.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -90,6 +92,8 @@ und Endzeiten nicht übernommen.
 <br>
 
 ## Zeit berechnen
+
+<br>
 
 Die \"Zeit berechnen\"-Funktion beinhaltet drei Planungsfilter,
 Startdatum, Dauer und Enddatum. Das Startdatum wird zunächst automatisch
@@ -110,7 +114,7 @@ Die Arbeitsgänge, die nicht in der Zeitspanne angefangen werden, werden
 in das Potenzial zurück verschoben. Die Start- und Endzeiten der
 Arbeitsgänge wurden auf die hinterlegte Reihenfolge geändert. Für
 Arbeitsgänge, die sich vor der Zeitberechnung im Potenzial befanden,
-ändert sich die Start- und Endzeit nicht.
+ändert sich die Start- und Endzeit nicht. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu12.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -121,9 +125,11 @@ Arbeitsgänge, die sich vor der Zeitberechnung im Potenzial befanden,
 
 ## Bedarfsverursacher
 
+<br>
+
 Über die Auftragsvorräte, der Arbeitsplatzgruppen, sowie in der
 Feinplanung sind die Bedarfsverursacher der einzelnen Fertigungsaufträge
-zu finden.
+zu finden. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu13.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">

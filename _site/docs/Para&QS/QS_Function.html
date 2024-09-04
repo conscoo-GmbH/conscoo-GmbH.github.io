@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Funktionsbeschreibung: </title>
+      <title>Funktionsbeschreibung </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Funktionsbeschreibung: ">
+      <meta name="title" content="Funktionsbeschreibung ">
       
-      <link rel="icon" href="../../../images/Conscoo_sign_elephant_32x32.png">
+      
+      <link rel="icon" href="../../../images/Conscoo_sign_steel blue_32.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/docfx/blob/main/docs/Para&amp;QS/QS_Function.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/Para&amp;QS/QS_Function.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,22 +29,22 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../../images/Conscoo_logo_steel blue_24.png" alt="">
+            <img id="logo" class="svg" src="../../../images/Conscoo_sign_steel blue_32.png" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,19 +91,20 @@ body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 </style>
-<h1 id="funktionsbeschreibung">Funktionsbeschreibung:</h1>
+<h1 id="funktionsbeschreibung">Funktionsbeschreibung</h1>
+<br>
 <p>Sobald ein Prüfauslöser greift, wird ein Prüfauftrag in der
 Prüfauftragübersicht erstellt. Im Kopf des Prüfauftrages wird die
 Prüfauftragsnummer aus einer Nummernserie generiert und weitere
 Auftragsdaten angegeben. Die &quot;Kreditornr.&quot; und der &quot;Kreditorname&quot;
 füllen sich aus dem Herkunftsbeleg, sofern dort ein Kreditor vorhanden
-ist.</p>
+ist. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS25.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 24: Prüfauftragskopf</figcaption> <br>
 </div>
 <p>Die Zeilenansicht darunter wird mit den Prüfparametern des zugehörigen
-Prüfplanes gefüllt.</p>
+Prüfplanes gefüllt. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS26.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 25: Prüfauftrag Zeilenansicht</figcaption> <br>
@@ -113,7 +115,9 @@ Parameterzeilen aus dem zugeordneten Prüfplan eingefügt. Sind die Zeilen
 bereits gefüllt erscheint eine Fehlermeldung.</p>
 <br>
 <h2 id="prüfungsprozess">Prüfungsprozess</h2>
+<br>
 <h3 id="prüfauftrag">Prüfauftrag</h3>
+<br>
 <p>Einer Liste aller Prüfaufträge ist über die Suche mit Suchbegriff
 &quot;Prüfauftragübersicht&quot; zu finden.</p>
 <p>Im Prüfauftrag können Proben erstellt werden. Diese werden bei
@@ -124,13 +128,14 @@ jeweiligen Intervall am Auslöser ab.</p>
 <p>Bei angelegter Artikelverfolgung werden den Proben Prüfobjekte
 zugewiesen. Die Zuordnung ist abhängig vom Prüfintervall. Über die
 Aufrufe &quot;Erstellte Proben&quot;, &quot;Gebuchte Proben&quot;, lassen sich die Liste
-der zugehörigen Proben aufrufen.</p>
+der zugehörigen Proben aufrufen. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS27.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 26: Proben auf Prüfauftrag</figcaption>
 </div>
 <br>
 <h3 id="probe">Probe</h3>
+<br>
 <p>Die Proben werden auf dem Prüfauftrag gesammelt.</p>
 <p>Zusätzlich kann über die Suche nach &quot;Probenübersicht&quot; eine Übersicht
 aller offenen Proben geöffnet werden.</p>
@@ -141,13 +146,13 @@ Parameterwerte in der Probe ausgefüllt und gebucht.</p>
 <p>Wird ein Wert eingegeben füllt sich automatisch das Booleanfeld
 &quot;Erfassung&quot;. Die Spalte &quot;Prüfung erforderlich&quot; wird vom Prüfplan
 übergeben. Außerdem wird nach Eingabe eines Wertes die Prüfentscheidung
-der jeweiligen Zeile generiert.</p>
+der jeweiligen Zeile generiert. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS28.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 27: Gefüllte Parameterwerte Prüfauftragkarte</figcaption> <br>
 </div>
 <p>Durch die Funktion &quot;Entscheidung holen&quot; erhält die Probe eine
-Prüfentscheidung und eine Prüfobjektqualität.</p>
+Prüfentscheidung und eine Prüfobjektqualität. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS29.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 28: Probe mit Entscheidung</figcaption> <br>
@@ -157,12 +162,13 @@ die Qualität Durchschnitt&quot;. Zur Beeinflussung der Prüfobjektqualität
 muss das Feld &quot;Erfassung&quot; angewählt sein.</p>
 <br>
 <h3 id="prüfobjekte">Prüfobjekte</h3>
+<br>
 <p>Im Prozess der Qualitätssicherung wird bei Prüfobjekten von Chargennr.,
 Paketnr. und Seriennr. gesprochen. Je nach Intervall werden die
 Prüfobjekte eines Auftrages in die Prüfung übernommen. Die Qualität
 erhalten die Prüfobjekte durch das Buchen von Proben.</p>
 <p>Auf der Paketnr.- und Chargennr.- Informationskarte wird die &quot;Test
-Qualität&quot; hinterlegt.</p>
+Qualität&quot; hinterlegt. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS30.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 29: Paketnr. Informationskarte</figcaption> <br>
@@ -170,7 +176,7 @@ Qualität&quot; hinterlegt.</p>
 <p>In der Infobox werden die Prüfparameter sowie die geprüften Werte des
 Prüfobjektes angezeigt. Um eine detailliertere Ansicht zu erhalten,
 dient die Funktion &quot;Prüfparameter&quot; im Menüband, welche die Seite
-Prüfparameterzusammenfassung öffnet.</p>
+Prüfparameterzusammenfassung öffnet. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS31.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 30: Prüfparameterzusammenfassung</figcaption> <br>
@@ -179,7 +185,7 @@ Prüfparameterzusammenfassung öffnet.</p>
 Zusätzlich wird der Durchschnitt, der erste, letzte, niedrigste und
 höchste Wert angezeigt. Die Spalte &quot;Anzahl Werte&quot; zeigt alle Proben,
 die dem Prüfobjekt zugeordnet sind, sowie die geprüften Werte, aus denen
-sich der Durchschnittswert errechnet.</p>
+sich der Durchschnittswert errechnet. <br></p>
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS32.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 31: Zusammenfassung Prüfposten</figcaption>

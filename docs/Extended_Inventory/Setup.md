@@ -6,8 +6,10 @@ body {
 
 # Notwendige Einrichtung
 
+<br>
+
 Wenn ein Inventurauftrag erstellt wird, gibt es die Möglichkeit, dort
-die Dimensionen vom letzten Posten zu verwenden.
+die Dimensionen vom letzten Posten zu verwenden. <br>
 
 <div style="text-align: center;">
 <br>

@@ -10,6 +10,8 @@ body {
 
 ## Installation der notwendigen Apps
 
+<br>
+
 Neben der App \"LeBit Bonus\" ist die App \"Prozessmanagement\" zu
 installieren. Diese ist wichtig für die Prozessnummer, über welche alle
 Posten zu den Bonusverträgen angezeigt werden. Die Prozessnummer
@@ -25,10 +27,12 @@ Außerdem findet sie sich am Bonusvertrag.
 
 ### LeBit Bonus
 
+<br>
+
 Die App \"LeBit Bonus\" ist nach erfolgreicher Installation unter
 „Erweiterungsverwaltung" zu finden.
 
-Des Weiteren ist die App \"Prozessmanagement\" zu installiere
+Des Weiteren ist die App \"Prozessmanagement\" zu installiere <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus1.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -39,8 +43,10 @@ Des Weiteren ist die App \"Prozessmanagement\" zu installiere
 
 ### LeBit Prozessmanagement
 
+<br>
+
 Die App \"Prozessmanagement\" ist nach erfolgreicher Installation unter
-„Erweiterungsverwaltung" zu finden.
+„Erweiterungsverwaltung" zu finden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus2.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -51,6 +57,8 @@ Die App \"Prozessmanagement\" ist nach erfolgreicher Installation unter
 
 ## Grundeinrichtung
 
+<br>
+
 Bevor alle Funktionen der App verwendet werden können, müssen bestimmte
 Grundeinrichtungen vorgenommen werden.
 
@@ -58,8 +66,10 @@ Grundeinrichtungen vorgenommen werden.
 
 ### LeBit Bonus Einrichtung 
 
+<br>
+
 Die zentrale Bonus Einrichtung befindet sich auf der Registerkarte
-„LeBit Bonus Einrichtung".
+„LeBit Bonus Einrichtung". <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus3.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -76,6 +86,8 @@ Zu/Abschlägen Rückstellungen ermittelt werden.
 <br>
 
 ### Feldbeschreibung der LeBit Bonus Einrichtung
+
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus4.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -106,13 +118,15 @@ Zu/Abschlägen Rückstellungen ermittelt werden.
 
 #### Rückstellungsmodus - Buchblatt
 
+<br>
+
 Bei diesem Modus werden die zu verbuchenden Rückstellungen in ein
 Buchblatt übergeben.
 
 Die notwendigen Sachkonten für die Rückstellungen werden an den
 \"Debitorenbuchungsgruppen\" in den zusätzlichen Spalten
 \"Bonusrückstellungskonto\" und \"Bonusrückstellungsgegenkonto\"
-hinterlegt und sind je nach Sachkontenrahmen auszuwählen.
+hinterlegt und sind je nach Sachkontenrahmen auszuwählen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus5.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -130,6 +144,8 @@ teilweise komfortabler als beim Modus \"Gutschrift\".
 <br>
 
 #### Rückstellungsmodus - Gutschrift 
+
+<br>
 
 Bei dieser Rückstellungsvariante erzeugt das Modul anstelle von
 Buchblattzeilen Verkaufsgutschriften mit einem eigenen internen
@@ -158,6 +174,8 @@ Debitors](#anlegen-des-internen-debitors)).
 
 #### Buch.-Blattvorlage und Buch.-Blattname
 
+<br>
+
 Die beim Rückstellungsmodus \"Buchblatt\" zu verwendende
 Buch.-Blattvorlage muss, sofern noch nicht vorhanden, angelegt und
 eingetragen werden.
@@ -165,7 +183,7 @@ eingetragen werden.
 Des Weiteren sind hier die notwendigen Buchblätter für die Bonus
 Rückstellung und zur Auflösung der Rückstellung zu hinterlegen.
 
-Das Feld \"MwSt.Einr. in Bu.Bl.Zeile kopieren\" ist nicht zu setzten.
+Das Feld \"MwSt.Einr. in Bu.Bl.Zeile kopieren\" ist nicht zu setzten. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus6.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -180,8 +198,10 @@ hinterlegen.
 
 #### Geschäftsbuchungsgruppe für Rückstellungsgutschrift 
 
+<br>
+
 Falls noch nicht vorhanden, ist hier eine interne
-Geschäftsbuchungsgruppe zu erstellen.
+Geschäftsbuchungsgruppe zu erstellen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus7.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -197,11 +217,13 @@ Standardeinrichtungen zu ergänzen (MwSt Buchungsmatrix).
 
 #### Debitorenbuchungsgruppe für Rückstellungsgutschrift
 
+<br>
+
 Mit der Debitorenbuchungsgruppe wird das Rückstellungskonto, sowie das
 Gegenkonto angesprochen. Für die Buchungsgruppe sollte dazu, als
 Debitorensammelkonto, ein internes Forderungskonto angelegt werden. Die
 entsprechenden Rückstellungskonten sind je nach Sachkontenrahmen
-auszuwählen.
+auszuwählen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus6.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -212,8 +234,10 @@ Gutschrift </figcaption>
 
 ### Einrichtung Ursachencodes
 
+<br>
+
 Der Ursachencode kann neu angelegt werden und sollte zur einfachen
-Erkennung einen treffenden Code, sowie Beschreibung bekommen.
+Erkennung einen treffenden Code, sowie Beschreibung bekommen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus9.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -224,8 +248,10 @@ Erkennung einen treffenden Code, sowie Beschreibung bekommen.
 
 #### Einrichtung Prozessmanagement
 
+<br>
+
 Mit den Prozessmanagement besteht die Möglichkeit Posten mit ein und
-derselben Nummer zu identifizieren.
+derselben Nummer zu identifizieren. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus10.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -242,11 +268,13 @@ manuell erfasst werden, je nach Einstellung der Nummernserie.
 
 #### Debitoren & Verkauf Einrichtung
 
+<br>
+
 Beim Bilden von Rückstellungen, sowie beim Bonuslauf, durchläuft das
 System alle Rechnungen und Gutschriften für den entsprechenden Zeitraum
 und Debitor. Damit die Gutschriften berücksichtigt werden, müssen in der
 \"Debitoren & Verkauf Einrichtung\" jeweils die Felder \"Lieferschein b.
-VK-Rechnung\" und \"Rücksendung bei Gutschrift\" gesetzt werden.
+VK-Rechnung\" und \"Rücksendung bei Gutschrift\" gesetzt werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus11.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -256,6 +284,8 @@ VK-Rechnung\" und \"Rücksendung bei Gutschrift\" gesetzt werden.
 <br>
 
 ### Anlegen der benötigten Stammdaten 
+
+<br>
 
 Zum Bilden und Auflösen von Rückstellungen, werden für die erzeugten
 Belege bestimmte Stammdaten, wie ein \"Artikel Zu-/abschlag\" oder der
@@ -272,11 +302,13 @@ Buchungsgruppen und ähnliches dienen.
 
 #### Anlegen des internen Debitors
 
+<br>
+
 Der interne statistische Debitor wird für die Gutschrift zur
 Rückstellungsbildung und Rechnung zur Auflösung als Debitor eingetragen.
 Er muss, sofern noch nicht vorhanden, neu angelegt werden. Zur schnellen
 Identifikation sollte als Nummer eine passende Beschreibung verwendet
-werden.
+werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus12.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -293,6 +325,8 @@ angesprochen.
 
 #### Produktbuchungsgruppe
 
+<br>
+
 Für die anzulegenden \"Artikel Zu-/Abschläge\" für die Bonusrückstellung
 sowie der Bonusabrechnung ist eine Produktbuchungsgruppe anzulegen.
 
@@ -307,7 +341,7 @@ In der \"Buchungsmatrix Einrichtung\" müssen der Produktbuchungsgruppe
 
 Durch diese ergibt sich der Vorteil, dass unterschiedliche Sachkonten
 angesprochen werden können und darüber hinaus eine differenziertere
-Auswertung über die Wertposten vorgenommen werden kann.
+Auswertung über die Wertposten vorgenommen werden kann. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus14.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -333,13 +367,15 @@ andere Kombination auftritt.
 
 #### Anlegen der Rückstellungs- und Abrechnungszuschläge
 
+<br>
+
 Wenn der Rückstellungsmodus \"Gutschrift\" ausgewählt ist, müssen für
 die Bonusverträge die entsprechenden Zu-/Abschläge eingerichtet werden.
 Diese sind wie folgt einzurichten:
 
 Rückstellung Bonus
 
-Verkaufsbonus
+Verkaufsbonus <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus15.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -364,6 +400,8 @@ berücksichtigt werden.
 
 #### Debitorenbonusgruppe
 
+<br>
+
 Die Debitorenbonusgruppe kann an Debitoren hinterlegt werden. Wird einem
 Debitor eine Bonusgruppe zugewiesen, so kann in einem Bonusvertrag nach
 dieser Gruppe gefiltert werden.
@@ -380,6 +418,8 @@ zur Bemessungsgrundlage herangezogen.
 
 #### Artikelbonusgruppe
 
+<br>
+
 Die Artikelbonusgruppe kann an Artikeln hinterlegt werden.
 
 Wird einem Artikel eine Bonusgruppe zugewiesen, so kann in einem
@@ -394,7 +434,9 @@ herangezogen.
 
 <br>
 
-### Bonusverträge 
+### Bonusverträge
+
+<br>
 
 Die Bonusverträge können über die \"LeBit Bonus Einrichtung\" bzw. über
 die \"Suche\" aufgerufen und angelegt werden.
@@ -412,6 +454,8 @@ gepflegt werden.
 
 #### Feldbeschreibungen der Bonusverträge
 
+<br>
+
 | Feld                         | Bezeichnung |
 |------------------------------|-------------|
 | **Allgemein**                |             |
@@ -425,7 +469,7 @@ gepflegt werden.
 | Bonusabrechnungseinheit      | In Abhängigkeit der Bonusabrechnungsart "Betrag je Einheit" kann hier die notwendige Einheit ausgewählt werden. |
 | Bonusstaffelart              | Die Staffelart gibt an, ob die Berechnung des Bonus auf Grundlage des "Absatzes" oder "Umsatzes" erfolgt. |
 | Artikeleinheit               | Wird ein Bonusvertrag nach Einheiten angerechnet, ist hier die Einheit, z.B. kg, zu erfassen. Diese Einheit gilt für die Bonusstaffel. |
-| Letzte Abrechnung am         | Wird nach der Bonusabrechnung vom System gefüllt.<br><br>Achtung: Wurden Bonusgutschriften vor der Verbuchung gelöscht und müssen nochmals erstellt werden, so ist dieses Feld vorab zu leeren. |
+| Letzte Abrechnung am         | Wird nach der Bonusabrechnung vom System gefüllt.<br><br>**Achtung:** Wurden Bonusgutschriften vor der Verbuchung gelöscht und müssen nochmals erstellt werden, so ist dieses Feld vorab zu leeren. |
 | Bonusempfänger               | Hier wird der Debitor eingetragen, der den Bonus empfängt und bei der Erstellung der Verkaufsgutschrift verwendet wird. |
 | Abrechnungszuschlag          | Hinterlegung des entsprechenden Zu/-Abschlags, der bei der Erstellung der Abrechnungsgutschrift verwendet werden soll. |
 | **Rückstellung**             |             |
@@ -433,9 +477,11 @@ gepflegt werden.
 | Rückstellungswert            | Gibt den Wert zur Berechnung der Rückstellung an. |
 | Rückstellungsart             | Angabe eines Rückstellungswertes (Betrag in MW, prozentual oder pro Artikeleinheit)<br>Es gibt drei verschiedene Arten, um Rückstellungen zu bilden:<br>% vom Umsatz:<br>Der Rückstellungslauf bildet prozentual anhand der Belege Rückstellungen. Für jede Rechnungs- bzw. Gutschriftzeile wird eine Buchungszeile im Rückstellungsbuchblatt erzeugt.<br>Betrag (MW):<br>Ein Festbetrag wird je nach Abrechnungszeitraum zurückgestellt.<br>Betrag je Einheit:<br>Rückstellungen bezogen auf die Menge der Artikeleinheiten aus den Verträgen. Für jede Rechnungs- bzw. Gutschriftzeile wird eine Buchungszeile im Rückstellungsbuchblatt erzeugt. |
 | Rückstellungseinheit         | Ist im Vertrag hinterlegt, dass der Rückstellungslauf anhand der Option „Betrag je Einheit“ durchgeführt wird, muss eine Artikeleinheit zur Berechnung hinterlegt werden. |
-| Letzte Rückstellung am       | Wird nach der Bonusrückstellung vom System gefüllt.<br><br>Achtung: Wurden Rückstellungen vor der Verbuchung gelöscht und müssen nochmals erstellt werden, so ist dieses Feld vorab zu leeren. |
+| Letzte Rückstellung am       | Wird nach der Bonusrückstellung vom System gefüllt.<br><br>**Achtung:** Wurden Rückstellungen vor der Verbuchung gelöscht und müssen nochmals erstellt werden, so ist dieses Feld vorab zu leeren. |
 | Rückstellungszuschlag        | Ist der Rückstellungsmodus auf "Gutschrift" gestellt, ist der entsprechenden Zu/-Abschlags zu hinterlegen, der bei der Erstellung der Rückstellungsgutschrift sowie zum Auflösen der Rückstellung über die Rückstellungsrechnung verwendet werden soll. |
 | Bonusstaffel - Subform siehe Bonusstaffel - Berechnungsregeln |             |
+
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus19.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -446,52 +492,54 @@ gepflegt werden.
 
 #### Filterung nach Debitoren, Lieferadresse
 
+<br>
+
 Der Bonusvertrag kann nach Debitoren wie auch Lieferadressen gefiltert
 werden. Die Debitoren, für welche Umsätze für die Bonusabrechnung zu
 berücksichtigen sind, sind hier zu hinterlegen.
 
-Unter \"Zugehörig\" / \"Debitor\" öffnet sich der Filterbereich.
+Unter \"Zugehörig\" / \"Debitor\" öffnet sich der Filterbereich. <br>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus20.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 20: Bonusvertragskarte - Zugehörig Debitor </figcaption>
     <br>
-</div>
-
-
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus21.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 21: Bonus Debitoren </figcaption>
+    <figcaption>Abbildung 20: Bonus Debitoren </figcaption>
 </div>
 
 <br>
 
 #### Filterung nach Bonusartikel, Attributfilter
 
+<br>
+
 Am Bonusvertrag ist zwingend der Filter für die Bonusartikel zu
 hinterlegen.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus22.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 22: Bonusvertragskarte - Zugehörig Artikel </figcaption>
     <br>
-</div>
+</div> -->
 
 Wird nicht nach bestimmten Artikeln gefiltert, ist der Filter über alle
-Artikel zu setzten, ansonsten bei Bedarf je Artikel.
+Artikel zu setzten, ansonsten bei Bedarf je Artikel. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus23.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 23: Bonus Artikel </figcaption>
+    <figcaption>Abbildung 21: Bonus Artikel </figcaption>
     <br>
 </div>
 
-Nach dem Setzten eines Filters wird die Anzahl der Artikel angezeigt.
+Nach dem Setzten eines Filters wird die Anzahl der Artikel angezeigt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus24.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 24: Filter Bonus Artikel </figcaption>
+    <figcaption>Abbildung 22: Filter Bonus Artikel </figcaption>
     <br>
 </div>
 
@@ -509,38 +557,40 @@ Artikel Lampe nach Farbe grün
 
 Falsch:
 
-Artikel Lampe nach Farbe rot und grün
+Artikel Lampe nach Farbe rot und grün <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus25.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 25: Filter Bonus Artikel </figcaption>
+    <figcaption>Abbildung 23: Filter Bonus Artikel </figcaption>
     <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus26.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 26: Attribute Filter </figcaption>
+    <figcaption>Abbildung 24: Attribute Filter </figcaption>
     <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus27.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 27: Beispiel Artikel Attribut rot </figcaption>
+    <figcaption>Abbildung 25: Beispiel Artikel Attribut rot </figcaption>
     <br>
 </div>
 
 
 Über die Details am Bonusvertrag ist ersichtlich, dass Filter gesetzt
-sind.
+sind. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus28.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 28: Bonusvertrag Details </figcaption>
+    <figcaption>Abbildung 26: Bonusvertrag Details </figcaption>
 </div>
 
 <br>
 
 #### Bonusstaffel - Berechnungsregeln
+
+<br>
 
 Am Bonusvertrag, wird in der Subform, die zum Vertrag dazugehörige
 Bonusstaffel angezeigt. Je Vertrag wird eine Staffelung des Bonusbetrags
@@ -550,16 +600,18 @@ Artikeleinheit in der Berechnungsregel in die Bonusabrechnung ein. Mit
 Hilfe der Summe der Artikelmenge oder des Umsatzbetrages aus den
 Belegzeilen der Periode, wird die gültige Staffel bestimmt. Der Wert der
 Staffel wird in Abhängigkeit von der Werteinheit des Vertrages für die
-Bonusberechnung verwendet.
+Bonusberechnung verwendet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus29.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 29: Ausschnitt Bonusstaffel </figcaption>
+    <figcaption>Abbildung 27: Ausschnitt Bonusstaffel </figcaption>
 </div>
 
 <br>
 
 #### Berechnung des Skontos in % 
+
+<br>
 
 Für die Bonus- und Rückstellungsermittlung kann Skonto mit herangezogen
 werden. Sobald die Rückstellungeinheit oder die Bonusabrechnungseinheit

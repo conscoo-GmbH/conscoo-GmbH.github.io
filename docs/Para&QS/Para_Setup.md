@@ -6,7 +6,11 @@ body {
 
 # Notwendige Einrichtung
 
+<br>
+
 ## Parameter Einrichtung
+
+<br>
 
 Im Parametersetup können unter den Registern „Allgemein" und „Planung"
 Vorgaben für Prüfpläne eingerichtet und hinterlegt werden.
@@ -14,7 +18,7 @@ Vorgaben für Prüfpläne eingerichtet und hinterlegt werden.
 Im Register „Parameteransicht" können Parameterviews in den Bereichen
 Einkauf, Verkauf, Umlagerung, Artikel und Produktion hinterlegt werden.
 Mithilfe dieser Einrichtung werden die entsprechenden Werte in den
-einzelnen Bereichen für die Shortcutparamter definiert.
+einzelnen Bereichen für die Shortcutparamter definiert. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter1.png" alt="" style="width: 85%; height: auto;">
@@ -27,7 +31,7 @@ einzelnen Bereichen für die Shortcutparamter definiert.
 
 Im Setup hinterlegte Parameteransichten beeinflussen die Anzeige der
 entsprechenden Listen. Auf der Parameteransicht „Artikel
-Parameteransicht" wird die erstellte Ansicht „Artikel" hinterlegt.
+Parameteransicht" wird die erstellte Ansicht „Artikel" hinterlegt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter3.png" alt="" style="width: 85%; height: auto;">
@@ -39,7 +43,7 @@ Parameteransicht" wird die erstellte Ansicht „Artikel" hinterlegt.
 </div>
 
 In der hinterlegten Ansicht zugeordnete Artikel werden nun auf der Seite
-Artikelübersicht in Spaltenform aufgelistet.
+Artikelübersicht in Spaltenform aufgelistet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter5.png" alt="" style="width: 85%; height: auto;">
@@ -55,7 +59,9 @@ Artikelverfolgung möglich.
 
 <br>
 
-### Parameteransicht („Parameter View")
+### Parameteransicht ("Parameter View")
+
+<br>
 
 Werden mehrere Parameter für verschiedene Zwecke verwendet, kann die
 Übersichtlichkeit für den einzelnen Benutzer darunter leiden.
@@ -65,7 +71,7 @@ Parameter in welcher Reihenfolge angezeigt werden. Der Parameteransicht
 kann ein eindeutiger Code sowie eine Beschreibung zugewiesen werden.
 
 Die Parameteransichten können über die Suche, aber auch direkt aus der
-Einrichtung geöffnet werden.
+Einrichtung geöffnet werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter6.png" alt="" style="width: 85%; height: auto;">
@@ -78,7 +84,7 @@ Einrichtung geöffnet werden.
 </div>
 
 Über die Option „Bearbeiten" können für die Parameteransicht zu
-berücksichtigende Parameter definiert werden.
+berücksichtigende Parameter definiert werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter8.png" alt="" style="width: 85%; height: auto;">
@@ -88,7 +94,7 @@ berücksichtigende Parameter definiert werden.
 In der sich öffnenden Seite „Parameteransichtskarte" können die
 anzuzeigenden Parameter ausgewählt werden. Es kann außerdem über den
 Punkt „Sortierung" definiert werden, in welcher Reihenfolge die
-Parameter angezeigt werden sollen.
+Parameter angezeigt werden sollen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter9.png" alt="" style="width: 85%; height: auto;">
@@ -99,7 +105,7 @@ Das Feld \"ParameterartFilter\" gibt die Optionen \"Keine\". Parameter\"
 und \"Prüfung\". Die ausgewählte Einschränkung wirkt sich auf die
 auswählbaren Parameter je nach Parameterart aus. Wird beispielsweise die
 Option \"Prüfung\" ausgewählt, werden nur Parameter mit der Parameterart
-\"Prüfung\" im Feld \"Parameter Code\" gelistet.
+\"Prüfung\" im Feld \"Parameter Code\" gelistet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter10.png" alt="" style="width: 85%; height: auto;">
@@ -108,7 +114,7 @@ Option \"Prüfung\" ausgewählt, werden nur Parameter mit der Parameterart
 
 Innerhalb der Parameteraufrufe bspw. auf der
 Chargennr.-Informationskarte kann die Parameteransicht ausgewählt
-werden.
+werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter11.png" alt="" style="width: 85%; height: auto;">
@@ -122,6 +128,8 @@ werden.
 <br>
 
 #### Parameteransicht auf Belegen
+
+<br>
 
 Auch Belege können mit Parameteransichten („Parameter Views") in Form
 von Shortcutparametern versehen werden.
@@ -167,9 +175,11 @@ Auf folgenden Belegen stehen diese „Parameter Views" zur Verfügung:
 
 ## Parameter Übersicht
 
+<br>
+
 Eine Übersicht aller Parameter kann auf der Seite \"Parameter\"
 eingesehen und bearbeitet werden. Es können sowohl die Parametercodes
-als auch Beschreibungen hinterlegt werden. 
+als auch Beschreibungen hinterlegt werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter13.png" alt="" style="width: 85%; height: auto;">
@@ -179,6 +189,8 @@ als auch Beschreibungen hinterlegt werden.
 <br>
 
 ### Parameterwertarten
+
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter14.png" alt="" style="width: 85%; height: auto;">
@@ -220,6 +232,8 @@ werden.
 
 ### Variable Parameter
 
+<br>
+
 Erhält ein Parameter das Kennzeichen „Variabel", so kann sich der Wert
 je nach Charge des Artikels unterscheiden und auch im weiteren Prozess
 geändert werden. Variable Parameter können in der Parameteransicht
@@ -235,11 +249,13 @@ die Farbe Schwarz.
 
 ### Parameter Formeln
 
+<br>
+
 Parameter, welche eine Parameterformel hinterlegt bekommen, erhalten
-ihre Werte basierend auf Berechnung durch andere Parameter.
+ihre Werte basierend auf Berechnung durch andere Parameter. <br>
 
 >[!NOTE]
->Parameterformeln stehen nur für Parameter der Art „Dezimal" zur Verfügung.
+>Parameterformeln stehen nur für Parameter der Art „Dezimal" zur Verfügung. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter16.png" alt="" style="width: 85%; height: auto;">
@@ -250,6 +266,8 @@ ihre Werte basierend auf Berechnung durch andere Parameter.
 
 ### Kennzeichen „Datenhaltung"
 
+<br>
+
 Das Kennzeichen „Datenhaltung" erhöht den Datenbankspeicher, da jeder
 Parameterwert, der für diesen Parameter bspw. an einer Charge zugewiesen
 wurde, gespeichert wird. Wird dieses Kennzeichen nicht gesetzt, wird
@@ -259,10 +277,10 @@ Beispiel: Der Parameter „Feuchtigkeit" wird einem Artikel zugewiesen.
 Mit Hilfe der Datenhaltung können die vorherigen Parameterwerte
 eingesehen werden.
 
-Ohne das Kennzeichen steht nur der letzte erfasste Wert zur Verfügung.
+Ohne das Kennzeichen steht nur der letzte erfasste Wert zur Verfügung. <br>
 
-Achtung: Die Verwendung des Kennzeichens „Datenhaltung" kann zu erhöhtem
-Datenaufkommen innerhalb der Datenbank führen.
+> [!Important]
+> Die Verwendung des Kennzeichens „Datenhaltung" kann zu erhöhtem Datenaufkommen innerhalb der Datenbank führen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter17.png" alt="" style="width: 85%; height: auto;">
@@ -273,8 +291,10 @@ Datenaufkommen innerhalb der Datenbank führen.
 
 ### Parametergruppen
 
+<br>
+
 Parameter können auch zu Gruppen hinzugefügt werden. Damit wird die
-Zuweisung mehrerer Parameter zu einem Artikel vereinfacht.
+Zuweisung mehrerer Parameter zu einem Artikel vereinfacht. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter18.png" alt="" style="width: 85%; height: auto;">
@@ -283,7 +303,7 @@ Zuweisung mehrerer Parameter zu einem Artikel vereinfacht.
 
 Parametergruppen werden auf der Seite \"Parametergruppen\" erstellt.
 Durch die Eingabe eines Codes wird die Gruppe erstellt und es kann eine
-Beschreibung hinzugefügt werden.
+Beschreibung hinzugefügt werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter19.png" alt="" style="width: 85%; height: auto;">
@@ -293,6 +313,8 @@ Beschreibung hinzugefügt werden.
 <br>
 
 ## Parameterformeln
+
+<br>
 
 Auf der Seite „Parameterformeln" können Formeln zur Berechnung eines
 Parameterwertes anhand anderer Parameter eingerichtet werden.
@@ -310,6 +332,8 @@ zugewiesen werden.
 
 ### Aufbau Parameterformel
 
+<br>
+
 Innerhalb der Zeilen kann im Feld „Formel" die Formel zur Berechnung
 hinterlegt werden. Mit Hilfe der Wildcards %1 - %10 (Parameter Code 1 -
 10) können die zu verwendenden Parameter zur Berechnung angegeben
@@ -326,16 +350,15 @@ Die Formel kann folgende Grundrechenarten beinhalten
 
 / (GETEILT, Division)
 
-Die Verwendung von Klammern ist innerhalb der Formel möglich.
+Die Verwendung von Klammern ist innerhalb der Formel möglich. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter21.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 20: Aufbau Parameterformel</figcaption> <br>
 </div>
 
-
 Über das Feld „Rundungspräzision" kann definiert werden, wie
-Dezimalwerte gerundet werden sollen.
+Dezimalwerte gerundet werden sollen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter22.png" alt="" style="width: 85%; height: auto;">
@@ -356,7 +379,7 @@ Dezimalwerte gerundet werden sollen.
 
 Im Feld „Formeltext" werden anstelle der Wildcardbezeichnungen (%x)
 automatisch die entsprechenden Parametercodes gesetzt und die Formel
-aufgebaut.
+aufgebaut. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter25.png" alt="" style="width: 85%; height: auto;">
@@ -365,16 +388,15 @@ aufgebaut.
 
 <br>
 
-#### Funktion „Test"
+#### Funktion "Test"
+
+<br>
 
 Um den Aufbau fehlerfreier Formeln sicherstellen zu können, kann über
 eine Testfunktion eine Testberechnung durchgeführt werden.
 
-Hinweis: Beim erstmaligen Öffnen der Parameterformeln werden die
-Testparameter noch nicht angezeigt. Um diese anzuzeigen, muss im
-Aktionsmenü über „Aktionen \> ShowTest" die Funktion ausgeführt werden.
-Danach werden in der Parameterformelübersicht auch Testparameter
-angezeigt.
+> [!NOTE]
+> Beim erstmaligen Öffnen der Parameterformeln werden die Testparameter noch nicht angezeigt. Um diese anzuzeigen, muss im Aktionsmenü über „Aktionen \> ShowTest" die Funktion ausgeführt werden. Danach werden in der Parameterformelübersicht auch Testparameter angezeigt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter26.png" alt="" style="width: 85%; height: auto;">
@@ -390,7 +412,7 @@ Um nun eine Formel testen zu können, können in den Feldern „Parameter 1
 Testwert" bis „Parameter 10 Testwert" Werte eingetragen werden.
 
 Im Aktionsmenü kann nun unter „Aktionen \> Test" die Formel getestet
-werden.
+werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter28.png" alt="" style="width: 85%; height: auto;">
@@ -409,16 +431,18 @@ Formel mit den Testwerten als auch das errechnete Ergebnis angezeigt.
 
 ## Parametervorlagen
 
+<br>
+
 Über die Seite „Parameter Vorlagen" können Vorlagen definiert werden.
 Diesen Vorlagen enthalten einen eindeutigen Code sowie eine
 Beschreibung. Im Feld „Allowed for Table" kann die Tabelle „Artikel"
-zugewiesen werden.
+zugewiesen werden. <br>
 
-Achtung: Alle weiteren Tabellen sind vorerst nur für weitere
-Entwicklungen vorgesehen.
+> [!Important]
+> Alle weiteren Tabellen sind vorerst nur für weitere Entwicklungen vorgesehen. <br>
 
 Ob einer Vorlage bereits Parameter zugewiesen sind, ist im Feld „Anzahl
-Parameter" ersichtlich.
+Parameter" ersichtlich. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter30.png" alt="" style="width: 85%; height: auto;">
@@ -431,7 +455,7 @@ Im Aktionsmenü können dieser Parametervorlage über die Option
 Auf der sich öffnenden Seite „Parameterzuordnung" können entweder im
 Feld „Parameter Code" entsprechende Parameter ausgewählt oder im
 Aktionsmenü über die Funktion „Aus Vorlage kopieren" Parameter aus
-bereits vorhandenen Vorlagen hinzugefügt und editiert werden.
+bereits vorhandenen Vorlagen hinzugefügt und editiert werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter31.png" alt="" style="width: 85%; height: auto;">
@@ -442,10 +466,12 @@ bereits vorhandenen Vorlagen hinzugefügt und editiert werden.
 
 ## Parameter Suchübersicht
 
+<br>
+
 Um Daten entsprechend einer Reihe von Parameterwerten zu finden, können
 Parametersuchen verwendet werden. Auf der Seite „Parameter
 Suchübersicht" können Parametersuchen editiert bzw. im Aktionsmenü über
-„Neu" hinzugefügt werden.
+„Neu" hinzugefügt werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter32.png" alt="" style="width: 85%; height: auto;">
@@ -453,7 +479,7 @@ Suchübersicht" können Parametersuchen editiert bzw. im Aktionsmenü über
 </div>
 
 Über die Auswahl vom Feld „Code" kann die „Parameter Suchkarte" geöffnet
-werden.
+werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter33.png" alt="" style="width: 85%; height: auto;">
@@ -467,7 +493,7 @@ In dem sich öffnenden Fenster „Parameter Suchkarte" können sowohl der
 eindeutige Code als auch die Beschreibung editiert werden.
 
 Im Aktionsmenü können über den Aufruf „Parameter" die zu suchenden
-Parameter hinterlegt werden.
+Parameter hinterlegt werden. <br>
 
 <!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter34.png" alt="" style="width: 85%; height: auto;">
@@ -480,7 +506,7 @@ Parameter hinterlegt werden.
 </div>
 
 Über den Aufruf „Tabellen suchen" können die Tabellen hinterlegt werden,
-in denen nach diesen Parametern gesucht werden soll.
+in denen nach diesen Parametern gesucht werden soll. <br>
 
 <!-- <div style="text-align: center;">
     <img src="../../images/Para&QS/Parameter36.png" alt="" style="width: 85%; height: auto;">

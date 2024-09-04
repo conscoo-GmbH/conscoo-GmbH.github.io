@@ -10,6 +10,8 @@ body {
 
 ## Schaltflächen am Bonusvertrag
 
+<br>
+
 In diesem Abschnitt sollen kurz, die wichtigsten Schaltflächen in der
 Übersicht der Bonusverträge erklärt werden.
 
@@ -17,13 +19,15 @@ In diesem Abschnitt sollen kurz, die wichtigsten Schaltflächen in der
 
 ### Aktionen
 
+<br>
+
 Unter \"Aktionen\" werden folgende Funktionen bereitgestellt:
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus30.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 30: Bonus Vertrag - Aktionen </figcaption>
     <br>
-</div>
+</div> -->
 
 Rückstellungen erzeugen:
 
@@ -52,11 +56,13 @@ auf den jeweiligen Vertrag (siehe auch: [Bonuslauf](#bonuslauf)).
 
 ### Zugehörig
 
-<div style="text-align: center;">
+<br>
+
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus31.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 31: Bonus Vertrag - Zugehörig </figcaption>
     <br>
-</div>
+</div> -->
 
 Zusätzlich zu den Filtern über Debitor und Bonusartikel werden unter
 \"Zugehörig\" die Bonusposten angezeigt sowie alle Posten über \"In
@@ -70,15 +76,15 @@ Schaltfläche je Bonusvertrag aufgerufen werden.
 
 Die Bonusposten werden mit Hilfe der Postenart identifiziert, ob es sich
 bei den Posten um eine Rückstellung, Rückstellungsauflösung oder ein
-Bonus handelt.
+Bonus handelt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus32.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 32: Bonusposten </figcaption>
+    <figcaption>Abbildung 28: Bonusposten </figcaption>
     <br>
 </div>
 
-Beschreibung der einzelnen Felder der Bonuspostenübersicht:
+Beschreibung der einzelnen Felder der Bonuspostenübersicht: <br>
 
 | Feld                               | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -111,22 +117,25 @@ Beschreibung der einzelnen Felder der Bonuspostenübersicht:
 | Storniert durch Lfd. Nr.           | Durch die Lfd. Nr. in diesem Feld kann identifiziert werden, mit welchem Bonusposten die Rückstellung aufgelöst wurde.                                                                                                                                                                                                                                                                                                                             |
 | Bonusbeleg gelöscht                | Gibt an, ob das Bonusdokument gelöscht wurde. Dies ist möglich, solange die Verkaufsgutschrift der Bonusabrechnung noch nicht gebucht ist.                                                                                                                                                                                                                                                                                                         |
 
+<br>
 
 Posten suchen:
 
 Über \"Posten suchen\" werden wie gewohnt die erstellten Posten und
 Belege aufgerufen.
 
-Als Filter gilt hier die \"Prozessnr.\"
+Als Filter gilt hier die \"Prozessnr.\" <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus33.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 33: Posten suchen </figcaption>
+    <figcaption>Abbildung 29: Posten suchen </figcaption>
 </div>
 
 <br>
 
 ## Bonusrückstellungen
+
+<br>
 
 Bonusrückstellungen werden monatlich vor der eigentlichen
 Bonusabrechnung erstellt. Der Anwender gibt den Zeitraum für die
@@ -139,24 +148,25 @@ Umsätze aus Rechnungen und Gutschriften der Periode summiert und mit dem
 Rückstellungsprozentsatz des Vertrages bewertet bzw. ein Festbetrag je
 Vertrag herangezogen.
 
-Über die Suche \"Bonusrückstellungslauf\" erfassen:
+Über die Suche \"Bonusrückstellungslauf\" erfassen: <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus34.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 34: Bonusrückstellungslauf </figcaption>
-    <br>
+    <figcaption>Abbildung 30: Bonusrückstellungslauf </figcaption>
 </div>
 
 Über die Bonusvertragskarte:
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus35.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 35: Bonusvertragskarte - Rückstellungen erzeugen </figcaption>
-</div>
+</div> -->
 
 <br>
 
 ### Mit Rückstellungsmodus ‚Buchblattzeilen
+
+<br>
 
 Im Fibu-Buchblatt für Bonusrückstellungen, wird je Vertrag eine
 Buchungszeile mit dem ermittelten Rückstellungsbetrag, den hinterlegten
@@ -166,11 +176,11 @@ erstellt.
 Die Buch.-Blattzeilendimension werden entweder aus den Belegzeilen (bei
 den Rückstellungsarten % vom Umsatz und Betrag je Einheit) oder aus den
 Vertragsdimensionen (bei der Rückstellungsart Betrag in MW) übergeben.
-Das Buchblatt wird anschließend manuell gebucht.
+Das Buchblatt wird anschließend manuell gebucht. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus36.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 36: FiBu Buch.-Blätter Rückstellung </figcaption>
+    <figcaption>Abbildung 31: FiBu Buch.-Blätter Rückstellung </figcaption>
     <br>
 </div>
 
@@ -181,11 +191,11 @@ Periodenende in das Feld „Letzte Rückstellung am" in der
 Bonusvertragskarte übernommen.
 
 Das Feld ist zu entfernen, wenn der Rückstellungslauf erneut ausgerufen
-werden muss.
+werden muss. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus37.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 37: Bonusvertragskarte - letzte Rückstellung am </figcaption>
+    <figcaption>Abbildung 32: Bonusvertragskarte - letzte Rückstellung am </figcaption>
     <br>
 </div>
 
@@ -195,16 +205,18 @@ werden muss.
 
 Bei Rückstellungen, welche gebucht wurden, ist das Feld \"Sachposten
 lfd. Nummer\" an den Bonusposten entsprechend gefüllt. Nur diese Posten
-werden bei der Auflösung der Rückstellungen berücksichtigt.
+werden bei der Auflösung der Rückstellungen berücksichtigt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus38.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 38: Bonusposten</figcaption>
+    <figcaption>Abbildung 33: Bonusposten</figcaption>
 </div>
 
 <br>
 
-### Mit Rückstellungsmodus ‚Gutschrift
+### Mit Rückstellungsmodus‚ Gutschrift
+
+<br>
 
 Bei dieser Variante ist die Verfahrensweise identisch, jedoch entsteht
 nach dem Rückstellungslauf kein gefülltes Buchblatt, sondern es wird
@@ -220,60 +232,52 @@ welcher an der Bonusvertragskarte eingetragen werden muss. Dieser sollte
 interne statistische Buchungsgruppen besitzen, die, insofern sie noch
 nicht anderweitig benötigt worden sind, angelegt werden müssen.
 
-Hinweis:
-
-Bei dieser Rückstellungsvariante erzeugt das Modul anstelle von
-Buchblattzeilen; Verkaufsgutschriften mit einem eigenen Nummernkreis. In
-diesen Gutschriften werden Zu/Abschläge zur Rückstellungsermittlung
-verwendet. Der Vorteil dieser Variante ist, dass die Zu/Abschlagszeilen
-Wertposten erzeugen, welche sich auf Artikelbewegungen beziehen.
+> [!NOTE]
+> Bei dieser Rückstellungsvariante erzeugt das Modul anstelle von Buchblattzeilen; Verkaufsgutschriften mit einem eigenen Nummernkreis. In diesen Gutschriften werden Zu/Abschläge zur Rückstellungsermittlung verwendet. Der Vorteil dieser Variante ist, dass die Zu/Abschlagszeilen Wertposten erzeugen, welche sich auf Artikelbewegungen beziehen.
 
 Die gebildeten Rückstellungen werden im Anschluss an den
 Rückstellungslauf in einer Verkaufsgutschrift dargestellt und können
 dann verbucht werden.
 
 Prüfen Sie vor dem Verbuchen das Buchungsdatum. Es wird das Arbeitsdatum
-vorgeschlagen und muss bei Bedarf geändert werden.
+vorgeschlagen und muss bei Bedarf geändert werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus39.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 39: Bonusrückstellung - Verkaufsgutschrift </figcaption>
+    <figcaption>Abbildung 34: Bonusrückstellung - Verkaufsgutschrift </figcaption>
     <br>
 </div>
 
-Hinweis:
-
-Sollte hier eine Verkaufsgutschrift erstellt worden sein, welche falsch
-ist, kann dieser Beleg gelöscht werden. Im Anschluss kann der
-Rückstellungslauf erneut aufgerufen werden. Das Feld \"letzte
-Rückstellung am\" ist an der Bonusvertragskarte vorab zu entfernen.
+> [!NOTE]
+> Sollte hier eine Verkaufsgutschrift erstellt worden sein, welche falsch ist, kann dieser Beleg gelöscht werden. Im Anschluss kann der Rückstellungslauf erneut aufgerufen werden. Das Feld \"letzte Rückstellung am\" ist an der Bonusvertragskarte vorab zu entfernen.
 
 Über die Schaltfläche \"In Posten suchen\" an der Bonusvertragskarte
-kann die erstellte Verkaufsgutschrift aufgerufen werden.
+kann die erstellte Verkaufsgutschrift aufgerufen werden. <br>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus40.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 40: In Posten suchen </figcaption>
     <br>
-</div>
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus41.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 41: Posten suchen </figcaption>
+    <figcaption>Abbildung 35: Posten suchen </figcaption>
     <br>
 </div>
-
 
 Gutschrift:
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus42.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 42: Gutschrift </figcaption>
+    <figcaption>Abbildung 36: Gutschrift </figcaption>
 </div>
 
 <br>
 
 ## Bonuslauf
+
+<br>
 
 Unter Berücksichtigung der Filtereinstellungen im Bonuslauf und dem
 Abrechnungsintervall aus der Vertragskarte, werden alle Rechnungs- und
@@ -290,63 +294,67 @@ erstellt.
 Der Bonuslauf kann über einen Vertrag gestartet Suche oder die Suche
 gestartet werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus43.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 43: Vertragskarte - Bonuslauf </figcaption>
     <br>
-</div>
+</div> -->
 
 Es wird der Zeitraum zur Berechnung sowie das Buchungsdatum zur
-Auflösung der Rückstellungen erfasst.
+Auflösung der Rückstellungen erfasst. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus44.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 44: Bonuslauf </figcaption>
+    <figcaption>Abbildung 37: Bonuslauf </figcaption>
 </div>
 
 <br>
 
 ### Bonuslauf mit Rückstellungsmodus \"Buchblattzeilen\"
 
+<br>
+
 Mit Durchführung des Bonuslaufs werden diese Posten automatisch
-storniert, falls dies in der Einrichtung so hinterlegt worden ist.
+storniert, falls dies in der Einrichtung so hinterlegt worden ist. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus45.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 45: Sachposten zur automatischen Auflösung der Rückstellungen </figcaption>
+    <figcaption>Abbildung 38: Sachposten zur automatischen Auflösung der Rückstellungen </figcaption>
     <br>
 </div>
 
-Die Verkaufsgutschrift für die Bonusabrechnung wird erstellt.
+Die Verkaufsgutschrift für die Bonusabrechnung wird erstellt. <br>
 
 > [!Important]
 > Vor dem Buchen der Bonusgutschrift ist das Buchungsdatum zu prüfen. Es wird hier das Arbeitsdatum vorgeschlagen.
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus46.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 46: erstellte Bonus Verkaufsgutschrift </figcaption>
+    <figcaption>Abbildung 39: erstellte Bonus Verkaufsgutschrift </figcaption>
     <br>
 </div>
 
 Mit dem Buchen der Rückstellungsauflösung werden die Rückstellungsposten
-mit \"Storniert\" gekennzeichnet.
+mit \"Storniert\" gekennzeichnet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus47.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 47: Rückstellungsposten mit "Storniert" gekennzeichnet</figcaption>
+    <figcaption>Abbildung 40: Rückstellungsposten mit "Storniert" gekennzeichnet</figcaption>
     <br>
 </div>
 
-In der Bonusvertragskarte wird das Datum „Letzte Abrechnung am" gefüllt.
+In der Bonusvertragskarte wird das Datum „Letzte Abrechnung am" gefüllt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus48.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 48: Bonusvertragskarte</figcaption>
+    <figcaption>Abbildung 41: Bonusvertragskarte</figcaption>
 </div>
 
 <br>
 
 ### Bonuslauf mit Rückstellungsmodus \"Gutschrift\"
+
+<br>
 
 Beim Bonuslauf mit Rückstellungsmodus \"Gutschrift\" wird sowohl eine
 Verkaufsgutschrift zum Verbuchen der Bonusauszahlung, sowie eine
@@ -354,21 +362,21 @@ Verkaufsrechnung erstellt, um die erzeugten Rückstellungen aufzulösen.
 
 Es öffnet sich die Verkaufsgutschrift für die Bonusabrechnung. Als
 Bonusabrechnungsbeleg muss die erstellte Verkaufsgutschrift geprüft und
-gebucht werden.
+gebucht werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus49.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 49: Verkaufsgutschrift Bonusabrechnung </figcaption>
+    <figcaption>Abbildung 42: Verkaufsgutschrift Bonusabrechnung </figcaption>
     <br>
 </div>
 
 Die Verkaufsrechnung, zur Auflösung der gebuchten Rückstellungen, wird
 mit dem internen Verrechnungsdebitor gefüllt und muss manuell verbucht
-werden.
+werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus50.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 50: Verkaufsrechnung Rückstellungsauflösung </figcaption>
+    <figcaption>Abbildung 43: Verkaufsrechnung Rückstellungsauflösung </figcaption>
     <br>
 </div>
 
@@ -380,53 +388,55 @@ ist, werden die zum Vertrag gehörenden Rückstellungsposten mit
 
 ### Manuelles Auflösen der Rückstellungen
 
+<br>
+
 In manchen Fällen kann es notwendig sein, dass einzelne Rückstellungen
 oder Rückstellungen basierend auf einem bestimmten Beleg, schon vor dem
 eigentlichen Bonuslauf aufgelöst werden. Dies kann manuell in einem
 Vertrag über \"Aktionen\" / \"Rückstellungen auflösen\" vorgenommen
 werden.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus51.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
     <figcaption>Abbildung 51: Rückstellungen auflösen </figcaption>
     <br>
-</div>
+</div> -->
 
 Daraufhin öffnet sich eine Übersicht, in der alle gebuchten
 Rückstellungen angezeigt werden. Diese können einzeln oder zeilenweise
-durch Markieren der gewünschten Zeilen, ausgewählt werden.
+durch Markieren der gewünschten Zeilen, ausgewählt werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus52.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 52: Bonusrückstellungen auflösen </figcaption>
+    <figcaption>Abbildung 44: Bonusrückstellungen auflösen </figcaption>
     <br>
 </div>
 
 Es werden die aufzulösenden Rückstellungposten markiert. Über den Button
 \"Aktionen\"/ \"Rückstellungen auflösen\" werden die Werte
-bereitgestellt.
+bereitgestellt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus53.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 53: Posten zum Auflösen markiert </figcaption>
+    <figcaption>Abbildung 45: Posten zum Auflösen markiert </figcaption>
     <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus54.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 54: Info zur Auflösung </figcaption>
+    <figcaption>Abbildung 46: Info zur Auflösung </figcaption>
     <br>
 </div>
 
 Es wird je nach Rückstellungsmodus ein Buchblatt bzw. eine
-Verkaufsrechnung erzeugt.
+Verkaufsrechnung erzeugt. <br>
 
 > [!Important]
-> Als Buchungsdatum wird das Arbeitsdatum verwendet. Dieses bitte im vor dem Buchen prüfen und bei Bedarf ändern, ggf. auch die Beschreibung.
+> Als Buchungsdatum wird das Arbeitsdatum verwendet. Dieses bitte im vor dem Buchen prüfen und bei Bedarf ändern, ggf. auch die Beschreibung. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus55.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 55: manuelles Auflösen der Rückstellung Verkaufsrechnung
+    <figcaption>Abbildung 47: manuelles Auflösen der Rückstellung Verkaufsrechnung
 (Gutschriftsmodus) </figcaption>
 </div>
 
@@ -438,60 +448,68 @@ Verkaufsrechnung erzeugt.
 
 ### Fibujournal
 
+<br>
+
 Um zu analysieren, was das System im Hintergrund gebucht hat, kann das
-Fibujournal aufgerufen werden.
+Fibujournal aufgerufen werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus56.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 54: Fibujournale </figcaption>
+    <figcaption>Abbildung 48: Fibujournale </figcaption>
 </div>
 
 <br>
 
 ### Prozessnummer 
 
-Des Weiteren können die Posten nach der \"Prozessnr.\" gefiltert werden.
+<br>
+
+Des Weiteren können die Posten nach der \"Prozessnr.\" gefiltert werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus57.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 55: Sachposten Prozessnr. </figcaption>
+    <figcaption>Abbildung 49: Sachposten Prozessnr. </figcaption>
 </div>
 
 <br>
 
 ### Rückstellungsprotokoll
 
+<br>
+
 Das Protokoll über Rückstellungen kann von einem Vertrag aus oder über
 die \"Suche\" (Rückstellungen) aufgerufen werden. Dieses wird gedruckt,
 solange ausschließlich Rückstellungsposten an einem Vertrag zu vorhanden
-sind.
+sind. <br>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus58.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 58: Berichte - Rückstellungen </figcaption>
+    <figcaption>Abbildung 50: Berichte - Rückstellungen </figcaption>
     <br>
-</div>
+</div> -->
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus59.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 59: Bericht Bonusrückstellungen </figcaption>
+    <figcaption>Abbildung 50: Bericht Bonusrückstellungen </figcaption>
 </div>
 
 <br>
 
 ### Bonusprotokoll
 
+<br>
+
 Das Bonusprotokoll kann von einem Vertrag aus oder über die \"Suche\"
-aufgerufen werden.
+aufgerufen werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus60.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 60: Bonusprotokoll </figcaption>
+    <figcaption>Abbildung 51: Bonusprotokoll </figcaption>
     <br>
 </div>
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus61.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
-    <figcaption>Abbildung 61: Ausschnitt Bonusprotokoll </figcaption>
+    <figcaption>Abbildung 52: Ausschnitt Bonusprotokoll </figcaption>
     <br>
 </div>

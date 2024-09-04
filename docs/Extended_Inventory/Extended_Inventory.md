@@ -6,6 +6,8 @@ body {
 
 # LeBit Erweiterte Inventur
 
+<br>
+
 ## Preise
 
 <br>
@@ -17,6 +19,8 @@ body {
 <br>
 
 ## Zweck
+
+<br>
 
 Ziel ist es die Inventurdifferenzen mit den gleichen Dimensionswerten zu
 buchen, wie der Ursprungsartikelposten. Die Dimensionswerte können sich

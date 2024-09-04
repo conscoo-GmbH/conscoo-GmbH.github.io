@@ -6,6 +6,8 @@ body {
 
 # Notwendige Einrichtungen
 
+<br>
+
 Für die Feinplanung müssen keine Einrichtungen vorgenommen werden. Für
 die größere Übersichtlichkeit ist es möglich, die Parameter in der
 \"LeBit Produktion Einrichtung\" und in der jeweiligen
@@ -15,8 +17,10 @@ die größere Übersichtlichkeit ist es möglich, die Parameter in der
 
 ## Parameteransicht
 
+<br>
+
 Auf der Seite \"LeBit Produktion Einrichtung\" kann man im Register
-\"Feinplanung\" einer Parameteransicht für die Feinplanung vorschlagen.
+\"Feinplanung\" einer Parameteransicht für die Feinplanung vorschlagen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu2.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -26,7 +30,7 @@ Auf der Seite \"LeBit Produktion Einrichtung\" kann man im Register
 Auf der \"Parameteransichtsübersicht\" kann man die Vorlage der
 Parameter der \"Feinplanung\" öffnen und die Parameter eintragen. Dabei
 kann man den Haken bei \"Sichtbar\" setzen, damit der Parameter
-angezeigt werden kann.
+angezeigt werden kann. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu3.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -40,7 +44,7 @@ Wenn eine Parameteransicht in der Arbeitsplatzgruppe gewählt, wird diese
 Parameteransicht in der Feinplanung verwendet. Wird die Vorgabe
 Parameteransicht in der LeBit Produktion Einrichtung ausgewählt, aber
 keine Parameteransicht in der Arbeitsplatzgruppe, wird die Vorgabe
-Parameteransicht für die Feinplanung verwendet.
+Parameteransicht für die Feinplanung verwendet. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu4.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">

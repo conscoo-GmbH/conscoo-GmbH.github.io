@@ -4,14 +4,16 @@ body {
 }
 </style>
 
-# Funktionsbeschreibung:
+# Funktionsbeschreibung
+
+<br>
 
 Sobald ein Prüfauslöser greift, wird ein Prüfauftrag in der
 Prüfauftragübersicht erstellt. Im Kopf des Prüfauftrages wird die
 Prüfauftragsnummer aus einer Nummernserie generiert und weitere
 Auftragsdaten angegeben. Die \"Kreditornr.\" und der \"Kreditorname\"
 füllen sich aus dem Herkunftsbeleg, sofern dort ein Kreditor vorhanden
-ist.
+ist. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS25.png" alt="" style="width: 85%; height: auto;">
@@ -19,13 +21,12 @@ ist.
 </div>
 
 Die Zeilenansicht darunter wird mit den Prüfparametern des zugehörigen
-Prüfplanes gefüllt.
+Prüfplanes gefüllt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS26.png" alt="" style="width: 85%; height: auto;">
     <figcaption>Abbildung 25: Prüfauftrag Zeilenansicht</figcaption> <br>
 </div>
-
 
 Im Menüband befinden sich die Funktionen zum Bearbeiten des
 Prüfauftrages. Mit der Funktion \"Zeilen füllen\" werden die
@@ -36,7 +37,11 @@ bereits gefüllt erscheint eine Fehlermeldung.
 
 ## Prüfungsprozess
 
-### Prüfauftrag 
+<br>
+
+### Prüfauftrag
+
+<br>
 
 Einer Liste aller Prüfaufträge ist über die Suche mit Suchbegriff
 \"Prüfauftragübersicht\" zu finden.
@@ -50,7 +55,7 @@ jeweiligen Intervall am Auslöser ab.
 Bei angelegter Artikelverfolgung werden den Proben Prüfobjekte
 zugewiesen. Die Zuordnung ist abhängig vom Prüfintervall. Über die
 Aufrufe \"Erstellte Proben\", \"Gebuchte Proben\", lassen sich die Liste
-der zugehörigen Proben aufrufen.
+der zugehörigen Proben aufrufen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS27.png" alt="" style="width: 85%; height: auto;">
@@ -60,6 +65,8 @@ der zugehörigen Proben aufrufen.
 <br>
 
 ### Probe
+
+<br>
 
 Die Proben werden auf dem Prüfauftrag gesammelt.
 
@@ -74,7 +81,7 @@ Parameterwerte in der Probe ausgefüllt und gebucht.
 Wird ein Wert eingegeben füllt sich automatisch das Booleanfeld
 \"Erfassung\". Die Spalte \"Prüfung erforderlich\" wird vom Prüfplan
 übergeben. Außerdem wird nach Eingabe eines Wertes die Prüfentscheidung
-der jeweiligen Zeile generiert.
+der jeweiligen Zeile generiert. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS28.png" alt="" style="width: 85%; height: auto;">
@@ -82,7 +89,7 @@ der jeweiligen Zeile generiert.
 </div>
 
 Durch die Funktion \"Entscheidung holen\" erhält die Probe eine
-Prüfentscheidung und eine Prüfobjektqualität.
+Prüfentscheidung und eine Prüfobjektqualität. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS29.png" alt="" style="width: 85%; height: auto;">
@@ -97,13 +104,15 @@ muss das Feld \"Erfassung\" angewählt sein.
 
 ### Prüfobjekte
 
+<br>
+
 Im Prozess der Qualitätssicherung wird bei Prüfobjekten von Chargennr.,
 Paketnr. und Seriennr. gesprochen. Je nach Intervall werden die
 Prüfobjekte eines Auftrages in die Prüfung übernommen. Die Qualität
 erhalten die Prüfobjekte durch das Buchen von Proben.
 
 Auf der Paketnr.- und Chargennr.- Informationskarte wird die \"Test
-Qualität\" hinterlegt.
+Qualität\" hinterlegt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS30.png" alt="" style="width: 85%; height: auto;">
@@ -113,7 +122,7 @@ Qualität\" hinterlegt.
 In der Infobox werden die Prüfparameter sowie die geprüften Werte des
 Prüfobjektes angezeigt. Um eine detailliertere Ansicht zu erhalten,
 dient die Funktion \"Prüfparameter\" im Menüband, welche die Seite
-Prüfparameterzusammenfassung öffnet.
+Prüfparameterzusammenfassung öffnet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS31.png" alt="" style="width: 85%; height: auto;">
@@ -124,7 +133,7 @@ Es werden alle geprüften Parameter des Prüfobjektes aufgelistet.
 Zusätzlich wird der Durchschnitt, der erste, letzte, niedrigste und
 höchste Wert angezeigt. Die Spalte \"Anzahl Werte\" zeigt alle Proben,
 die dem Prüfobjekt zugeordnet sind, sowie die geprüften Werte, aus denen
-sich der Durchschnittswert errechnet.
+sich der Durchschnittswert errechnet. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Para&QS/QS32.png" alt="" style="width: 85%; height: auto;">

@@ -6,12 +6,13 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Reklamationsvorgänge
 
-Die über die Suche zu findenden "Reklamationsvorgänge" bilden die Hauptfunktion der App "LeBit Reklamationen" indem Sie eine Übersicht über alle gestarteten Reklamationsvorgänge bietet (Standard-Reklamationen ausgeschlossen).
+<br>
 
-
-
+Die über die Suche zu findenden "Reklamationsvorgänge" bilden die Hauptfunktion der App "LeBit Reklamationen" indem Sie eine Übersicht über alle gestarteten Reklamationsvorgänge bietet (Standard-Reklamationen ausgeschlossen). <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints4.png" alt="Abbildung : Reklamationsvorgänge" style="width: 100%; height: auto;">
@@ -21,18 +22,18 @@ Die über die Suche zu findenden "Reklamationsvorgänge" bilden die Hauptfunktio
 
 Da die Erweiterung alle Standard-Reklamationsfälle und weitere Benötigte, auf einer Seite abdeckt, sind manche Funktionen so benannt, dass sie alle Fälle abdecken. Außerdem werden einige Felder nicht in allen Prozessen benötigt, sodass diese entsprechen aktiviert oder deaktiviert sind.
 
-Auf der sich dahinter befindenden Reklamationskarte können dann alle wichtigen Informationen für die Reklamation eingetragen werden.
-
-
-
+Auf der sich dahinter befindenden Reklamationskarte können dann alle wichtigen Informationen für die Reklamation eingetragen werden. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints5.png" alt="Abbildung : Reklamationskarte" style="width: 100%; height: auto;">
     <figcaption>Abbildung 4: Reklamationskarte</figcaption>
-    <br>
 </div>
 
+<br>
+
 ### Reklamationskarte - Felder
+
+<br>
 
 | Feldname                   | Funktion                                                                                                                                                                                                               | Bemerkung                                                                                                                                                                                                 |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,19 +72,24 @@ Auf der sich dahinter befindenden Reklamationskarte können dann alle wichtigen 
 
 Zusätzlich befindet sich auf der Seite ein großes Textfeld für die Reklamationsbeschreibung, in welcher weitere Informationen über den Hergang der Beschädigung o.ä., im Freitext, hinterlegt werden können.
 
+<br>
 
 ### Reklamationszeilen
 
+<br>
 
-In den Reklamationszeilen werden je nach Reklamationsart die zu reklamierenden Artikel erfasst. Außerdem können aus den sich hier befindlichen Zeilen direkt die Standardbelege von Business Central (Einkaufsreklamation und Verkaufsreklamation) erstellen.
+In den Reklamationszeilen werden je nach Reklamationsart die zu reklamierenden Artikel erfasst. Außerdem können aus den sich hier befindlichen Zeilen direkt die Standardbelege von Business Central (Einkaufsreklamation und Verkaufsreklamation) erstellen. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints7.png" alt="Abbildung : Reklamationszeilen" style="width: 100%; height: auto;">
     <figcaption>Abbildung 5: Reklamationszeilen</figcaption>
-    <br>
 </div>
 
+<br>
+
 #### Zeilenfelder
+
+<br>
 
 | Feldname                       | Funktion                                                                                                                                                         | Bemerkung                                                                                                                                                |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -112,6 +118,8 @@ In den Reklamationszeilen werden je nach Reklamationsart die zu reklamierenden A
 
 ##### Verwalten
 
+<br>
+
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints8.png" alt="Abbildung : Reklamationszeilen  Verwalten" style="width: 100%; height: auto;">
     <figcaption>Abbildung 6: Reklamationszeilen  Verwalten</figcaption>
@@ -124,6 +132,7 @@ In den Reklamationszeilen werden je nach Reklamationsart die zu reklamierenden A
 
 ##### Funktionen
 
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints9.png" alt="Abbildung : Reklamationszeilen  Funktionen" style="width: 100%; height: auto;">
@@ -139,10 +148,7 @@ In den Reklamationszeilen werden je nach Reklamationsart die zu reklamierenden A
 
 2.1 Falls keine Artikelverfolgung - keine Funktion
 
-2.2 Sind der Lieferzeile Artikel mit Artikelverfolgung angehangen, kann an dieser Stelle ausgewählt werden, welche Chargen/Seriennummern von der Reklamation betroffen sein sollen. Eine Mehrfachauswahl ist möglich.
-
-
-
+2.2 Sind der Lieferzeile Artikel mit Artikelverfolgung angehangen, kann an dieser Stelle ausgewählt werden, welche Chargen/Seriennummern von der Reklamation betroffen sein sollen. Eine Mehrfachauswahl ist möglich. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints10.png" alt="Abbildung : Chargenauswahl" style="width: 100%; height: auto;">
@@ -154,10 +160,7 @@ In dieser Ansicht können die Zeilen ausgewählt werden und mit okay, als zugeor
 
 3. Reklamierte Artikelverfolgungen
 
-3.1 Diese Funktion öffnet eine Ansicht aller zugeordneten Artikelverfolgungszeilen der ganzen Reklamation
-
-
-
+3.1 Diese Funktion öffnet eine Ansicht aller zugeordneten Artikelverfolgungszeilen der ganzen Reklamation <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints11.png" alt="Abbildung : Reklamation Chargen" style="width: 100%; height: auto;">
@@ -173,10 +176,9 @@ In dieser Ansicht können die Zeilen ausgewählt werden und mit okay, als zugeor
 
 ### Reklamationskosten
 
+<br>
+
 In den Zeilen der Reklamationskosten, können zusätzlich entstandene Kosten geführt werden. Handelt es sich beispielsweise um einen Verkaufsreklamation, können mithilfe dieser Zeilen un dem eingetragenen Zusteller, die Frachtkosten direkt beim Lieferanten reklamiert werden. Wie auch schon in den Reklamationszeilen, können aus den Zeilen direkt die entsprechenden Business Central Belege (Einkaufsgutschrift und Verkaufsgutschrift) erstellt werden.
-
-
-
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints12.png" alt="Abbildung : Reklamationskosten" style="width: 100%; height: auto;">
@@ -187,6 +189,8 @@ In den Zeilen der Reklamationskosten, können zusätzlich entstandene Kosten gef
 <br>
 
 #### Zeilenfelder
+
+<br>
 
 | Feldname      | Funktion                                                                                                         | Bemerkung                                                                                                                                                            |
 |---------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -209,16 +213,17 @@ In den Zeilen der Reklamationskosten, können zusätzlich entstandene Kosten gef
 
 ##### Funktionen
 
+<br>
+
 Mit der Funktion "Erstelle Gutschrift/Reklamation" wird aus allen markierten "Reklamationskosten"-Zeilen eine Einkaufs- oder Verkaufsgutschrift oder -reklamation erstellt. 
 
 <br>
 
 ### Erstelle Gutschrift/Reklamation
 
+<br>
+
 In den Reklamationszeilen und -kosten kann man die Reklamation oder Gutschrift erstellen.
-
-
-
 
 | Feldname         | Funktion                                                              | Bemerkung                                                                                                                                |
 |------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
@@ -227,6 +232,7 @@ In den Reklamationszeilen und -kosten kann man die Reklamation oder Gutschrift e
 | An Beleg anfügen | Wenn "Neuer Beleg" ja ist, dann ist das Feld ausgegraut. Ansonsten kann man hier einen schon vorhandenen Beleg aussuchen, je nach "Belegart". Die reklamierte Zeile wird dem ausgewählten Beleg hinzugefügt.             |  |
 | Buchungsdatum    | Wenn "Neuer Beleg" nein ist, dann ist das Feld ausgegraut. Ist es angeschaltet wird der neue Beleg auf das gewählte Datum erstellt.           |                                                                   |
 
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints14.png" alt="Abbildung : Erstelle Gutschrift/Reklamation" style="width: 100%; height: auto;">
@@ -239,6 +245,8 @@ Nachdem man die Funktion "Erstelle Gutschrift/Reklamation" geklickt hat, hat man
 <br>
 
 #### An Beleg anfügen - Beispiel
+
+<br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints15.png" alt="Abbildung : Zeile, die einem Beleg angefügt werden soll" style="width: 100%; height: auto;">
@@ -260,7 +268,7 @@ Nachdem man die Funktion "Erstelle Gutschrift/Reklamation" geklickt hat, hat man
     <br>
 </div> -->
 
-In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, die zur Reklamationsart (Ein- oder Verkauf) passen. Bei der Wahl der Belege spielt der Status eine Rolle, da die Gutschrift/ Reklamation nur an Belege hinzugefügt werden können, die den Status "Offen" tragen. Wenn Belege mit dem Status "Freigegeben" ausgewählt werden, erscheint eine Fehlermeldung, wenn man auf "OK" drückt.
+In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, die zur Reklamationsart (Ein- oder Verkauf) passen. Bei der Wahl der Belege spielt der Status eine Rolle, da die Gutschrift/ Reklamation nur an Belege hinzugefügt werden können, die den Status "Offen" tragen. Wenn Belege mit dem Status "Freigegeben" ausgewählt werden, erscheint eine Fehlermeldung, wenn man auf "OK" drückt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints18.png" alt="Abbildung : Ausgewählter Beleg Nr gelangt ins Feld" style="width: 100%; height: auto;">
@@ -286,6 +294,8 @@ In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, di
 
 #### Neuer Beleg - Beispiel
 
+<br>
+
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints21.png" alt="Abbildung : Zeile für die eine Gutschrift erstellt wird" style="width: 100%; height: auto;">
     <figcaption>Abbildung 17: Zeile für die eine Gutschrift erstellt wird</figcaption>
@@ -304,7 +314,7 @@ In dieser Ansicht werden alle schon bestehenden Reklamationsbelege angezeigt, di
     <br>
 </div>
 
-Der neu erstellte Beleg trägt im Kopf den gleichen Debitoren und Kontakt, der in der Reklamationskarte bestimmt wurde. Das Buchungsdatum ist das gleiche Datum, dass bei der Erstellung ausgewählt wurde. Die Zeilen repräsentieren die im Reklamationsvorgang erstellen Zeilen aus dem Bereich "Reklamationskosten".
+Der neu erstellte Beleg trägt im Kopf den gleichen Debitoren und Kontakt, der in der Reklamationskarte bestimmt wurde. Das Buchungsdatum ist das gleiche Datum, dass bei der Erstellung ausgewählt wurde. Die Zeilen repräsentieren die im Reklamationsvorgang erstellen Zeilen aus dem Bereich "Reklamationskosten". <br>
 
 <div style="text-align: center;">
     <img src="../../images/Complaints/Complaints24.png" alt="Abbildung : Veränderung der Belegart und Belegnr." style="width: 100%; height: auto;">
@@ -315,6 +325,7 @@ Der neu erstellte Beleg trägt im Kopf den gleichen Debitoren und Kontakt, der i
 
 ### Reklamation Info
 
+<br>
 
 | Feldname               | Funktion                                                                                                                                                                                           | Bemerkung                                                                                                                                                                                                                     |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

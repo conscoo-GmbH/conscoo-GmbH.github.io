@@ -4,7 +4,9 @@ body {
 }
 </style>
 
-# LeBit Transportplanung 
+# LeBit Transportplanung
+
+<br>
 
 ## Preise
 
@@ -18,6 +20,8 @@ body {
 <br>
 
 ## Zweck
+
+<br>
 
 Mit Hilfe der Transportplanung lassen sich Versendungen von ausgehenden
 und eingehenden Herkunftsbelegzeilen leichter organisieren und planen.

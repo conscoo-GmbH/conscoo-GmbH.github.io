@@ -6,7 +6,11 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Drucken von Etiketten
+
+<br>
 
 ### Aus Business Central
 
@@ -20,5 +24,7 @@ Das Drucken der Etiketten ist von allen Datensätzen für welche Etiketten defin
 <br>
 
 ### Drucken aus Fremdsystemen
+
+<br>
 
 Außerdem verfügt die App über eine API, welche das Drucken von außen ermöglicht.

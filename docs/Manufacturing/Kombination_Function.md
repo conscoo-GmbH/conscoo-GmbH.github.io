@@ -6,10 +6,14 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Kombinationskarte
 
+<br>
+
 Auf der Seite \"Kombination\" werden die Kombination erstellt und
-bearbeitet.
+bearbeitet. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu20.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -19,6 +23,8 @@ bearbeitet.
 <br>
 
 ### Menüband
+
+<br>
 
 | Feldname             | Funktion                                                                                              |
 |----------------------|-------------------------------------------------------------------------------------------------------|
@@ -31,6 +37,8 @@ bearbeitet.
 <br>
 
 ### Register "Allgemein"
+
+<br>
 
 | Feldname               | Funktion                                                                                                                                             | Bemerkung                                                                                                           |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -61,6 +69,8 @@ bearbeitet.
 
 ### Register "Kombinationszeilen"
 
+<br>
+
 | Feldname            | Funktion                                                                                           |
 |---------------------|----------------------------------------------------------------------------------------------------|
 | Menüband            |                                                                                                    |
@@ -89,6 +99,8 @@ bearbeitet.
 
 ## Kombination erstellen
 
+<br>
+
 In der LeBit Produktion App ist es möglich vier verschiedene
 Kombinationsarten zu erstellen.
 
@@ -97,6 +109,8 @@ Welche der vier Kombinationsarten genutzt wird, hängt von den Feldern
 Kombinationskopf befinden. Die Felder werden aus der Arbeitsplatzgruppe
 gefüllt.
 
+<br>
+
 | Kombinationsplan | Berechnungsmethode | Einheit                      |
 |------------------|--------------------|------------------------------|
 | Bahn             | Zähler             | Einheit für Rolle            |
@@ -104,10 +118,12 @@ gefüllt.
 | Format           | Zähler             | Einheit für Bogen            |
 | Format           | Gewicht            | Mengeneinheit für Gewicht    |
 
+<br>
+
 Um die Fertigungsaufträge hinzuzufügen, gibt es zwei Möglichkeiten. Zum
 einen kann man über die \"Zeichne Kombination\" im Menüband des
 Kombinationskopfes oder über \"Neu\" im Menüband der Kombinationszeilen
-die Fertigungsaufträge hinzufügen.
+die Fertigungsaufträge hinzufügen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu21.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -116,7 +132,7 @@ die Fertigungsaufträge hinzufügen.
 
 Wird die Funktion \"Zeichne Kombination\" genutzt, öffnet sich eine
 Maske und über \"Aktionen\" und \"Neu\" werden die verschiedenen
-Fertigungsaufträge eingefügt.
+Fertigungsaufträge eingefügt. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu22.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -136,7 +152,7 @@ in der Maske angezeigt.
 
 Das Feld \"Menge\" zeigt die Gesamtmenge an, die von dem
 Fertigungsauftrag genutzt werden soll, diese wird dann auf die
-erstellten Bahnen aufgeteilt.
+erstellten Bahnen aufgeteilt. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu23.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -152,7 +168,7 @@ hinzugefügt werden.
 Wenn die Fertigungsaufträge hinzugefügt worden sind, ist es ebenfalls
 nur möglich die \"Menge\" und \"Anzahl Würfe\" bei den planbestimmenden
 Kombinationszeilen zu bearbeiten, die Menge und Anzahl Würfe aller
-anderen Kombinationszeilen passen sich an die veränderte Zeile an. <br>
+anderen Kombinationszeilen passen sich an die veränderte Zeile an.
 
 <!-- <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu24.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -163,7 +179,7 @@ Wenn ein Fertigungsauftrag mehr Menge in der Kombination geplant hat,
 als er ursprünglich hatte, wird dies beim Freigeben abgefragt. In der
 Abfrage gibt es die Möglichkeit die Menge der Fertigungsaufträge zu
 erhöhen und die neu zu berechnen. Wird die Abfrage mit \"Nein\"
-beantwortet, wird der Freigabeprozess abgebrochen. <br>
+beantwortet, wird der Freigabeprozess abgebrochen.
 
 <!-- <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu25.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -175,7 +191,7 @@ Restmenge des Fertigungsauftrages in einer weiteren Kombination
 ausgewählt werden.
 
 Über die \"Aktionen\" kann man auch die Funktion \"Kombinationsgrafik\"
-verwenden, um sich so die Kombination bildlich darstellen zu lassen.
+verwenden, um sich so die Kombination bildlich darstellen zu lassen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu26.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
@@ -186,10 +202,12 @@ verwenden, um sich so die Kombination bildlich darstellen zu lassen.
 
 ### Funktion Format drehen
 
+<br>
+
 Wenn man eine Kombination hat mit dem Kombinationsplan \"Format\" ist es
 möglich, die Formate in der \"Zeichne Kombination\" Maske zu drehen.
 Dafür muss man auf die gewünschte Bahn mit der rechten Maustaste klicken
-und die Auswahl \"Drehen\" nutzen.
+und die Auswahl \"Drehen\" nutzen. <br>
 
 <div style="text-align: center;">
 <img src="../../images/Manufacturing/Manu27.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">

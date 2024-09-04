@@ -5,9 +5,13 @@ body {
 </style>
 
 # Notwendige Einrichtungen
+
+<br>
  
 ## Aufruf
- 
+
+<br>
+
 Die Stammdaten "Sorte" und "Kontingente" werden unter dem Reiter "LeBit" auf dem Rollencenter Verkaufsauftragsverarbeitung, Lagermitarbeiter - Lagerortverwaltungssystem und Vertriebsmanager angezeigt. Sie können aber auch aus jedem anderen Rollencenter über die Suche gefunden werden. <br>
 
 <div style="text-align: center;">
@@ -25,7 +29,9 @@ Im Rollencenter Produktionsleiter sind die Seiten unter dem Register Fertigungss
 <br>
 
 ## LeBit Kontingent Einrichtung
- 
+
+<br>
+
 <div style="text-align: center;">
 <img src="../../images/Contingents/Contingents3.png" alt="LeBit Kontingent Einrichtung" style="width: 85%; height: auto;">
 <figcaption>Abbildung 3: LeBit Kontingent Einrichtung </figcaption> <br>
@@ -41,6 +47,8 @@ Die "Kontingentsüberlastung %" gibt an, wie viel Prozent der eigentlichen Kapaz
 
 ## Sorten
 
+<br>
+
 Auf der Seite "Sorten" werden Sorten definiert, die eine Maschine produziert, sodass diese später den Kontingenten und bestimmten Zeiten zugeordnet werden. Die Artikel, die an einer Maschine produziert werden, erhalten eine Sorte zugewiesen. <br>
 
 <div style="text-align: center;">
@@ -53,6 +61,8 @@ Die Felder "Code" und "Beschreibung" unterliegen keiner Nummernserie und werden 
 <br>
 
 ### Artikel
+
+<br>
  
 In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte zugeordnet. Jedem Artikel kann nur eine Sorte zugeordnet werden, aber einer Sorte können mehrere Artikel angehören. <br>
 
@@ -65,6 +75,8 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 
 ## Kontingente
 
+<br>
+
 Über die Seite "Kontingente" wird den Kontingenten eine bestimmte Sorte zugeordnet. Eine Sorte kann mehreren Kontingenten zugeordnet werden, aber einem Kontingent kann nur eine Sorte zugeordnet werden. <br>
 
 <div style="text-align: center;">
@@ -75,6 +87,8 @@ In der Artikelkarte wird dem Artikel über das Register "Allgemein" eine Sorte z
 <br>
 
 ## Abteilungen, Arbeitsplatzgruppen und Arbeitsplätze
+
+<br>
 
 Wenn ein Kontingent erstellt wird, wird dieses auch einer Abteilung, einer Arbeitsplatzgruppe und einem Arbeitsplatz zugeordnet. <br>
 

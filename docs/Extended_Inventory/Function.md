@@ -6,7 +6,11 @@ body {
 
 # Funktionsbeschreibung
 
+<br>
+
 ## Erstellung des Inventurauftrags
+
+<br>
 
 Es wird ein neuer Inventurauftrag erstellt. Über die
 Standardfunktionalität unter \"Vorbereiten -> Berechnen -> Zeilen
@@ -22,11 +26,13 @@ berechnen...\" werden die Inventurauftragszeilen aufgebaut.
 
 ### Erstellen einer Inventurerfassung
 
+<br>
+
 Über die Standardfunktion \"Neue Erfassung erstellen\" kann zu dem
 Inventurauftrag eine neue Erfassung erstellt werden. Soll pro erwarteter
 Inventurverfolgungszeile eine neue Inventurerfassungszeile erstellt
 werden, muss bei Ausführen der Funktion der Punkt \"Neue Zeile für jede
-Inventurverfolgung\" aktiviert sein.
+Inventurverfolgung\" aktiviert sein. <br>
 
 <div style="text-align: center;">
 <br>
@@ -38,7 +44,7 @@ Inventurverfolgung\" aktiviert sein.
 Nach der Bestätigung durch \"OK\" wird eine neue Inventurerfassung
 erstellt. Wurde die zuvor genannte Option aktiviert, wird je erwarteter
 Inventurverfolgungszeile eine Inventurerfassungszeile abgegrenzt durch
-Chargennr./Seriennr. erstellt.
+Chargennr./Seriennr. erstellt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -53,6 +59,8 @@ hinterlegte Dimensionen zuzugreifen.
 
 ### Beenden einer Inventurerfassung
 
+<br>
+
 Der Aufruf \"Alle Abweichenden Verfolgungszeilen\" wurde im Kopf des
 Inventurauftrags im Aktionsmenü unter \"Zugehörig\" eingebaut. Der
 Aufruf wird ohne Filter auf eine Inventurauftragszeile eingebaut. Dieser
@@ -62,7 +70,7 @@ dort auf die Inventurauftragszeilen gefiltert.
 Werden innerhalb der Inventurerfassungszeilen zur Inventurauftragszeile
 abweichende Werte erfasst und der Status der Inventurerfassung auf
 \"Beendet\" gesetzt, werden diese Zeilen in die abweichenden
-Verfolgungszeilen des Inventurauftrags geschrieben.
+Verfolgungszeilen des Inventurauftrags geschrieben. <br>
 
 <div style="text-align: center;">
 <br>
@@ -70,16 +78,14 @@ Verfolgungszeilen des Inventurauftrags geschrieben.
 <figcaption>Abbildung 4: Inventurauftrag - Aufruf "Alle abweichenden Verfolgungszeilen" aus dem Kopf </figcaption> <br>
 </div>
 
-
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory6.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
 <figcaption>Abbildung 5: Inventurauftrag - Aufruf "Alle abweichenden Verfolgungszeilen" aus den Zeilen</figcaption> <br>
 </div>
 
-
 Auf der sich öffnenden Seite werden die abweichend erfassten Zeilen
-inklusive ihrer Dimensionen angezeigt.
+inklusive ihrer Dimensionen angezeigt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -91,6 +97,8 @@ inklusive ihrer Dimensionen angezeigt.
 
 ## Buchen mit Postendimensionen
 
+<br>
+
 Der Aufruf erfolgt im gebuchten Inventurauftrag auf Zeilenebene über
 \"Zugehörig -> Dimensionen\". Dimensionen werden nur erzeugt, wenn bei
 der Einrichtung der Haken bei \"Dimensionen von Posten\" gesetzt ist.
@@ -98,7 +106,7 @@ der Einrichtung der Haken bei \"Dimensionen von Posten\" gesetzt ist.
 Es wurden neue Artikelposten mit unterschiedlichen Kriterien und
 abweichenden Dimensionen erzeugt. Sofern ein Artikel nicht
 verfolgungspflichtig ist, werden die Dimensionen in die
-Inventurauftragszeile geschrieben.
+Inventurauftragszeile geschrieben. <br>
 
 <div style="text-align: center;">
 <br>
@@ -106,14 +114,11 @@ Inventurauftragszeile geschrieben.
 <figcaption>Abbildung 7: Erzeugung von Artikelposten </figcaption> <br>
 </div>
 
-
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Inventory/Extended_Inventory9.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
 <figcaption> Abbildung 8: Berechnete Inventurauftragszeilen</figcaption> <br>
 </div>
-
-
 
 Die gebuchten Inventurauftragszeilen werden um die Dimensionen des
 Ursprungspostens ergänzt, auch bei nicht verfolgungspflichtigen
@@ -130,7 +135,7 @@ Inventurverfolgungszeile
 4.  Restmenge <> 0
 
 Existieren mehrere Artikelposten im Filter, wird nur der letzte
-Artikelposten, sortiert nach \"Lfd. Nr.\", verwendet.
+Artikelposten, sortiert nach \"Lfd. Nr.\", verwendet. <br>
 
 <div style="text-align: center;">
 <br>
@@ -142,6 +147,8 @@ Artikelposten, sortiert nach \"Lfd. Nr.\", verwendet.
 
 ## Erfassungsunterstützung "Vorhanden"
 
+<br>
+
 In der Inventurerfassungszeile wurde ein neues Kennzeichen \"Vorhanden\"
 eingebaut. Der Haken ist standardmäßig nicht gesetzt.
 
@@ -149,7 +156,7 @@ Wird der Haken gesetzt, wird der Wert aus dem Feld \"Menge (Basis)\" aus
 der Inventurverfolgungszeile in das Feld \"Menge\" der
 Inventurerfassungszeile automatisch übernommen. Wenn bereits ein Wert in
 dem Feld \"Menge\" erfasst war und das Kennzeichen \"Vorhanden\" wird
-nachträglich gesetzt, wird der manuell erfasste Wert überschrieben.
+nachträglich gesetzt, wird der manuell erfasste Wert überschrieben. <br>
 
 <div style="text-align: center;">
 <br>
@@ -157,10 +164,8 @@ nachträglich gesetzt, wird der manuell erfasste Wert überschrieben.
 <figcaption> Abbildung 10: "Menge" Inventurerfassungszeilen</figcaption> <br>
 </div>
 
-
-
 Wird der Haken bei \"Vorhanden\" nun wieder entfernt, wird automatisch
-der Wert im Feld \"Menge\" der Inventurerfassungszeile auf 0 gesetzt.
+der Wert im Feld \"Menge\" der Inventurerfassungszeile auf 0 gesetzt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -171,6 +176,8 @@ der Wert im Feld \"Menge\" der Inventurerfassungszeile auf 0 gesetzt.
 <br>
 
 ## Fehlerhandling
+
+<br>
 
 Für das Fehlerhandling wurde eine neue Funktion \"Teste Dimensionen\" im
 Inventurauftrag unter \"Aktionen -> Buchen\" eingebaut.
@@ -183,7 +190,7 @@ Inventurauftrag unter \"Aktionen -> Buchen\" eingebaut.
 
 Wird diese Funktion aufgerufen öffnet sich eine neue Seite
 \"Fehlermeldungen\". Sofern Fehlermeldungen vorhanden sind, werden diese
-dort detailliert angezeigt.
+dort detailliert angezeigt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -193,7 +200,7 @@ dort detailliert angezeigt.
 
 
 Zusätzlich wurde in den Inventurauftragszeilen eine neue Spalte
-\"Zeilenfehler\" eingebaut. Das Feld ist nicht editierbar.
+\"Zeilenfehler\" eingebaut. Das Feld ist nicht editierbar. <br>
 
 <div style="text-align: center;">
 <br>
@@ -205,13 +212,15 @@ Zusätzlich wurde in den Inventurauftragszeilen eine neue Spalte
 
 ### Dimensionsfehler beim Erstellen der Inventurauftragszeile
 
+<br>
+
 Tritt bei Ausführung der Funktion \"Buchen\" im Inventurauftrag ein
 Fehler der Dimensionen auf, weil bspw. eine Dimension bzw. ein
 Dimensionswert gesperrt ist, erfolgt beim Buchen des Inventurauftrags
 eine Fehlermeldung.
 
 Im ersten Schritt wurden neue Artikelposten mit unterschiedlichen
-Kriterien und abweichenden Dimensionen erzeugt.
+Kriterien und abweichenden Dimensionen erzeugt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -224,8 +233,10 @@ abweichenden Dimensionen</figcaption>
 
 #### Dimensionswert gesperrt
 
+<br>
+
 Bevor die Inventurauftragszeilen berechnet werden, wird ein
-Dimensionswert gesperrt.
+Dimensionswert gesperrt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -241,8 +252,10 @@ erfolgt eine Fehlermeldung zum gesperrten Dimensionswert.
 
 #### Dimension gesperrt
 
+<br>
+
 Bevor die Inventurauftragszeilen berechnet werden, wird eine Dimension
-gesperrt.
+gesperrt. <br>
 
 <div style="text-align: center;">
 <br>
@@ -258,9 +271,11 @@ erfolgt eine Fehlermeldung zur gesperrten Dimension.
 
 ### Fehlerhandling in den Abweichenden Inventurverfolgungszeilen
 
+<br>
+
 Um möglichst schnell Dimensionsfehler beim Buchen des Inventurauftrages
 beheben zu können, können alle Dimension innerhalb der abweichenden
-Inventurverfolgungszeilen angepasst werden.
+Inventurverfolgungszeilen angepasst werden. <br>
 
 <div style="text-align: center;">
 <br>
