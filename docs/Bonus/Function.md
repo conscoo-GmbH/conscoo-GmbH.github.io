@@ -189,10 +189,9 @@ werden muss.
     <br>
 </div>
 
-Hinweis:
+> [!NOTE]
+> Am Bonusvertrag werden mit jedem Aufruf zum Rückstellungslauf, Bonusposten erzeugt, auch wenn diese doppelt aufgerufen werden.
 
-Am Bonusvertrag werden mit jedem Aufruf zum Rückstellungslauf,
-Bonusposten erzeugt, auch wenn diese doppelt aufgerufen werden.
 
 Bei Rückstellungen, welche gebucht wurden, ist das Feld \"Sachposten
 lfd. Nummer\" an den Bonusposten entsprechend gefüllt. Nur diese Posten
@@ -320,10 +319,8 @@ storniert, falls dies in der Einrichtung so hinterlegt worden ist.
 
 Die Verkaufsgutschrift für die Bonusabrechnung wird erstellt.
 
-Achtung:
-
-Vor dem Buchen der Bonusgutschrift ist das Buchungsdatum zu prüfen. Es
-wird hier das Arbeitsdatum vorgeschlagen.
+> [!Important]
+> Vor dem Buchen der Bonusgutschrift ist das Buchungsdatum zu prüfen. Es wird hier das Arbeitsdatum vorgeschlagen.
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus46.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">
@@ -424,10 +421,8 @@ bereitgestellt.
 Es wird je nach Rückstellungsmodus ein Buchblatt bzw. eine
 Verkaufsrechnung erzeugt.
 
-Achtung:
-
-Als Buchungsdatum wird das Arbeitsdatum verwendet. Dieses bitte im vor
-dem Buchen prüfen und bei Bedarf ändern, ggf. auch die Beschreibung.
+> [!Important]
+> Als Buchungsdatum wird das Arbeitsdatum verwendet. Dieses bitte im vor dem Buchen prüfen und bei Bedarf ändern, ggf. auch die Beschreibung.
 
 <div style="text-align: center;">
     <img src="../../images/Bonus/Bonus55.png" alt="Abbildung : Erweiterungsverwaltung" style="width: 85%; height: auto;">

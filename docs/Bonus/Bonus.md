@@ -28,9 +28,5 @@ Mandanten.
 
 <br>
 
-### Hinweis
-
-Alle verwendeten Daten, Sachkonten, Artikel, Artikelbezeichnungen,
-Zu-/Abschläge, Buchblätter und sonstige Beschreibungen sind Beispiele.
-Im Livesystem können die Vorschläge übernommen werden, sollten jedoch
-immer an die vorhandenen Umstände angepasst werden.
+>[!Note]
+> Alle verwendeten Daten, Sachkonten, Artikel, Artikelbezeichnungen, Zu-/Abschläge, Buchblätter und sonstige Beschreibungen sind Beispiele. Im Livesystem können die Vorschläge  übernommen werden, sollten jedoch immer an die vorhandenen Umstände angepasst werden.
