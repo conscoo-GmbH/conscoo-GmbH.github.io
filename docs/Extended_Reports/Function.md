@@ -36,7 +36,7 @@ unterstützt:
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Reports/Extended_Reports4.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 1: ForNAV -\> Import Layouts</figcaption> 
+<figcaption>Abbildung 1: ForNAV -> Import Layouts</figcaption> 
 </div>
 
 <br>
@@ -117,7 +117,7 @@ den ForNAV Report Designer geöffnet werden. <br>
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Reports/Extended_Reports10.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 3: ForNAV -\> Layout öffnen</figcaption> <br>
+<figcaption>Abbildung 3: ForNAV -> Layout öffnen</figcaption> <br>
 </div>
 
 Von dieser Stelle aus können die bereits vorhandene Belege eingesehen
@@ -126,6 +126,6 @@ und geöffnet werden. <br>
 <div style="text-align: center;">
 <br>
 <img src="../../images/Extended_Reports/Extended_Reports11.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
-<figcaption>Abbildung 4: ForNAV -\> Layouts auswählen</figcaption> <br>
+<figcaption>Abbildung 4: ForNAV -> Layouts auswählen</figcaption> <br>
 </div>
 
