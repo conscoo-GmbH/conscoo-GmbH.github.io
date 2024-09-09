@@ -340,7 +340,7 @@ hinterlegt werden. Mit Hilfe der Wildcards %1 - %10 (Parameter Code 1 -
 werden. Im Feld „Formel" kann dann über diese Wildcards die aufzubauende
 Parameterformel definiert werden.
 
-Die Formel kann folgende Grundrechenarten beinhalten
+Die Formel kann folgende Grundrechenarten beinhalten:
 
 \+ (PLUS, Addition)
 

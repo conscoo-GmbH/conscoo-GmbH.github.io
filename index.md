@@ -187,7 +187,7 @@ body {
     </div>
         <div class="link-box">
     <p>LeBit Parameter & Qualitätssicherung</p>
-        <a href="/../docs/Para&QS/Para&QS.html">Dokumentation</a>
+        <a href="/../docs/ParaAndQS/ParaAndQS.html">Dokumentation</a>
     </div>
         <!-- <div class="link-box">
     <p>LeBit Instandhaltung</p>

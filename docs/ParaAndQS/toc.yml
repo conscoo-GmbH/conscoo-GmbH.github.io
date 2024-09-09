@@ -1,6 +1,6 @@
 items:
 - name: Übersicht LeBit Parameter & Qualitätssicherung
-  href: Para&QS.md
+  href: ParaAndQS.md
 - name: Notwendige Einrichtungen Parameter
   href: Para_Setup.md
 - name: Funktionsbeschreibung Parameter

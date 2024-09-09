@@ -569,83 +569,83 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/Para&QS.md",
+      "source_relative_path": "docs/ParaAndQS/ParaAndQS.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/Para&QS.html"
+          "relative_path": "docs/ParaAndQS/ParaAndQS.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/Para_Function.md",
+      "source_relative_path": "docs/ParaAndQS/Para_Function.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/Para_Function.html"
+          "relative_path": "docs/ParaAndQS/Para_Function.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/Para_Setup.md",
+      "source_relative_path": "docs/ParaAndQS/Para_Setup.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/Para_Setup.html"
+          "relative_path": "docs/ParaAndQS/Para_Setup.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/QS_Datamodel.md",
+      "source_relative_path": "docs/ParaAndQS/QS_Datamodel.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/QS_Datamodel.html"
+          "relative_path": "docs/ParaAndQS/QS_Datamodel.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/QS_Function.md",
+      "source_relative_path": "docs/ParaAndQS/QS_Function.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/QS_Function.html"
+          "relative_path": "docs/ParaAndQS/QS_Function.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/QS_Setup.md",
+      "source_relative_path": "docs/ParaAndQS/QS_Setup.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/QS_Setup.html"
+          "relative_path": "docs/ParaAndQS/QS_Setup.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Para&QS/Release-Notes.md",
+      "source_relative_path": "docs/ParaAndQS/Release-Notes.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/Release-Notes.html"
+          "relative_path": "docs/ParaAndQS/Release-Notes.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "docs/Para&QS/toc.yml",
+      "source_relative_path": "docs/ParaAndQS/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/Para&QS/toc.html"
+          "relative_path": "docs/ParaAndQS/toc.html"
         },
         ".json": {
-          "relative_path": "docs/Para&QS/toc.json"
+          "relative_path": "docs/ParaAndQS/toc.json"
         }
       },
       "version": ""
