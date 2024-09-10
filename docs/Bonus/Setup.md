@@ -1,8 +1,22 @@
 <style>
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    /* margin: 50px; */
+}
+
+html {
+    overflow-wrap: break-word;
+}
+
+@media print {
+    body {
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+    }
 }
 </style>
+
 
 # Notwendige Einrichtungen
 
