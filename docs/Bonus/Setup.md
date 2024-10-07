@@ -1,11 +1,6 @@
 <style>
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
-    /* margin: 50px; */
-}
-
-html {
-    overflow-wrap: break-word;
 }
 
 @media print {

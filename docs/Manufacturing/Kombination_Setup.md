@@ -16,8 +16,8 @@ In der LeBit Produktion Einrichtung im Register \"Kombination\" müssen
 verschiedene Dinge eingerichtet werden. <br>
 
 <div style="text-align: center;">
-<img src="../../images/Manufacturing/Manu16.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 15: LeBit Produktion Einrichtung Register "Kombination" </figcaption> <br>
+<img src="../../images/Manufacturing/Manu16.png" alt="Kontingentzuprdnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 15: LeBit Produktion Einrichtung Register "Kombination </figcaption> <br>
 </div>
 
 | Feldname                              | Funktion                                                                                                                                  |
@@ -32,6 +32,7 @@ verschiedene Dinge eingerichtet werden. <br>
 | Formel für Gewicht pro Bogen          | Formel für die Berechnung des Gewichts für Bogen wird hier eingetragen/ausgewählt.                                                         |
 | Formel für Gewicht pro Bahn           | Formel für die Berechnung des Gewichts für Bahn wird hier eingetragen/ausgewählt.                                                          |
 | Vorgabe Kombination Parameteransicht  | Eine Parameteransicht kann hier ausgewählt werden, die verwendet wird, wenn in der Arbeitsplatzgruppe / dem Arbeitsplatz keine Parameteransicht gewählt wird. |
+| Rundungspräzission                    | Die Rundungspräzision bestimmt, auf welche Nachkommastelle die Menge in den Kombinationszeilen gerundet wird.                              |
 
 <br>
 
@@ -49,7 +50,7 @@ Einrichtungen für die Kombination getroffen. <br>
 
 | Feldname                      | Funktion                                                                                                                                                  |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kombinationsplanung           | Hier kann bestimmt werden, welchen Kombinationsplan die AP(G) bearbeiten kann. Die Wahl ist zwischen Bahn und Format.                                      |
+| Kombinationsplanung           | Hier kann bestimmt werden, welchen Kombinationsplan die AP(G) bearbeiten kann. Die Wahl ist zwischen Bahn, Format und Format Asymmetrisch.                                      |
 | Berechnungsmethode            | Hier wird festgelegt, mit welcher Berechnungsmethode die AP(G) arbeitet. Die Wahl ist zwischen Zähler und Gewicht.                                         |
 | Arbeitsbreite                 | Die Arbeitsbreite gibt an, wie Breit die AP(G) ist und so wird festgelegt, wie viel Platz auf der AP(G) vorhanden ist.                                     |
 | Arbeitslänge                  | Die Arbeitslänge gibt an, welche Länge die AP(G) schneiden kann und so wird festgelegt, wie viel Platz auf der AP(G) vorhanden ist.                        |

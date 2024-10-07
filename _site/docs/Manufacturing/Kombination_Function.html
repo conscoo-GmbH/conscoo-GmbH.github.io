@@ -125,6 +125,14 @@ bearbeitet. <br></p>
 <td>Die Kombination kann wieder geöffnet und so überarbeitet werden.</td>
 </tr>
 <tr>
+<td>Anfertigung hinzufügen</td>
+<td>Anfertigung wird zu der Kombination hinzugefügt, funktioniert nur, wenn die Kombination freigegeben ist.</td>
+</tr>
+<tr>
+<td>Anfertigung entfernen</td>
+<td>Hinzugefügte Anfertigung wird von der Kombination entfernt.</td>
+</tr>
+<tr>
 <td>FA Anpassen</td>
 <td>Damit können die Mengen der Fertigungsaufträge angepasst werden.</td>
 </tr>
@@ -173,7 +181,7 @@ bearbeitet. <br></p>
 </tr>
 <tr>
 <td>Kombinationsplan</td>
-<td>Wahl zwischen Bahn und Format. Wird automatisch bei der Wahl der AP(G) gefüllt.</td>
+<td>Wahl zwischen Bahn, Format und Format Asymmetrisch. Wird automatisch bei der Wahl der AP(G) gefüllt.</td>
 <td></td>
 </tr>
 <tr>
@@ -198,8 +206,8 @@ bearbeitet. <br></p>
 </tr>
 <tr>
 <td>Anfertigung</td>
-<td>Kann einer Anfertigung hinzugefügt werden.</td>
-<td>Die Kombination kann auch nach dem Freigeben einer Anfertigung hinzugefügt werden, aber dann über die Anfertigung und nicht über der Kombinationskarte.</td>
+<td>Gibt den Anfertigungscode an, zu dem die Kombination gehört.</td>
+<td></td>
 </tr>
 <tr>
 <td>Arbeitsbreite</td>
@@ -270,7 +278,7 @@ bearbeitet. <br></p>
 </thead>
 <tbody>
 <tr>
-<td>Menüband</td>
+<td><strong>Menüband</strong></td>
 <td></td>
 </tr>
 <tr>
@@ -286,7 +294,7 @@ bearbeitet. <br></p>
 <td>Löscht die markierte Kombinationszeile.</td>
 </tr>
 <tr>
-<td>Kombinationszeilen</td>
+<td><strong>Kombinationszeilen</strong></td>
 <td></td>
 </tr>
 <tr>
@@ -394,6 +402,16 @@ gefüllt.</p>
 <td>Gewicht</td>
 <td>Mengeneinheit für Gewicht</td>
 </tr>
+<tr>
+<td>Format Asymmetrisch</td>
+<td>Zähler</td>
+<td>Einheit für Bogen</td>
+</tr>
+<tr>
+<td>Format Asymmetrisch</td>
+<td>Gewicht</td>
+<td>Mengeneinheit für Gewicht</td>
+</tr>
 </tbody>
 </table>
 <br>
@@ -437,19 +455,11 @@ hinzugefügt werden.</p>
 nur möglich die &quot;Menge&quot; und &quot;Anzahl Würfe&quot; bei den planbestimmenden
 Kombinationszeilen zu bearbeiten, die Menge und Anzahl Würfe aller
 anderen Kombinationszeilen passen sich an die veränderte Zeile an.</p>
-<!-- <div style="text-align: center;">
-<img src="../../images/Manufacturing/Manu24.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 23: Zeichen Planbestimmend </figcaption> <br>
-</div> -->
 <p>Wenn ein Fertigungsauftrag mehr Menge in der Kombination geplant hat,
 als er ursprünglich hatte, wird dies beim Freigeben abgefragt. In der
 Abfrage gibt es die Möglichkeit die Menge der Fertigungsaufträge zu
 erhöhen und die neu zu berechnen. Wird die Abfrage mit &quot;Nein&quot;
 beantwortet, wird der Freigabeprozess abgebrochen.</p>
-<!-- <div style="text-align: center;">
-<img src="../../images/Manufacturing/Manu25.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
-<figcaption>Abbildung 24: Abfrage zum Erhöhen der Menge des Fertigungsauftrages </figcaption> <br>
-</div> -->
 <p>Wird von einem Fertigungsauftrag nicht die volle Menge genutzt, kann die
 Restmenge des Fertigungsauftrages in einer weiteren Kombination
 ausgewählt werden.</p>
@@ -460,6 +470,30 @@ verwenden, um sich so die Kombination bildlich darstellen zu lassen. <br></p>
 <figcaption>Abbildung 23: Kombinationsgrafik bei Bahnen </figcaption>
 </div>
 <br>
+<h3 id="format-asymmetrisch">Format Asymmetrisch</h3>
+<p>Bei der Kombinationsplanung &quot;Format Asymmetrisch&quot; gibt es Unterschiede
+zu den anderen Kombinationsplanungen.</p>
+<p>Wird die Kombinationsplanung ausgewählt, ist das Feld &quot;Vorgabe
+Gesamtmenge&quot; beschreibbar.</p>
+<p>Wird das Feld gefüllt, wird die Gesamtmenge auf die verschiedenen
+Kombinationszeilen verteilt. Die Berechnung, wie viel Menge in den
+einzelnen Kombinationszeilen vorhanden ist, bestimmt sich durch die
+Breiten der Artikel in den Fertigungsanträgen.</p>
+<p>Der erste Fertigungsauftrag erhält beim ersten Hinzufügen die
+Gesamtmenge. Wenn der zweite Fertigungsauftrag hinzugefügt wird, soll
+sich die Menge wie folgt berechnen:</p>
+<p>Menge 2. Fertigungsauftrag = (Breite 2. Fertigungsauftrag / Gesamtbreite
+in der Kombination) * Gesamtmenge der Kombination, angegeben in Vorgabe
+Gesamtmenge Die Menge des 1. Fertigungsauftrags wird ebenfalls neu
+berechnet:</p>
+<p>Menge 1. Fertigungsauftrag = (Breite 1. Fertigungsauftrag / Gesamtbreite
+in der Kombination) * Gesamtmenge der Kombination, angegeben in
+Arbeitsmenge</p>
+<p>Wird das Feld &quot;Vorgabe Gesamtmenge&quot; leer gelassen, dann ist der 1.
+Fertigungsauftrag planbestimmend. Die zusätzlich hinzugefügten
+Fertigungsaufträge berechnen sich wie folgt:</p>
+<p>Menge 2. Fertigungsauftrag = (Menge 1. Fertigungsauftrag /
+Gesamtbreite 1. Fertigungsauftrag) * Gesamtbreite 2. Fertigungsauftrag</p>
 <h3 id="funktion-format-drehen">Funktion Format drehen</h3>
 <br>
 <p>Wenn man eine Kombination hat mit dem Kombinationsplan &quot;Format&quot; ist es
@@ -470,6 +504,183 @@ und die Auswahl &quot;Drehen&quot; nutzen. <br></p>
 <img src="../../images/Manufacturing/Manu27.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
 <figcaption>Abbildung 24: Funktion Drehen </figcaption> <br>
 </div>
+<h2 id="anfertigungen">Anfertigungen</h2>
+<h3 id="zweck">Zweck</h3>
+<p>Mit der Anfertigung ist es möglich, mehrere Kombinationen hintereinander
+zu planen.</p>
+<h3 id="anfertigungen-erstellen">Anfertigungen erstellen</h3>
+<p>Über die Suchfunktion sind die Anfertigungen zu finden. In der Übersicht
+ist es möglich, die erstellten Anfertigungen auszuwählen, sowie neue
+Anfertigungen zu erstellen.</p>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu28.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 25: Anfertigung Übersicht </figcaption> <br>
+</div>
+<div style="text-align: center;">
+<img src="../../images/Manufacturing/Manu29.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 26: Anfertigungskarte Übersicht </figcaption> <br>
+</div>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+<th>Bemerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Menüband</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kombination auswählen</td>
+<td>Über die Funktion lassen sich freigegebene Kombinationen hinzufügen.</td>
+<td>Bevor Kombinationen hinzugefügt werden können, muss eine Arbeitsplatzgruppe/ ein Arbeitsplatz in der Kapazitätsnr. ausgewählt werden.</td>
+</tr>
+<tr>
+<td>Freigeben</td>
+<td>Die Anfertigung wird freigegeben.</td>
+<td></td>
+</tr>
+<tr>
+<td>Status zurücksetzen</td>
+<td>Die Anfertigung kann wieder geöffnet und bearbeitet werden.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Register Allgemein</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nr.</td>
+<td>Wird automatisch ausgefüllt.</td>
+<td></td>
+</tr>
+<tr>
+<td>Beschreibung</td>
+<td>Freibeschreibbares Feld.</td>
+<td></td>
+</tr>
+<tr>
+<td>Start Datum/Zeit</td>
+<td>Gibt an, wann die Anfertigung startet.</td>
+<td></td>
+</tr>
+<tr>
+<td>Ende Datum/Zeit</td>
+<td>Gibt an, wann die Anfertigung endet.</td>
+<td></td>
+</tr>
+<tr>
+<td>Kapazitätsart</td>
+<td>Wahl zwischen Arbeitsplatzgruppe und Arbeitsplatz.</td>
+<td></td>
+</tr>
+<tr>
+<td>Kapazitätsnr.</td>
+<td>Wahl des spezifischen Arbeitsplatzes/ der Arbeitsplatzgruppe.</td>
+<td></td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Zeigt an, ob die Anfertigung offen oder freigegeben ist.</td>
+<td></td>
+</tr>
+<tr>
+<td>Menge</td>
+<td>Wird aus den Mengen der Kombinationen berechnet, die in der Anfertigung vorhanden sind.</td>
+<td></td>
+</tr>
+<tr>
+<td>Menge (Basis)</td>
+<td>Wird ebenfalls aus den Kombinationen berechnet, die in der Anfertigung vorhanden sind.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Anfertigungszeilen Menüband</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Zeile löschen</td>
+<td>Darüber kann eine Kombination aus der Anfertigung entfernt werden.</td>
+<td>Eine Mehrfachauswahl ist möglich.</td>
+</tr>
+<tr>
+<td>Beleg anzeigen</td>
+<td>Die gewählte Kombination kann geöffnet und bearbeitet werden.</td>
+<td></td>
+</tr>
+<tr>
+<td>Hoch</td>
+<td>Darüber können die Kombinationen sortiert werden.</td>
+<td></td>
+</tr>
+<tr>
+<td>Runter</td>
+<td>Darüber können die Kombinationen sortiert werden.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Anfertigungszeilen</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kombination</td>
+<td>Nummer der Kombination</td>
+<td></td>
+</tr>
+<tr>
+<td>Beschreibung</td>
+<td>Beschreibung der Kombination</td>
+<td></td>
+</tr>
+<tr>
+<td>Reihenfolge</td>
+<td>Gibt an, welchen Platz die Kombination in der Anfertigung hat.</td>
+<td></td>
+</tr>
+<tr>
+<td>Genutzte Länge</td>
+<td>Gibt die Länge an, die in der Kombination genutzt wird.</td>
+<td></td>
+</tr>
+<tr>
+<td>Genutzte Breite</td>
+<td>Gibt die Breite an, die in der Kombination genutzt wird.</td>
+<td></td>
+</tr>
+<tr>
+<td>Anzahl Würfe</td>
+<td>Gibt die Anzahl an Würfen an, die in der Kombination genutzt wird.</td>
+<td></td>
+</tr>
+<tr>
+<td>Anzahl X</td>
+<td>Gibt die Anzahl an Fertigungsaufträgen an, die auf der X-Achse sind, die in der Kombination genutzt wird.</td>
+<td></td>
+</tr>
+<tr>
+<td>Anzahl Y</td>
+<td>Gibt die Anzahl an Fertigungsaufträgen an, die auf der Y-Achse sind, die in der Kombination genutzt wird.</td>
+<td></td>
+</tr>
+<tr>
+<td>Menge</td>
+<td>Gibt die Menge an, die in der Kombination ist.</td>
+<td></td>
+</tr>
+<tr>
+<td>Menge (Basis)</td>
+<td>Gibt die Menge (Basis) an, die in der Kombination ist.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 </article>
 

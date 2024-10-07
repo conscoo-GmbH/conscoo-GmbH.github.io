@@ -31,4 +31,4 @@ Mandanten.
 <br>
 
 >[!Note]
-> Alle verwendeten Daten, Sachkonten, Artikel, Artikelbezeichnungen, Zu-/Abschläge, Buchblätter und sonstige Beschreibungen sind Beispiele. Im Livesystem können die Vorschläge  übernommen werden, sollten jedoch immer an die vorhandenen Umstände angepasst werden.
+> Alle verwendeten Daten, Sachkonten, Artikel, Artikelbezeichnungen, Zu-/Abschläge, Buchblätter und sonstige Beschreibungen sind Beispiele. Im Livesystem können die Vorschläge übernommen werden, sollten jedoch immer an die vorhandenen Umstände angepasst werden.
