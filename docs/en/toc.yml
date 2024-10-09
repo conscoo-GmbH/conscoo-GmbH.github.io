@@ -1,0 +1,12 @@
+- name: Documentationen
+  href: /../../en/index.html
+- name: Deutsche Version
+  href: /../../de/index.html
+# - name: Dokumentationen
+#   href: /../Dokumentationen.html
+- name: Preise
+  href: /../Preisliste_gesamt.html
+# - name: FAQ
+#   href: /../FAQ.html
+- name: App Source
+  href: "https://appsource.microsoft.com/de-de/marketplace/apps?search=LeBit&page=1"

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Funktionsbeschreibung </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Funktionsbeschreibung ">
+      
+      
+      <link rel="icon" href="../../../../images/Conscoo_sign_steel blue_32.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/de/Contingents/Function.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../../images/Conscoo_sign_steel blue_32.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+<h1 id="funktionsbeschreibung">Funktionsbeschreibung</h1>
+<br>
+<h2 id="zuordnung-eines-kontingents-in-der-verkaufszeile">Zuordnung eines Kontingents in der Verkaufszeile</h2>
+<br>
+<p>In der Verkaufszeile kann ein Kontingent ausgewählt werden. Es werden die Kontingente angezeigt, die auch der Sorte am Artikel entsprechen. Das Warenausgangsdatum wird automatisch auf das Enddatum des Kontingents gesetzt. <br></p>
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents8.png" alt="Kontingentzuordnung in der VK-Zeile" style="width: 85%; height: auto;">
+<figcaption>Abbildung 8: Kontingentzuordnung in der VK-Zeile </figcaption> <br>
+</div>
+<p>Sobald ein Kontingent in der Verkaufszeile ausgewählt und der Verkaufsauftrag gespeichert wird, wird in dem entsprechenden Kontingent die Anzahl in &quot;Menge in Auftrag&quot; ausgegeben und die verfügbare Restmenge angezeigt. <br></p>
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents9.png" alt="Veränderung der Menge durch offene Verkaufsaufträge" style="width: 85%; height: auto;">
+<figcaption>Abbildung 9: Veränderung der Menge durch offene Verkaufsaufträge </figcaption> <br>
+</div>
+<p>Wird ein Verkaufsauftrag freigegeben, wird die Menge aus der Verkaufszeile von &quot;Menge in Auftrag&quot; in &quot;Freigegebene Menge&quot; verschoben. <br></p>
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents10.png" alt="Verschiebung der Menge in Freigegebene Menge" style="width: 85%; height: auto;">
+<figcaption>Abbildung 10: Verschiebung der Menge in Freigegebene Menge </figcaption> <br>
+</div>
+<p>Wenn die Menge des Produkts in der Verkaufszeile die Menge des Kontingents übersteigt, aber nicht die erlaubte Überlastung, dann erscheint eine Warnmeldung. Der Verkaufsauftrag, der das Kontingent überlastet, kann nicht freigegeben werden. Andere Verkaufsaufträge können allerdings freigegeben werden, solange das Kontingent nicht überlastet wird.</p>
+<br>
+<h2 id="workflow">Workflow</h2>
+<p>Um Kontingente zu steuern, ist es möglich, einen Genehmigungsworkflow zu aktivieren. Die Auswahl und Einrichtung des Workflows erfolgt über die Workflows mit der Auswahl einer Workflowvorlage. <br></p>
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents11.png" alt="Workflowvorlage Kontingente" style="width: 85%; height: auto;">
+<figcaption>Abbildung 11: Workflowvorlage Kontingente </figcaption> <br>
+</div>
+ 
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents12.png" alt="Kontingent Genehmigungsworkflow" style="width: 85%; height: auto;">
+<figcaption>Abbildung 12: Kontingent Genehmigungsworkflow </figcaption> <br>
+</div>
+ 
+Bevor der Workflow aktiviert wird (1), müssen Einstellungen in der Datensatzeinschränkung vorgenommen werden. Diese werden vorgenommen, indem man auf die erste Antwort "(+) Fügt eine Datensatzeinschränkung hinzu." (2) klickt. <br>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Contingents/Contingents13.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 13: Workflowreaktion, Genehmigungseinstellungen </figcaption> <br>
+</div>
+ 
+Es öffnet sich die Maske:
+<ol>
+    <li> Nun klickt man auf die zweite Antwort, damit sich die unteren Optionen öffnen.
+    <li> Der Genehmigertyp wird auf Genehmiger gestellt.
+    <li> Die Einschränkungsart Genehmiger wird auf Direkter Genehmiger gestellt.
+    <li> Die Aktion Genehmigungsbenutzereinrichtungen öffnen, damit für die einzelnen Benutzer Einrichtungen getroffen werden können.
+</li></ol>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Contingents/Contingents14.png" alt="Genehmigungsbenutzereinrichtungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 14: Genehmigungsbenutzereinrichtungen </figcaption> <br>
+</div>
+ 
+Die Maske "Genehmigungsbenutzereinrichtung" öffnet sich.
+<ol>
+    <li> Die Benutzer-ID gibt den Benutzer an, der das Kontingent zurücksetzen will.
+    <li> Die Genehmiger-ID gibt den Benutzer an, der die Genehmigung für das Zurücksetzen der Kontingente erteilt.
+    <li> Es kann ein Genehmigungsadministrator gewählt werden, der als einziger keinen Genehmiger braucht.
+</li></ol>
+<p>Nachdem die Einrichtungen vorgenommen worden sind, kann die Maske geschlossen werden und die Workflowreaktion mit dem Button OK abgeschlossen werden.</p>
+<p>Der Workflow kann nun aktiviert werden. <br></p>
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents15.png" alt="Abbildung 15: Kontingent Genehmigungsworkflow aktiviert" style="width: 85%; height: auto;">
+<figcaption>Abbildung 15: Kontingent Genehmigungsworkflow aktiviert</figcaption>
+<br>
+</div>
+<p>Wenn der Workflow aktiviert ist, lässt sich ein Kontingent freigeben, aber um den Status zurückzusetzen, um Veränderungen vorzunehmen, braucht man die Genehmigung des Genehmigers. <br></p>
+<div style="text-align: center;">
+<img src="../../images/Contingents/Contingents16.png" alt="Kontingent Status zurücksetzen anfordern" style="width: 85%; height: auto;">
+<figcaption>Abbildung 16: Kontingent Status zurücksetzen anfordern </figcaption> <br>
+</div>
+<p>Wenn man eine Genehmigungsanforderung gesendet hat, erhält man eine Bestätigung, dass die Anfrage gesendet wurde.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span><a href="/../../Impressum.html"> Impressum </a> <br><a href="/../../Kontakt.html"> Kontakt</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Funktionsbeschreibung </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Funktionsbeschreibung ">
+      
+      
+      <link rel="icon" href="../../../../images/Conscoo_sign_steel blue_32.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/de/TP/Function.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../../images/Conscoo_sign_steel blue_32.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<style>
+body {
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+</style>
+<h1 id="funktionsbeschreibung">Funktionsbeschreibung</h1>
+<br>
+<h2 id="transportbedarfe">Transportbedarfe</h2>
+<br>
+<p>Die ausgehenden und eingehenden Transportbedarfe sammeln die
+verschiedenen Herkunftsbelege und deren Logistikbelege. Die
+Transportbedarfe sind in Master- und Detailzeile unterteilt. Die
+Masterzeilen sind ein Abbild der Herkunftsbelegzeilen, so hat jede
+Herkunftsbelegzeile genau eine Masterzeile. <br></p>
+<div style="text-align: center;">
+    <img src="../../images/TP/Transport_Planning5.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 4: Ausgehende Transportbedarfe</figcaption>
+    <br>
+</div>
+<div style="text-align: center;">
+    <img src="../../images/TP/Transport_Planning6.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 5: Eingehende Transportbedarfe</figcaption>
+    <br>
+</div>
+<p>Es werden nur die Herkunftsbelegzeilen beachtet, zu denen in der
+Einrichtung die Option bei „Transportbedarfe aktivieren&quot; gleich „True&quot;
+ist.</p>
+<p>Diese Transportbedarfszeilen werden beim Freigeben des Herkunftsbeleges
+angelegt. Wird ein Herkunftsbeleg, mit bestehenden Transportbedarfen,
+aus dem Status „Freigegeben&quot; wieder zurückgesetzt, bleibt die
+Transportbedarfszeile innerhalb der Transportbedarf stehen. Es erfolgt
+eine Hervorhebung. Die Art der Hervorhebung wird in der
+„Transportplanung Einrichtung&quot; unter dem Punkt „Stil offene Zeilen&quot;
+festgelegt.</p>
+<p>Innerhalb der Masterzeilen werden verschiedene Informationen aus den
+Herkunftsbelegzeilen angezeigt. Eine tatsächliche Änderung der
+Herkunftsinformationen ist bis auf wenige Ausnahmen nicht gestattet.</p>
+<p>Die Detailzeilen entstehen unterhalb der Masterzeilen und sind immer mit
+der Masterzeile verbunden. Die Detailzeilen bilden entsprechende
+Lagerbelege ab. Je nach Einrichtung der Lagerorte, welche innerhalb der
+Transportplanung geplant werden, sind dies Warenausgänge oder
+Lagerkommissionierungen. In der Detailzeile ist der Zusteller und die
+Zustellertransportart änderbar.</p>
+<br>
+<h3 id="transportbedarfe-ungruppiert">Transportbedarfe Ungruppiert</h3>
+<br>
+<p>Für die Transportbedarfe gibt es zusätzlich die Seiten &quot;Ausgehende
+Transportbedarfe Ungruppiert&quot; und &quot;Eingehende Transportbedarfe
+Ungruppiert&quot;. Auf der Seite sind die Detailzeilen in der Struktur nicht
+unter den Masterzeilen. Auf der Seite sind alle Funktionen der normalen
+ausgehenden Transportbedarfe vorhanden, zusätzlich ist es möglich die
+Seite zu Filtern und zu sortieren. <br></p>
+<div style="text-align: center;">
+    <img src="../../images/TP/Transport_Planning7.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 6: Ausgehende Transportbedarfe Ungruppiert</figcaption>
+    <br>
+</div>
+<div style="text-align: center;">
+    <img src="../../images/TP/Transport_Planning8.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 7: Eingehende Transportbedarfe Ungruppiert</figcaption>
+</div>
+<br>
+<h2 id="funktionen-in-den-transportbedarfen">Funktionen in den Transportbedarfen</h2>
+<br>
+<p>Auf den Seiten &quot;Ausgehende Transportbedarfe&quot;, &quot;Ausgehende
+Transportbedarfe Ungruppiert&quot;, &quot;Eingehende Transportbedarfe&quot; und
+&quot;Eingehende Transportbedarfe Ungruppiert&quot; gibt es verschiedene
+Funktionen im Menüband. <br></p>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+<th>Zutreffend für</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lagerbelege erstellen</td>
+<td>Die Funktion „Lagerbelege erstellen“ kann genutzt werden, um für einen kommissionierungspflichtigen Lagerort die dazugehörigen „Lagerkommissionierungen“ direkt zu erstellen.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td><strong>Buchen</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Warenausgang buchen</td>
+<td>Mit der Funktion kann man den Warenausgang liefern und fakturieren.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Wareneingang buchen</td>
+<td>Mit der Funktion kann man den Wareneingang liefern und fakturieren.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Buchen und drucken</td>
+<td>Der Herkunftsbeleg kann dadurch gebucht werden.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td><strong>Aktionen</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Transportauftrag erstellen</td>
+<td>Für die Detailzeile wird ein neuer Transportauftrag sein.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Transportauftrag zuweisen</td>
+<td>Die Detailzeile kann mit der Funktion einem Transportauftrag zugewiesen werden.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Transportauftragszeile löschen</td>
+<td>Wenn eine Detailzeile in einem Transportauftrag vorhanden ist, kann sie mit der Funktion aus dem Transportauftrag wieder gelöscht werden.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Kommissionierung erstellen</td>
+<td>Für eine Masterzeile kann eine Kommissionierung erstellt werden.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Warenausgang erstellen</td>
+<td>Für eine Masterzeile kann ein Warenausgang erstellt werden. Sofern in der &quot;LeBit Transportplanung Einrichtung&quot; eingerichtet ist, dass die Warenausgänge abweichende Mengen haben dürfen, kann vor der Erstellung des Warenausgangs innerhalb der Spalte „Menge zu liefern“ die Warenausgangsmenge angepasst werden. Wenn die Option nicht gesetzt ist, ist die Spalte ausgeblendet.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Warenausgang zuweisen</td>
+<td>Einer Masterzeile kann ein schon bestehender Warenausgang zugewiesen werden. Die Funktion berechnet die „Menge zu liefern“ neu.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Warenausgangzeile löschen</td>
+<td>Ein Warenausgang wird gelöscht, damit wird ebenfalls die Detailzeile gelöscht. Die Funktion berechnet die „Menge zu liefern“ neu.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Wareneingang erstellen</td>
+<td>Erstellt einen Wareneingang für eine Masterzeile. Wenn in der &quot;LeBit Transportplanung Einrichtung&quot; eingerichtet ist, dass die Wareneingänge eine abweichende Menge haben dürfen, kann vor der Erstellung des Wareneingangs in der Spalte &quot;Menge zu liefern&quot; eine Wareneingangsmenge angepasst werden. Wenn die Option nicht gesetzt ist, ist die Spalte ausgeblendet.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Wareneingang zuweisen</td>
+<td>Die Masterzeile kann einen schon bestehenden Wareneingang zugewiesen werden. Die Funktion berechnet &quot;Menge zu liefern&quot; neu.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Wareneingangszeile löschen</td>
+<td>Der Wareneingang und die Detailzeile werden durch diese Funktion gelöscht. Die &quot;Menge zu liefern&quot; wird neu berechnet.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Lieferschein drucken</td>
+<td>Mit der Funktion kann der Lieferschein gedruckt werden.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td><strong>Zugehörig</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Herkunftsbeleg</td>
+<td>Öffnet den Herkunftsbeleg, der Master-/ Detailzeile.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Geb. Herkunftsbeleg</td>
+<td>Öffnet den gebuchten Herkunftsbeleg, der Master-/Detailzeile.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Artikelverfolgungszeilen</td>
+<td>Zeigt die Artikelverfolgungszeilen der Detailzeile an.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Lagerbelegzeilen</td>
+<td>Zeigt die zugehörigen Lagerbelegzeilen an.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Warenausgangszeilen</td>
+<td>Zeigt die zugehörigen Warenausgangszeilen.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Kommissionierungszeilen</td>
+<td>Zeigt die Kommissionierungszeilen an, die zur Masterzeile gehören. Erstellte Kommissionierungen können auch in der Tabellenspalte &quot;Kommissionierung&quot; gesehen werden.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Registrierte Kommissionierungszeilen</td>
+<td>Zeigt die registrierten Kommissionierungszeilen an. Registrierte Kommissionierungen können auch in der Tabellenspalte &quot;Registrierte Kommissionierung&quot; gesehen werden.</td>
+<td>Ausgehend</td>
+</tr>
+<tr>
+<td>Wareneingangszeilen</td>
+<td>Zeigt die zugehörigen Wareneingangszeilen.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Einlagerungszeilen</td>
+<td>Zeigt die Einlagerungszeilen an, die zur Masterzeile gehören. Erstellte Einlagerungen können auch in der Tabellenspalte &quot;Einlagerung&quot; angezeigt werden.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Registrierte Einlagerungszeilen</td>
+<td>Zeigt die registrierten Einlagerungszeilen an, diese können auch in der Tabellenspalte &quot;Registrierte Einlagerung&quot; angezeigt werden.</td>
+<td>Eingehend</td>
+</tr>
+<tr>
+<td>Transportauftrag</td>
+<td>Öffnet den zugehörigen Transportauftrag.</td>
+<td>Beides</td>
+</tr>
+<tr>
+<td>Transportbestellung</td>
+<td>Öffnet die zugehörige Transportbestellung.</td>
+<td>Beides</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h2 id="transportauftrag">Transportauftrag</h2>
+<br>
+<p>Der Transportauftrag bildet die oberste Ebene der LeBit Transportplanung
+und ermöglicht es, verschiedene Herkunftsbelege und deren Lagerbeleg in
+einem Beleg zusammen zu fassen.</p>
+<p>Der Transportauftrag kann dann entweder an ein weiterführendes
+Logistiksystem übergeben werden oder dient als Beleg für die eigene
+Versendung.</p>
+<p>Der Transportauftrag ist in einen Kopf- und Zeilenbereich unterteilt.</p>
+<br>
+<h3 id="transportauftragskopf">Transportauftragskopf</h3>
+<br>
+<p>Der Transportauftragskopf beinhaltet alle relevanten Informationen,
+welche für den gesamten Beleg von Bedeutung sind. <br></p>
+<div style="text-align: center;">
+    <img src="../../images/TP/Transport_Planning9.png" alt="" style="width: 85%; height: auto;">
+    <figcaption>Abbildung 8: Transportauftragskopf</figcaption>
+    <br>
+</div>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Erstellungsdatum</td>
+<td>Wird bei der Erstellung aus den Transportbedarfen automatisiert mit dem Tag der Erstellung gefüllt.</td>
+</tr>
+<tr>
+<td>Zeit</td>
+<td>Wird beim Erstellen aus den Transportbedarfen automatisiert mit der Zeit der Erstellung gefüllt.</td>
+</tr>
+<tr>
+<td>LKW Kennzeichen</td>
+<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
+</tr>
+<tr>
+<td>LKW Anhänger Kennzeichen</td>
+<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
+</tr>
+<tr>
+<td>Containernr.</td>
+<td></td>
+</tr>
+<tr>
+<td>Kreditorennr.</td>
+<td>Wird automatisiert aus dem Zusteller gefüllt, sofern dieser eine Zuordnung zu einem Unternehmenskontakt hat, welcher wiederrum eine Zuordnung zu einem Kreditor haben muss.</td>
+</tr>
+<tr>
+<td>Kreditorenname</td>
+<td>Wird automatisiert aus der Kreditorennr. gefüllt.</td>
+</tr>
+<tr>
+<td>Abholddatum von</td>
+<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
+</tr>
+<tr>
+<td>Abholdatum bis</td>
+<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
+</tr>
+<tr>
+<td>Abholzeit vor</td>
+<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
+</tr>
+<tr>
+<td>Abholzeit bis</td>
+<td>Kann manuell mit der entsprechenden Information gefüllt werden.</td>
+</tr>
+<tr>
+<td>Zustellercode</td>
+<td>Wird, sofern vorhanden, bei Erstellung der Transportauftrages, aus der entsprechenden Detailzeile der Transportbedarfe übergeben.</td>
+</tr>
+<tr>
+<td>Zustellertransportcode</td>
+<td>Wird, sofern vorhanden, bei Erstellung der Transportauftrages, aus der entsprechenden Detailzeile der Transportbedarfe übergeben.</td>
+</tr>
+<tr>
+<td>Transportbestellung erstellt</td>
+<td>Wenn eine Transportbestellung vorhanden ist, ist das Feld mit &quot;Ja&quot; gefüllt und darüber kann man direkt zur Transportbestellung springen.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="transportauftragszeile">Transportauftragszeile</h3>
+<br>
+<p>Die Transportauftragszeile bildet die einzelnen Zeilen ab, welche
+innerhalb dieses Transportauftrags gemeinsam versendet werden sollen.
+Eine Zeile steht dabei für die Kombination eines Herkunftsbelegs zu
+einem Logistikbeleg, somit kann pro Kombination eine
+Transportauftragszeile entstehen.</p>
+<p>Die Zeilen werden hauptsächlich über die Transportbedarfe gesteuert, sie
+können darüber hinzugefügt und gelöscht werden.</p>
+<br>
+<h2 id="funktionen-im-transportauftrag">Funktionen im Transportauftrag</h2>
+<br>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Beenden</strong></td>
+<td>Mit dieser Funktion wird der aktuell Transportauftrag beendet. Das Beenden sorgt dafür, dass der Transportauftrag mit all seinen Informationen in die Tabelle der „beendeten Transportaufträge&quot; übergeben wird. <br> Diese Funktion sorgt dafür, dass die Übersicht der Transportaufträge übersichtlich bleibt, aber die abgeschlossenen Transportaufträge für Nachforschungen verfügbar bleiben.</td>
+</tr>
+<tr>
+<td><strong>Aktionen</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Transportbestellung erstellen</td>
+<td>Eine Transportbestellung kann für den Transportauftrag erstellt werden.</td>
+</tr>
+<tr>
+<td><strong>Zugehörig</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Ausgehende Transportbedarfe</td>
+<td>Öffnet die zugehörigen ausgehenden Transportbedarfe.</td>
+</tr>
+<tr>
+<td>Eingehende Transportbedarfe</td>
+<td>Öffnet die zugehörigen eingehenden Transportbedarfe.</td>
+</tr>
+<tr>
+<td>Transportbestellung</td>
+<td>Öffnet die zugehörige Transportbestellung.</td>
+</tr>
+<tr>
+<td><strong>Berichte</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Transportauftrag</td>
+<td>Mit dieser Funktion ist es möglich, die in der „Berichtsauswahl – Transportplanung“ unter der Verwendung „Transportauftrag“ hinterlegen Reports auszudrucken.</td>
+</tr>
+<tr>
+<td>Übernahmebescheinigung</td>
+<td>Mit dieser Funktion ist es möglich, die in der „Berichtsauswahl – Transportplanung“ unter der Verwendung „Übernahmebescheinigung“ hinterlegen Reports auszudrucken.</td>
+</tr>
+<tr>
+<td>Frachtbrief</td>
+<td>Mit dieser Funktion ist es möglich, die in der „Berichtsauswahl – Transportplanung“ unter der Verwendung „Frachtbrief“ hinterlegen Reports auszudrucken.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h2 id="beendeter-transportauftrag">Beendeter Transportauftrag</h2>
+<br>
+<p>Der Beendetes Transportauftrag ist eine 1:1 Kopie des Transportauftrages
+und bildet eine Kopie der Inhalte der Felder zum Zeitpunkt des Beendens.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span><a href="/../../Impressum.html"> Impressum </a> <br><a href="/../../Kontakt.html"> Kontakt</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
