@@ -1,7 +1,5 @@
 - name: Dokumentationen
-  href: /../../de/index.html
-- name: English Version
-  href: /../../en/index.html
+  href: /../index.html
 # - name: Dokumentationen
 #   href: /../Dokumentationen.html
 - name: Preise
