@@ -2,8 +2,15 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
-</style>
 
+@media print {
+    body {
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+    }
+}
+</style>
 # Notwendige Einrichtungen
 
 <br>

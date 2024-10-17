@@ -90,7 +90,14 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
 </style>
+<div class="no-print">
 <h1 id="release-notes">Release-Notes</h1>
 <br>
 <h2 id="titel--datum">Titel + Datum</h2>
@@ -100,6 +107,7 @@ body {
 <h3 id="anpassung-bestehender-funktionen">Anpassung bestehender Funktionen</h3>
 <br>
 <h3 id="fehlerbehebungen">Fehlerbehebungen</h3>
+</div>
 
 </article>
 

@@ -2,7 +2,15 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
 </style>
+
+<div class="no-print">
 
 # Release-Notes
 
@@ -21,3 +29,5 @@ body {
 <br>
 
 ### Fehlerbehebungen
+
+</div>
