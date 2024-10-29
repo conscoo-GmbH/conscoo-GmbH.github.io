@@ -233,11 +233,14 @@ body {
     <p>LeBit Bonus</p>
         <a href="/../docs/Bonus/Bonus.html">Dokumentation</a>
     </div>
-        <!-- <div class="link-box">
+        <div class="link-box">
     <p>LeBit Erweiterte Layout Optionen</p>
         <a href="/../docs/Extended_Layout_Options/Extended_Layout_Options.html">Dokumentation</a>
-    </div> -->
+    </div>
+        <div class="link-box">
+    <p>LeBit Erweiterte Inventur</p>
+        <a href="/../docs/Extended_Inventory/Extended_Inventory.html">Dokumentation</a>
+    </div>
 </body>
-
 
 </html>

@@ -28,5 +28,7 @@ body {
 
 ## Zweck
 
-<br>
-
+Vollständige Funktionsbeschreibung für das Produkt \[lbtcl\] LeBit
+Extended Layout Options. Dieses wurde geschaffen, um die Beschränkung
+der Textzeilen erweitern und somit mehr Flexibilität in Business Central
+zu erzeugen.

@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Funktionsbeschreibung ">
       
+      
       <link rel="icon" href="../../../images/Conscoo_sign_steel blue_32.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/Extended_Layout_Options/Function.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/conscoo-GmbH/conscoo-GmbH.github.io/blob/main/docs/Extended_Layout_Options/Function.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -99,6 +100,298 @@ body {
 }
 </style>
 <h1 id="funktionsbeschreibung">Funktionsbeschreibung</h1>
+<h2 id="erweiterter-texteditor">Erweiterter Texteditor</h2>
+<p>Der Texteditor ist eine der grundlegenden Funktionen der App ist an
+allen Stellen, welche erweiterte Textbearbeitung erfordern könnten
+eingebaut.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout2.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 2: Beispiel der Editor-Ansicht</figcaption> <br>
+</div>
+<p>Außerdem wurde eine weitere Funktion eingebaut, welche das Kopieren von
+anderen Textbausteinen vereinfacht.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout3.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 3: \"Einfügen von\" im Editor </figcaption> <br>
+</div>
+<p>Diese Funktion befindet sich immer im Editor, somit kann auch auf
+Belegebene kopiert werden.</p>
+<br>
+<h2 id="einbindung-an-den-textbausteinen">Einbindung an den Textbausteinen</h2>
+<p>Die Textbausteine wurde um ein Feld &quot;Textauswahl&quot; erweitert. Somit
+können die alten Textbausteine normal weiterverwendet werden und
+gleichzeitig, in einem weiteren Textbaustein, die Langtexte genutzt
+werden. Dafür muss die &quot;Textauswahl&quot; auf &quot;Blob&quot; geändert werden.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout4.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 4: Textauswahl auf der Textbausteinkarte </figcaption> <br>
+</div>
+<p>Ist diese Einstellung aktiv, kann über &quot;Zugehörig&quot; &quot;Editor&quot; dann ein
+Text erstellt werden.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout5.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung : Editor an den Textbausteinen </figcaption> <br>
+</div>
+<p>Außerdem wurde ein Register geschaffen, welches eine Vorschau für den
+Inhalt des Editors bietet.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout6.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 6: Schnellvorschau </figcaption> 
+</div>
+<br>
+<h2 id="einbindung-am-artikel">Einbindung am Artikel</h2>
+<p>Am Artikel sind alle Funktionen wieder an den Artikelbezogenen
+Textbausteinen vorhanden. Zu finden sind diese unter &quot;Zugehörig&quot;
+&quot;Artikel&quot; &quot;Textbausteine&quot;.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout7.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 7: Textbaustein am Artikel </figcaption> 
+</div>
+<br>
+<h2 id="funktionsbereiche">Funktionsbereiche</h2>
+<p>Die &quot;Erweiterten Layout Optionen&quot; bringen ihre Funktionalität an alle
+Belege im Verkauf und Einkauf, außerdem werden sie beim Buchen und
+Archivieren immer mit in den nachfolgenden Beleg übernommen. Somit
+existiert eine persistente Datenführung über alle eingeschlossenen
+Belege.</p>
+<br>
+<h2 id="einbindung-auf-dem-beleg">Einbindung auf dem Beleg</h2>
+<p>Auf den Belegen finden sich die neuen Funktionen zur Textverarbeitung in
+den Kopf und Zeileninformationen. Der Kopf wurde um ein Register &quot;LeBit
+Erweiterte Layoutoptionen&quot; ergänzt, in welchem sich alle Kopf- und
+Fußtexte, für die aus dem aktuell betrachteten Beleg bearbeiten lassen.
+Das Feld mit den drei Punkten öffnet jeweils den Editor.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout8.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 8: Neues Register auf Belegen </figcaption> <br>
+</div>
+<p>Die Zeileninformationen befinden sich nach Installation am Ende der
+Artikelzeile, können aber über das &quot;Personalisieren&quot; auch an eine
+beliebige andere Stelle, in den Zeilen, bewegt werden.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout9.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 9: Editorfeld an Belegzeile </figcaption> 
+</div>
+<br>
+<h2 id="erweiterte-zeileninformationen-und-funktionen">Erweiterte Zeileninformationen und Funktionen</h2>
+<p>Die Belegzeilen enthalten außerdem zwei neue Felder: &quot;Positionsnummer&quot;
+und &quot;Druckauswahl&quot;, wobei die Druckauswahl Einfluss auf die
+Positionsnummer nehmen kann.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout10.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 10: Positionsnummer und Druckauswahl </figcaption> <br>
+</div>
+<p>Zusammenfassung der Druckauswahl:</p>
+<h3 id="normal">Normal</h3>
+<p>Zeile wird normal, wie Standard, abgearbeitet.</p>
+<h3 id="überschrift">Überschrift</h3>
+<p>Die Zeile wird Fett hervorgehoben</p>
+<h3 id="preis-unsichtbar">Preis unsichtbar</h3>
+<p>Verbirgt den Preis am Ende eine Zeile</p>
+<h3 id="zeile-unsichtbar">Zeile Unsichtbar</h3>
+<p>Verbirgt die gesamte Zeile auf dem Ausdruck</p>
+<h3 id="seitenwechsel">Seitenwechsel</h3>
+<p>Beendet die Zeilen für die aktuelle Seite und beginnt mit der markierten
+Zeile, als erste Zeile auf einer neuen Seite</p>
+<h3 id="von-summe-bis-summe">Von Summe/ Bis Summe</h3>
+<p>Mit diesen beiden Einstellungen können Unterblöcke geschaffen werden,
+welche eine eigene Untersumme bilden sollen. Über die Automatikfunktion
+&quot;Summieren&quot; werden dann die Untersummen errechnet und mit
+&quot;Nummerieren&quot; werden die Blöcke auch eingerückt nummeriert.</p>
+<p>1</p>
+<p>2</p>
+<p>Von Summe</p>
+<p>2.1</p>
+<p>2.2</p>
+<p>Bis Summe</p>
+<p>3</p>
+<br>
+<h2 id="automatikfunktionen-an-den-belegen">Automatikfunktionen an den Belegen</h2>
+<p>In den Menübandern der Belege befinden sich unter &quot;Zugehörig&quot; &quot;LeBit
+Erweiterte Layoutoptionen&quot; die beiden Funktionen zur automatischen
+Summierung und Nummerierung der Zeilen.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout11.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 11: Summieren und Nummerieren im Menüband </figcaption> 
+</div>
+<br>
+<h3 id="summieren">Summieren</h3>
+<p>Wenn in den Zeilen die Funktion Von- und Bis- Summen genutzt wurde, so
+wird mithilfe dieser Funktion der Betrag der Zeile automatisch gefüllt.</p>
+<br>
+<h3 id="nummerieren">Nummerieren</h3>
+<p>Hiermit wird die automatische Nummerierung gestartet. Sie füllt die
+Positionsnummer mit aufsteigenden Zahlenwerten und berücksichtigt, Von-
+und Bis- Summer mit einer Einrückung.</p>
+<br>
+<h3 id="rest">Rest</h3>
+<p>Die an dieser Stelle enthaltenen Funktionen sind die alten Langtexte,
+welche vor dem Editor genutzt wurden und sind nicht mehr zu benutzen.
+Sobald es als sinnvoll angesehen wird, werden diese auch entfernt.</p>
+<br>
+<h2 id="erweiterung-der-firmendaten">Erweiterung der Firmendaten</h2>
+<p>Folgende Erweiterungen der Register wurden vorgenommen:</p>
+<h3 id="allgemein">Allgemein</h3>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout12.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 12: Erweiterte Felder Firmendaten \--\> Allgemein </figcaption> 
+</div>
+<br>
+<h3 id="zahlungen">Zahlungen</h3>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout13.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 13: Erweiterte Felder Firmendate Zahlungen </figcaption> 
+</div>
+<br>
+<h2 id="belegbezogene-texte">Belegbezogene Texte</h2>
+<p>An Kreditor und Debitor wurde eine neue Funktionalität &quot;Kopf- und Fußtexte&quot; geschaffen, welche eine Tabelle öffnet in der Texte für Belege hinterlegt werden können, die beim Erstellen von Belegen zu diesen Kreditoren/Debitoren automatisch in die in die Felder der &quot;LeBit Erweiterte Layoutoptionen&quot; geschrieben werden. {#an-kreditor-und-debitor-wurde-eine-neue-funktionalität-kopf--und-fußtexte-geschaffen-welche-eine-tabelle-öffnet-in-der-texte-für-belege-hinterlegt-werden-können-die-beim-erstellen-von-belegen-zu-diesen-kreditorendebitoren-automatisch-in-die-in-die-felder-der-lebit-erweiterte-layoutoptionen-geschrieben-werden. .list-paragraph}</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout14.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 14: Debitor \--\> Kopf- und Fußtexte </figcaption> <br>
+</div>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout15.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 15: Kopf- und Fußtext Tabelle </figcaption> <br>
+</div>
+<p>Aktuell unterstützte Belege sind:</p>
+<p>Angebot (Anfrage)</p>
+<p>Auftrag (Bestellung)</p>
+<p>Rechnung</p>
+<p>Gutschrift</p>
+<p>Rahmenauftrag (Rahmenbestellung)</p>
+<p>Reklamation</p>
+<p>Lieferung</p>
+<p>Da an Debitor und Kreditor dieselbe Tabelle angebunden ist, sind die
+Bezeichnungen auf beiden Seiten gleich, repräsentieren aber immer den je
+nach Einkauf oder Verkauf dazugehörigen Beleg.</p>
+<p>Wird in das Feld &quot;Text&quot; geklickt, so öffnet sich wie an allen anderen
+Stellen der Editor und kann zur Erstellung von Texten benutzt werden.</p>
+<p>Wird nach dem Pflegen dieser &quot;Stammdaten&quot; dann mit dem dazugehörigen
+(in diesem Fall) Debitor ein Verkaufsauftrag erstellt, so sind dort
+direkt die eingetragenen Texte vorhanden.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout16.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 16: Automatisch gefüllte Editor Felder in neuem Beleg </figcaption> <br>
+</div>
+<p>Hierbei werden die Texte für Rechnung und Lieferung auch direkt mit in
+den Auftrag übergeben, damit diese auch korrekt in den daraus erstellten
+gebuchten Belegen hinterlegt sind.</p>
+<p>Außerdem wird beim Erstellen eines Auftrags aus einem Angebot, das Feld
+überschrieben, sodass im Auftrag, der Text für Aufträge zu finden ist.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout17.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 17: Kopftext in Angebot </figcaption> <br>
+</div>
+<p>Dann wird über &quot;Start&quot; &quot;Auftrag erstellen&quot; aus diesem Angebot ein
+Auftrag erstellt.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout18.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 18: Automatisch gefüllter Text aus dem Debitor in Auftrag </figcaption> 
+</div>
+<br>
+<h2 id="drucken-von-editor-texten-in-fornav">Drucken von Editor Texten in ForNAV</h2>
+<p>Damit die im System erstellten Daten auf einen ForNAV-Beleg gedruckt
+werden können, müssen folgende Schritte befolgt werden:</p>
+<br>
+<h3 id="record-erzeugen">Record erzeugen</h3>
+<p>Damit ein Record für den ganze Report erstellt werden kann, müssen alle
+Sektionen oder Felder abgewählt werden, damit das &quot;Property Grid&quot; die
+Report Informationen anzeigt. Darin befindet sich auch der Aufruf für
+&quot;Records&quot; unter &quot;Data&quot;.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout19.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 19: Data -\> Records </figcaption> <br>
+</div>
+<p>In der geöffneten Tabelle muss nun ein neuer Datensatz angelegt werden:</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout20.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 20: Neues Record erstellen </figcaption> <br>
+</div>
+<p>Hier öffnet sich eine Einrichtung für Tabelle und Referenz. Wenn hier in
+der Tabellensuche nach &quot;PS&quot; gesucht wird finden sich drei Tabellen,
+welche je nach Report gewählt werden müssen.</p>
+<p>Longtext Line für aktuelle Belege</p>
+<p>Posted Longtext für gebuchte Belge</p>
+<p>Archive Longtext für archivierte Belege</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout21.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 21: Auswahl Tabelle </figcaption> <br>
+</div>
+<p>Danach muss eine Referenz definiert werden:</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout22.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 22: Link Referenz </figcaption> <br>
+</div>
+<p>Danach muss der Tabellen Link durchgeführt werden:</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout23.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 23: Tabellenlink </figcaption> <br>
+</div>
+<p>Sollen die Texte aus Zeilen gedruckt werden, muss hier eine Verknüpfung
+aus den Zeilen über die Zeilen Nummer erstellt werden.</p>
+<p>Abschließend wird noch eine Tabelle definiert und die Art des Textes,
+welche über das Record erhalten werden soll eingestellt werden.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout24.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 24: Tabellenauswahl </figcaption> <br>
+</div>
+<hr>
+<p>Sales Header                         36</p>
+<hr>
+<p>Sales Line                           37</p>
+<p>Purchase Header                      38</p>
+<p>Purchase Line                        39</p>
+<p>Sales Shipment Header                110</p>
+<p>Sales Shipment Line                  111</p>
+<p>Sales Invoice Header                 112</p>
+<p>Sales Invoice Line                   113</p>
+<p>Sales Cr.Memo Header                 114</p>
+<h2 id="sales-crmemo-line-------------------115">Sales Cr.Memo Line                   115</h2>
+<p>Zu finden ist das neue Feld dann in der Feldliste in ForNAV.</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout25.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 25: EditorContent </figcaption> <br>
+</div>
+<p>Nun können die Daten auf dem Beleg genutzt werden.</p>
+<p>Wir empfehlen noch dazu folgende &quot;Source Expression&quot; zu der Textbox
+hinzuzufügen:</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout26.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 26: Text Box </figcaption> <br>
+</div>
+<p>'&lt;!DOCTYPE&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;p { margin:0;} br { content:&quot;&quot;; margin:1em;display:block;font-size:24%;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div style=&quot;font-family: Segoe UI; font-size: 8pt; &quot;&gt;'+</p>
+<p>lbtPSLongtextLine.EditorContent +</p>
+<p>'&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;'</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout27.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 27: Source Expression </figcaption> <br>
+</div>
 
 </article>
 

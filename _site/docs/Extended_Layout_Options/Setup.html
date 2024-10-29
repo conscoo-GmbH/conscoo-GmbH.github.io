@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Notwendige Einrichtung ">
       
+      
       <link rel="icon" href="../../../images/Conscoo_sign_steel blue_32.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/LBTFGO/LBTFGO.github.io/blob/main/docs/Extended_Layout_Options/Setup.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/conscoo-GmbH/conscoo-GmbH.github.io/blob/main/docs/Extended_Layout_Options/Setup.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -99,6 +100,30 @@ body {
 }
 </style>
 <h1 id="notwendige-einrichtung">Notwendige Einrichtung</h1>
+<p>Folgenden Einrichtungen können in der &quot;LeBit Erweiterte Layoutoptionen
+Einrichtung&quot; eingestellt werden:</p>
+<div style="text-align: center;">
+<br>
+<img src="../../images/Extended_Layouts/Extended_Layout1.png" alt="Workflowreaktion, Genehmigungseinstellungen" style="width: 85%; height: auto;">
+<figcaption>Abbildung 1: Eirichtung der App</figcaption> 
+</div>
+<br>
+<h2 id="mwst-immer-andrucken">MwSt. immer andrucken</h2>
+<p>Beeinflusst, ob die Mehrwertsteuer mit angedruckt wird, auch wenn der
+Wert = 0 ist.</p>
+<br>
+<h2 id="angebotstexte-kopieren">Angebotstexte kopieren</h2>
+<p>Ist diese Option aktiviert, so werden die Kopf- und Fußtexte, welche
+einem Verkaufsangebot angehangen wurden mit in den daraus erstellten
+Verkaufsauftrag übertragen.</p>
+<p>Ist diese Option deaktiviert, werden beim Erstellen des Auftrags die
+auftragsspezifischen Texte des Debitors gezogen.</p>
+<br>
+<h2 id="rahmenauftragstexte-kopieren">Rahmenauftragstexte kopieren</h2>
+<p>Ist diese Option aktiviert, werden die Kopf und Fußtexte des
+Rahmenauftrags mit in die entsprechenden Belege übernommen.</p>
+<p>Ist diese Option deaktiviert, werden beim Erstellen des Auftrags die
+belegspezifischen Texte des Debitors gezogen.</p>
 
 </article>
 
