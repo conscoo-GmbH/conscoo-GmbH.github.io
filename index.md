@@ -237,6 +237,10 @@ body {
     <p>LeBit Erweiterte Layout Optionen</p>
         <a href="/../docs/Extended_Layout_Options/Extended_Layout_Options.html">Dokumentation</a>
     </div>
+        <div class="link-box">
+    <p>LeBit Bedarfsanforderung</p>
+        <a href="/../docs/BANF/Banf.html">Dokumentation</a>
+    </div>
 </body>
 
 </html>

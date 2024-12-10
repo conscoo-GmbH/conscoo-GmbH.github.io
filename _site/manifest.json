@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/iloubany/conscoo-GmbH.github.io",
+  "source_base_path": "C:/Users/fgoldbecker/conscoo-GmbH.github.io",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -56,6 +56,59 @@
       "output": {
         ".html": {
           "relative_path": "Preisliste_gesamt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/BANF/Banf.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BANF/Banf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/BANF/Function.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BANF/Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/BANF/Release-Notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BANF/Release-Notes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/BANF/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BANF/Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/BANF/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BANF/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/BANF/toc.json"
         }
       },
       "version": ""
