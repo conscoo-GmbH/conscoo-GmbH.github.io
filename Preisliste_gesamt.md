@@ -25,7 +25,7 @@ Im folgenden werden die Preise der LeBit Apps aufgelistet.
 | LeBit Überlieferung                  | LeBit Over-Shipment                   | 30    | 40     | 60     | 70     | 80      | 100      |
 | LeBit Umbuchung                      | LeBit Reposting                       | 30    | 40     | 60     | 70     | 80      | 100      |
 | LeBit Erweiterte Layout Optionen     | LeBit Extended Layout Options         | 30    | 40     | 60     | 70     | 80      | 100      |
-| LeBit BANF                           | LeBit Demand Query                    | 30    | 40     | 60     | 70     | 80      | 100      |
+| LeBit Bedarfsanforderung                           | LeBit Demand Query                    | 30    | 40     | 60     | 70     | 80      | 100      |
 | LeBit Reklamationsmanagement         | LeBit Complaints                      | 60    | 80     | 120    | 140    | 160     | 200      |
 | LeBit Kontingente                    | LeBit Contingents                     | 60    | 80     | 120    | 140    | 160     | 200      |
 | LeBit Parameter                      | LeBit Parameter and Quality Assurance | 60    | 80     | 120    | 140    | 160     | 200      |

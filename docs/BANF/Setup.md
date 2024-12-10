@@ -17,7 +17,7 @@ body {
 
 <br>
 
-In der Erweiterungsverwaltung (Extension Management (2500, List)) wird die neue App „LeBit Demand Query“ installiert.
+In der Erweiterungsverwaltung wird die neue App „LeBit Demand Query“ installiert.
 
 <br>
 
@@ -28,7 +28,7 @@ In der Erweiterungsverwaltung (Extension Management (2500, List)) wird die neue 
 </div>
 
 
-In der LeBit Bedarfsanforderung Einrichtung (lbtdq Setup (5272902, Card)) kann die Einrichtung für die LeBit Demand Query Erweiterung vorgenommen werden. Die Einrichtung ist in die Register General und Archivierung eingeteilt. <br>
+In der LeBit Bedarfsanforderung Einrichtung kann die Einrichtung für die LeBit Demand Query Erweiterung vorgenommen werden. Die Einrichtung ist in die Register General und Archivierung eingeteilt. <br>
 
 <div style="text-align: center;">
     <img src="../../images/BANF/BANF2.png" alt="Abbildung 2: LeBit Bedarfsanforderung Einrichtung" style="width: 85%; height: auto;">
