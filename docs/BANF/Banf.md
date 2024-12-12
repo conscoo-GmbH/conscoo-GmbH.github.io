@@ -30,5 +30,5 @@ body {
 
 <br>
 
-Die App „LeBit Bedarfsanforderung“ erweitert das System um den neuen Belegtyp „Bedarfsanfor-derung“ (BANF). Dieser dient zur internen Erfassung und Verwaltung von Bedarfen, die aus Abtei-lungen oder für den Service gemeldet werden.
+Die App „LeBit Bedarfsanforderung“ erweitert das System um den neuen Belegtyp „Bedarfsanforderung“ (BANF). Dieser dient zur internen Erfassung und Verwaltung von Bedarfen, die aus Abteilungen oder für den Service gemeldet werden.
 Die zugehörigen Bedarfsanforderungszeilen bieten dem Einkauf eine strukturierte Übersicht der gemeldeten Bedarfe. Diese können direkt geprüft und in Einkaufsbestellungen überführt werden, um den internen Beschaffungsprozess zu vereinfachen und zu standardisieren.
