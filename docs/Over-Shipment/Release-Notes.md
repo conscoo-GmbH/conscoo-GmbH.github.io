@@ -16,11 +16,16 @@ body {
 
 <br>
 
-## Titel + Datum 
+[//]: <> (Titel + Datum)
+## Release Q1 2025
 
 <br>
 
 ### Neue Funktionen
+
+- Überlieferung für chargenpflichtige Artikel
+- Überlieferung bei Umlagerungsaufträgen
+- Ausgangsüberschuss für Rahmenaufträge
 
 <br>
 
@@ -30,4 +35,6 @@ body {
 
 ### Fehlerbehebungen
 
+- Menge erhöhen bei Überlieferung auch, wenn der Warenausgang freigegeben ist
+- Allgemeine Fehlerbehebungen
 </div>
