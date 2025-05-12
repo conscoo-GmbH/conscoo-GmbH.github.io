@@ -13,8 +13,8 @@ h2 {
     }
 }
 
-[//]: <> (
-    ## Release 24.54.28062.0
+
+/* ## Release Version - Date 
 
 <br>
 
@@ -26,8 +26,8 @@ h2 {
 
 <br>
 
-### Fehlerbehebungen
-)
+### Fehlerbehebungen */
+
 
 </style>
 
