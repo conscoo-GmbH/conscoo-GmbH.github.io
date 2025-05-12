@@ -33,7 +33,7 @@ body {
 
 <br>
 
-## Release 24.54.28062.0 - 13.02.25
+## - Release 24.54.28062.0 - 13.02.25
 
 <br>
 
@@ -47,7 +47,7 @@ body {
 
 - Fehlerhaftes Anlegen von Warenausgangszeilen durch Anlegen eine Bestellung mit mehreren Zeilen
 
-## Release 19.53.27741.0 - 30.01.25
+## - Release 19.53.27741.0 - 30.01.25
 
 <br>
 
@@ -55,7 +55,7 @@ body {
 
 - Freigabe von Umlagerungsauftrag erzeugt keinen Warenausgang
 
-## Release 19.47.25283.0 - 01.10.24
+## - Release 19.47.25283.0 - 01.10.24
 
 <br>
 
