@@ -8,6 +8,23 @@ body {
         display: none !important;
     }
 }
+
+[//]: <> (
+    ## Release 24.54.28062.0
+
+<br>
+
+### Neue Funktionen
+
+<br>
+
+### Anpassung bestehender Funktionen
+
+<br>
+
+### Fehlerbehebungen
+)
+
 </style>
 
 <div class="no-print">
