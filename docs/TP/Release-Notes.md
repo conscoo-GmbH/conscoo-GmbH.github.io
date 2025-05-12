@@ -16,7 +16,7 @@ body {
 
 <br>
 
-## Titel + Datum 
+## Release 24.54.28062.0
 
 <br>
 
@@ -30,4 +30,21 @@ body {
 
 ### Fehlerbehebungen
 
+- Fehlerhaftes Anlegen von Warenausgangszeilen durch Anlegen eine Bestellung mit mehreren Zeilen
+
+## Release 19.53.27741.0
+
+<br>
+
+### Neue Funktionen
+
+<br>
+
+### Anpassung bestehender Funktionen
+
+<br>
+
+### Fehlerbehebungen
+
+- Freigabe von Umlagerungsauftrag erzeugt keinen Warenausgang
 </div>
