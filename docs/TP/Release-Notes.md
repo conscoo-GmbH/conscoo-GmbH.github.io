@@ -4,6 +4,7 @@ body {
 }
 h2 {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 @media print {
@@ -36,7 +37,7 @@ h2 {
 
 <br>
 
-## - **Release 24.54.28062.0 - 13.02.25**
+## <ins>Release 24.54.28062.0 - 13.02.25 </ins>
 
 <br>
 
@@ -50,7 +51,7 @@ h2 {
 
 - Fehlerhaftes Anlegen von Warenausgangszeilen durch Anlegen eine Bestellung mit mehreren Zeilen
 
-## - Release 19.53.27741.0 - 30.01.25
+## Release 19.53.27741.0 - 30.01.25
 
 <br>
 
@@ -58,7 +59,7 @@ h2 {
 
 - Freigabe von Umlagerungsauftrag erzeugt keinen Warenausgang
 
-## - Release 19.47.25283.0 - 01.10.24
+## Release 19.47.25283.0 - 01.10.24
 
 <br>
 
