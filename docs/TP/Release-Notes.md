@@ -3,7 +3,7 @@ body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 h2 {
-    font-weight: "Bold";
+    font-weight: bold;
 }
 
 @media print {
@@ -36,7 +36,7 @@ h2 {
 
 <br>
 
-## - Release 24.54.28062.0 - 13.02.25
+## - **Release 24.54.28062.0 - 13.02.25**
 
 <br>
 
