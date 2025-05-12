@@ -2,6 +2,9 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: "Bold";
+}
 
 @media print {
     .no-print {
