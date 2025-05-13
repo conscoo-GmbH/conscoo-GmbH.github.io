@@ -2,6 +2,11 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 @media print {
     .no-print {
@@ -12,22 +17,12 @@ body {
 
 <div class="no-print">
 
-# Release-Notes
-
-<br>
-
-## Titel + Datum 
+## Release 22.2.26028.0 - 08.11.24 
 
 <br>
 
 ### Neue Funktionen
 
-<br>
-
-### Anpassung bestehender Funktionen
-
-<br>
-
-### Fehlerbehebungen
+- Setup erweitert um Funktion welche das Ignorieren von Start und Enddaten von Kontingenten möglich macht.
 
 </div>
