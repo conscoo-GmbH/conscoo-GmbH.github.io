@@ -2,6 +2,10 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media print {
     .no-print {
@@ -16,18 +20,12 @@ body {
 
 <br>
 
-## Titel + Datum 
+## Release 1.27.28206.0 - 17.02.2025 
 
 <br>
 
 ### Neue Funktionen
 
-<br>
-
-### Anpassung bestehender Funktionen
-
-<br>
-
-### Fehlerbehebungen
+- Belege um Angebot erweitert
 
 </div>

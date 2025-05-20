@@ -37,7 +37,15 @@ h2 {
 
 <br>
 
-## <ins>Release 24.54.28062.0 - 13.02.25 </ins>
+## Release 24.56.30079.0 - 20.05.25
+
+<br>
+
+### Fehlerbehebungen
+
+- Zusteller und Zustellertransportart im Warenausgang wurden nicht aktualisiert
+
+## Release 24.54.28062.0 - 13.02.25
 
 <br>
 
@@ -66,6 +74,6 @@ h2 {
 ### Fehlerbehebungen
 
 - automatisches Erstellen von Transportbedarfszeilen verbessert
-- Transprtbestellkennzeichen wurde nicht zurürckgesetzt
+- Transportbestellkennzeichen wurde nicht zurürckgesetzt
 
 </div>
