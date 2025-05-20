@@ -2,6 +2,10 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media print {
     .no-print {
@@ -16,7 +20,7 @@ body {
 
 <br>
 
-## Titel + Datum 
+## Release 20.12.26733.0 - 18.12.24 
 
 <br>
 
@@ -30,4 +34,5 @@ body {
 
 ### Fehlerbehebungen
 
+- Rückstellungsberechnung korrigiert
 </div>

@@ -2,6 +2,10 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media print {
     .no-print {
@@ -16,18 +20,21 @@ body {
 
 <br>
 
-## Titel + Datum 
+## Release 1.29.28666.0 - 12.03.2025 
+
+<br>
+
+
+### Fehlerbehebungen
+
+- Kopf- und Fußtexte am Kredior korrigiert
+
+## Release 1.28.28206.0 - 17.02.2025 
 
 <br>
 
 ### Neue Funktionen
 
-<br>
-
-### Anpassung bestehender Funktionen
-
-<br>
-
-### Fehlerbehebungen
+- Technische Anpassung zur Nutzung der "Erweiterten Reports"
 
 </div>

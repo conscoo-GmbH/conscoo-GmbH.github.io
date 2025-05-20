@@ -2,6 +2,10 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media print {
     .no-print {
@@ -9,21 +13,6 @@ body {
     }
 }
 
-[//]: <> (
-    ## Release 24.54.28062.0
-
-<br>
-
-### Neue Funktionen
-
-<br>
-
-### Anpassung bestehender Funktionen
-
-<br>
-
-### Fehlerbehebungen
-)
 
 </style>
 
@@ -33,8 +22,7 @@ body {
 
 <br>
 
-[//]: <> (Titel + Datum)
-## Release Q1 2025
+## Release 23.9.28667.0 - 12.03.25
 
 <br>
 

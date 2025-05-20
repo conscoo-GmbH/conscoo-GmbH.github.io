@@ -34,12 +34,6 @@ h2 {
 
 <br>
 
-### Fehlerbehebungen
-
-- Fehlermeldung bei Umbuchung auf anderen Lagerplatz behoben
-
-<br>
-
 ## Release 22.2.22290.0 - 10.05.24
 
 ### Fehlerbehebungen

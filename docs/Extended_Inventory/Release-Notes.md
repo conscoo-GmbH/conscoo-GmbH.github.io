@@ -2,6 +2,10 @@
 body {
     font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media print {
     .no-print {
@@ -16,18 +20,18 @@ body {
 
 <br>
 
-## Titel + Datum 
+## Release 20.9.26884.0 - 19.12.24 
 
 <br>
 
 ### Neue Funktionen
 
-<br>
-
-### Anpassung bestehender Funktionen
+- Paketverfolgungen in Inventurerfassungszeilen
 
 <br>
 
 ### Fehlerbehebungen
+
+- "Vorhanden" Kennzeichen in Inventurerfassung teileweise nicht, oder flasch gesetzt
 
 </div>

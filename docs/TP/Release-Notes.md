@@ -66,6 +66,6 @@ h2 {
 ### Fehlerbehebungen
 
 - automatisches Erstellen von Transportbedarfszeilen verbessert
-- Transprtbestellkennzeichen wurde nicht zurürckgesetzt
+- Transportbestellkennzeichen wurde nicht zurürckgesetzt
 
 </div>
