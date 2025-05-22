@@ -33,6 +33,20 @@ h2 {
 
 <br>
 
+## Release 23.10.30081.0 - 22.05.25 
+
+<br>
+
+### Neue Funktionen
+
+- Neue Funktion "Prüfentscheidung holen" auf Probenübersicht
+
+<br>
+
+### Fehlerbehebungen
+- Verknüpfte Parameter können nicht mehr zu Lieferadressen ohne Code zugewiesen werden
+- Meldung beim Erstellen einer Kommissionierung auf dem Warenausgang, zu erstellten Prüfaufträgen entfernt
+
 ## Release 23.9.28652.0 - 11.03.25
 
 <br>
