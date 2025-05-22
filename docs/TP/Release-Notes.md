@@ -43,7 +43,7 @@ h2 {
 
 ### Neue Funktionen
 
-- Neue Funktion beim Zusammenfassen von Transportbedarfen zu einem Warenausgang. Es ist nun ein Fehlerhandling implementiert, welches beispielsweise sichtbar macht, welche Transportbedarfe nicht mit in den Warenausgang hinzugefügt werden konnten. In der neuen Seite "Fehlermeldungen" können auch die Fehler eingesehen werden, welche Business Cental ausigbt.
+- Neue Funktion beim Zusammenfassen von Transportbedarfen zu einem Warenausgang. Es ist nun ein Fehlerhandling implementiert, welches beispielsweise sichtbar macht, welche Transportbedarfe nicht mit in den Warenausgang hinzugefügt werden konnten. In der neuen Seite "Fehlermeldungen" können auch die Fehler eingesehen werden, welche Business Cental ausgibt.
 <br>
 
 
