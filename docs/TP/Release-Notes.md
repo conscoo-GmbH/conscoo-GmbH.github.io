@@ -37,6 +37,16 @@ h2 {
 
 <br>
 
+## Release 24.57.30090.0 - 22.05.25
+
+<br>
+
+### Neue Funktionen
+
+- Neue Funktion beim Zusammenfassen von Transportbedarfen zu einem Warenausgang. Es ist nun ein Fehlerhandling implementiert, welches beispielsweise sichtbar macht, welche Transportbedarfe nicht mit in den Warenausgang hinzugefügt werden konnten. In der neuen Seite "Fehlermeldungen" können auch die Fehler eingesehen werden, welche Business Cental ausigbt.
+<br>
+
+
 ## Release 24.56.30079.0 - 20.05.25
 
 <br>
